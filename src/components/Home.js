@@ -9,12 +9,12 @@ import Overview from "./Overview";
 
 const Home = () => {
 	return (
-		<div className="bg-gray-200">
+		<div className="bg-gray-100">
 			<Banner></Banner>;
 			<div>
 				<div className="flex justify-between m-5 ">
 					<div className="flex items-center">
-						<div className="text-lg">NEWS</div>
+						<div className="text-2xl font-bold">NEWS</div>
 						<div>
 							<a href="#" className="ml-3 text-sm text-blue-500">
 								ALL NEWS
@@ -23,7 +23,7 @@ const Home = () => {
 					</div>
 
 					<div className="flex items-center ml-[50px]">
-						<div className="text-lg">EVENT</div>
+						<div className="text-2xl font-bold">EVENT</div>
 						<div>
 							<a href="#" className="ml-3 text-blue-500 text-sm ">
 								All EVENT>
@@ -39,7 +39,7 @@ const Home = () => {
 			{/* Studying at SIIE start here */}
 			<SiieService></SiieService>
 			{/* Additional component start here */}
-			<AdditionalService></AdditionalService>
+			{/* <AdditionalService></AdditionalService> */}
 			{/* Overview component start here */}
 			{/* <Overview></Overview> */}
 		</div>

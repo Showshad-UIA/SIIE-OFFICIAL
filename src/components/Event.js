@@ -2,7 +2,7 @@ import React from "react";
 
 const Event = () => {
 	return (
-		<div className="grid lg:grid-cols-4 gap-5 sm:grid-cols-1 m-6  justify-center ">
+		<div className="grid lg:grid-cols-4 gap-5 sm:grid-cols-1 m-6 mb-5 justify-center ">
 			<div className="w-full">
 				<div class="card  bg-base-100 shadow-xl">
 					<figure className="px-10 pt-10">
@@ -73,8 +73,10 @@ const Event = () => {
 			</div>
 			{/* right side bar start here */}
 			<div>
-				<div className="flex ">
-					<div className="font-bold  text-black text-lg  ">SEP 09</div>
+				<div className="flex gap-4 ">
+					<div className="font-bold  text-white text-lg bg-black  w-10 h-[50px]">
+						SEP 09
+					</div>
 					<div className=" text-justify">
 						<a href="#">
 							<p className="text-blue-500 font-bold text-lg">
@@ -86,8 +88,10 @@ const Event = () => {
 						</a>
 					</div>
 				</div>
-				<div className="flex">
-					<div className="font-bold  text-black text-lg  ">SEP 10</div>
+				<div className="flex gap-4">
+					<div className="font-bold  bg-black text-white w-10 h-[50px] text-lg  ">
+						SEP 10
+					</div>
 					<div className=" text-justify">
 						<a href="#">
 							<p className="text-blue-500 font-bold text-lg">
@@ -99,11 +103,13 @@ const Event = () => {
 						</a>
 					</div>
 				</div>
-				<div className="flex">
-					<div className="font-bold  text-black text-lg  ">SEP 12</div>
+				<div className="flex gap-4">
+					<div className="font-bold  text-white bg-black text-lg w-10 h-[50px]  ">
+						SEP 12
+					</div>
 					<div className=" text-justify">
 						<a href="#">
-							<p className="text-blue-500 font-bold text-lg">
+							<p className="text-blue-500 font-bold  text-lg">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
 								Voluptate..
 							</p>

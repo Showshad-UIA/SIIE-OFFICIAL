@@ -1,0 +1,120 @@
+import React from "react";
+
+const Event = () => {
+	return (
+		<div className="grid lg:grid-cols-4 gap-5 sm:grid-cols-1 m-6  justify-center ">
+			<div className="w-full">
+				<div class="card  bg-base-100 shadow-xl">
+					<figure className="px-10 pt-10">
+						<img
+							src="https://placeimg.com/400/225/arch"
+							alt=""
+							className="rounded-xl"
+						/>
+					</figure>
+					<div className="card-body  ">
+						<p className="text-justify text-lg hover:text-red-500">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+							expedita quia dolore sapiente veniam asperiores, corporis ea alias
+							exercitationem nemo repellendus! Culpa pariatur nulla aperiam
+							neque laborum maxime similique ab.
+						</p>
+						<div className="card-actions">
+							<p className="text-lg font-bold">SEP 09 2022</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="card w-full bg-base-100 shadow-xl">
+					<figure className="px-10 pt-10">
+						<img
+							src="https://placeimg.com/400/225/arch"
+							alt=""
+							className="rounded-xl"
+						/>
+					</figure>
+					<div className="card-body  ">
+						<p className="text-justify text-lg hover:text-red-500">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+							expedita quia dolore sapiente veniam asperiores, corporis ea alias
+							exercitationem nemo repellendus! Culpa pariatur nulla aperiam
+							neque laborum maxime similique ab.
+						</p>
+						<div className="card-actions">
+							<p className="text-lg font-bold">SEP 09 2022</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div className="card w-full bg-base-100 shadow-xl">
+					<figure className="px-10 pt-10">
+						<img
+							src="https://placeimg.com/400/225/arch"
+							alt=""
+							className="rounded-xl"
+						/>
+					</figure>
+					<div className="card-body items-center ">
+						<p className="text-justify text-lg hover:text-red-500">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+							iste pariatur, beatae aliquam accusamus non voluptate illum maxime
+							asperiores ex ut error molestiae? Corporis reiciendis earum
+							laborum distinctio nihil totam.
+						</p>
+						<div className="card-actions">
+							<p className="text-lg font-bold">
+								Lorem ipsum dolor sit amet consectetur{" "}
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			{/* right side bar start here */}
+			<div>
+				<div className="flex ">
+					<div className="font-bold  text-black text-lg  ">SEP 09</div>
+					<div className=" text-justify">
+						<a href="#">
+							<p className="text-blue-500 font-bold text-lg">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Voluptate..
+							</p>
+							<h1 className="text-lg">The headline of these content</h1>
+							<p className="text-lg">09 SEP 2022</p>
+						</a>
+					</div>
+				</div>
+				<div className="flex">
+					<div className="font-bold  text-black text-lg  ">SEP 10</div>
+					<div className=" text-justify">
+						<a href="#">
+							<p className="text-blue-500 font-bold text-lg">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Voluptate..
+							</p>
+							<h1 className="text-lg">The headline of these content</h1>
+							<p className="text-lg">10 SEP 2022</p>
+						</a>
+					</div>
+				</div>
+				<div className="flex">
+					<div className="font-bold  text-black text-lg  ">SEP 12</div>
+					<div className=" text-justify">
+						<a href="#">
+							<p className="text-blue-500 font-bold text-lg">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Voluptate..
+							</p>
+							<h1 className="text-lg">The headline of these content</h1>
+							<p className="text-lg">12 SEP 2022</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
+};
+
+export default Event;

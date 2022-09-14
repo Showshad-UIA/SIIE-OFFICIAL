@@ -43,8 +43,6 @@ const Undergraduate = () => {
 							obcaecati provident maxime atque, eligendi eos reprehenderit
 							aliquam error et tempora cum. Lorem ipsum dolor sit, amet
 							consectetur adipisicing elit. Beatae officiis explicabo cumque,
-							ipsa sed rem consectetur sunt libero obcaecati provident maxime
-							atque, eligendi eos reprehenderit aliquam error et tempora cum.
 						</p>
 					</div>
 				</div>

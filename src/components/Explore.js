@@ -13,7 +13,7 @@ const Explore = () => {
 	// };
 	return (
 		<div className="mt-5 mb-2 explore bg-gray-300 py-8">
-			<div className="p-5 text-3xl text-blue-500 font-bold">Discover</div>
+			<div className="p-5 text-3xl text-blue-500 font-bold">DISCOVER</div>
 			<div className="p-5  gap-4 grid lg:grid-cols-4 sm:grid-cols-1">
 				<div class=" w-96 bg-gray-300 cursor-pointer hover:scale-105 ease-in-out duration-300 ">
 					<figure>

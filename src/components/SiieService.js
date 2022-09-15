@@ -4,11 +4,11 @@ import React from "react";
 
 const SiieService = () => {
 	return (
-		<div className="mt-5 mb-8">
-			<div className="text-3xl text-blue-500 font-bold m-6 p-2">
-				<h1>STUDYING AT SIIE</h1>
+		<div className=" mb-16">
+			<div className=" -mb-[34px] mt-10 ml-8 text-2xl  text-blue-500 font-bold">
+				STUDYING AT SIIE
 			</div>
-			<div className="grid lg:grid-cols-4  text-xl mb-5 p-3 gap-5 sm:grid-cols-1 m-6  justify-center ">
+			<div className="grid lg:grid-cols-4  text-xl  p-3 gap-5 sm:grid-cols-1 m-6  justify-center ">
 				<div className="w-full">
 					<div class="  bg-gray-100">
 						<figure className=" pt-10">
@@ -22,7 +22,7 @@ const SiieService = () => {
 						<div className="  -mt-8  flex text-black mb-5">
 							<div className="bg-white flex">
 								<p className=" font-bold text-xl   cursor-pointer hover:text-red-700">
-									Undergraduate admissions
+									UNDERGRADUATE ADMISSION
 								</p>
 								<a href="#">
 									<FontAwesomeIcon
@@ -48,7 +48,7 @@ const SiieService = () => {
 							<div className=" bg-gray-100 -mt-8  flex text-black mb-5">
 								<div className="bg-white flex">
 									<p className=" font-bold text-xl   cursor-pointer hover:text-red-700">
-										Scholarship program
+										POSTGRADUATE ADMISSION
 									</p>
 									<a href="#">
 										<FontAwesomeIcon
@@ -74,7 +74,7 @@ const SiieService = () => {
 						<div className=" bg-gray-100 -mt-8  flex text-black mb-5">
 							<div className="bg-white flex">
 								<p className=" font-bold text-xl   cursor-pointer hover:text-red-700">
-									Continue education
+									DIPLOMA ADMISSION
 								</p>
 								<a href="#">
 									<FontAwesomeIcon
@@ -99,11 +99,11 @@ const SiieService = () => {
 						<div className=" bg-gray-100 -mt-8  flex text-black mb-5">
 							<div className="bg-white  flex">
 								<p className=" font-bold text-xl   cursor-pointer hover:text-red-700">
-									CURRENT SIIE SERVICES
+									FUNDING AND VENTURE PROGRAM
 								</p>
 								<a href="#">
 									<FontAwesomeIcon
-										className="mt-2 w-[100px] h-[10]"
+										className="mt-2  w-[100px] h-[10]"
 										icon={faArrowRight}
 									></FontAwesomeIcon>
 								</a>

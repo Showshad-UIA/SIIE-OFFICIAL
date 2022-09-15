@@ -42,13 +42,14 @@ const Header = () => {
 							</a>
 							<ul class="p-2   absolute text-black bg-white  opacity-100 ">
 								<li className="hover:bg-sky-700 border-b-2 border-gray-200">
-									<Link to="/undergraduate">UNDERGRADUATE</Link>
-								</li>
-								<li className="hover:bg-sky-700 border-b-2 border-gray-200">
 									<Link to="/postgraduate">POSTGRADUATE</Link>
 								</li>
 								<li className="hover:bg-sky-700 border-b-2 border-gray-200">
-									<Link to="/funding">VENTURE FUNDING PROGRAM</Link>
+									<Link to="/undergraduate">UNDERGRADUATE</Link>
+								</li>
+
+								<li className="hover:bg-sky-700 border-b-2 border-gray-200">
+									<Link to="/funding">DIPLOMA</Link>
 								</li>
 							</ul>
 						</li>
@@ -107,13 +108,14 @@ const Header = () => {
 						</a>
 						<ul class="p-2  absolute text-black bg-white   opacity-100 left-0">
 							<li className="hover:bg-sky-700 border-b-2 border-gray-200">
-								<Link to="/undergraduate">UNDERGRADUATE</Link>
-							</li>
-							<li className="hover:bg-sky-700 border-b-2 border-gray-200">
 								<Link to="/postgraduate">POSTGRADUATE</Link>
 							</li>
 							<li className="hover:bg-sky-700 border-b-2 border-gray-200">
-								<Link to="/funding">VENTURE FUNDING PROGRAM</Link>
+								<Link to="/undergraduate">UNDERGRADUATE</Link>
+							</li>
+
+							<li className="hover:bg-sky-700 border-b-2 border-gray-200">
+								<Link to="/funding">DIPLOMA</Link>
 							</li>
 						</ul>
 					</li>

@@ -4,18 +4,16 @@ import React from "react";
 
 const SearchBar = () => {
 	return (
-		<div className="w-full mb-5 mt-5">
+		<div className="w-full mb-5 ml-5 mt-5">
 			<div class="navbar bg-sky-800">
 				<div class="flex-1 sm:flex-row">
-					<p className=" p-3 m-2 text-white font-bold text-2xl">
-						COURSE FINDER
-					</p>
+					<p className="   text-white font-bold text-2xl">COURSES OFFER</p>
 					<FontAwesomeIcon
 						icon={faArrowRight}
 						className=" text-gray-500 w-10 h-10"
 					></FontAwesomeIcon>
 				</div>
-				<div class="flex-none gap-2">
+				<div class="flex-none mr-3 gap-1">
 					<div class="form-control">
 						<input
 							type="text"

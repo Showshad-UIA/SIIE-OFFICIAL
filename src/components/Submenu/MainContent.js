@@ -2,11 +2,11 @@ import React from "react";
 
 const MainContent = () => {
 	return (
-		<div className="grid lg:grid-cols-3 gap-10 sm:grid-cols-1 m-5">
+		<div className="grid lg:grid-cols-3 gap-8 sm:grid-cols-1 m-5">
 			<div class=" w-96 bg-base-100    ">
 				<figure>
 					<a href="#">
-						<img src="https://placeimg.com/400/225/arch" alt="" className="" />
+						<img src="https://placeimg.com/400/225/arch" alt="" />
 					</a>
 				</figure>
 				<div className="">

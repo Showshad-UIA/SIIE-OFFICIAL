@@ -11,7 +11,7 @@ const MainContent = () => {
 				</figure>
 				<div className="">
 					<h2 className=" text-lg cursor-pointer font-bold hover:text-red-700">
-						Bachelor of Islamic Banking & Finance
+						<a href="/banking">Bachelor of Islamic Banking & Finance</a>
 					</h2>
 				</div>
 			</div>

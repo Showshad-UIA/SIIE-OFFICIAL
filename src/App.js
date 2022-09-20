@@ -13,6 +13,7 @@ import EventsTraining from "./components/EventsTraining";
 import MediasIcon from "./components/MediasIcon";
 import Undergraduate from "./components/Submenu/Undergraduate";
 import Postgraduate from "./components/Submenu/Postgraduate";
+import BankingFinance from "./components/Submenu/UndergraduateCourses/BankingFinance";
 
 function App() {
 	return (
@@ -36,6 +37,10 @@ function App() {
 				<Route
 					path="/postgraduate"
 					element={<Postgraduate></Postgraduate>}
+				></Route>
+				<Route
+					path="/banking"
+					element={<BankingFinance></BankingFinance>}
 				></Route>
 			</Routes>
 			{/* <MediasIcon></MediasIcon> */}

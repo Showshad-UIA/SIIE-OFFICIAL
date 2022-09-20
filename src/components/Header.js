@@ -1,10 +1,10 @@
 import React from "react";
-import logo from "../images/logo-1.png";
+import logo from "../images/Islamic_logo.png";
 import { Link } from "react-router-dom";
 
 const Header = () => {
 	return (
-		<header class="navbar bg-sky-700    h-[102px] sticky top-0 justify-center   text-lg text-white z-50 p-5  ">
+		<header class="navbar bg-sky-700    h-[70px] sm:mt-[-60px] sticky top-0 justify-center   text-lg text-white z-50   ">
 			<div class="navbar-start ">
 				<div class="dropdown ">
 					<label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -88,9 +88,10 @@ const Header = () => {
 					</ul>
 				</div>
 				<Link to="/">
-					<img src={logo} alt="" className=" w-[452px]  mb-3 " />
+					<img src={logo} alt="" className=" w-[350px]  sm:mb-[50px] " />
 				</Link>
 			</div>
+			{/* desktop version */}
 			<div class="navbar-center hidden text-lg  lg:flex">
 				<ul class="menu menu-horizontal p-0">
 					<li tabindex="0">

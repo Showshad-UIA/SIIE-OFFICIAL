@@ -4,16 +4,9 @@ import React from "react";
 
 const SearchBar = () => {
 	return (
-		<div className="w-full mb-5 ml-5 mt-5">
-			<div class="navbar bg-sky-800">
-				<div class="flex-1 sm:flex-row">
-					<p className="   text-white font-bold text-2xl">COURSES OFFER</p>
-					<FontAwesomeIcon
-						icon={faArrowRight}
-						className=" text-gray-500 w-10 h-10"
-					></FontAwesomeIcon>
-				</div>
-				<div class="flex-none mr-3 gap-1">
+		<div className=" mb-5 ml-5 mt-5 sm:w-4/5 lg:w-full">
+			{/* search box */}
+			{/* <div class="flex-none mr-3 gap-1">
 					<div class="form-control">
 						<input
 							type="text"
@@ -26,7 +19,16 @@ const SearchBar = () => {
 							SEARCH
 						</button>
 					</div>
-				</div>
+				</div> */}
+
+			<div className="">
+				<p className="  text-2xl  font-bold cursor-pointer hover:text-red-500  text-blue-500">
+					COURSES OFFER
+				</p>
+				{/* <FontAwesomeIcon
+					icon={faArrowRight}
+					className=" text-gray-500  h-10"
+				></FontAwesomeIcon> */}
 			</div>
 		</div>
 	);

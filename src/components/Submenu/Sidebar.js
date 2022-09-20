@@ -62,7 +62,7 @@ const Sidebar = () => {
 				</div>
 				<div className="mt-5  mb-5">
 					<h1 className="p-2 text-xl font-bold m-3  bg-sky-800 text-white">
-						SEMINAR AND WORKSHOP
+						WORKSHOP
 					</h1>
 				</div>
 				<div className="p-2 bg-gray-200 m-2 sm:m-3">
@@ -81,31 +81,7 @@ const Sidebar = () => {
 							BMAT test date moves to Tuesday, 18 October (from 2 November)
 						</span>
 					</p>
-					<p className="mb-3">
-						26/5/22 -{" "}
-						<span className=" hover:underline text-blue-500 cursor-pointer">
-							Undergraduate interviews to be held online in 2022
-						</span>
-					</p>
-					<p className="mb-3">
-						4/5/22 -{" "}
-						<span className="hover:underline text-blue-500 cursor-pointer">
-							Launch of Astrophoria Foundation Year
-						</span>
-					</p>
-					<p className="mb-3">
-						1/3/22 -
-						<span className="hover:underline text-blue-500 cursor-pointer">
-							2023 entry undergraduate prospectus available
-						</span>{" "}
-					</p>
-					<p className="mb-3">
-						21/2/22 -{" "}
-						<span className="hover:underline text-blue-500 cursor-pointer">
-							{" "}
-							Open Days update
-						</span>
-					</p>
+
 					<p className="mb-3">
 						11/1/22 -{" "}
 						<span className="hover:underline text-blue-500 cursor-pointer">
@@ -126,21 +102,6 @@ const Sidebar = () => {
 					</p>
 				</div>
 				{/* left side photo album start here  */}
-				<div className="bg-gray-200 p-2 mt-5 ml-2 mr-3 mb-7 ">
-					<img src={photoAlbum} alt="" className="mt-7 p-2" />
-					<p className="mt-5 p-2">
-						Follow us on Twitter
-						<span className="hover:underline text-blue-500 cursor-pointer">
-							@OxOutreach
-						</span>
-						or on Instagram
-						<span className="hover:underline text-blue-500 cursor-pointer">
-							@StudyAtOxford
-						</span>
-						for the latest news about events and Open Days. Got an Open Days
-						question? Get in touch using #OxOpenDay!
-					</p>
-				</div>
 			</div>
 		</div>
 	);

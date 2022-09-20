@@ -9,7 +9,7 @@ import News from "./components/News";
 import Research from "./components/Research";
 import Funding from "./components/Funding";
 import EventsTraining from "./components/EventsTraining";
-import Navbar from "./components/Navbar/Navbar";
+
 import MediasIcon from "./components/MediasIcon";
 import Undergraduate from "./components/Submenu/Undergraduate";
 import Postgraduate from "./components/Submenu/Postgraduate";
@@ -17,7 +17,6 @@ import Postgraduate from "./components/Submenu/Postgraduate";
 function App() {
 	return (
 		<div className="App">
-			{/* <Navbar></Navbar> */}
 			<Header></Header>
 			<Routes>
 				<Route path="/" element={<Home></Home>}></Route>

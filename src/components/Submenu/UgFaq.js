@@ -4,8 +4,8 @@ const UgFaq = () => {
 	return (
 		<div className="grid lg:grid-cols-2 sm:grid-cols-1 mt-10 gap-4 ">
 			<div className="w-4/5 m-4">
-				<h1 className=" text-2xl font-bold  text-blue-500 m-3">
-					MOST POPULAR QUESTIONS
+				<h1 className=" text-2xl font-bold hover:text-red-700 text-blue-500 m-3">
+					POPULAR QUESTIONS
 				</h1>
 
 				<div
@@ -65,9 +65,9 @@ const UgFaq = () => {
 					</div>
 				</div>
 			</div>
-			<div className="w-3/5 cursor-pointer lg:ml-20  mt-6 ">
+			<div className=" cursor-pointer  mt-6 ">
 				<iframe
-					width="500"
+					width="380"
 					height="300"
 					src="https://www.youtube.com/embed/zwLt9WMFA1w"
 					title="TOP 10 BEST UNIVERSITIES OF AUSTRALIA/TOP 10 MEJORES UNIVERSIDADES DE AUSTRALIA"
@@ -75,16 +75,18 @@ const UgFaq = () => {
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen
 				></iframe>
-				<a href="#">
-					<p className="cursor-pointer  text-xl hover:text-red-700  ">
-						Wall of faces
-					</p>
-				</a>
-				<a href="#">
-					<p className="cursor-pointer text-medium text-justify">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					</p>
-				</a>
+				<div>
+					<a href="#">
+						<p className="cursor-pointer  text-xl hover:text-red-700  ">
+							Wall of faces
+						</p>
+					</a>
+					<a href="#">
+						<p className="cursor-pointer text-medium text-justify">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						</p>
+					</a>
+				</div>
 			</div>
 		</div>
 	);

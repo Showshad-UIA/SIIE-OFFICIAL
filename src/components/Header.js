@@ -1,10 +1,10 @@
 import React from "react";
-import logo from "../images/SIIE Logo.png";
+import logo from "../images/logo-1.png";
 import { Link } from "react-router-dom";
 
 const Header = () => {
 	return (
-		<header class="navbar bg-sky-700    h-20 sticky top-0 justify-center   text-lg text-white z-50 p-5  ">
+		<header class="navbar bg-sky-700    h-[102px] sticky top-0 justify-center   text-lg text-white z-50 p-5  ">
 			<div class="navbar-start ">
 				<div class="dropdown ">
 					<label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -42,14 +42,14 @@ const Header = () => {
 							</a>
 							<ul class="p-2   absolute text-black bg-white  opacity-100 ">
 								<li className="hover:bg-sky-700 border-b-2 border-gray-200">
-									<Link to="/postgraduate">POSTGRADUATE</Link>
+									<Link to="/postgraduate">Postgraduate</Link>
 								</li>
 								<li className="hover:bg-sky-700 border-b-2 border-gray-200">
-									<Link to="/undergraduate">UNDERGRADUATE</Link>
+									<Link to="/undergraduate">Undergraduate</Link>
 								</li>
 
 								<li className="hover:bg-sky-700 border-b-2 border-gray-200">
-									<Link to="/funding">DIPLOMA</Link>
+									<Link to="/funding">Diploma</Link>
 								</li>
 							</ul>
 						</li>
@@ -88,7 +88,7 @@ const Header = () => {
 					</ul>
 				</div>
 				<Link to="/">
-					<img src={logo} alt="" className=" w-[300px]" />
+					<img src={logo} alt="" className=" w-[452px]  mb-3 " />
 				</Link>
 			</div>
 			<div class="navbar-center hidden text-lg  lg:flex">
@@ -108,14 +108,14 @@ const Header = () => {
 						</a>
 						<ul class="p-2  absolute text-black bg-white   opacity-100 left-0">
 							<li className="hover:bg-sky-700 border-b-2 border-gray-200">
-								<Link to="/postgraduate">POSTGRADUATE</Link>
+								<Link to="/postgraduate">Postgraduate</Link>
 							</li>
 							<li className="hover:bg-sky-700 border-b-2 border-gray-200">
-								<Link to="/undergraduate">UNDERGRADUATE</Link>
+								<Link to="/undergraduate">Undergraduate</Link>
 							</li>
 
 							<li className="hover:bg-sky-700 border-b-2 border-gray-200">
-								<Link to="/funding">DIPLOMA</Link>
+								<Link to="/funding">Diploma</Link>
 							</li>
 						</ul>
 					</li>

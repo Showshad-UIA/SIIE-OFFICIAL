@@ -1,9 +1,10 @@
 import React from "react";
+import Overview from "../Postgraduate/Overview";
 
 const Postgraduate = () => {
 	return (
 		<div>
-			<h1>This is postgraduate page</h1>
+			<Overview></Overview>
 		</div>
 	);
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/Islamic_logo.png";
+import logo from "../images/SYDNEY ISLAMIC BUSINESS SCHOOL.png";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -42,7 +42,10 @@ const Header = () => {
 							</a>
 							<ul class="p-2   absolute text-black bg-white  opacity-100 ">
 								<li className="hover:bg-sky-700 border-b-2 border-gray-200">
-									<Link to="/postgraduate">Postgraduate</Link>
+									<Link to="/postgraduate">Phd</Link>
+								</li>
+								<li className="hover:bg-sky-700 border-b-2 border-gray-200">
+									<Link to="/postgraduate">Masters</Link>
 								</li>
 								<li className="hover:bg-sky-700 border-b-2 border-gray-200">
 									<Link to="/undergraduate">Undergraduate</Link>
@@ -109,7 +112,10 @@ const Header = () => {
 						</a>
 						<ul class="p-2  absolute text-black bg-white   opacity-100 left-0">
 							<li className="hover:bg-sky-700 border-b-2 border-gray-200">
-								<Link to="/postgraduate">Postgraduate</Link>
+								<Link to="/postgraduate">Phd</Link>
+							</li>
+							<li className="hover:bg-sky-700 border-b-2 border-gray-200">
+								<Link to="/postgraduate">Masters</Link>
 							</li>
 							<li className="hover:bg-sky-700 border-b-2 border-gray-200">
 								<Link to="/undergraduate">Undergraduate</Link>

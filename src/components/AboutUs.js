@@ -5,7 +5,7 @@ import Info from "./Info";
 
 const AboutUs = () => {
 	return (
-		<div className="ml-5 mr-5  mt-10 mx-auto  sm:mx-3 ">
+		<div className="ml-5 mr-5  mt-[80px] mx-auto   sm:mx-3 ">
 			<div className="lg:w-4/5 m-auto  sm:w-4/5  text-justify">
 				<h1 className="text-blue-500  font-bold text-2xl ">Overview</h1>
 				<p className="mb-4 text-lg">

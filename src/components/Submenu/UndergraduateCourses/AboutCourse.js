@@ -10,12 +10,10 @@ const AboutCourse = () => {
 			<div className=" w-full grid bg-white lg:grid-flow-col ">
 				<div class="  col-span-4   text-justify sm:grid-flow-row">
 					<div class="rounded-none text-xl  card  ">
-						<div className="bg-white  ">
-							<h1 className="lg:ml-[100px] mt-16 text-2xl font-bold text-blue-500">
-								About This Courses
-							</h1>
-						</div>
-						<div className="m-5 w-4/5 lg:ml-20">
+						<div className="m-5 w-4/5 lg:ml-16">
+							<div className="m-5 font-bold text-blue-500 text-2xl">
+								About the courses
+							</div>
 							<p className="  p-5">
 								This degree programme provides the opportunity to follow the
 								prestigious CFA (Chartered Financial Analyst) specialist pathway

@@ -3,7 +3,7 @@ import React from "react";
 const UgFaq = () => {
 	return (
 		<div className="grid lg:grid-cols-2 sm:grid-cols-1 mt-10 gap-4 ">
-			<div className="w-4/5 m-4">
+			<div className="lg:w-4/5 md:w-3/5 m-4">
 				<h1 className=" text-2xl font-bold hover:text-red-700 text-blue-500 m-3">
 					POPULAR QUESTIONS
 				</h1>
@@ -67,8 +67,8 @@ const UgFaq = () => {
 			</div>
 			<div className=" cursor-pointer  mt-6 ">
 				<iframe
-					width="380"
-					height="300"
+					width="350"
+					height="290"
 					src="https://www.youtube.com/embed/zwLt9WMFA1w"
 					title="TOP 10 BEST UNIVERSITIES OF AUSTRALIA/TOP 10 MEJORES UNIVERSIDADES DE AUSTRALIA"
 					frameborder="0"
@@ -82,9 +82,9 @@ const UgFaq = () => {
 						</p>
 					</a>
 					<a href="#">
-						<p className="cursor-pointer text-medium text-justify">
+						{/* <p className="cursor-pointer text-medium text-justify">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						</p>
+						</p> */}
 					</a>
 				</div>
 			</div>

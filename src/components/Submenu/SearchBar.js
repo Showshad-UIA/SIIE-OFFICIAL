@@ -22,9 +22,9 @@ const SearchBar = () => {
 				</div> */}
 
 			<div className="">
-				<p className="  text-2xl  font-bold cursor-pointer hover:text-red-500  text-blue-500">
+				{/* <p className="  text-2xl  font-bold cursor-pointer hover:text-red-500  text-blue-500">
 					COURSES OFFER
-				</p>
+				</p> */}
 				{/* <FontAwesomeIcon
 					icon={faArrowRight}
 					className=" text-gray-500  h-10"

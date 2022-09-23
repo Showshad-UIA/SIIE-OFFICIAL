@@ -5,83 +5,112 @@ import insurance from "../../images/insurance.jpg";
 import law from "../../images/law.jpg";
 import islamic from "../../images/islamic.jpg";
 import shariah from "../../images/shariah.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight, faUser } from "@fortawesome/free-solid-svg-icons";
 const MainContent = () => {
 	return (
-		<div className="grid lg:grid-cols-3 gap-9 sm:grid-cols-1 m-5">
-			<div class=" w-[332px] m-2     ">
-				<figure>
-					<a href="/banking">
-						<img src={finance} alt="finance" />
-					</a>
-				</figure>
-				<div className="">
-					<h2 className=" text-xl p-2 text-justify cursor-pointer bg-green-300 text-blue-700 hover:text-red-700 space-x-5">
-						<a href="/banking">Bachelor of Islamic Banking & Finance</a>
-					</h2>
-				</div>
+		<>
+			<div className="w-50 text-2xl  font-bold cursor-pointer   text-center">
+				<button className="bg-sky-300 hover:bg-sky-700 pr-20 pb-5 pt-5 pl-20">
+					<p className="   ">Course offer</p>
+				</button>
 			</div>
-			<div class="  w-[332px]  m-2  ">
-				<figure>
-					<a href="#">
-						<img src={economics} alt="economics" />
-					</a>
-				</figure>
-				<div className="">
-					<h2 className=" text-xl p-2 cursor-pointer bg-green-300 text-blue-700   hover:text-red-700">
-						Bachelor of Islamic Economics
-					</h2>
+			<div className="grid lg:grid-cols-2 gap-1  sm:grid-cols-1 m-5 lg:mx-[300px] mb-11">
+				<div class=" hover:bg-sky-700  bg-sky-300 p-5">
+					<div className="">
+						<div className="items-center ml-[250px] ">
+							<FontAwesomeIcon
+								icon={faUser}
+								className="sm:ml-5"
+							></FontAwesomeIcon>
+						</div>
+						<div className="">
+							<a href="/banking">
+								<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+									Bachelor of Islamic Banking & Finance
+								</h2>
+							</a>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="  w-[332px]  m-2 g-base-200   ">
-				<figure>
-					<a href="#">
-						<img src={insurance} alt="insurance" />
-					</a>
-				</figure>
-				<div className="">
-					<h2 className=" text-xl  cursor-pointer bg-green-300 text-blue-700   p-2 hover:text-red-700">
-						Bachelor of Islamic Insurance
-					</h2>
+				<div class=" hover:bg-sky-700 bg-sky-300 p-5">
+					<div className="">
+						<div className="items-center ml-[250px] ">
+							<FontAwesomeIcon
+								icon={faUser}
+								className="sm:ml-5"
+							></FontAwesomeIcon>
+						</div>
+						<div className="">
+							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+								Bachelor of Islamic Shariah
+							</h2>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="  w-[332px] bg-base-100 m-2   ">
-				<figure>
-					<a href="#">
-						<img src={law} alt="law" />
-					</a>
-				</figure>
-				<div className="">
-					<h2 className=" text-xl cursor-pointer bg-green-300 text-blue-700  hover:text-red-700 p-2">
-						Bachelor of Islamic Business low
-					</h2>
+				<div class=" hover:bg-sky-700 bg-sky-300 p-5">
+					<div className="">
+						<div className="items-center ml-[250px] ">
+							<FontAwesomeIcon
+								icon={faUser}
+								className="sm:ml-5"
+							></FontAwesomeIcon>
+						</div>
+						<div className="">
+							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+								Bachelor of Economics
+							</h2>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="  w-[332px] bg-base-100 m-2   ">
-				<figure>
-					<a href="#">
-						<img src={islamic} alt="islamic" />
-					</a>
-				</figure>
-				<div className="">
-					<h2 className=" text-xl cursor-pointer bg-green-300 text-blue-700 p-2  hover:text-red-700">
-						Bachelor of Islamic Insurance
-					</h2>
+				<div class=" hover:bg-sky-700 bg-sky-300 p-5">
+					<div className="">
+						<div className="items-center ml-[250px] ">
+							<FontAwesomeIcon
+								icon={faUser}
+								className="sm:ml-5"
+							></FontAwesomeIcon>
+						</div>
+						<div className="">
+							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+								Bachelor of Islamic Insurance
+							</h2>
+						</div>
+					</div>
 				</div>
-			</div>
+				<div class=" hover:bg-sky-700 bg-sky-300 p-5">
+					<div className="">
+						<div className="items-center ml-[250px] ">
+							<FontAwesomeIcon
+								icon={faUser}
+								className="sm:ml-5"
+							></FontAwesomeIcon>
+						</div>
+						<div className="">
+							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+								Bachelor of Islamic Business
+							</h2>
+						</div>
+					</div>
+				</div>
 
-			<div class="  w-[332px] bg-base-100 m-2   ">
-				<figure>
-					<a href="#">
-						<img src={shariah} alt="shariah" />
-					</a>
-				</figure>
-				<div className="">
-					<h2 className=" text-xl cursor-pointer bg-green-300 text-blue-700   hover:text-red-700 p-2">
-						Bachelor of Islamic Shariah
-					</h2>
+				<div class=" hover:bg-sky-700 bg-sky-300 p-5">
+					<div className="">
+						<div className="items-center ml-[250px] ">
+							<FontAwesomeIcon
+								icon={faUser}
+								className="sm:ml-5"
+							></FontAwesomeIcon>
+						</div>
+						<div className="">
+							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+								Bachelor of Islamic Shariah
+							</h2>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
+		</>
 	);
 };
 

@@ -4,13 +4,13 @@ import React from "react";
 
 const UgBankingFinnaceMaincontent = () => {
 	return (
-		<>
+		<div id="plan">
 			<div className="w-50 text-2xl  font-bold cursor-pointer   text-center">
 				<button className="bg-sky-300 hover:bg-sky-700 pr-20 pb-5 pt-5 pl-20">
 					<p className="   ">Course offer</p>
 				</button>
 			</div>
-			<div className="grid lg:grid-cols-2 gap-1  sm:grid-cols-1 m-5 lg:mx-[300px] mb-11">
+			<div className="grid lg:grid-cols-2 gap-1  sm:grid-cols-1 m-5 lg:mx-[300px] mb-11 ">
 				<div class=" hover:bg-sky-700  bg-sky-300 p-5">
 					<div className="">
 						<div className="items-center w-full text-center ">
@@ -87,7 +87,7 @@ const UgBankingFinnaceMaincontent = () => {
 					</div>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 };
 

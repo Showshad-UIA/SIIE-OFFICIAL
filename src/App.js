@@ -12,9 +12,11 @@ import EventsTraining from "./components/EventsTraining";
 import MediasIcon from "./components/MediasIcon";
 import Undergraduate from "./components/Submenu/Undergraduate";
 import BankingFinance from "./components/Submenu/UndergraduateCourses/BankingFinance";
-import Diploma from "./components/Pages/diploma/Diploma";
+
 import Masters from "./components/Pages/masters/Masters";
 import Phd from "./components/Postgraduate/Phd";
+import UgBankingFinanceCourseplan from "./components/Submenu/UndergraduateCourses/UgBankingFinanceCourseplan";
+import Diploma from "./components/Pages/diploma/Diploma";
 
 function App() {
 	return (
@@ -35,10 +37,14 @@ function App() {
 					path="/undergraduate"
 					element={<Undergraduate></Undergraduate>}
 				></Route>
-				<Route path="/postgraduate" element={<Phd></Phd>}></Route>
+				<Route path="/phd" element={<Phd></Phd>}></Route>
 				<Route
 					path="/banking"
 					element={<BankingFinance></BankingFinance>}
+				></Route>
+				<Route
+					path="/plan"
+					element={<UgBankingFinanceCourseplan></UgBankingFinanceCourseplan>}
 				></Route>
 				<Route path="/diploma" element={<Diploma></Diploma>}></Route>
 				<Route path="/masters" element={<Masters></Masters>}></Route>

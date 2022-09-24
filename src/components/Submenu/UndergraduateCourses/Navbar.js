@@ -10,7 +10,7 @@ const Navbar = () => {
 						About the course
 					</h1>
 				</li>
-				<li class="mr-1">
+				{/* <li class="mr-1">
 					<Link
 						to="/plan"
 						class="bg-white inline-block py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold"
@@ -18,15 +18,15 @@ const Navbar = () => {
 					>
 						Study plan
 					</Link>
-				</li>
-				<li class="mr-1">
+				</li> */}
+				{/* <li class="mr-1">
 					<Link
 						class="bg-white inline-block py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold"
 						to="/requirements"
 					>
 						Entry Requirements
 					</Link>
-				</li>
+				</li> */}
 				<li class="mr-1"></li>
 			</ul>
 		</div>

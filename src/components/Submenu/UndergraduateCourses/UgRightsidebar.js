@@ -2,18 +2,18 @@ import { faSquareCaretRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-const UgFinanceRightSidebar = () => {
+const UgRightsidebar = () => {
 	return (
-		<div className=" bg-white lg:mt-[-57px] mb-5">
+		<div className=" bg-white lg:mt-[-119px] mb-10">
 			<div class="  bg-white ">
-				<div className=" bg-white sm:w-full border-4 border-blue-500  ">
-					{/* <div className="  ">
-						<h1 className="text-xl mb-5 text-start font-bold  pr-5 pt-10 pb-3 border-b-2 border-t-4 border-black p-2   text-blue-500">
-							DIPLOMA ADMISSION
+				<div className=" bg-gray-200 sm:w-full  ">
+					<div className="  ">
+						<h1 className="text-xl mb-5 text-start font-bold  pr-5 pt-8 pb-3 border-b-2 border-t-4 border-black pl-2   text-blue-500">
+							ADMISSION INFO
 						</h1>
-					</div> */}
+					</div>
 					<div className="text-xl p-2">
-						<div>
+						<div className="text-black">
 							<a
 								href="#"
 								className="flex gap-5 mb-3  cursor-pointer hover:text-red-500 "
@@ -21,8 +21,8 @@ const UgFinanceRightSidebar = () => {
 								<div>
 									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
 								</div>
-								<div>
-									<p>Apply now </p>
+								<div className="">
+									<p>Apply now</p>
 								</div>
 							</a>
 						</div>
@@ -35,24 +35,12 @@ const UgFinanceRightSidebar = () => {
 									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
 								</div>
 								<div>
-									<p>Register your interest in UG study</p>
+									<p>Entry requirements</p>
 								</div>
 							</a>
 						</div>
-						<div>
-							<a
-								href="#"
-								className="flex gap-5 mb-3  cursor-pointer hover:text-red-500 "
-							>
-								<div>
-									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
-								</div>
-								<div>
-									<p>Undergraduate tuition fees</p>
-								</div>
-							</a>
-						</div>
-						<div className="mb-16">
+
+						<div className="mb-3">
 							<a
 								href="#"
 								className="flex gap-5   cursor-pointer hover:text-red-500 "
@@ -61,7 +49,20 @@ const UgFinanceRightSidebar = () => {
 									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
 								</div>
 								<div>
-									<p>Contact Us</p>
+									<p>Tuition fees</p>
+								</div>
+							</a>
+						</div>
+						<div className="mb-3">
+							<a
+								href="#"
+								className="flex gap-5   cursor-pointer hover:text-red-500 "
+							>
+								<div>
+									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
+								</div>
+								<div>
+									<p>Further enquiry</p>
 								</div>
 							</a>
 						</div>
@@ -72,4 +73,4 @@ const UgFinanceRightSidebar = () => {
 	);
 };
 
-export default UgFinanceRightSidebar;
+export default UgRightsidebar;

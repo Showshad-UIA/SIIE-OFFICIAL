@@ -1,7 +1,5 @@
 import React from "react";
-import MainContent from "../MainContent";
-import SearchBar from "../SearchBar";
-import Sidebar from "../Sidebar";
+
 import RightSideBar from "./RightSideBar";
 
 const AboutCourse = () => {
@@ -18,7 +16,7 @@ const AboutCourse = () => {
 								This degree programme provides the opportunity to follow the
 								prestigious CFA (Chartered Financial Analyst) specialist pathway
 								and acquire the skills to complete the CFA Level 1 examination
-								(for both September-intake and January-intake students).
+								(for both September-intake and January-intake students).Lorem
 								<span className="hover:underline text-red-500 cursor-pointer">
 									Click here
 								</span>

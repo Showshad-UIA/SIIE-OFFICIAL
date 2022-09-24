@@ -8,11 +8,11 @@ const BankingFinance = () => {
 	return (
 		<div>
 			{/* carousel start here */}
-			<div class="carousel  carousel-center">
+			{/* <div class="carousel  carousel-center">
 				<img src={banner} alt="" className="w-full lg:h-[520px] sm:h-[300px]" />
-			</div>
+			</div> */}
 			{/* navbar start here */}
-			<Navbar></Navbar>
+			{/* <Navbar></Navbar> */}
 			{/* <AboutCourse></AboutCourse> */}
 			<UgBankingFinance></UgBankingFinance>
 		</div>

@@ -49,41 +49,6 @@ const Masters = () => {
 				</div>
 			</div>
 
-			{/* <div className=" mx-[140px] grid bg-white lg:grid-flow-col gap-4">
-        <div class="  col-span-3   text-justify sm:grid-flow-row">
-            <div class="rounded-none   card  ">
-                <div className="">
-                    <p className="pl-4   text-2xl  font-bold cursor-pointer hover:text-red-500  text-blue-500">
-                        UNDERGRADUATE PROGRAM
-                    </p>
-                </div>
-                <div className="bg-white  justify-items-center grid  lg:grid-flow-col sm:grid-flow-row  ">
-                    <div className=" w-3/5 ml-5">
-                        <p className="bg-base-200 p-2 mt-4">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-                            harum praesentium laudantium neque vero ratione tempora quidem
-                            eos. Eveniet culpa rem ullam blanditiis dolore omnis, autem
-                            consectetur nobis dicta officiis! Lorem ipsum dolor sit amet
-                            consectetur, adipisicing elit. Ipsa harum praesentium
-                            laudantium neque vero ratione tempora quidem eos. Eveniet
-                            culpa rem ullam blanditiis dolore omnis, autem consectetur
-                            nobis dicta officiis! Lorem ipsum dolor sit amet consectetur,
-                            adipisicing elit. Ipsa Lorem ipsum dolor sit amet consectetur,
-                            adipisicing elit. Ipsa harum praesentium laudantium neque vero
-                            ratione tempora quidem eos. Eveniet culpa rem ullam blanditiis
-                            dolore omnis, autem consectetur nobis dicta officiis! Lorem
-                            ipsum dolor sit amet consectetur, adipisicing elit. Ipsa harum
-                            praesentium laudantium neque vero ratione tempora quidem eos.
-                            Eveniet culpa rem ullam blanditiis dolore omnis, autem
-                            consectetur nobis dicta officiis! Lorem ipsum dolor sit amet
-                            consectetur, adipisicing elit. Ipsa
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> */}
-
 			<MastersMaincontent></MastersMaincontent>
 		</div>
 	);

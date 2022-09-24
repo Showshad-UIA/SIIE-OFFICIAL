@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import AboutCourse from "./AboutCourse";
 import Navbar from "./Navbar";
 import banner from "../../../images/Slider-bankingPage.png";
+import UgBankingFinance from "./UgBankingFinance";
 const BankingFinance = () => {
 	return (
 		<div>
@@ -12,7 +13,8 @@ const BankingFinance = () => {
 			</div>
 			{/* navbar start here */}
 			<Navbar></Navbar>
-			<AboutCourse></AboutCourse>
+			{/* <AboutCourse></AboutCourse> */}
+			<UgBankingFinance></UgBankingFinance>
 		</div>
 	);
 };

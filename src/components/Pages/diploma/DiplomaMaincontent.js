@@ -1,7 +1,8 @@
-import React from "react";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight, faUser } from "@fortawesome/free-solid-svg-icons";
-const MainContent = () => {
+import React from "react";
+
+const DiplomaMaincontent = () => {
 	return (
 		<>
 			<div className="w-50 text-2xl  font-bold cursor-pointer   text-center">
@@ -18,7 +19,7 @@ const MainContent = () => {
 						<div className="">
 							<a href="/banking">
 								<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-									Bachelor of Islamic Banking & Finance
+									Diploma of Islamic Banking & Finance
 								</h2>
 							</a>
 						</div>
@@ -31,7 +32,7 @@ const MainContent = () => {
 						</div>
 						<div className="">
 							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-								Bachelor of Islamic Shariah
+								Diploma of Islamic Shariah
 							</h2>
 						</div>
 					</div>
@@ -43,7 +44,7 @@ const MainContent = () => {
 						</div>
 						<div className="">
 							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-								Bachelor of Economics
+								Diploma of Economics
 							</h2>
 						</div>
 					</div>
@@ -55,7 +56,7 @@ const MainContent = () => {
 						</div>
 						<div className="">
 							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-								Bachelor of Islamic Insurance
+								Diploma of Islamic Insurance
 							</h2>
 						</div>
 					</div>
@@ -67,7 +68,7 @@ const MainContent = () => {
 						</div>
 						<div className="">
 							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-								Bachelor of Islamic Business
+								Diploma of Islamic Business
 							</h2>
 						</div>
 					</div>
@@ -80,7 +81,7 @@ const MainContent = () => {
 						</div>
 						<div className="">
 							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-								Bachelor of Islamic Shariah
+								Diploma of Islamic Shariah
 							</h2>
 						</div>
 					</div>
@@ -90,4 +91,4 @@ const MainContent = () => {
 	);
 };
 
-export default MainContent;
+export default DiplomaMaincontent;

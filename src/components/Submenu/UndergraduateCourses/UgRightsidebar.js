@@ -13,20 +13,7 @@ const UgRightsidebar = () => {
 						</h1>
 					</div>
 					<div className="text-xl p-2">
-						<div className="text-black">
-							<a
-								href="#"
-								className="flex gap-5 mb-3  cursor-pointer hover:text-red-500 "
-							>
-								<div>
-									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
-								</div>
-								<div className="">
-									<p>Apply now</p>
-								</div>
-							</a>
-						</div>
-						<div>
+						{/* <div>
 							<a
 								href="#"
 								className="flex gap-5 mb-3  cursor-pointer hover:text-red-500 "
@@ -38,9 +25,9 @@ const UgRightsidebar = () => {
 									<p>Entry requirements</p>
 								</div>
 							</a>
-						</div>
+						</div> */}
 
-						<div className="mb-3">
+						{/* <div className="mb-3">
 							<a
 								href="#"
 								className="flex gap-5   cursor-pointer hover:text-red-500 "
@@ -52,8 +39,8 @@ const UgRightsidebar = () => {
 									<p>Tuition fees</p>
 								</div>
 							</a>
-						</div>
-						<div className="mb-3">
+						</div> */}
+						{/* <div className="mb-3">
 							<a
 								href="#"
 								className="flex gap-5   cursor-pointer hover:text-red-500 "
@@ -65,7 +52,7 @@ const UgRightsidebar = () => {
 									<p>Further enquiry</p>
 								</div>
 							</a>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

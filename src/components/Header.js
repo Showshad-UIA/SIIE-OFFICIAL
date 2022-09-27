@@ -1,13 +1,14 @@
 import React from "react";
 import logo from "../images/SYDNEY ISLAMIC BUSINESS SCHOOL.png";
+import logo2 from "../images/capture  .png";
 import { Link } from "react-router-dom";
 
 const Header = () => {
 	return (
-		<header className="navbar bg-sky-700 lg:w-full sm:w-4/5 md:w-full   h-[70px] sm:mt-[-60px] sticky top-0 justify-center   text-lg text-white z-50   ">
+		<header className="navbar bg-sky-700 lg:w-full sm:w-4/5 md:w-full    h-[75px] sm:mt-[-60px] sticky top-0 justify-center   text-lg text-white z-50   ">
 			<div className="navbar-start ">
 				<div className="dropdown ">
-					<label tabindex="0" class="btn btn-ghost mb-5 lg:hidden">
+					<label tabindex="0" class="btn btn-ghost mb-5 md:hidden lg:hidden">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							className="h-5 w-5"
@@ -92,7 +93,11 @@ const Header = () => {
 				</div>
 				<div>
 					<Link to="/">
-						<img src={logo} alt="" className=" mb-10 sm:mt-5 lg:ml-20  " />
+						<img
+							src={logo2}
+							alt=""
+							className="  lg:mb-5 sm:w-16  lg:ml-[105px]  "
+						/>
 					</Link>
 				</div>
 			</div>

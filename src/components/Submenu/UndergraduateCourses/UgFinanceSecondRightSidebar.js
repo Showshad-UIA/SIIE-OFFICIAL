@@ -78,6 +78,32 @@ const UgFinanceSecondRightSidebar = () => {
 								</div>
 							</a>
 						</div>
+						<div className="mb-3">
+							<a
+								href="#"
+								className="flex gap-5   cursor-pointer hover:text-red-500 "
+							>
+								<div>
+									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
+								</div>
+								<div>
+									<p>Tuition fees</p>
+								</div>
+							</a>
+						</div>
+						<div className="mb-3">
+							<a
+								href="#"
+								className="flex gap-5   cursor-pointer hover:text-red-500 "
+							>
+								<div>
+									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
+								</div>
+								<div>
+									<p>Further enquiry</p>
+								</div>
+							</a>
+						</div>
 					</div>
 				</div>
 				{/* <div className="mt-5  mb-5 justify-center">

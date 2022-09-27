@@ -17,11 +17,13 @@ import Masters from "./components/Pages/masters/Masters";
 import Phd from "./components/Postgraduate/Phd";
 import UgBankingFinanceCourseplan from "./components/Submenu/UndergraduateCourses/UgBankingFinanceCourseplan";
 import Diploma from "./components/Pages/diploma/Diploma";
+// import NavBar from "./components/Navbar/NavBar";
 
 function App() {
 	return (
 		<div className="App">
 			<Header></Header>
+			{/* <NavBar></NavBar> */}
 			<Routes>
 				<Route path="/" element={<Home></Home>}></Route>
 

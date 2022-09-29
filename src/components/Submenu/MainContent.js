@@ -30,9 +30,11 @@ const MainContent = () => {
 							<FontAwesomeIcon icon={faUser} className=""></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-								Bachelor of Islamic Shariah
-							</h2>
+							<a href="/shariah">
+								<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+									Bachelor of Islamic Shariah
+								</h2>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -42,9 +44,11 @@ const MainContent = () => {
 							<FontAwesomeIcon icon={faUser} className=""></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-								Bachelor of Economics
-							</h2>
+							<a href="/economics">
+								<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+									Bachelor of Economics
+								</h2>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -54,9 +58,11 @@ const MainContent = () => {
 							<FontAwesomeIcon icon={faUser} className=""></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-								Bachelor of Islamic Insurance
-							</h2>
+							<a href="/insurance">
+								<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+									Bachelor of Islamic Insurance
+								</h2>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -66,9 +72,14 @@ const MainContent = () => {
 							<FontAwesomeIcon icon={faUser} className=""></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-								Bachelor of Islamic Business
-							</h2>
+							<a
+								href="/businesslaw
+							"
+							>
+								<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+									Bachelor of Islamic Business law
+								</h2>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -79,9 +90,11 @@ const MainContent = () => {
 							<FontAwesomeIcon icon={faUser} className=""></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-								Bachelor of Islamic Shariah
-							</h2>
+							<a href="/fiqh">
+								<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+									Bachelor of Usul al-Fiqh
+								</h2>
+							</a>
 						</div>
 					</div>
 				</div>

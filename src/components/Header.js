@@ -1,14 +1,15 @@
 import React from "react";
 import logo from "../images/SYDNEY ISLAMIC BUSINESS SCHOOL.png";
+// import logo2 from "../images/capture  .png";
 import logo2 from "../images/capture  .png";
 import { Link } from "react-router-dom";
 
 const Header = () => {
 	return (
-		<header className="navbar bg-sky-700 lg:w-full sm:w-4/5 md:w-full    h-[75px] sm:mt-[-60px] sticky top-0 justify-center   text-lg text-white z-50   ">
+		<header className="navbar bg-sky-700 lg:w-full sm:w-4/5 py-12 h-[75px] sm:mt-[-60px] sticky top-0 justify-center   text-lg text-white z-50   ">
 			<div className="navbar-start ">
 				<div className="dropdown ">
-					<label tabindex="0" class="btn btn-ghost mb-5 md:hidden lg:hidden">
+					<label tabindex="0" class="btn btn-ghost  mb-5 lg:hidden">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							className="h-5 w-5"
@@ -96,13 +97,13 @@ const Header = () => {
 						<img
 							src={logo2}
 							alt=""
-							className="  lg:mb-5 sm:w-16  lg:ml-[105px]  "
+							className="lg:h-[80px] lg:mt-3 lg:w-[120px]  lg:mb-5 sm:w-16  lg:ml-[105px]  "
 						/>
 					</Link>
 				</div>
 			</div>
 			{/* desktop version */}
-			<div class="navbar-center hidden text-lg  lg:flex lg:mr-2">
+			<div class="navbar-center hidden text-lg lg:mr-[95px] lg:flex">
 				<ul class="menu menu-horizontal p-0">
 					<li tabindex="0">
 						<a class="">

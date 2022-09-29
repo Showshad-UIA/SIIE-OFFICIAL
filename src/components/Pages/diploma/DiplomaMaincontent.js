@@ -17,7 +17,7 @@ const DiplomaMaincontent = () => {
 							<FontAwesomeIcon icon={faUser} className=""></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<a href="/banking">
+							<a href="/diplomafinance">
 								<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
 									Diploma of Islamic Banking & Finance
 								</h2>
@@ -31,9 +31,12 @@ const DiplomaMaincontent = () => {
 							<FontAwesomeIcon icon={faUser} className=""></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-								Diploma of Islamic Shariah
-							</h2>
+							<a href="/diplomashariah">
+								{" "}
+								<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+									Diploma of Islamic Shariah
+								</h2>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -43,9 +46,11 @@ const DiplomaMaincontent = () => {
 							<FontAwesomeIcon icon={faUser} className=""></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-								Diploma of Economics
-							</h2>
+							<a href="/diplomaeconomics">
+								<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+									Diploma of Economics
+								</h2>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -55,9 +60,11 @@ const DiplomaMaincontent = () => {
 							<FontAwesomeIcon icon={faUser} className=""></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-								Diploma of Islamic Insurance
-							</h2>
+							<a href="/diplomainsurance">
+								<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+									Diploma of Islamic Insurance
+								</h2>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -67,9 +74,11 @@ const DiplomaMaincontent = () => {
 							<FontAwesomeIcon icon={faUser} className=""></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-								Diploma of Islamic Business
-							</h2>
+							<a href="/diplomabusiness">
+								<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+									Diploma of Islamic Business
+								</h2>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -80,9 +89,11 @@ const DiplomaMaincontent = () => {
 							<FontAwesomeIcon icon={faUser} className=""></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-								Diploma of Islamic Shariah
-							</h2>
+							<a href="/diplomashariah">
+								<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+									Diploma of Islamic Shariah
+								</h2>
+							</a>
 						</div>
 					</div>
 				</div>

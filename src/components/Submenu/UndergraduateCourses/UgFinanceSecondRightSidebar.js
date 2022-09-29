@@ -8,11 +8,11 @@ const UgFinanceSecondRightSidebar = () => {
 			<div class="  bg-white ">
 				<div className=" bg-gray-200 sm:w-full  ">
 					<div className="  ">
-						<h1 className="text-xl mb-5 text-start font-bold  pr-5 pt-8 pb-3 border-b-2 border-t-4 border-black pl-2   text-blue-500">
+						<h1 className="text-xl mb-5 text-start font-bold  pr-5 pt-8 pb-3 border-b-2 border-t-4 border-black pl-5   text-blue-500">
 							SEE ALSO
 						</h1>
 					</div>
-					<div className="text-xl p-2">
+					<div className="text-medium p-5">
 						<div>
 							<a
 								href="#"
@@ -22,7 +22,9 @@ const UgFinanceSecondRightSidebar = () => {
 									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
 								</div>
 								<div>
-									<p>Bachelor of economics</p>
+									<a href="/economics">
+										<p>Bachelor of economics</p>
+									</a>
 								</div>
 							</a>
 						</div>
@@ -35,7 +37,9 @@ const UgFinanceSecondRightSidebar = () => {
 									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
 								</div>
 								<div>
-									<p>Bachelor of Islamic shariah</p>
+									<a href="/shariah">
+										<p>Bachelor of Islamic shariah</p>
+									</a>
 								</div>
 							</a>
 						</div>
@@ -48,7 +52,9 @@ const UgFinanceSecondRightSidebar = () => {
 									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
 								</div>
 								<div>
-									<p>Bachelor of Islamic insurance</p>
+									<a href="/insurance">
+										<p>Bachelor of Islamic insurance</p>
+									</a>
 								</div>
 							</a>
 						</div>
@@ -61,7 +67,9 @@ const UgFinanceSecondRightSidebar = () => {
 									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
 								</div>
 								<div>
-									<p>Bachelor of business</p>
+									<a href="/businesslaw">
+										<p>Bachelor of Islamic business law</p>
+									</a>
 								</div>
 							</a>
 						</div>

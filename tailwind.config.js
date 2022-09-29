@@ -1,6 +1,7 @@
 // /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ["./src/**/*.{html,js}"],
+	content: ["./src/**/*.{html,js}", "./node_modules/flowbite/**/*.js"],
+
 	daisyui: {
 		themes: [
 			{
@@ -12,10 +13,8 @@ module.exports = {
 					"base-100": "#ffffff",
 				},
 			},
-			"dark",
-			"cupcake",
 		],
 	},
 
-	plugins: [require("daisyui"), require("tailwind-scrollbar-hide")],
+	plugins: [require("daisyui", "flowbite/plugin")],
 };

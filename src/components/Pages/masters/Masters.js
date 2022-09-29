@@ -4,7 +4,7 @@ import MastersSidebar from "./MastersSidebar";
 
 const Masters = () => {
 	return (
-		<div className=" lg:mx-12 sm:w-full">
+		<div className=" sm:w-full">
 			<div className="grid text-center lg:mt-[100px] sm:mt-10   lg:grid-cols-2 sm:grid-cols-1">
 				<div className=" lg:ml-[200px] text-justify m-2 lg:w-full border-t-2 border-black">
 					<div className="">

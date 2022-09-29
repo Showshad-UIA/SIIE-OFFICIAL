@@ -17,7 +17,7 @@ const PhdMaincontent = () => {
 							<FontAwesomeIcon icon={faUser} className=""></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<a href="/banking">
+							<a href="/phdfinance">
 								<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
 									PhD of Islamic Banking & Finance
 								</h2>
@@ -31,9 +31,12 @@ const PhdMaincontent = () => {
 							<FontAwesomeIcon icon={faUser} className=""></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-								PhD of Islamic Shariah
-							</h2>
+							<a href="/phdsariah">
+								{" "}
+								<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+									PhD of Islamic Shariah
+								</h2>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -43,9 +46,12 @@ const PhdMaincontent = () => {
 							<FontAwesomeIcon icon={faUser} className=""></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-								PhD of Economics
-							</h2>
+							<a href="/phdeconomics">
+								{" "}
+								<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+									PhD of Economics
+								</h2>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -55,9 +61,11 @@ const PhdMaincontent = () => {
 							<FontAwesomeIcon icon={faUser} className=""></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-								PhD of Islamic Insurance
-							</h2>
+							<a href="/phdinsurance">
+								<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+									PhD of Islamic Insurance
+								</h2>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -67,9 +75,11 @@ const PhdMaincontent = () => {
 							<FontAwesomeIcon icon={faUser} className=""></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-								PhD of Islamic Business
-							</h2>
+							<a href="/phdbusinesslaw">
+								<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+									PhD of Islamic Business law
+								</h2>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -80,9 +90,11 @@ const PhdMaincontent = () => {
 							<FontAwesomeIcon icon={faUser} className=""></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
-								PhD of Islamic Shariah
-							</h2>
+							<a href="/phdusalfiq">
+								<h2 className=" text-xl cursor-pointer  text-white text-center p-2">
+									PhD of Usal al-Fiqh
+								</h2>
+							</a>
 						</div>
 					</div>
 				</div>

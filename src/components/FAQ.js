@@ -2,28 +2,110 @@ import React from "react";
 
 const FAQ = () => {
 	return (
-		<div>
-			<h1 className="text-center text-2xl text-bold text-blue-500 mb-5">FAQ</h1>
-			<div className="bg-orange-400 h-[5px] mx-auto mb-5 w-16"></div>
-			<div
-				tabindex="0"
-				class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box mb-5"
-			>
-				<div class="collapse-title text-xl font-medium">
-					I am not a university student. Can I enrol at SIIE?
-				</div>
-				<div class="collapse-content">
-					<p className="container">
-						Yes you can. If you have already developed an innovative business
-						idea at a higher education institution you can directly enroll in
-						the Venture Funding program. However, if you are in the initial
-						stages and still developing your business idea then we would
-						recommend you complete the New Venture Creation course prior to
-						enrolling in the Venture Funding Program.
-					</p>
+		<>
+			<div>
+				<div
+					tabindex="0"
+					className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box mb-5 mt-5"
+				>
+					<div class="collapse-title text-xl font-medium ">Course outcome</div>
+					<div class="collapse-content">
+						<p className="container">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+							Accusantium aliquid culpa sit nesciunt dolor blanditiis beatae,
+							omnis, earum vitae nostrum voluptatibus provident quis quibusdam
+							esse nam aliquam impedit suscipit placeat?
+						</p>
+					</div>
 				</div>
 			</div>
-		</div>
+			<div>
+				<div
+					tabindex="0"
+					className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box mb-5 mt-5"
+				>
+					<div class="collapse-title text-xl font-medium ">
+						Course structure
+					</div>
+					<div class="collapse-content">
+						<p className="container">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+							Accusantium aliquid culpa sit nesciunt dolor blanditiis beatae,
+							omnis, earum vitae nostrum voluptatibus provident quis quibusdam
+							esse nam aliquam impedit suscipit placeat?
+						</p>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div
+					tabindex="0"
+					className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box mb-5 mt-5"
+				>
+					<div class="collapse-title text-xl font-medium ">
+						Admission Requirements
+					</div>
+					<div class="collapse-content">
+						<p className="container">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+							Accusantium aliquid culpa sit nesciunt dolor blanditiis beatae,
+							omnis, earum vitae nostrum voluptatibus provident quis quibusdam
+							esse nam aliquam impedit suscipit placeat?
+						</p>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div
+					tabindex="0"
+					className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box mb-5 mt-5"
+				>
+					<div class="collapse-title text-xl font-medium ">
+						Potential Supervisor
+					</div>
+					<div class="collapse-content">
+						<p className="container">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+							Accusantium aliquid culpa sit nesciunt dolor blanditiis beatae,
+							omnis, earum vitae nostrum voluptatibus provident quis quibusdam
+							esse nam aliquam impedit suscipit placeat?
+						</p>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div
+					tabindex="0"
+					className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box mb-5 mt-5"
+				>
+					<div class="collapse-title text-xl font-medium ">Fees Structure</div>
+					<div class="collapse-content">
+						<p className="container">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+							Accusantium aliquid culpa sit nesciunt dolor blanditiis beatae,
+							omnis, earum vitae nostrum voluptatibus provident quis quibusdam
+							esse nam aliquam impedit suscipit placeat?
+						</p>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div
+					tabindex="0"
+					className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box mb-5 mt-5"
+				>
+					<div class="collapse-title text-xl font-medium ">Further enquiry</div>
+					<div class="collapse-content">
+						<p className="container">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+							Accusantium aliquid culpa sit nesciunt dolor blanditiis beatae,
+							omnis, earum vitae nostrum voluptatibus provident quis quibusdam
+							esse nam aliquam impedit suscipit placeat?
+						</p>
+					</div>
+				</div>
+			</div>
+		</>
 	);
 };
 

@@ -22,7 +22,7 @@ const PhdRightSideBar = () => {
 									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
 								</div>
 								<div>
-									<p>Graduate program</p>
+									<p>Postgraduate program</p>
 								</div>
 							</a>
 						</div>
@@ -35,7 +35,7 @@ const PhdRightSideBar = () => {
 									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
 								</div>
 								<div>
-									<p>Tuition fees</p>
+									<p>Post graduate fees structure</p>
 								</div>
 							</a>
 						</div>
@@ -48,7 +48,7 @@ const PhdRightSideBar = () => {
 									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
 								</div>
 								<div>
-									<p>Date & deadline</p>
+									<p>Postgraduate scholarship</p>
 								</div>
 							</a>
 						</div>
@@ -61,7 +61,7 @@ const PhdRightSideBar = () => {
 									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
 								</div>
 								<div>
-									<p>Apply online</p>
+									<p>Apply now</p>
 								</div>
 							</a>
 						</div>

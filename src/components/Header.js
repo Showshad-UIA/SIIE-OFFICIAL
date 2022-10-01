@@ -31,7 +31,7 @@ const Header = () => {
 					>
 						<li tabindex="0">
 							<a class="justify-between">
-								ADMISSION
+								PROGRAM
 								<svg
 									class="fill-current "
 									xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +107,7 @@ const Header = () => {
 				<ul class="menu menu-horizontal p-0">
 					<li tabindex="0">
 						<a class="">
-							ADMISSION
+							PROGRAM
 							<svg
 								class="fill-current"
 								xmlns="http://www.w3.org/2000/svg"

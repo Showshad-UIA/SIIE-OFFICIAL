@@ -53,7 +53,7 @@ function App() {
 					path="/events"
 					element={<EventsTraining></EventsTraining>}
 				></Route>
-				<Route path="/research" element={<Research></Research>}></Route>
+				{/* <Route path="/research" element={<Research></Research>}></Route> */}
 				<Route path="/program" element={<Program></Program>}></Route>
 				<Route
 					path="/undergraduate"

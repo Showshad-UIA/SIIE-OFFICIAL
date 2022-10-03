@@ -1,10 +1,10 @@
-import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import { faBookOpen } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react';
 
-const PhdBusinessLawSidebar = () => {
-	return (
-		<div className=" bg-white mb-10">
+const ResearchSidebar = () => {
+    return (
+        <div className=" bg-white mb-10">
 			<div class="  bg-white ">
 				<div className=" bg-gray-200 sm:w-full  ">
 					<div className="  ">
@@ -22,43 +22,28 @@ const PhdBusinessLawSidebar = () => {
 									<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 								</div>
 								<div>
-									<a href="/phdfinance">
-										<p>PhD in Islamic finance & banking</p>
-									</a>
-								</div>
-							</a>
-						</div>
-						<div className="mb-3">
-							<a
-								href="#"
-								className="flex gap-5   cursor-pointer hover:text-red-500 "
-							>
-								<div>
-									<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
-								</div>
-								<div>
 									<a href="/phdeconomics">
 										<p>PhD in Islamic economics</p>
 									</a>
 								</div>
 							</a>
 						</div>
-						<div className="mb-3">
+						<div>
 							<a
 								href="#"
-								className="flex gap-5   cursor-pointer hover:text-red-500 "
+								className="flex gap-5 mb-3  cursor-pointer hover:text-red-500 "
 							>
 								<div>
 									<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 								</div>
 								<div>
-									<a href="/phdbusinesslaw">
-										<p>PhD in Islamic business law</p>
+									<a href="/phdfinance">
+										<p>PhD in Islamic banking & finance </p>
 									</a>
 								</div>
 							</a>
 						</div>
-						<div className="mb-3">
+						<div>
 							<a
 								href="#"
 								className="flex gap-5 mb-3  cursor-pointer hover:text-red-500 "
@@ -74,34 +59,17 @@ const PhdBusinessLawSidebar = () => {
 								</div>
 							</a>
 						</div>
-						<div className="mb-3">
+						<div className="mb-10">
 							<a
 								href="#"
-								className="flex gap-5 mb-3  cursor-pointer hover:text-red-500 "
+								className="flex gap-5   cursor-pointer hover:text-red-500 "
 							>
 								<div>
 									<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 								</div>
 								<div>
-									<a href="/phdsariah">
-										{" "}
-										<p>PhD in Islamic shariah</p>
-									</a>
-								</div>
-							</a>
-						</div>
-						<div className="mb-3">
-							<a
-								href="#"
-								className="flex gap-5 mb-3  cursor-pointer hover:text-red-500 "
-							>
-								<div>
-									<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
-								</div>
-								<div>
-									<a href="/phdusalfiq">
-										{" "}
-										<p>PhD in Islamic studies</p>
+									<a href="/phdbusinesslaw">
+										<p>PhD in Islamic business law</p>
 									</a>
 								</div>
 							</a>
@@ -110,7 +78,7 @@ const PhdBusinessLawSidebar = () => {
 				</div>
 			</div>
 		</div>
-	);
+    );
 };
 
-export default PhdBusinessLawSidebar;
+export default ResearchSidebar;

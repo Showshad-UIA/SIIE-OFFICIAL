@@ -74,10 +74,10 @@ const Event = () => {
 			{/* right side bar start here */}
 			<div className="px-4 ">
 				<div className="flex mt-[-40px] mb-5 ">
-					<div className="text-2xl font-bold">EVENT</div>
+					<div className="text-3xl font-bold -mt-2">Events</div>
 					<div>
 						<a href="#" className="ml-3 text-blue-500 text-sm ">
-							All EVENT>
+							All EVENTS>
 						</a>
 					</div>
 				</div>

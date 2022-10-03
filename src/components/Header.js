@@ -31,7 +31,7 @@ const Header = () => {
 					>
 						<li tabindex="0">
 							<a href="/program" class="justify-between">
-								ACADEMIC PROGRAM
+								ACADEMIC PROGRAMS
 								<svg
 									class="fill-current "
 									xmlns="http://www.w3.org/2000/svg"
@@ -59,10 +59,17 @@ const Header = () => {
 							</ul>
 						</li>
 						<li tabindex="0">
-							<Link to="/research" class="justify-between">
-								RESEARCH
+							<a class="justify-between">RESEARCH</a>
+						</li>
+
+						<li>
+							<Link to="/news">NEWS & EVENTS</Link>
+						</li>
+						<li tabindex="0">
+							<a href="/program" class="justify-between">
+								ABOUT US
 								<svg
-									class="fill-current"
+									class="fill-current "
 									xmlns="http://www.w3.org/2000/svg"
 									width="20"
 									height="20"
@@ -70,22 +77,22 @@ const Header = () => {
 								>
 									<path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
 								</svg>
-							</Link>
+							</a>
 							<ul class="p-2   absolute text-black bg-white  opacity-100 ">
 								<li className="hover:bg-sky-700 border-b-2 border-gray-200">
-									<Link to="/undergraduate">RESEARCH METHODOLOGY</Link>
+									<Link to="#">Leadership and governance </Link>
 								</li>
 								<li className="hover:bg-sky-700 border-b-2 border-gray-200">
-									<Link to="/postgraduate">Survey</Link>
+									<Link to="#">campus and structure </Link>
+								</li>
+								<li className="hover:bg-sky-700 border-b-2 border-gray-200">
+									<Link to="#">Research center</Link>
+								</li>
+
+								<li className="hover:bg-sky-700 border-b-2 border-gray-200">
+									<Link to="#">Contact with SIBS</Link>
 								</li>
 							</ul>
-						</li>
-
-						<li>
-							<Link to="/news">NEWS & EVENTS</Link>
-						</li>
-						<li>
-							<Link to="/about">ABOUT</Link>
 						</li>
 						<li>
 							<Link to="/home"></Link>
@@ -106,8 +113,8 @@ const Header = () => {
 			<div class="navbar-center hidden text-lg lg:mr-[95px] lg:flex">
 				<ul class="menu menu-horizontal p-0">
 					<li tabindex="0">
-						<a class="" href="/program">
-							ACADEMIC PROGRAM
+						<a class="">
+							ACADEMIC PROGRAMS
 							<svg
 								class="fill-current"
 								xmlns="http://www.w3.org/2000/svg"
@@ -137,8 +144,17 @@ const Header = () => {
 					<li tabindex="0">
 						<Link to="/research" className="justify-between ">
 							RESEARCH
+						</Link>
+					</li>
+
+					<li>
+						<Link to="/news">NEWS & EVENTS</Link>
+					</li>
+					<li tabindex="0">
+						<a href="/program" class="justify-between">
+							ABOUT US
 							<svg
-								class="fill-current"
+								class="fill-current "
 								xmlns="http://www.w3.org/2000/svg"
 								width="20"
 								height="20"
@@ -146,22 +162,22 @@ const Header = () => {
 							>
 								<path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
 							</svg>
-						</Link>
-						<ul class="p-2  absolute text-black bg-white   opacity-100 left-0">
+						</a>
+						<ul class="p-2   absolute text-black bg-white  opacity-100 ">
 							<li className="hover:bg-sky-700 border-b-2 border-gray-200">
-								<Link to="/survey">SURVEY</Link>
+								<Link to="#">Leadership and governance </Link>
 							</li>
 							<li className="hover:bg-sky-700 border-b-2 border-gray-200">
-								<Link to="/support">RESEARCH METHODOLOGY</Link>
+								<Link to="#">campus and structure </Link>
+							</li>
+							<li className="hover:bg-sky-700 border-b-2 border-gray-200">
+								<Link to="#">Research center</Link>
+							</li>
+
+							<li className="hover:bg-sky-700 border-b-2 border-gray-200">
+								<Link to="#">Contact with SIBS</Link>
 							</li>
 						</ul>
-					</li>
-
-					<li>
-						<Link to="/news">NEWS & EVENTS</Link>
-					</li>
-					<li>
-						<Link to="/about">ABOUT</Link>
 					</li>
 				</ul>
 			</div>

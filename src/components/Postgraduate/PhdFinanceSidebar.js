@@ -31,17 +31,17 @@ const PhdFinanceSidebar = () => {
 								</div>
 							</a>
 						</div>
-						<div>
+						<div className="mb-3">
 							<a
 								href="#"
-								className="flex gap-5 mb-3  cursor-pointer hover:text-red-500 "
+								className="flex gap-5   cursor-pointer hover:text-red-500 "
 							>
 								<div>
 									<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 								</div>
 								<div>
-									<a href="/phdfinance">
-										<p>PhD in Islamic banking & finance </p>
+									<a href="/phdbusinesslaw">
+										<p>PhD in Islamic business law</p>
 									</a>
 								</div>
 							</a>
@@ -62,6 +62,21 @@ const PhdFinanceSidebar = () => {
 								</div>
 							</a>
 						</div>
+						<div className="mb-3">
+							<a
+								href="#"
+								className="flex gap-5   cursor-pointer hover:text-red-500 "
+							>
+								<div>
+									<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
+								</div>
+								<div>
+									<a href="/phdsariah">
+										<p>PhD in Islamic shariah</p>
+									</a>
+								</div>
+							</a>
+						</div>
 						<div className="mb-10">
 							<a
 								href="#"
@@ -71,8 +86,8 @@ const PhdFinanceSidebar = () => {
 									<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 								</div>
 								<div>
-									<a href="/phdbusinesslaw">
-										<p>PhD in Islamic business law</p>
+									<a href="/phdusalfiq">
+										<p>PhD in Islamic studies</p>
 									</a>
 								</div>
 							</a>

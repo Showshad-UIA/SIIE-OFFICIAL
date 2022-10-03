@@ -5,8 +5,8 @@ import React from "react";
 const SiieService = () => {
 	return (
 		<div className=" mb-16">
-			<div className=" -mb-[34px] mt-10 ml-8 text-2xl  text-blue-500 font-bold">
-				STUDYING AT SIIE
+			<div className=" -mb-[34px] mt-10 ml-8 text-3xl  text-blue-500 font-bold">
+				Studying at SIBS
 			</div>
 			<div className="grid lg:grid-cols-4  text-xl  p-3 gap-5 sm:grid-cols-1 m-6  justify-center ">
 				<div className="w-full">
@@ -22,7 +22,7 @@ const SiieService = () => {
 						<div className="  -mt-8  flex text-black mb-5">
 							<div className="bg-white flex">
 								<p className=" font-bold text-xl   cursor-pointer hover:text-red-700">
-									UNDERGRADUATE ADMISSION
+									PhD Admission
 								</p>
 								<a href="#">
 									<FontAwesomeIcon
@@ -48,11 +48,11 @@ const SiieService = () => {
 							<div className=" bg-gray-100 -mt-8  flex text-black mb-5">
 								<div className="bg-white flex">
 									<p className=" font-bold text-xl   cursor-pointer hover:text-red-700">
-										POSTGRADUATE ADMISSION
+										Masters Admission
 									</p>
 									<a href="#">
 										<FontAwesomeIcon
-											className="mt-2 w-[100px] h-[10]"
+											className="mt-2 w-[220px] h-[10]"
 											icon={faArrowRight}
 										></FontAwesomeIcon>
 									</a>
@@ -74,11 +74,11 @@ const SiieService = () => {
 						<div className=" bg-gray-100 -mt-8  flex text-black mb-5">
 							<div className="bg-white flex">
 								<p className=" font-bold text-xl   cursor-pointer hover:text-red-700">
-									DIPLOMA ADMISSION
+									Undergraduate Admission
 								</p>
 								<a href="#">
 									<FontAwesomeIcon
-										className="mt-2 w-[100px] h-[10]"
+										className="mt-2 w-[151px] h-[10]"
 										icon={faArrowRight}
 									></FontAwesomeIcon>
 								</a>
@@ -99,11 +99,11 @@ const SiieService = () => {
 						<div className=" bg-gray-100 -mt-8  flex text-black mb-5">
 							<div className="bg-white  flex">
 								<p className=" font-bold text-xl   cursor-pointer hover:text-red-700">
-									FUNDING AND VENTURE PROGRAM
+									Graduate Diploma Admission
 								</p>
 								<a href="#">
 									<FontAwesomeIcon
-										className="mt-2  w-[100px] h-[10]"
+										className="mt-2  w-[123px] h-[10]"
 										icon={faArrowRight}
 									></FontAwesomeIcon>
 								</a>

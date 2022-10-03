@@ -30,8 +30,8 @@ const Header = () => {
 						className="menu menu-compact dropdown-content mt-3 p-2 bg-white   text-black rounded-box w-52"
 					>
 						<li tabindex="0">
-							<a class="justify-between">
-								PROGRAM
+							<a href="/program" class="justify-between">
+								ACADEMIC PROGRAM
 								<svg
 									class="fill-current "
 									xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ const Header = () => {
 							</ul>
 						</li>
 						<li tabindex="0">
-							<a class="justify-between">
+							<Link to="/research" class="justify-between">
 								RESEARCH
 								<svg
 									class="fill-current"
@@ -70,7 +70,7 @@ const Header = () => {
 								>
 									<path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
 								</svg>
-							</a>
+							</Link>
 							<ul class="p-2   absolute text-black bg-white  opacity-100 ">
 								<li className="hover:bg-sky-700 border-b-2 border-gray-200">
 									<Link to="/undergraduate">RESEARCH METHODOLOGY</Link>
@@ -106,8 +106,8 @@ const Header = () => {
 			<div class="navbar-center hidden text-lg lg:mr-[95px] lg:flex">
 				<ul class="menu menu-horizontal p-0">
 					<li tabindex="0">
-						<a class="">
-							PROGRAM
+						<a class="" href="/program">
+							ACADEMIC PROGRAM
 							<svg
 								class="fill-current"
 								xmlns="http://www.w3.org/2000/svg"
@@ -135,7 +135,7 @@ const Header = () => {
 						</ul>
 					</li>
 					<li tabindex="0">
-						<a class="justify-between">
+						<Link to="/research" className="justify-between ">
 							RESEARCH
 							<svg
 								class="fill-current"
@@ -146,7 +146,7 @@ const Header = () => {
 							>
 								<path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
 							</svg>
-						</a>
+						</Link>
 						<ul class="p-2  absolute text-black bg-white   opacity-100 left-0">
 							<li className="hover:bg-sky-700 border-b-2 border-gray-200">
 								<Link to="/survey">SURVEY</Link>

@@ -1,59 +1,29 @@
-import { faSquareCaretRight } from "@fortawesome/free-solid-svg-icons";
+import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 const PhdBusinessLawSidebar = () => {
 	return (
-		<div className=" bg-white lg:mt-[-119px] mb-10">
+		<div className=" bg-white mb-10">
 			<div class="  bg-white ">
 				<div className=" bg-gray-200 sm:w-full  ">
 					<div className="  ">
-						<h1 className="text-xl mb-5 text-start font-bold  pr-5 pt-8 pb-3 border-b-2 border-t-4 border-black pl-5   text-blue-500">
+						<h1 className="text-medium mb-5 text-start font-bold p-2  pr-5 pt-10 pb-3 border-b-2 border-t-4 border-black    text-blue-500">
 							SEE ALSO
 						</h1>
 					</div>
-					<div className="text-medium p-5">
+					<div className="text-medium pl-2 pb-3">
 						<div>
 							<a
 								href="#"
 								className="flex gap-5 mb-3  cursor-pointer hover:text-red-500 "
 							>
 								<div>
-									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
+									<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 								</div>
 								<div>
-									<a href="/phdeconomics">
-										<p>PhD of economics</p>
-									</a>
-								</div>
-							</a>
-						</div>
-						<div>
-							<a
-								href="#"
-								className="flex gap-5 mb-3  cursor-pointer hover:text-red-500 "
-							>
-								<div>
-									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
-								</div>
-								<div>
-									<a href="/phdsariah">
-										<p>PhD of Islamic shariah </p>
-									</a>
-								</div>
-							</a>
-						</div>
-						<div>
-							<a
-								href="#"
-								className="flex gap-5 mb-3  cursor-pointer hover:text-red-500 "
-							>
-								<div>
-									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
-								</div>
-								<div>
-									<a href="phdinsurance">
-										<p>PhD of Islamic insurance</p>
+									<a href="/phdfinance">
+										<p>PhD in Islamic finance & banking</p>
 									</a>
 								</div>
 							</a>
@@ -64,11 +34,11 @@ const PhdBusinessLawSidebar = () => {
 								className="flex gap-5   cursor-pointer hover:text-red-500 "
 							>
 								<div>
-									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
+									<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 								</div>
 								<div>
 									<a href="/phdbusinesslaw">
-										<p>PhD of Islamic business law</p>
+										<p>PhD in Islamic business law</p>
 									</a>
 								</div>
 							</a>
@@ -76,14 +46,15 @@ const PhdBusinessLawSidebar = () => {
 						<div className="mb-3">
 							<a
 								href="#"
-								className="flex gap-5   cursor-pointer hover:text-red-500 "
+								className="flex gap-5 mb-3  cursor-pointer hover:text-red-500 "
 							>
 								<div>
-									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
+									<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 								</div>
 								<div>
-									<a href="/phdusalfiq">
-										<p>PhD of Usal al-Fiqh</p>
+									<a href="/phdinsurance">
+										{" "}
+										<p>PhD in Islamic insurance</p>
 									</a>
 								</div>
 							</a>
@@ -91,29 +62,15 @@ const PhdBusinessLawSidebar = () => {
 						<div className="mb-3">
 							<a
 								href="#"
-								className="flex gap-5   cursor-pointer hover:text-red-500 "
+								className="flex gap-5 mb-3  cursor-pointer hover:text-red-500 "
 							>
 								<div>
-									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
+									<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 								</div>
 								<div>
-									<a href="#">
-										<p>Tuition fees</p>
-									</a>
-								</div>
-							</a>
-						</div>
-						<div className="mb-3">
-							<a
-								href="#"
-								className="flex gap-5   cursor-pointer hover:text-red-500 "
-							>
-								<div>
-									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
-								</div>
-								<div>
-									<a href="#">
-										<p>Further enquiry</p>
+									<a href="/phdsariah">
+										{" "}
+										<p>PhD in Islamic shariah</p>
 									</a>
 								</div>
 							</a>

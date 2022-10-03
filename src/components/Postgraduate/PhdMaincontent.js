@@ -44,7 +44,7 @@ const PhdMaincontent = () => {
 							<a href="/phdeconomics">
 								{" "}
 								<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-									PhD in Economics
+									PhD in Islamic Economics
 								</h2>
 							</a>
 						</div>

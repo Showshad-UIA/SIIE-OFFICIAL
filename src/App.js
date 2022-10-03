@@ -34,6 +34,7 @@ import DiplomaShariah from "./components/Pages/diploma/DiplomaShariah";
 import DiplomaEconomics from "./components/Pages/diploma/DiplomaEconomics";
 import DiplomaIslamicInsurance from "./components/Pages/diploma/DiplomaIslamicInsurance";
 import Navbar from "./components/Submenu/UndergraduateCourses/Navbar";
+import Program from "./components/Submenu/Program";
 
 function App() {
 	return (
@@ -43,8 +44,9 @@ function App() {
 			{/* <MenuBar></MenuBar> */}
 			<Routes>
 				<Route path="/" element={<Home></Home>}></Route>
-
 				<Route path="/about" element={<AboutUs></AboutUs>}></Route>
+				<Route path="/research" element={<Research></Research>}></Route>
+
 				<Route path="/news" element={<News></News>}></Route>
 				<Route path="/funding" element={<Funding></Funding>}></Route>
 				<Route
@@ -52,6 +54,7 @@ function App() {
 					element={<EventsTraining></EventsTraining>}
 				></Route>
 				<Route path="/research" element={<Research></Research>}></Route>
+				<Route path="/program" element={<Program></Program>}></Route>
 				<Route
 					path="/undergraduate"
 					element={<Undergraduate></Undergraduate>}

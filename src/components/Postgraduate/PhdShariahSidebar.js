@@ -11,11 +11,11 @@ const PhdShariahSidebar = () => {
 			<div class="  bg-white ">
 				<div className=" bg-gray-200 sm:w-full  ">
 					<div className="  ">
-						<h1 className="text-medium mb-5 text-start font-bold  pr-5 pt-8 pb-3 border-b-2 border-t-4 border-black pl-5   text-blue-500">
+						<h1 className="text-medium mb-5 text-start font-bold p-2  pr-5 pt-10 pb-3 border-b-2 border-t-4 border-black    text-blue-500">
 							SEE ALSO
 						</h1>
 					</div>
-					<div className="text-medium pl-5 pb-3">
+					<div className="text-medium pl-2 pb-3">
 						<div>
 							<a
 								href="#"
@@ -62,7 +62,7 @@ const PhdShariahSidebar = () => {
 								</div>
 							</a>
 						</div>
-						<div className="mb-3">
+						<div className="mb-10">
 							<a
 								href="#"
 								className="flex gap-5   cursor-pointer hover:text-red-500 "

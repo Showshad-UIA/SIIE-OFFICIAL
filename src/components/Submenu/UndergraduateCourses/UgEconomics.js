@@ -29,9 +29,6 @@ const UgEconomics = () => {
 				</div>
 
 				<div className="lg:mx-[150px] lg:ml-[230px] lg:mt-[-16px]  ">
-					{/* <div className="mt-[150px]">
-                    <UgRightsidebar></UgRightsidebar>
-                </div> */}
 					<div className="lg:mt-[140px]">
 						<UgEconomicsRightSidebar></UgEconomicsRightSidebar>
 					</div>

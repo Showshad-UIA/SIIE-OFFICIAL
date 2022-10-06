@@ -11,7 +11,6 @@ import EventsTraining from "./components/EventsTraining";
 import MediasIcon from "./components/MediasIcon";
 import Undergraduate from "./components/Submenu/Undergraduate";
 import BankingFinance from "./components/Submenu/UndergraduateCourses/BankingFinance";
-
 import Masters from "./components/Pages/masters/Masters";
 import Phd from "./components/Postgraduate/Phd";
 import UgBankingFinanceCourseplan from "./components/Submenu/UndergraduateCourses/UgBankingFinanceCourseplan";
@@ -33,15 +32,21 @@ import DiplomaFinance from "./components/Pages/diploma/DiplomaFinance";
 import DiplomaShariah from "./components/Pages/diploma/DiplomaShariah";
 import DiplomaEconomics from "./components/Pages/diploma/DiplomaEconomics";
 import DiplomaIslamicInsurance from "./components/Pages/diploma/DiplomaIslamicInsurance";
-import Navbar from "./components/Submenu/UndergraduateCourses/Navbar";
+// import Navbar from "./components/Submenu/UndergraduateCourses/Navbar";
 import Program from "./components/Submenu/Program";
+import Navbar from "./components/Navbar/NavBar";
+import Megmenubar from "./components/Megamenu/Megmenubar";
+import Topbar from "./components/Navbar/Topbar";
 
 function App() {
 	return (
 		<div className="App">
+			<Topbar></Topbar>
 			<Header></Header>
 			{/* <Navbar></Navbar> */}
 			{/* <MenuBar></MenuBar> */}
+			{/* <Megmenubar></Megmenubar> */}
+
 			<Routes>
 				<Route path="/" element={<Home></Home>}></Route>
 				<Route path="/about" element={<AboutUs></AboutUs>}></Route>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Event = () => {
 	return (
-		<div className="grid lg:grid-cols-4 gap-5 sm:grid-cols-1 m-6 mb-10 justify-center ">
+		<div className=" mx- 20 grid lg:grid-cols-4 gap-5 sm:grid-cols-1 m-6 mb-10 justify-center ">
 			<div className=" ">
 				<div class="card lg:w-full sm:w-4/5 bg-base-100 shadow-xl">
 					<figure className="px-10 pt-10">

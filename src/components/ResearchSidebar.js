@@ -1,10 +1,10 @@
-import { faBookOpen } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
 
 const ResearchSidebar = () => {
-    return (
-        <div className=" bg-white mb-10">
+	return (
+		<div className=" bg-white mb-10">
 			<div class="  bg-white ">
 				<div className=" bg-gray-200 sm:w-full  ">
 					<div className="  ">
@@ -23,7 +23,7 @@ const ResearchSidebar = () => {
 								</div>
 								<div>
 									<a href="/phdeconomics">
-										<p>PhD in Islamic economics</p>
+										<p>Higher Degree Research Policies</p>
 									</a>
 								</div>
 							</a>
@@ -38,7 +38,7 @@ const ResearchSidebar = () => {
 								</div>
 								<div>
 									<a href="/phdfinance">
-										<p>PhD in Islamic banking & finance </p>
+										<p>Research Integrity and Ethics</p>
 									</a>
 								</div>
 							</a>
@@ -54,7 +54,7 @@ const ResearchSidebar = () => {
 								<div>
 									<a href="/phdinsurance">
 										{" "}
-										<p>PhD in Islamic insurance</p>
+										<p>HDR Policies</p>
 									</a>
 								</div>
 							</a>
@@ -69,7 +69,7 @@ const ResearchSidebar = () => {
 								</div>
 								<div>
 									<a href="/phdbusinesslaw">
-										<p>PhD in Islamic business law</p>
+										<p>HDR Candidate Handbook 2023</p>
 									</a>
 								</div>
 							</a>
@@ -78,7 +78,7 @@ const ResearchSidebar = () => {
 				</div>
 			</div>
 		</div>
-    );
+	);
 };
 
 export default ResearchSidebar;

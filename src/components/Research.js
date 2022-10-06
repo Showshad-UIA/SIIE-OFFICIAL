@@ -11,7 +11,7 @@ const Research = () => {
 					<div className=" lg:ml-[200px] text-justify m-2 lg:w-full border-t-2 border-black">
 						<div className="">
 							<p className="mb-5 mt-3  text-2xl  font-bold cursor-pointer hover:text-red-500  text-blue-500">
-								GRADUATE RESEARCH CENTRE
+								Graduate Research Center
 							</p>
 						</div>
 						<p className="mt-5">

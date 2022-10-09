@@ -63,7 +63,7 @@ const Footer = () => {
 				</div>
 			</footer> */}
 			<footer class=" text-white bg-sky-700">
-				<div class="grid grid-cols-2 gap-5 lg:mx-28 py-8 px-6 md:grid-cols-6">
+				<div class="grid grid-cols-2 gap-5 lg:mx-28 py-8 px-6 md:grid-cols-4 lg:grid-cols-6">
 					<div>
 						<h2 class="mb-6 text-md underline font-bold text-white uppercase dark:text-gray-400">
 							HOME
@@ -299,7 +299,7 @@ const Footer = () => {
 				</div>
 			</footer>
 			<footer className="footer text-white bg-sky-700 ">
-				<div class="grid grid-cols-2 lg:mx-36 bt-2 px-6 border-black  md:grid-cols-10">
+				<div class="grid grid-cols-2 lg:mx-36 bt-2 px-6 border-black lg:grid-cols-10 md:grid-cols-6">
 					<div>
 						<h2 class="mb-6 text-sm  font-bold text-white dark:text-gray-400">
 							Contact Us

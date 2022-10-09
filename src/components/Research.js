@@ -55,4 +55,4 @@ const Research = () => {
 };
 
 export default Research;
-<h1>This is contact page</h1>;
+

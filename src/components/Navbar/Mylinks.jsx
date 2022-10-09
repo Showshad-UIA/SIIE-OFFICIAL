@@ -4,9 +4,10 @@ export const links = [
 		submenu: true,
 		sublinks: [
 			{
-				Head: "PhD",
+				Head: "PHD", 
+				link: "/phd" ,
 				sublink: [
-					{ name: "PhD", link: "/phd" },
+					
 					{ name: "PhD in Islamic banking & finance", link: "/phdfinance" },
 					{ name: "Phd in Islamic economics", link: "/phdeconomics" },
 					{ name: "Phd in Islamic business law", link: "phdbusinesslaw" },
@@ -15,10 +16,12 @@ export const links = [
 					{ name: "Phd in Islamic studies", link: "/phdusalfiq" },
 				],
 			},
+			
 			{
-				Head: "Masters",
+				Head: "MASTERS(RESEARCH)",
+				link: "/masters" , 
 				sublink: [
-					{ name: "Masters", link: "/masters" },
+					
 					{ name: "Masters in Islamic banking & finance", link: "/" },
 					{ name: "Masters in Islamic economics", link: "/" },
 					{ name: "Masters in Islamic business law", link: "/" },
@@ -28,9 +31,23 @@ export const links = [
 				],
 			},
 			{
-				Head: "Undergraduate",
+				Head: "MASTERS(COURSEWORK)",
+				link: "/masters",
 				sublink: [
-					{ name: "Undergraduate", link: "/undergraduate" },
+					
+					{ name: "Masters in Islamic banking & finance", link: "/" },
+					{ name: "Masters in Islamic economics", link: "/" },
+					{ name: "Masters in Islamic business law", link: "/" },
+					{ name: "Masters in Islamic insurance", link: "/" },
+					{ name: "Masters in Islamic shariah", link: "/" },
+					{ name: "Masters in Islamic studies", link: "/" },
+				],
+			},
+			{
+				Head: "UNDERGRADUATE",
+				link: "/undergraduate",
+				sublink: [
+					
 					{ name: "Undergraduate in Islamic banking & finance", link: "/" },
 					{ name: "Undergraduate in Islamic economics", link: "/" },
 					{ name: "Undergraduate in Islamic business law", link: "/" },
@@ -40,9 +57,10 @@ export const links = [
 				],
 			},
 			{
-				Head: "Diploma",
+				Head: "DIPLOMA",
+				link: "/diploma",
 				sublink: [
-					{ name: "Diploma", link: "/diploma" },
+					
 					{ name: "Diploma in Islamic banking & finance", link: "/" },
 					{ name: "Diploma in Islamic economics", link: "/" },
 					{ name: "Diploma in Islamic business law", link: "/" },
@@ -59,10 +77,12 @@ export const links = [
 		sublinks: [
 			{
 				sublink: [
-					{ name: "Leadership and governance", link: "/" },
-					{ name: "Campus & structure", link: "/" },
-					{ name: "Research center", link: "/" },
-					{ name: "Contact with SIBS", link: "/" },
+					{ name: "Vision & mission", link: "/" },
+					{ name: "Leadership & governance", link: "/" },
+					{ name: "Academic structure", link: "/" },
+					{ name: "Male campus", link: "/" },
+					{ name: "Female campus", link: "/" },
+					{ name: "Collaborations", link: "/" },
 				],
 			},
 		],

@@ -1,3 +1,4 @@
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { links } from "./Mylinks";
@@ -25,7 +26,7 @@ const NavLinks = () => {
 									}`}
 								></ion-icon>
 							</span>
-							<span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
+							<span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-6">
 								<ion-icon name="chevron-down"></ion-icon>
 							</span>
 						</h1>
@@ -35,21 +36,29 @@ const NavLinks = () => {
 									<div className="py-3">
 										<div
 											className="w-4 h-4 left-3 absolute 
-                    mt-1 bg-white rotate-45"
+                     bg-white rotate-45"
 										></div>
 									</div>
-									<div className="bg-white grid grid-cols-4  p-3">
-										{link.sublinks.map((mysublinks) => (
+									<div className="bg-sky-700 grid grid-cols-3  p-5 left-10">
+										{link.sublinks.map(({ Head, link, sublink }) => (
 											<div>
-												<h1 className="text-lg font-semibold">
+												{/* <Link to={mysublinks.link} className="text-lg font-semibold">
 													{mysublinks.Head}
-												</h1>
-												{mysublinks.sublink.map((slink) => (
-													<li className="text-sm text-gray-600 border-r-2 border-base-200 pl-5 my-2.5">
-														<Link
-															to={slink.link}
-															className="hover:text-primary"
-														>
+												</Link> */}
+												<a className="text-lg font-semibold" href={link}>
+													{Head}{" "}
+												</a>
+
+												{/* <Link
+													to={link}
+													className="text-lg font-semibold"
+												>
+													{Head}
+												</Link> */}
+
+												{sublink.map((slink) => (
+													<li className="text-sm text-white pr-3  my-2.5">
+														<Link to={slink.link} className="hover:bg-sky-500 ">
 															{slink.name}
 														</Link>
 													</li>
@@ -61,6 +70,7 @@ const NavLinks = () => {
 							</div>
 						)}
 					</div>
+
 					{/* Mobile menus */}
 					<div
 						className={`
@@ -77,7 +87,7 @@ const NavLinks = () => {
 												? setSubHeading(slinks.Head)
 												: setSubHeading("")
 										}
-										className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center md:pr-0 pr-5"
+										className="py-4 pl-7 font-semibold   flex justify-between items-center md:pr-0 pr-5"
 									>
 										{slinks.Head}
 

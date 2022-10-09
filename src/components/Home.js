@@ -6,28 +6,20 @@ import Explore from "./Explore";
 import SiieService from "./SiieService";
 import AdditionalService from "./AdditionalService";
 import Overview from "./Overview";
+import Research from "./Research";
+import ResearchTrial from "./ResearchTrial";
 
 const Home = () => {
 	return (
-		<div className="bg-gray-100">
+		<div className="bg-gray-200">
 			<Banner></Banner>;
-			<div>
-				<div className="flex justify-between ml-8 ">
-					<div className="flex items-center">
-						<div className="text-3xl font-bold">News</div>
-						<div>
-							<a href="#" className="ml-3 text-sm text-blue-500">
-								ALL NEWS
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
+			<ResearchTrial></ResearchTrial>
+			
 			{/* Events component first column start here */}
-			<Event></Event>
-			<SiieService></SiieService>
+			{/* <Event></Event>
+			<SiieService></SiieService> */}
 			{/* Discover component start here */}
-			<Explore></Explore>
+			{/* <Explore></Explore> */}
 			{/* Studying at SIIE start here */}
 			{/* Additional component start here */}
 			{/* <AdditionalService></AdditionalService> */}

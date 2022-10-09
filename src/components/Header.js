@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../images/SYDNEY ISLAMIC BUSINESS SCHOOL.png";
 // import logo2 from "../images/capture  .png";
 import logo2 from "../images/capture  .png";
 import { Link } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
+
+import "../CSS/style.css";
 
 
 const Header = () => {
+	// const [nav, setNav] = useState(false);
 	return (
 		// <header className="navbar bg-sky-700 lg:w-full sm:w-4/5 py-12 h-[75px] sm:mt-[-60px] sticky top-0 justify-center   text-lg text-white z-50   ">
 		// 	<div className="navbar-start ">
@@ -183,6 +187,7 @@ const Header = () => {
 		// 		</ul>
 		// 	</div>
 		// </header>
+
 		// 	<div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
 		//     <a href="https://flowbite.com" class="flex items-center">
 		//         <img src={logo2} class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
@@ -285,307 +290,749 @@ const Header = () => {
 		//     </div>
 		// </div>
 
-		<div>
-			<div className="navbar  bg-sky-700 lg:w-full sm:w-4/5 lg:py-12 lg:h-[73px] lg:mt-[-1px]  sticky   text-white z-50 w-screen flex justify-around items-center   drop-shadow-md">
-				{/* <!-- Logo --> */}
-				<div class="px-3 md:px-10 text-2xl   text-white font-extrabold italic">
-					<Link to="/">
-						<img src={logo2} alt="" />
-					</Link>
-				</div>
+		// <div>
+		// 	<div className="navbar  bg-sky-700 lg:w-full sm:w-4/5 lg:py-12 lg:h-[73px] lg:mt-[-1px]  sticky   text-white z-50 w-screen flex justify-around items-center   drop-shadow-md">
+		// 		{/* <!-- Logo --> */}
+		// 		<div class="px-3 md:px-10 text-2xl   text-white font-extrabold italic">
+		// 			<Link to="/">
+		// 				<img src={logo2} alt="" />
+		// 			</Link>
+		// 		</div>
 
-				<div className="flex justify-center lg:mt-[-28px] ">
-					<div class="group">
-						<button class=" group-hover:bg-sky-700 group-hover:text-white">
-							ACADEMIC PROGRAMS
-						</button>
-						<div class="hidden group-hover:flex flex-col absolute lg:right-[250px] py-2  w-[60%] bg-white text-black duration-300">
-							<div class="grid sm:grid-cols-1 md:grid-cols-3 p-5 gap-8">
-								<div class="flex flex-col lg:w-[250px]   ">
-									<a href="/phd">
-										<h3 class="mb-4 text-xl underline">PhD</h3>
-									</a>
-									<Link
-										to="/phdfinance"
-										class=" hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										PhD in Islamic Banking & Finance
-									</Link>
-									<Link
-										to="/phdeconomics"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										PhD in Islamic Economics
-									</Link>
-									<Link
-										to="/phdbusinesslaw"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										PhD in Islamic Business law
-									</Link>
-									<Link
-										to="/phdinsurance"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										PhD in Islamic Insurance
-									</Link>
-									<Link
-										to="/phdsariah"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										PhD in Islamic Shariah
-									</Link>
-									<Link
-										to="/phdusalfiq"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										PhD in Islamic studies
-									</Link>
-								</div>
+		// 		<div className="flex justify-center lg:mt-[-28px] ">
+		// 			<div class="group">
+		// 				<button class=" group-hover:bg-sky-700 group-hover:text-white">
+		// 					ACADEMIC PROGRAMS
+		// 				</button>
+		// 				<div class="hidden group-hover:flex flex-col absolute lg:right-[250px] py-2  w-[60%] bg-white text-black duration-300">
+		// 					<div class="grid sm:grid-cols-1 md:grid-cols-3 p-5 gap-8">
+		// 						<div class="flex flex-col lg:w-[250px]   ">
+		// 							<a href="/phd">
+		// 								<h3 class="mb-4 text-xl underline">PhD</h3>
+		// 							</a>
+		// 							<Link
+		// 								to="/phdfinance"
+		// 								class=" hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								PhD in Islamic Banking & Finance
+		// 							</Link>
+		// 							<Link
+		// 								to="/phdeconomics"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								PhD in Islamic Economics
+		// 							</Link>
+		// 							<Link
+		// 								to="/phdbusinesslaw"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								PhD in Islamic Business law
+		// 							</Link>
+		// 							<Link
+		// 								to="/phdinsurance"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								PhD in Islamic Insurance
+		// 							</Link>
+		// 							<Link
+		// 								to="/phdsariah"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								PhD in Islamic Shariah
+		// 							</Link>
+		// 							<Link
+		// 								to="/phdusalfiq"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								PhD in Islamic studies
+		// 							</Link>
+		// 						</div>
 
-								<div class="flex flex-col lg:w-[270px] ">
-									<a href="/masters">
-										<h3 class="mb-4 text-xl underline">Masters(Research)</h3>
-									</a>
-									<Link
-										to="/banking"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Masters in Islamic Banking & Finance
-									</Link>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Masters in Islamic Economics
-									</a>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Masters in Islamic Business law
-									</a>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Masters in Islamic Insurance
-									</a>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Masters in Islamic Shariah
-									</a>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Masters in Islamic studies
-									</a>
-								</div>
-								<div class="flex flex-col lg:w-[270px] ">
-									<a href="/masters">
-										<h3 class="mb-4 text-xl underline">Masters(Course work)</h3>
-									</a>
-									<Link
-										to="/banking"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Masters in Islamic Banking & Finance
-									</Link>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Masters in Islamic Economics
-									</a>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Masters in Islamic Business law
-									</a>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Masters in Islamic Insurance
-									</a>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Masters in Islamic Shariah
-									</a>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Masters in Islamic studies
-									</a>
-								</div>
+		// 						<div class="flex flex-col lg:w-[270px] ">
+		// 							<a href="/masters">
+		// 								<h3 class="mb-4 text-xl underline">Masters(Research)</h3>
+		// 							</a>
+		// 							<Link
+		// 								to="/banking"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Masters in Islamic Banking & Finance
+		// 							</Link>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Masters in Islamic Economics
+		// 							</a>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Masters in Islamic Business law
+		// 							</a>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Masters in Islamic Insurance
+		// 							</a>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Masters in Islamic Shariah
+		// 							</a>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Masters in Islamic studies
+		// 							</a>
+		// 						</div>
+		// 						<div class="flex flex-col lg:w-[270px] ">
+		// 							<a href="/masters">
+		// 								<h3 class="mb-4 text-xl underline">Masters(Course work)</h3>
+		// 							</a>
+		// 							<Link
+		// 								to="/banking"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Masters in Islamic Banking & Finance
+		// 							</Link>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Masters in Islamic Economics
+		// 							</a>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Masters in Islamic Business law
+		// 							</a>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Masters in Islamic Insurance
+		// 							</a>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Masters in Islamic Shariah
+		// 							</a>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Masters in Islamic studies
+		// 							</a>
+		// 						</div>
 
-								<div class="flex flex-col w-[350px]">
-									<a href="/undergraduate">
+		// 						<div class="flex flex-col w-[350px]">
+		// 							<a href="/undergraduate">
+		// 								{" "}
+		// 								<h3 class="mb-4 text-xl underline">Undergraduate</h3>
+		// 							</a>
+		// 							<Link
+		// 								to="/banking"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Undergraduate in Islamic Banking & Finance
+		// 							</Link>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Undergraduate in Islamic Economics
+		// 							</a>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Undergraduate in Islamic Business law
+		// 							</a>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Undergraduate in Islamic Insurance
+		// 							</a>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Undergraduate in Islamic Shariah
+		// 							</a>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Undergraduate in Islamic studies
+		// 							</a>
+		// 						</div>
+
+		// 						<div class="flex flex-col ">
+		// 							<a href="/diploma">
+		// 								<h3 class="mb-4 text-xl underline">Diploma</h3>
+		// 							</a>
+		// 							<Link
+		// 								to="/banking"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Diploma in Islamic Banking & Finance
+		// 							</Link>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Diploma in Islamic Economics
+		// 							</a>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Diploma in Islamic Business law
+		// 							</a>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Diploma in Islamic Insurance
+		// 							</a>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Diploma in Islamic Shariah
+		// 							</a>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Diploma in Islamic studies
+		// 							</a>
+		// 						</div>
+		// 					</div>
+		// 				</div>
+		// 				{/* </div> <!-- end of dropdown --> */}
+		// 			</div>
+
+		// 			<div>
+		// 				<a
+		// 					href="/research"
+		// 					class="px-5 py-4 hover:bg-sky-700 hover:text-white"
+		// 				>
+		// 					RESEARCH
+		// 				</a>
+		// 				<a
+		// 					href="/events"
+		// 					class="px-5 py-4  text-white"
+		// 				>
+		// 					NEWS & EVENTS
+		// 				</a>
+		// 			</div>
+		// 			{/* <!-- Mega menu here --> */}
+
+		// 			<div class="group">
+		// 				<button class="px-5  group-hover:bg-sky-700 group-hover:text-white">
+		// 					ABOUT US
+		// 				</button>
+		// 				<div class="hidden group-hover:flex flex-col absolute right-[-30] lg:w-[250px]  p-5   bg-white text-black duration-300">
+		// 					<div class="grid grid-cols-1 ">
+		// 						<div class="flex flex-col">
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Vision and Mission
+		// 							</a>
+
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Leadership and Governance
+		// 							</a>
+
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Academic Structure
+		// 							</a>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Male Campus
+		// 							</a>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Female Campus
+		// 							</a>
+		// 							<a
+		// 								href="#"
+		// 								class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
+		// 							>
+		// 								Collaborations
+		// 							</a>
+		// 						</div>
+		// 					</div>
+		// 				</div>
+		// 				{/* </div> <!-- end of dropdown --> */}
+		// 			</div>
+		// 		</div>
+
+		// 		{/* <!-- Other content --> */}
+		// 	</div>
+		// </div>
+
+		<>
+			<nav className="top-0 bg-sky-700 py-5 sticky">
+				
+				<div class="wrapper">
+					<div class="logo">
+						<a href="/">
+							<img src={logo2} alt="" />
+						</a>
+					</div>
+					<input type="radio" name="slider" id="menu-btn" />
+					<input type="radio" name="slider" id="close-btn" />
+					<ul class="nav-links">
+						<label for="close-btn" class="btn close-btn   ">
+							<FaTimes />
+						</label>
+						<li>
+							<a href="#" class="desktop-item">
+								ACADEMIC PROGRAMS
+							</a>
+							<input type="checkbox" id="showMega" />
+							<label for="showMega" class="mobile-item">
+								ACADEMIC PROGRAMS
+							</label>
+							<div class="mega-box  text-red-500">
+								<div className="content bg-sky-700 ">
+									<div className="grid lg:grid-cols-3 ">
 										{" "}
-										<h3 class="mb-4 text-xl underline">Undergraduate</h3>
-									</a>
-									<Link
-										to="/banking"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Undergraduate in Islamic Banking & Finance
-									</Link>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Undergraduate in Islamic Economics
-									</a>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Undergraduate in Islamic Business law
-									</a>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Undergraduate in Islamic Insurance
-									</a>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Undergraduate in Islamic Shariah
-									</a>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Undergraduate in Islamic studies
-									</a>
-								</div>
+										<div class="row ">
+											<header className="">
+												{" "}
+												<Link to="/phd">
+													{" "}
+													<span className="font-bold text-black">
+														PHD(RESEARCH)
+													</span>
+												</Link>
+											</header>
+											<ul class="mega-links  ">
+												<li>
+													<Link to="/phdfinance" className="w-[400px]">
+														PhD in Islamic banking & finance
+													</Link>
+												</li>
+												<li>
+													<Link to="/phdeconomics" className="w-[400px]">
+														PhD in Islamic Economics
+													</Link>
+												</li>
+												<li>
+													<a href="/phdbusinesslaw" className="w-[400px]">
+														PhD in Islamic Business law
+													</a>
+												</li>
+												<li>
+													<a href="/phdinsurance" className="w-[400px]">
+														PhD in Islamic Insurance
+													</a>
+												</li>
+												<li>
+													<a href="/phdsariah" className="w-[400px]">
+														PhD in Islamic Shariah
+													</a>
+												</li>
+												<li>
+													<a href="/phdusalfiq" className="w-[400px]">
+														PhD in Islamic studies
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="row">
+											<header>
+												{" "}
+												<Link to="/phd">
+													<span className="font-bold text-black">
+														PHD(COURSEWORK)
+													</span>{" "}
+												</Link>{" "}
+											</header>
+											<ul class="mega-links  ">
+												<li>
+													<Link to="/phdfinance" className="w-[400px]">
+														PhD in Islamic banking & finance
+													</Link>
+												</li>
+												<li>
+													<Link to="/phdeconomics" className="w-[400px]">
+														PhD in Islamic Economics
+													</Link>
+												</li>
+												<li>
+													<a href="/phdbusinesslaw" className="w-[400px]">
+														PhD in Islamic Business law
+													</a>
+												</li>
+												<li>
+													<a href="/phdinsurance" className="w-[400px]">
+														PhD in Islamic Insurance
+													</a>
+												</li>
+												<li>
+													<a href="/phdsariah" className="w-[400px]">
+														PhD in Islamic Shariah
+													</a>
+												</li>
+												<li>
+													<a href="/phdusalfiq" className="w-[400px]">
+														PhD in Islamic studies
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="row">
+											<header>
+												<Link to="/masters">
+													<span className="font-bold text-black">
+														MASTERS(RESEARCH)
+													</span>{" "}
+												</Link>
+											</header>
+											<ul class="mega-links">
+												<li>
+													<a href="#" className="w-[350px]">
+														Masters in Islamic banking & finance
+													</a>
+												</li>
+												<li>
+													<a href="#" className="w-[350px]">
+														Masters in Islamic Economics
+													</a>
+												</li>
+												<li>
+													<a href="#" className="w-[350px]">
+														Masters in Islamic Business law
+													</a>
+												</li>
+												<li>
+													<a href="#" className="w-[350px]">
+														Masters in Islamic Insurance
+													</a>
+												</li>
+												<li>
+													<a href="#" className="w-[350px]">
+														Masters in Islamic Shariah
+													</a>
+												</li>
+												<li>
+													<a href="#" className="w-[350px]">
+														Masters in Islamic studies
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="row">
+											<header>
+												<Link to="/masters">
+													<span className="font-bold text-black">
+														MASTERS(COURSEWORK)
+													</span>{" "}
+												</Link>
+											</header>
+											<ul class="mega-links">
+												<li>
+													<a href="#" className="w-[350px]">
+														Masters in Islamic banking & finance
+													</a>
+												</li>
+												<li>
+													<a href="#" className="w-[350px]">
+														Masters in Islamic Economics
+													</a>
+												</li>
+												<li>
+													<a href="#" className="w-[350px]">
+														Masters in Islamic Business law
+													</a>
+												</li>
+												<li>
+													<a href="#" className="w-[350px]">
+														Masters in Islamic Insurance
+													</a>
+												</li>
+												<li>
+													<a href="#" className="w-[350px]">
+														Masters in Islamic Shariah
+													</a>
+												</li>
+												<li>
+													<a href="#" className="w-[350px]">
+														Masters in Islamic studies
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="row">
+											<header>
+												<Link to="/undergraduate">
+													<span className="font-bold text-black">
+														UNDERGRADUATE
+													</span>{" "}
+												</Link>
+											</header>
+											<ul class="mega-links">
+												<li>
+													<a href="#" className="w-[400px]">
+														{" "}
+														Undergraduate in Islamic finance & banking
+													</a>
+												</li>
+												<li>
+													<a href="#" className="w-[400px]">
+														Undergraduate in Islamic Economics
+													</a>
+												</li>
+												<li>
+													<a href="#" className="w-[400px]">
+														Undergraduate in Islamic Business law
+													</a>
+												</li>
+												<li>
+													<a href="#" className="w-[400px]">
+														Undergraduate in Islamic Insurance
+													</a>
+												</li>
+												<li>
+													<a href="#" className="w-[400px]">
+														Undergraduate in Islamic Shariah
+													</a>
+												</li>
+												<li>
+													<a href="#" className="w-[400px]">
+														Undergraduate in Islamic studies
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="row ">
+											<header>
+												<Link to="/diploma">
+													<span className="font-bold text-black">DIPLOMA</span>{" "}
+												</Link>
+											</header>
+											<ul class="mega-links ">
+												<li className="">
+													<a href="#" className="w-[350px]">
+														Diploma in Islamic finance & banking
+													</a>
+												</li>
 
-								<div class="flex flex-col ">
-									<a href="/diploma">
-										<h3 class="mb-4 text-xl underline">Diploma</h3>
-									</a>
-									<Link
-										to="/banking"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Diploma in Islamic Banking & Finance
-									</Link>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Diploma in Islamic Economics
-									</a>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Diploma in Islamic Business law
-									</a>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Diploma in Islamic Insurance
-									</a>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Diploma in Islamic Shariah
-									</a>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Diploma in Islamic studies
-									</a>
+												<li>
+													<a href="#" className="w-[400px] ">
+														Diploma in Islamic Economics
+													</a>
+												</li>
+												<li>
+													<a href="#" className="w-[400px]">
+														Diploma in Islamic Business law
+													</a>
+												</li>
+												<li>
+													<a href="#" className="w-[400px]">
+														Diploma in Islamic Insurance
+													</a>
+												</li>
+												<li>
+													<a href="#" className="w-[400px]">
+														Diploma in Islamic Shariah
+													</a>
+												</li>
+												<li>
+													<a href="#" className="w-[400px]">
+														Diploma in Islamic studies
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
 								</div>
 							</div>
-						</div>
-						{/* </div> <!-- end of dropdown --> */}
-					</div>
+						</li>
 
-					<div>
-						<a
-							href="/research"
-							class="px-5 py-4 hover:bg-sky-700 hover:text-white"
-						>
-							RESEARCH
-						</a>
-						<a
-							href="/events"
-							class="px-5 py-4  text-white"
-						>
-							NEWS & EVENTS
-						</a>
-					</div>
-					{/* <!-- Mega menu here --> */}
+						<li>
+							<Link to="/research">RESEARCH</Link>
+						</li>
 
-					<div class="group">
-						<button class="px-5  group-hover:bg-sky-700 group-hover:text-white">
-							ABOUT US
-						</button>
-						<div class="hidden group-hover:flex flex-col absolute right-[-30] lg:w-[250px]  p-5   bg-white text-black duration-300">
-							<div class="grid grid-cols-1 ">
-								<div class="flex flex-col">
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Vision and Mission
-									</a>
+						<li>
+							<a href="#" class="desktop-item">
+								ABOUT US
+							</a>
+							<input type="checkbox" id="showDrop" />
+							<label for="showDrop" class="mobile-item  ">
+								ABOUT US
+							</label>
+							<ul class="drop-menu ">
+								<li className="hover:bg-sky-700">
+									<a href="#">Vision and Mission</a>
+								</li>
+								<li>
+									<a href="#">Leadership and Governance</a>
+								</li>
+								<li>
+									<a href="#">Academic Structure</a>
+								</li>
+								<li>
+									<a href="#">Male Campus</a>
+								</li>
+								<li>
+									<a href="#">Female Campus</a>
+								</li>
+								<li>
+									<a href="#">Collaborations</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<Link to="/events">NEWS & EVENTS</Link>
+						</li>
+					</ul>
+					<label for="menu-btn" class="btn menu-btn">
+						<FaBars />
+					</label>
 
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Leadership and Governance
-									</a>
+					{/* <div
+						onClick={() => setNav(!nav)}
+						className=" md:hidden cursor-pointer pr-4 z-10 text-gray-500"
+					>
+						{nav ? <FaTimes size={30} /> : <FaBars size={30} />}
 
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Academic Structure
-									</a>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Male Campus
-									</a>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Female Campus
-									</a>
-									<a
-										href="#"
-										class="hover:bg-sky-700 border-b-2 border-gray-200 text-black hover:text-white"
-									>
-										Collaborations
-									</a>
-								</div>
-							</div>
-						</div>
-						{/* </div> <!-- end of dropdown --> */}
-					</div>
+
+					</div> */}
 				</div>
-
-				{/* <!-- Other content --> */}
-			</div>
-		</div>
+			</nav>
+			{/* <div class="wrapper">
+				<div class="logo">
+					<a href="#">CodingNepal</a>
+				</div>
+				<input name="slider" id="menu-btn" />
+				<input name="slider" id="close-btn" />
+				<ul class="nav-links">
+					<label for="close-btn" class="btn close-btn">
+						<i class="fas fa-times"></i>
+					</label>
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="#">About</a>
+					</li>
+					<li>
+						<a href="#" class="desktop-item">
+							Dropdown Menu
+						</a>
+						<input id="showDrop" />
+						<label for="showDrop" class="mobile-item">
+							Dropdown Menu
+						</label>
+						<ul class="drop-menu">
+							<li>
+								<a href="#">Drop menu 1</a>
+							</li>
+							<li>
+								<a href="#">Drop menu 2</a>
+							</li>
+							<li>
+								<a href="#">Drop menu 3</a>
+							</li>
+							<li>
+								<a href="#">Drop menu 4</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="desktop-item">
+							Mega Menu
+						</a>
+						<input id="showMega" />
+						<label for="showMega" class="mobile-item">
+							Mega Menu
+						</label>
+						<div class="mega-box">
+							<div class="content">
+								<div class="row">
+									<header>Design Services</header>
+									<ul class="mega-links">
+										<li>
+											<a href="#">Graphics</a>
+										</li>
+										<li>
+											<a href="#">Vectors</a>
+										</li>
+										<li>
+											<a href="#">Business cards</a>
+										</li>
+										<li>
+											<a href="#">Custom logo</a>
+										</li>
+									</ul>
+								</div>
+								<div class="row">
+									<header>Email Services</header>
+									<ul class="mega-links">
+										<li>
+											<a href="#">Personal Email</a>
+										</li>
+										<li>
+											<a href="#">Business Email</a>
+										</li>
+										<li>
+											<a href="#">Mobile Email</a>
+										</li>
+										<li>
+											<a href="#">Web Marketing</a>
+										</li>
+									</ul>
+								</div>
+								<div class="row">
+									<header>Security services</header>
+									<ul class="mega-links">
+										<li>
+											<a href="#">Site Seal</a>
+										</li>
+										<li>
+											<a href="#">VPS Hosting</a>
+										</li>
+										<li>
+											<a href="#">Privacy Seal</a>
+										</li>
+										<li>
+											<a href="#">Website design</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="#">Feedback</a>
+					</li>
+				</ul>
+			</div> */}
+		</>
 	);
 };
 

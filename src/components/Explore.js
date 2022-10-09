@@ -4,12 +4,12 @@ import { data } from "./ImageSlider";
 import "../CSS/explore.css";
 const Explore = () => {
 	return (
-		<div>
-			<div className="mt-5 lg:w-full sm:w-4/5 explore bg-gray-300 py-8">
-				<div className="p-5 text-3xl text-blue-500 font-bold">
+		<div className="container">
+			<div className="lg:ml-[170px]">
+				<div className="text-3xl text-blue-500 font-bold">
 					Discover Islamic Business
 				</div>
-				<div className="pl-7  gap-3 grid lg:grid-cols-4 sm:grid-cols-1">
+				{/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
 					<div class=" w-4/5 bg-gray-300   cursor-pointer hover:scale-105 ease-in-out duration-300 ">
 						<figure>
 							<img
@@ -30,7 +30,7 @@ const Explore = () => {
 								</p>
 							</a>
 							<div class="card-actions justify-start">
-								{/* <button className=" bg-red-700 w-10 mt-7 h-6"></button> */}
+								
 							</div>
 						</div>
 					</div>
@@ -91,6 +91,81 @@ const Explore = () => {
 									explicabo facere
 								</p>
 							</a>
+						</div>
+					</div>
+				</div> */}
+
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md-full gap-2 ">
+					<div class="flex justify-center text-xl p-6 bg-gray-100 ">
+						<div className="card bg-base-100 shadow-xl cursor-pointer hover:scale-105 ease-in-out duration-300 ">
+							<figure className="px-10 pt-10">
+								<img
+									src="https://placeimg.com/400/225/arch"
+									alt="Shoes"
+									className="rounded-xl"
+								/>
+							</figure>
+							<div className="card-body items-center text-center">
+								<h2 className="card-title">Shoes!</h2>
+								<p>If a dog chews shoes whose shoes does he choose?</p>
+								<div className="card-actions">
+									<button className="btn btn-primary">Buy Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="flex justify-center text-xl  p-6 bg-gray-100">
+						<div className="card bg-base-100 shadow-xl cursor-pointer hover:scale-105 ease-in-out duration-300 ">
+							<figure className="px-10 pt-10">
+								<img
+									src="https://placeimg.com/400/225/arch"
+									alt="Shoes"
+									className="rounded-xl"
+								/>
+							</figure>
+							<div className="card-body items-center text-center">
+								<h2 className="card-title">Shoes!</h2>
+								<p>If a dog chews shoes whose shoes does he choose?</p>
+								<div className="card-actions">
+									<button className="btn btn-primary">Buy Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="flex justify-center text-xl  p-6 bg-gray-100">
+						<div className="card bg-base-100 shadow-xl cursor-pointer hover:scale-105 ease-in-out duration-300 ">
+							<figure className="px-10 pt-10">
+								<img
+									src="https://placeimg.com/400/225/arch"
+									alt="Shoes"
+									className="rounded-xl"
+								/>
+							</figure>
+							<div className="card-body items-center text-center">
+								<h2 className="card-title">Shoes!</h2>
+								<p>If a dog chews shoes whose shoes does he choose?</p>
+								<div className="card-actions">
+									<button className="btn btn-primary">Buy Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="flex justify-center text-xl  p-6 bg-gray-100">
+						<div className="card bg-base-100 shadow-xl cursor-pointer hover:scale-105 ease-in-out duration-300 ">
+							<figure className="px-10 pt-10">
+								<img
+									src="https://placeimg.com/400/225/arch"
+									alt="Shoes"
+									className="rounded-xl"
+								/>
+							</figure>
+							<div className="card-body items-center text-center">
+								<h2 className="card-title">Shoes!</h2>
+								<p>If a dog chews shoes whose shoes does he choose?</p>
+								<div className="card-actions">
+									<button className="btn btn-primary">Buy Now</button>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

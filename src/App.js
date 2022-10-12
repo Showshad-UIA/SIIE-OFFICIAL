@@ -41,7 +41,8 @@ import Navbar from "./components/Navbar/NavBar";
 
 function App() {
 	return (
-		<div className="bg-gray-100">
+		<div className="bg-white">
+			<Topbar></Topbar>
 			{/* <Header></Header> */}
 			<Navbar></Navbar>
 			{/* <MenuBar></MenuBar> */}

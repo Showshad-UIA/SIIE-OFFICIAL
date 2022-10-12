@@ -43,7 +43,7 @@ const Research = () => {
 						<ResearchSidebar></ResearchSidebar>
 					</div>
 				</div>
-				<div>
+				<div className="sm:w-full md:w-full lg:w-full">
 					<ResearchMain></ResearchMain>
 				</div>
 			</div>

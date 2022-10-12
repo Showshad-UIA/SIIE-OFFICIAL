@@ -1,18 +1,21 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../images/capture  .png";
-
+import Logo from "../../images/SydneyIslamicLogo-10-01-01.png";
 import NavLinks from "./NavLinks";
-import Topbar from "./Topbar";
+
 const Navbar = () => {
 	const [open, setOpen] = useState(false);
 	return (
 		<>
-			<nav className="bg-sky-700 sticky top-0 py-2 ">
+			<nav className="bg-sky-700  top-0 sticky   ">
 				<div className="flex items-center font-medium justify-around ">
-					<div className="z-50 p-5 md:w-auto w-full flex justify-between">
-						<Link to="/">
-							<img src={Logo} alt="logo" className="md:cursor-pointer h-16" />
+					<div className="z-50 p-3 md:w-auto w-full flex justify-between">
+						<Link to="/" onClick={() => setOpen(!open)}>
+							<img
+								src={Logo}
+								alt="logo"
+								className="md:cursor-pointer h-20 -mt-3"
+							/>
 						</Link>
 						<div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
 							<ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
@@ -25,62 +28,113 @@ const Navbar = () => {
 								RESEARCH
 							</Link>
 						</li>
+
 						<li>
 							<Link to="/events" className="py-7 px-3 inline-block">
 								NEWS & EVENTS
 							</Link>
 						</li>
-						{/* <li>
-							<a href="#" class="desktop-item">
-								ABOUT US
-							</a>
-							
-							<ul class="drop-menu ">
-								<li className="hover:bg-sky-700">
-									<a href="#">Vision and Mission</a>
-								</li>
-								<li>
-									<a href="#">Leadership and Governance</a>
-								</li>
-								<li>
-									<a href="#">Academic Structure</a>
-								</li>
-								<li>
-									<a href="#">Male Campus</a>
-								</li>
-								<li>
-									<a href="#">Female Campus</a>
-								</li>
-								<li>
-									<a href="#">Collaborations</a>
-								</li>
-							</ul>
-						</li> */}
+						<li>
+							<div className="navbar rounded-box">
+								<div className="flex justify-end flex-1 px-2">
+									<div className="flex items-stretch">
+										<div className="dropdown dropdown-end">
+											<label tabIndex={0} className=" ">
+												ABOUT US
+											</label>
+											<ul
+												tabIndex={0}
+												className="menu dropdown-content mt-[78px] "
+											>
+												<li>
+													<div className="dropdown dropdown-hover  ">
+														<ul
+															tabIndex={0}
+															className="dropdown-content menu p-2 text-black shadow bg-base-100  w-52 mt-[260px] border-b-4 "
+														>
+															<li className="border-b-2 border-gray-200  hover:bg-sky-700  ">
+																<a>Vision & mission</a>
+															</li>
+															<li className="border-b-2 border-gray-200 hover:bg-sky-700  ">
+																<a>Leadership & governance</a>
+															</li>
+															<li className="border-b-2 border-gray-200  hover:bg-sky-700 ">
+																<a>Academic structure</a>
+															</li>
+															<li className="border-b-2 border-gray-200  hover:bg-sky-700 ">
+																<a>Male campus</a>
+															</li>
+															<li className="border-b-2 border-gray-200  hover:bg-sky-700 ">
+																<a>Female campus</a>
+															</li>
+															<li className=" hover:bg-sky-700 ">
+																<a>Collaborations</a>
+															</li>
+														</ul>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
 					</ul>
-					{/* <div className="md:block hidden">
-					<Button />
-				</div> */}
+
 					{/* Mobile nav */}
 					<ul
 						className={`
-        md:hidden bg-white fixed w-full top-0 overflow-y-auto bottom-0 py-24 
+        md:hidden bg-white fixed  w-full top-0 overflow-y-auto bottom-0 py-24 
         duration-500 ${open ? "left-0" : "left-[-100%]"}
         `}
 					>
-						<NavLinks />
-						{/* <div className="py-5">
-						<Button />
-					</div> */}
+						<NavLinks setOpen={setOpen} open={open} />
 
 						<li>
-							<Link to="/research" className="py-7 px-3 inline-block">
+							<Link
+								onClick={() => setOpen(!open)}
+								to="/research"
+								className="py-2 px-3 inline-block"
+							>
 								RESEARCH
 							</Link>
 						</li>
 						<li>
-							<Link to="/events" className="py-7 px-3 inline-block">
+							<Link
+								onClick={() => setOpen(!open)}
+								to="/events"
+								className="py-2 px-3 inline-block"
+							>
 								EVENTS & EVENTS
 							</Link>
+						</li>
+						<li>
+							<div className="dropdown dropdown-hover  ">
+								<h1 className="ml-3">ABOUT US</h1>
+								<ul
+									tabIndex={0}
+									className="dropdown-content menu p-2 text-black shadow bg-base-100  w-52  "
+								>
+									<li className="border-b-2 border-gray-200  hover:bg-sky-700  ">
+										<a>Vision & mission</a>
+									</li>
+									<li className="border-b-2 border-gray-200 hover:bg-sky-700  ">
+										<a>Leadership & governance</a>
+									</li>
+									<li className="border-b-2 border-gray-200  hover:bg-sky-700 ">
+										<a>Academic structure</a>
+									</li>
+									<li className="border-b-2 border-gray-200  hover:bg-sky-700 ">
+										<a>Male campus</a>
+									</li>
+									<li className="border-b-2 border-gray-200  hover:bg-sky-700 ">
+										<a>Female campus</a>
+									</li>
+									<li className=" hover:bg-sky-700 ">
+										<a>Collaborations</a>
+									</li>
+								</ul>
+							</div>
 						</li>
 					</ul>
 				</div>

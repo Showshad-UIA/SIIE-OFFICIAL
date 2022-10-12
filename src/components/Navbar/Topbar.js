@@ -5,9 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Topbar = () => {
 	return (
-		<div className="flex w-full lg:mt-[-20px] lg:visible  bg-gray-200 py-3 top-0 sticky">
-			<div className="">
-				<nav class="bg-gray-200  dark:bg-blue-500 lg:ml-[785px]  ">
+		<div className="w-full">
+			<div className="flex  lg:visible justify-end bg-gray-200  top-0 sticky">
+				<nav class="bg-gray-200  dark:bg-blue-500  ">
 					<div class="py-2  mx-auto max-w-screen-xl md:px-6 flex">
 						<div>
 							<div class="flex items-center ">

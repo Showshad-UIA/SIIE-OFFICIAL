@@ -5,7 +5,7 @@ import React from "react";
 const ResearchMain = () => {
 	return (
 		<>
-			<div className="lg:mx-[50px] ">
+			<div className="container mx-auto ">
 				<div className="w-50 text-2xl  font-bold cursor-pointer   text-center">
 					<button className="bg-sky-700 lg:mt-5 pr-16 pb-5 pt-5 pl-16">
 						<p className=" text-white  ">Higher Degree Research Candidates</p>

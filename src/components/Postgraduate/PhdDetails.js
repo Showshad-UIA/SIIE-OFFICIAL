@@ -3,18 +3,18 @@ import React from "react";
 const PhdDetails = () => {
 	return (
 		<>
-			<div className="lg:mx-[150px] ">
+			<div className="lg:mx-[150px]  ">
 				<div className="">
 					<div
 						className="lg:w-[75%] lg:mx-[110px]   text-justify sm:w-full"
 						id="structure"
 					>
-						<div className=" ">
-							<div className="sm:mt-20 ">
+						<div className="">
+							<div className="sm:mt-20 px-5 ">
 								<div className="text-2xl text-blue-500 underline font-bold">
 									<h1 className="">Course structure</h1>
 								</div>
-								<p className="mt-5">
+								<p className="mt-5 ">
 									Lorem ipsum dolor sit amet consectetur adipisicing elit.
 									Praesentium quisquam voluptate perferendis quibusdam fuga
 									totam cumque necessitatibus, quas dolorem quod natus rerum
@@ -40,7 +40,7 @@ const PhdDetails = () => {
 						</div>
 					</div>
 					<div
-						className="  lg:w-[75%] lg:mx-[110px] text-justify mt-5  sm:w-full"
+						className="  lg:w-[75%] lg:mx-[110px] text-justify mt-5 px-5   sm:w-full"
 						id="outcome"
 					>
 						<div className=" ">
@@ -74,7 +74,7 @@ const PhdDetails = () => {
 						</div>
 					</div>
 					<div
-						className="lg:w-[75%] lg:mx-[110px]  mt-5 text-justify sm:w-full"
+						className="lg:w-[75%] lg:mx-[110px] px-5 mt-5 text-justify sm:w-full"
 						id="research"
 					>
 						<div className=" ">
@@ -97,7 +97,7 @@ const PhdDetails = () => {
 						</div>
 					</div>
 					<div
-						className="lg:w-[75%] lg:mx-[110px]  mt-5 text-justify sm:w-full"
+						className="lg:w-[75%] lg:mx-[110px] px-5 mt-5 text-justify px-5 sm:w-full"
 						id="supervision"
 					>
 						<div className=" ">
@@ -120,7 +120,7 @@ const PhdDetails = () => {
 						</div>
 					</div>
 					<div
-						className="lg:w-[75%] lg:mx-[110px]  mt-5 text-justify sm:w-full"
+						className="lg:w-[75%] lg:mx-[110px] px-5  mt-5 text-justify sm:w-full"
 						id="admission"
 					>
 						<div className=" ">
@@ -143,7 +143,7 @@ const PhdDetails = () => {
 						</div>
 					</div>
 					<div
-						className="lg:w-[75%] lg:mx-[110px]  mt-5 text-justify sm:w-full"
+						className="lg:w-[75%] lg:mx-[110px] px-5 mt-5 text-justify sm:w-full"
 						id="fees"
 					>
 						<div className="">

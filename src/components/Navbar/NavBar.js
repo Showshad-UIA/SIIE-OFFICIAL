@@ -21,7 +21,7 @@ const Navbar = () => {
 							<ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
 						</div>
 					</div>
-					<ul className="md:flex hidden  text-white items-center gap-8  mt[-10px] font-[Poppins]">
+					<ul className="md:flex hidden  text-white items-center gap-6  mt[-10px] font-[Poppins]">
 						<NavLinks />
 						<li>
 							<Link to="/research" className="py-7 px-3 inline-block">
@@ -44,7 +44,7 @@ const Navbar = () => {
 											</label>
 											<ul
 												tabIndex={0}
-												className="menu dropdown-content mt-[78px] "
+												className="menu dropdown-content mt-[62px] "
 											>
 												<li>
 													<div className="dropdown dropdown-hover  ">
@@ -79,6 +79,52 @@ const Navbar = () => {
 								</div>
 							</div>
 						</li>
+						<li>
+							<div className="navbar rounded-box">
+								<div className="flex justify-end flex-1 px-2">
+									<div className="flex items-stretch">
+										<div className="dropdown dropdown-end">
+											<label tabIndex={0} className=" ">
+												NEW TO SIBS
+											</label>
+											<ul
+												tabIndex={0}
+												className="menu dropdown-content mt-[48px] "
+											>
+												<li>
+													<div className="dropdown dropdown-hover  ">
+														<ul
+															tabIndex={0}
+															className="dropdown-content menu p-2 text-black shadow bg-base-100  w-52 mt-[265px] border-b-4 "
+														>
+															<li className="border-b-2 border-gray-200  hover:bg-sky-700  ">
+																<a> Enrolling dates</a>
+															</li>
+															<li className="border-b-2 border-gray-200 hover:bg-sky-700  ">
+																<a> Importants dates</a>
+															</li>
+															<li className="border-b-2 border-gray-200  hover:bg-sky-700 ">
+																<a>Orientations</a>
+															</li>
+															<li className="border-b-2 border-gray-200  hover:bg-sky-700 ">
+																<a>How SIBS works</a>
+															</li>
+															<li className="border-b-2 border-gray-200  hover:bg-sky-700 ">
+																<a>Scholarship</a>
+															</li>
+															<li className=" hover:bg-sky-700 ">
+																<a>Calender</a>
+															</li>
+														</ul>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						
 					</ul>
 
 					{/* Mobile nav */}
@@ -108,6 +154,7 @@ const Navbar = () => {
 								EVENTS & EVENTS
 							</Link>
 						</li>
+						
 						<li>
 							<div className="dropdown dropdown-hover  ">
 								<h1 className="ml-3">ABOUT US</h1>
@@ -136,6 +183,35 @@ const Navbar = () => {
 								</ul>
 							</div>
 						</li>
+						<li>
+							<div className="dropdown dropdown-hover   ">
+								<h1 className="ml-3 cursor-pointer">NEW AT SIBS</h1>
+								<ul
+									tabIndex={0}
+									className="dropdown-content menu p-2 text-black shadow bg-base-100  w-52  "
+								>
+									<li className="border-b-2 border-gray-200  hover:bg-sky-700  ">
+										<a>Enrolling dates</a>
+									</li>
+									<li className="border-b-2 border-gray-200 hover:bg-sky-700  ">
+										<a>Important dates</a>
+									</li>
+									<li className="border-b-2 border-gray-200  hover:bg-sky-700 ">
+										<a>Orientations</a>
+									</li>
+									<li className="border-b-2 border-gray-200  hover:bg-sky-700 ">
+										<a>How SIBS work</a>
+									</li>
+									<li className="border-b-2 border-gray-200  hover:bg-sky-700 ">
+										<a>Scholarship</a>
+									</li>
+									<li className=" hover:bg-sky-700 ">
+										<a>Calender</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						
 					</ul>
 				</div>
 			</nav>

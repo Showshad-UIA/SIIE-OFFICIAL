@@ -2,14 +2,15 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faArrowRight,
+	faBookOpen,
 	faSquareCaretRight,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Sidebar = () => {
 	return (
-		<div className=" bg-white lg:mt-[-57px]">
+		<div className=" bg-white lg:mt-[-57px] lg:w-full ">
 			<div class="  bg-white ">
-				<div className=" bg-gray-200 sm:w-full  ">
+				<div className=" bg-gray-200 sm:w-full   ">
 					<div className="  ">
 						<h1 className="text-xl mb-5 text-start font-bold  pr-5 pt-10 pb-3 border-b-2 border-t-4 border-black    text-blue-500">
 							UNDERGRADUATE ADMISSION
@@ -22,7 +23,7 @@ const Sidebar = () => {
 								className="flex gap-5 mb-3  cursor-pointer hover:text-red-500 "
 							>
 								<div>
-									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
+									<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 								</div>
 								<div>
 									<p>Graduate program</p>
@@ -35,7 +36,7 @@ const Sidebar = () => {
 								className="flex gap-5 mb-3  cursor-pointer hover:text-red-500 "
 							>
 								<div>
-									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
+									<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 								</div>
 								<div>
 									<p>Tuition fees</p>
@@ -48,7 +49,7 @@ const Sidebar = () => {
 								className="flex gap-5 mb-3  cursor-pointer hover:text-red-500 "
 							>
 								<div>
-									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
+									<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 								</div>
 								<div>
 									<p>Date & deadline</p>
@@ -61,7 +62,7 @@ const Sidebar = () => {
 								className="flex gap-5   cursor-pointer hover:text-red-500 "
 							>
 								<div>
-									<FontAwesomeIcon icon={faSquareCaretRight}></FontAwesomeIcon>
+									<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 								</div>
 								<div>
 									<p>Apply online</p>

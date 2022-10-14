@@ -15,18 +15,24 @@ import Carosel from "../Carosel/Carosel";
 
 const Home = () => {
 	return (
-		<div className="bg-white">
-			{/* <Banner></Banner> */}
+		<div className="bg-white ">
+			<Banner></Banner>
 			<AboutSibs></AboutSibs>
 			<Program></Program>
-			<ResearchTrial></ResearchTrial>
+			{/* <ResearchTrial></ResearchTrial> */}
 			{/* <ResearchTrial></ResearchTrial> */}
 			<Explore></Explore>
+
+
+			{/* this component will add later
+			
+			 */}
+			 <SiieService></SiieService>
 			{/* <HomeResearch></HomeResearch> */}
 			
 			{/* Events component first column start here */}
 			{/* <Event></Event> */}
-			<SiieService></SiieService>
+			
 			<Carosel></Carosel>
 			{/* Discover component start here */}
 			

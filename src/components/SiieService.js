@@ -226,117 +226,76 @@ const SiieService = () => {
 		// 		</div>
 		// 	</div>
 		// </div>
-		<div className="container mx-auto mb-5 ">
-			<div class="lg:mx-28 lg:w-[85%] md:mx-20 sm:w-full md:w-4/5 ">
-				{/* <div className="flex -mt-[-40px] ">
-					
-						<a href="#" className=" text-black text-3xl font-bold ">
-							Studying at SIBS
-						</a>
-					</div> */}
-					<button className="bg-sky-700  my-5 pr-16 pb-5 pt-5 pl-5 w-full text-left">
-					<p className=" text-white text-xl  font-bold ">LIFE OF SYDNEY ISLAMIC</p>
-				</button>
-			
-				<div class="grid grid-cols-1 md:grid-cols-2 gap-2 lg:grid-cols-4 ">
-					<div class="flex justify-center text-xl mb-3 pr-5 w-full ">
-						<div className="card bg-gray-100 shadow-md">
-							<figure className="px-5 pt-10">
+		<div className="container mx-auto ">
+			<div class="lg:mx-28 lg:w-[85%] md:mx-20 sm:w-full md:w-4/5  ">
+				<div className=" text-black text-xl  font-bold ">DISCOVER MORE ISLAMIC BUSINESS</div>
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-2 lg:grid-cols-4  mt-5">
+					<div class="flex justify-center text-xl mb-7 pr-5 w-full  ">
+						<div className=" bg-gray-100">
+							<figure className="">
 								<img
 									src="https://placeimg.com/400/225/arch"
-									alt="Shoes"
+									alt="image1"
 									className=""
 								/>
 							</figure>
-							<div className="mt-5 p-3 text-justify items-center">
-								<p>
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-									Blanditiis perspiciatis nobis aliquam quas dignissimos
-									adipisci nam quidem,Lorem ipsum, dolor sit amet consectetur
-									adipisicing elit. Blanditiis perspiciatis nobis aliquam quas
-									dignissimos adipisci nam quidem,
-								</p>
-							</div>
+
 							<div className="">
-								<button className="bg-sky-700 rounded p-2 text-xl w-full">
-		 								<a href="/phd">PhD Admission</a>
-		 							</button>
-		 						</div>
+								<button className="bg-sky-700 text-white rounded p-2 text-xl w-full">
+									<a href="/phd">Islamic Finance & Banking</a>
+								</button>
+							</div>
 						</div>
 					</div>
-					<div class="flex justify-center text-xl mb-3 pr-5 w-full ">
-						<div className="card bg-gray-100 shadow-md">
-							<figure className="px-5 pt-10">
+					<div class="flex justify-center text-xl mb-7 pr-5 w-full ">
+						<div className=" bg-gray-100">
+							<figure className="">
 								<img
 									src="https://placeimg.com/400/225/arch"
 									alt="Shoes"
 									className=""
 								/>
 							</figure>
-							<div className="mt-5 p-3 text-justify items-center">
-								<p>
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-									Blanditiis perspiciatis nobis aliquam quas dignissimos
-									adipisci nam quidem,Lorem ipsum, dolor sit amet consectetur
-									adipisicing elit. Blanditiis perspiciatis nobis aliquam quas
-									dignissimos adipisci nam quidem,
-								</p>
-							</div>
+
 							<div className="">
-								<button className="bg-sky-700 rounded p-2 text-xl w-full">
-		 								<a href="/masters">Masters Admission</a>
-		 							</button>
-		 						</div>
+								<button className="bg-sky-700 text-white rounded p-2 text-xl w-full">
+									<a href="/masters">Islamic Economics</a>
+								</button>
+							</div>
 						</div>
 					</div>
-					<div class="flex justify-center text-xl mb-3 pr-5 w-full ">
-						<div className="card bg-gray-100 shadow-md">
-							<figure className="px-5 pt-10">
+					<div class="flex justify-center text-xl mb-7 pr-5 w-full ">
+						<div className=" bg-gray-100">
+							<figure className="">
 								<img
 									src="https://placeimg.com/400/225/arch"
 									alt="Shoes"
 									className=""
 								/>
 							</figure>
-							<div className="mt-5 p-3 text-justify items-center">
-								<p>
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-									Blanditiis perspiciatis nobis aliquam quas dignissimos
-									adipisci nam quidem,Lorem ipsum, dolor sit amet consectetur
-									adipisicing elit. Blanditiis perspiciatis nobis aliquam quas
-									dignissimos adipisci nam quidem,
-								</p>
-							</div>
+
 							<div className="">
-								<button className="bg-sky-700 rounded p-2 text-xl w-full">
-		 								<a href="/undergraduate">Undergraduate Admission</a>
-		 							</button>
-		 						</div>
+								<button className="bg-sky-700 text-white rounded p-2 text-xl w-full">
+									<a href="/undergraduate">Islamic Insurance</a>
+								</button>
+							</div>
 						</div>
 					</div>
-					<div class="flex justify-center text-xl mb-3 pr-5 w-full ">
-						<div className="card bg-gray-100 shadow-md">
-							<figure className="px-5 pt-10">
+					<div class="flex justify-center text-xl mb-7 pr-5 w-full ">
+						<div className=" bg-gray-100 ">
+							<figure className="">
 								<img
 									src="https://placeimg.com/400/225/arch"
 									alt="Shoes"
 									className=""
 								/>
 							</figure>
-							<div className="mt-5 p-3 text-justify items-center">
-								<p>
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-									Blanditiis perspiciatis nobis aliquam quas dignissimos
-									adipisci nam quidem,Lorem ipsum, dolor sit amet consectetur
-									adipisicing elit. Blanditiis perspiciatis nobis aliquam quas
-									dignissimos adipisci nam quidem,
-								</p>
-							</div>
+
 							<div className="">
-								<button className="bg-sky-700 rounded p-2 text-xl w-full">
-								<a href="/diploma">Graduate Diploma Admission</a>
-		 							</button>
-		 						</div>
+								<button className="bg-sky-700 text-white rounded p-2 text-xl w-full">
+									<a href="/diploma">Islamic Business Law</a>
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>

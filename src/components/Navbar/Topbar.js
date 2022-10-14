@@ -11,7 +11,7 @@ const Topbar = () => {
 					<div class="py-2  mx-auto max-w-screen-xl md:px-6 flex">
 						<div>
 							<div class="flex items-center ">
-								<ul class="flex flex-row  space-x-8 text-sm font-medium  text-white">
+								<ul class="flex flex-row  space-x-2 text-sm font-medium  text-white">
 									<li className="flex">
 										<div>
 											<FontAwesomeIcon icon={FaBook}></FontAwesomeIcon>
@@ -55,7 +55,7 @@ const Topbar = () => {
 											href="#"
 											class="text-gray-500 dark:text-white hover:underline"
 										>
-											Contact us
+											Contact Us
 										</a>
 									</li>
 								</ul>

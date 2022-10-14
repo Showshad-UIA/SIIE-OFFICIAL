@@ -38,6 +38,8 @@ import Program from "./components/Submenu/Program";
 import Megmenubar from "./components/Megamenu/Megmenubar";
 import Topbar from "./components/Navbar/Topbar";
 import Navbar from "./components/Navbar/NavBar";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
 	return (

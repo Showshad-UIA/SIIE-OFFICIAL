@@ -92,6 +92,28 @@ const Undergraduate = () => {
 			<SearchBar></SearchBar>
 			<MainContent></MainContent>
 		</div>
+		// <div className="container mx-auto mt-5 sm:w-full">
+		// 	<div className="flex lg:mx-20  md:px-5 gap-10">
+		// 		<div className="lg:w-[65%] sm:w-full ">
+		// 			<h1>Undergraduate Program</h1>
+		// 			<p className="text-justify">
+		// 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+		// 				eos, cum quod fugiat ex nihil modi, voluptas unde doloremque sed
+		// 				accusamus nulla temporibus fugit illum! Modi illum cumque nam
+		// 				eligendi?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+		// 				Eos voluptatum voluptates quam rem sunt architecto quaerat magnam
+		// 				sequi corporis! Voluptas magni voluptate nemo doloremque non,
+		// 				aliquam laudantium sequi quos nulla.{" "}
+		// 			</p>
+		// 		</div>
+		// 		<div className="lg:w-[35%] mb-5  ">
+		// 			<Sidebar></Sidebar>
+		// 		</div>
+		// 	</div>
+		// 	<div className="sm:w-full md:w-max lg:w-full ">
+		// 		<MainContent></MainContent>
+		// 	</div>
+		// </div>
 	);
 };
 

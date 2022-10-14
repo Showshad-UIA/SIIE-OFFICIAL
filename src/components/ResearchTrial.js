@@ -7,11 +7,11 @@ import ResearchTrailSidebar from "./ResearchTrailSidebar";
 const ResearchTrial = () => {
 	return (
 		<div className="container mx-auto my-3 sm:w-full">
-			{/* <div className=" sm:w-full ">
+			<div className="lg:mx-28 md:mx-20 sm:w-full  lg:w-[85%]  md:w-4/5">
 				<div className="grid text-center  gap-44   md:grid-cols-2 sm:grid-cols-1">
 					<div className=" lg:ml-[280px] text-justify m-2 lg:w-full ">
 						<div className="flex  mb-5 ">
-							<div className="text-3xl font-bold -mt-2">News</div>
+							<div className="text-3xl font-bold mr-3">News</div>
 							<div>
 								<a href="#" className="ml-3 text-blue-500 text-sm ">
 									All NEWS
@@ -74,15 +74,15 @@ const ResearchTrial = () => {
 					</div>
 				</div>
 				
-			</div> */}
-			<div class="lg:mx-28 md:mx-20 sm:w-full  lg:w-[85%]  md:w-4/5">
+			</div>
+
+			{/* additional components */}
+			{/* <div class="lg:mx-28 md:mx-20 sm:w-full  lg:w-[85%]  md:w-4/5">
 				<div className="flex -mt-[-40px] ">
 					<div className="text-2xl font-bold text-blue-500 ">
-						{/* <a href="#" className="ml-3 text-3xl text-blue-500 font-bold ">
-							Discover Islamic Business
-						</a> */}
+						
 
-						{/* <span className="w-10 h-10">|</span> */}
+						
 					</div>
 					<button className="bg-sky-700  pr-16 pb-5 pt-5 pl-5 w-full text-left">
 						<p className=" text-white text-xl  font-bold ">
@@ -218,7 +218,7 @@ const ResearchTrial = () => {
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 };

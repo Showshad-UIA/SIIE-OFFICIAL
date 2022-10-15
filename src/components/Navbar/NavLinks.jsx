@@ -40,7 +40,7 @@ const NavLinks = () => {
                      bg-white rotate-45"
 										></div>
 									</div>
-									<div className="bg-white text-black grid grid-cols-5  p-4 left-10">
+									<div className="bg-gray-100 shadow-md text-black grid grid-cols-5  p-4 left-10">
 										{link.sublinks.map(({ Head, link, sublink }) => (
 											<div>
 												{/* <Link to={mysublinks.link} className="text-lg font-semibold">

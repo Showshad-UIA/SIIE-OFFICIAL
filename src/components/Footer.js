@@ -62,7 +62,7 @@ const Footer = () => {
 					<a class="link link-hover">Mentoring program</a>
 				</div>
 			</footer> */}
-			<footer class=" text-white bg-sky-700">
+			<footer class=" text-white bg-sky-700 mt-7">
 				<div class="grid grid-cols-2 gap-5 lg:mx-28 py-8 px-6 md:grid-cols-4 lg:grid-cols-6">
 					<div>
 						<h2 class="mb-6 text-md underline font-bold text-white uppercase dark:text-gray-400">

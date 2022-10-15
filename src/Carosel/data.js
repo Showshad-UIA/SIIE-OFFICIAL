@@ -1,22 +1,46 @@
-export const CarouselData = [
-    {
-      image:
-        "https://images.unsplash.com/photo-1546768292-fb12f6c92568?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1501446529957-6226bd447c46?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1489&q=80",
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1475189778702-5ec9941484ae?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80",
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
-    },
-  ];
+export const carosel = [
+	{
+		id: 1,
+		title: "Lorem ipsom",
+
+		linkImg:
+			"https://i.ibb.co/THrFBr1/all-souls-college-oxford-university-andrew-shivawikicommons.jpg",
+	},
+	{
+		id: 2,
+		title: "TRIANGLE STRATEGY™",
+
+		linkImg: "https://ibb.co/jLH1vHz",
+	},
+
+	{
+		id: 4,
+		title: "Super Mario™ 3D World + Bowser’s Fury",
+
+		linkImg: "https://ibb.co/jLH1vHz",
+	},
+	{
+		id: 5,
+		title: "Cuphead",
+
+		linkImg: "https://ibb.co/jLH1vHz",
+	},
+	{
+		id: 6,
+		title: "Minecraft",
+
+		linkImg: "https://ibb.co/jLH1vHz",
+	},
+	{
+		id: 7,
+		title: "Mario + Rabbids® Kingdom Battle",
+
+		linkImg: "https://ibb.co/jLH1vHz",
+	},
+	{
+		id: 8,
+		title: "Unravel Two",
+		//percent
+		linkImg: "https://ibb.co/jLH1vHz",
+	},
+];

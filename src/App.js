@@ -40,6 +40,8 @@ import Topbar from "./components/Navbar/Topbar";
 import Navbar from "./components/Navbar/NavBar";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import LeadershipGovernence from "./components/Navbar/AboutSubmenu/LeadershipGovernence";
+import Profile from "./components/Navbar/AboutSubmenu/Profile";
 
 function App() {
 	return (
@@ -53,6 +55,9 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Home></Home>}></Route>
 				<Route path="/about" element={<AboutUs></AboutUs>}></Route>
+				<Route path="/profile" element={<Profile></Profile>}></Route>
+				<Route path="/LeadershipGovernence" element={<LeadershipGovernence></LeadershipGovernence>}></Route>
+				
 				<Route path="/research" element={<Research></Research>}></Route>
 
 				<Route path="/news" element={<News></News>}></Route>

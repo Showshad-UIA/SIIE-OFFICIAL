@@ -1,17 +1,15 @@
-import { faLink } from "@fortawesome/free-solid-svg-icons";
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { links } from "./Mylinks";
-
-const NavLinks = () => {
-	const { open, setOpen } = useState("false");
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { ResearchMenuLinks } from "./ResearchMenuLink";
+const ResearchMenu = () => {
+    const { open, setOpen } = useState("false");
 	const [heading, setHeading] = useState("");
 	const [subHeading, setSubHeading] = useState("");
 	return (
 		<>
-			{links.map((link) => (
+			{ResearchMenuLinks.map((link) => (
 				<div>
-					<div className="px-3 text-left md:cursor-pointer group">
+				<div className="px-3 text-left md:cursor-pointer group">
 						<h1
 							className="py-3 flex justify-between items-center md:pr-0 pr-5 group"
 							onClick={() => {
@@ -40,7 +38,7 @@ const NavLinks = () => {
                      bg-white rotate-45"
 										></div>
 									</div>
-									<div className="bg-gray-100 shadow-md text-black grid grid-cols-5  p-4 left-10">
+									<div className="bg-gray-100 shadow-md text-black grid grid-cols-1  p-4 left-10">
 										{link.sublinks.map(({ Head, link, sublink }) => (
 											<div>
 												
@@ -124,4 +122,4 @@ const NavLinks = () => {
 	);
 };
 
-export default NavLinks;
+export default ResearchMenu;

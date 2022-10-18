@@ -1,7 +1,10 @@
 import React from "react";
 import Image from "../images/Image 2.jpg";
 import slider1 from "../Carosel/Asset/mosque.jpg";
-import slider2 from "../Carosel/Asset/msque2.jpg";
+import slider2 from "../Carosel/Asset/UIAM.jpg";
+import slider3 from "../Carosel/Asset/slider.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronLeft, faChevronRight, faCircle, faCircleDot } from "@fortawesome/free-solid-svg-icons";
 const Banner = () => {
 	return (
 		// <div className="hero mb-6">
@@ -50,15 +53,53 @@ const Banner = () => {
 
 		// </div>
 		<div>
-			<div className="carousel w-full relative h-[450px]">
+			<div className="carousel w-full relative lg:h-[540px]">
+			<div
+					id="item2"
+					className="carousel-item w-full   bg-cover"
+					style={{ backgroundImage: `url(${slider1})`  }} 
+				>
+					{/* <img src={banner} className="w-full object-cover absolute" alt="" /> */}
+					<div className=" text-black w-full my-auto  flex  justify-items-center content-center ">
+						{/* <div className="w-3/5 mx-auto">
+							<p className=" text-center ">
+								<marquee
+									behavior=""
+									direction="left"
+									className="text-3xl font-bold "
+								>
+									Welcome to Sydney Islamic Business School (SIBS)
+								</marquee>
+							</p>
+							
+						</div> */}
+					</div>
+					<div className="flex  my-[510px] py-2 gap-2 px-2">
+				<a href="#item1" className="">
+					<FontAwesomeIcon icon={faCircle} className=" text-white hover:text-sky-700"></FontAwesomeIcon>
+				</a>
+				<a href="#item2" className="w-[-100px] ">
+					<FontAwesomeIcon
+						icon={faCircle}
+						className=" text-white hover:text-sky-700"
+					></FontAwesomeIcon>
+				</a>
+				<a href="#item2" className="w-[-100px] ">
+					<FontAwesomeIcon
+						icon={faCircle}
+						className=" text-white hover:text-sky-700"
+					></FontAwesomeIcon>
+				</a>
+			</div>
+				</div>
 				<div
 					id="item1"
 					className="carousel-item w-full   bg-cover"
-					style={{ backgroundImage: `url(${slider1})` }}
+					style={{ backgroundImage: `url(${slider2})`  }} 
 				>
 					{/* <img src={banner} className="w-full object-cover absolute" alt="" /> */}
 					<div className=" text-black w-full my-auto  flex  justify-items-center content-center ">
-						<div className="w-3/5 mx-auto">
+						{/* <div className="w-3/5 mx-auto">
 							<p className=" text-center ">
 								<marquee
 									behavior=""
@@ -68,20 +109,35 @@ const Banner = () => {
 									Welcome to Sydney Islamic Business School (SIBS)
 								</marquee>
 							</p>
-							<button className="btn btn-primary text-white flex justify-center mx-auto ">
-								Know More
-							</button>
-						</div>
+							
+						</div> */}
 					</div>
+					<div className="flex  my-[510px] py-2 gap-2 px-2">
+				<a href="#item1" className="">
+					<FontAwesomeIcon icon={faCircle} className=" text-white hover:text-sky-700"></FontAwesomeIcon>
+				</a>
+				<a href="#item2" className="w-[-100px] ">
+					<FontAwesomeIcon
+						icon={faCircle}
+						className=" text-white hover:text-sky-700"
+					></FontAwesomeIcon>
+				</a>
+				<a href="#item2" className="w-[-100px] ">
+					<FontAwesomeIcon
+						icon={faCircle}
+						className=" text-white hover:text-sky-700"
+					></FontAwesomeIcon>
+				</a>
+			</div>
 				</div>
 				<div
-					id="item2"
-					className="carousel-item w-full h-[450px]  bg-cover"
-					style={{ backgroundImage: `url(${slider2})` }}
+					id="item3"
+					className="carousel-item w-full   bg-cover"
+					style={{ backgroundImage: `url(${slider3})`  }} 
 				>
 					{/* <img src={banner} className="w-full object-cover absolute" alt="" /> */}
 					<div className=" text-black w-full my-auto  flex  justify-items-center content-center ">
-						<div className="w-3/5 mx-auto">
+						{/* <div className="w-3/5 mx-auto">
 							<p className=" text-center ">
 								<marquee
 									behavior=""
@@ -91,21 +147,29 @@ const Banner = () => {
 									Welcome to Sydney Islamic Business School (SIBS)
 								</marquee>
 							</p>
-							<button className="btn btn-primary text-white flex justify-center mx-auto ">
-								Know More
-							</button>
-						</div>
+							
+						</div> */}
 					</div>
+					<div className="flex  my-[510px] py-2 gap-2 px-2">
+				<a href="#item1" className="">
+					<FontAwesomeIcon icon={faCircle} className=" text-white hover:text-sky-700"></FontAwesomeIcon>
+				</a>
+				<a href="#item2" className="w-[-100px] ">
+					<FontAwesomeIcon
+						icon={faCircle}
+						className=" text-white hover:text-sky-700"
+					></FontAwesomeIcon>
+				</a>
+				<a href="#item2" className="w-[-100px] ">
+					<FontAwesomeIcon
+						icon={faCircle}
+						className=" text-white hover:text-sky-700"
+					></FontAwesomeIcon>
+				</a>
+			</div>
 				</div>
 			</div>
-			<div className="flex justify-center w-full py-2 gap-2">
-				<a href="#item1" className="btn btn-xs">
-					1
-				</a>
-				<a href="#item2" className="btn btn-xs">
-					2
-				</a>
-			</div>
+			
 		</div>
 	);
 };

@@ -5,13 +5,13 @@ import React from 'react';
 const Program = () => {
     return (
         <>
-			<div className="lg:mx-[150px] lg:mt-5 ">
+			<div className="lg:mx-[150px] lg:mt-5 my-5 md:my-5 ">
 			<div className="w-50 text-2xl  font-bold cursor-pointer   text-center">
 				<button className="bg-sky-700  pr-16 pb-5 pt-5 pl-16">
-					<p className=" text-white  ">What We Offer</p>
+					<p className=" text-white  "> We Offer</p>
 				</button>
 			</div>
-			<div className="grid lg:grid-cols-2 gap-1  sm:grid-cols-1 m-5 lg:mx-[300px] mb-11">
+			<div className="grid lg:grid-cols-2 gap-1  sm:grid-cols-1 m-5 lg:mx-[300px] mb-7">
 				<div class=" hover:bg-sky-300  bg-sky-700 p-5">
 					<div className="">
 						<div className="items-center w-full text-center ">

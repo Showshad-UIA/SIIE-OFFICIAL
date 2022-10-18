@@ -2,14 +2,16 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../images/SydneyIslamicLogo-10-01-01.png";
 import AboutUs from "./AboutUs";
+import CurentStudent from "./CurentStudent";
 import NavLinks from "./NavLinks";
-import Sibs from "./Sibs";
+import ResearchMenu from "./ResearchMenu";
+
 
 const Navbar = () => {
 	const [open, setOpen] = useState(false);
 	return (
 		<>
-			<nav className="bg-sky-700  top-0 sticky   ">
+			<nav className="bg-sky-700  top-0 sticky ">
 				<div className="flex items-center font-medium justify-around ">
 					<div className="z-50 p-3 md:w-auto w-full flex justify-between">
 						<Link to="/" onClick={() => setOpen(!open)}>
@@ -19,26 +21,28 @@ const Navbar = () => {
 								className="md:cursor-pointer h-20 -mt-3"
 							/>
 						</Link>
-						<div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
+						<div className="text-3xl mt-6 md:hidden" onClick={() => setOpen(!open)}>
 							<ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
 						</div>
 					</div>
-					<ul className="md:flex hidden  text-white items-center gap-6  mt[-10px] font-[Poppins]">
+					<ul className="md:flex hidden md:text-sm  text-white items-center gap-2  mt[-10px] font-[Poppins]">
 						<NavLinks />
-						<li>
+						{/* <li>
 							<Link to="/research" className="py-7 px-3 inline-block">
 								RESEARCH
 							</Link>
-						</li>
+						</li> */}
+						<ResearchMenu></ResearchMenu>
 
+						
+						<CurentStudent></CurentStudent>
+						<AboutUs></AboutUs>
 						<li>
 							<Link to="/events" className="py-7 px-3 inline-block">
 								NEWS & EVENTS
 							</Link>
 						</li>
-						<AboutUs></AboutUs>
-						
-						<Sibs></Sibs>
+					
 					</ul>
 
 					{/* Mobile nav */}
@@ -50,7 +54,7 @@ const Navbar = () => {
 					>
 						<NavLinks setOpen={setOpen} open={open} />
 
-						<li>
+						{/* <li>
 							<Link
 								onClick={() => setOpen(!open)}
 								to="/research"
@@ -58,7 +62,11 @@ const Navbar = () => {
 							>
 								RESEARCH
 							</Link>
-						</li>
+						</li> */}
+						<ResearchMenu></ResearchMenu>
+						
+						<CurentStudent></CurentStudent>
+						<AboutUs></AboutUs>
 						<li>
 							<Link
 								onClick={() => setOpen(!open)}
@@ -68,7 +76,7 @@ const Navbar = () => {
 								EVENTS & EVENTS
 							</Link>
 						</li>
-						<AboutUs></AboutUs>
+						
 						{/* <li>
 							<div className="dropdown dropdown-hover  ">
 								<h1 className="ml-3">ABOUT US</h1>
@@ -97,8 +105,6 @@ const Navbar = () => {
 								</ul>
 							</div>
 						</li> */}
-						<Sibs></Sibs>
-						
 					</ul>
 				</div>
 			</nav>

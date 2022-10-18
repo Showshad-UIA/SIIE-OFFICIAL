@@ -1,15 +1,13 @@
-import { faLink } from "@fortawesome/free-solid-svg-icons";
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { links } from "./Mylinks";
-
-const NavLinks = () => {
-	const { open, setOpen } = useState("false");
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { CurrentStudentlinks } from "./CurentStudentLink";
+const CurentStudent = () => {
+    const { open, setOpen } = useState("false");
 	const [heading, setHeading] = useState("");
 	const [subHeading, setSubHeading] = useState("");
 	return (
 		<>
-			{links.map((link) => (
+			{CurrentStudentlinks.map((link) => (
 				<div>
 					<div className="px-3 text-left md:cursor-pointer group">
 						<h1
@@ -40,7 +38,7 @@ const NavLinks = () => {
                      bg-white rotate-45"
 										></div>
 									</div>
-									<div className="bg-gray-100 shadow-md text-black grid grid-cols-5  p-4 left-10">
+									<div className="bg-gray-100 shadow-md text-black grid grid-cols-1  p-4 left-10">
 										{link.sublinks.map(({ Head, link, sublink }) => (
 											<div>
 												
@@ -124,4 +122,4 @@ const NavLinks = () => {
 	);
 };
 
-export default NavLinks;
+export default CurentStudent;

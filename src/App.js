@@ -11,7 +11,7 @@ import EventsTraining from "./components/EventsTraining";
 import MediasIcon from "./components/MediasIcon";
 import Undergraduate from "./components/Submenu/Undergraduate";
 import BankingFinance from "./components/Submenu/UndergraduateCourses/BankingFinance";
-import Masters from "./components/Pages/masters/Masters";
+
 import Phd from "./components/Postgraduate/Phd";
 import UgBankingFinanceCourseplan from "./components/Submenu/UndergraduateCourses/UgBankingFinanceCourseplan";
 import Diploma from "./components/Pages/diploma/Diploma";
@@ -22,12 +22,7 @@ import UgIslamicInsurance from "./components/Submenu/UndergraduateCourses/UgIsla
 import UgBusinessLaw from "./components/Submenu/UgBusinessLaw";
 import UgFaq from "./components/Submenu/UgFaq";
 import UgFiqh from "./components/Submenu/UndergraduateCourses/UgFiqh";
-import PhdFinance from "./components/Postgraduate/PhdFinance";
-import PhdShariah from "./components/Postgraduate/PhdShariah";
-import PhdEconomics from "./components/Postgraduate/PhdEconomics";
-import PhdIslamicInsurance from "./components/Postgraduate/PhdIslamicInsurance";
-import PhdBusinessLaw from "./components/Postgraduate/PhdBusinessLaw";
-import PhdUsalFiq from "./components/Postgraduate/PhdUsalFiq";
+
 import DiplomaFinance from "./components/Pages/diploma/DiplomaFinance";
 import DiplomaShariah from "./components/Pages/diploma/DiplomaShariah";
 import DiplomaEconomics from "./components/Pages/diploma/DiplomaEconomics";
@@ -42,6 +37,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import LeadershipGovernence from "./components/Navbar/AboutSubmenu/LeadershipGovernence";
 import Profile from "./components/Navbar/AboutSubmenu/Profile";
+import PhdFinance from "./components/Postgraduate/PHD FINANCE/PhdFinance";
+import PhdEconimics from "./components/Postgraduate/PHD ECONOMICS/PhdEconimics";
+import PhDBusiness from "./components/Postgraduate/PHD BUSINESS LAW/PhDBusiness";
+import PhDIslamicInsurance from "./components/Postgraduate/PHD BUSINESS INSURANCE/PhDIslamicInsurance";
+import PhDIslamicStudies from "./components/Postgraduate/PHD ISLAMIC STUDIES/PhDIslamicStudies";
+import Masters from "./components/MASTERS/MASTERS/Masters";
+import MastersFinance from "./components/MASTERS/MASTERS FINANCE/MastersFinance";
 
 function App() {
 	return (
@@ -56,8 +58,11 @@ function App() {
 				<Route path="/" element={<Home></Home>}></Route>
 				<Route path="/about" element={<AboutUs></AboutUs>}></Route>
 				<Route path="/profile" element={<Profile></Profile>}></Route>
-				<Route path="/LeadershipGovernence" element={<LeadershipGovernence></LeadershipGovernence>}></Route>
-				
+				<Route
+					path="/LeadershipGovernence"
+					element={<LeadershipGovernence></LeadershipGovernence>}
+				></Route>
+
 				<Route path="/research" element={<Research></Research>}></Route>
 
 				<Route path="/news" element={<News></News>}></Route>
@@ -109,24 +114,33 @@ function App() {
 					path="/diplomaeconomics"
 					element={<DiplomaEconomics></DiplomaEconomics>}
 				></Route>
-				<Route path="/masters" element={<Masters></Masters>}></Route>
-				<Route path="/masters" element={<Masters></Masters>}></Route>
+				{/* Masters reserach start here */}
+				<Route path="/mastersreserach" element={<Masters></Masters>}></Route>
+				<Route
+					path="/masterfinance"
+					element={<MastersFinance></MastersFinance>}
+				></Route>
+
+				{/* phd components start from here */}
 				<Route path="/phd" element={<Phd></Phd>}></Route>
 				<Route path="/phdfinance" element={<PhdFinance></PhdFinance>}></Route>
-				<Route path="/phdsariah" element={<PhdShariah></PhdShariah>}></Route>
 				<Route
 					path="/phdinsurance"
-					element={<PhdIslamicInsurance></PhdIslamicInsurance>}
+					element={<PhDIslamicInsurance></PhDIslamicInsurance>}
 				></Route>
+
 				<Route
 					path="/phdeconomics"
-					element={<PhdEconomics></PhdEconomics>}
+					element={<PhdEconimics></PhdEconimics>}
 				></Route>
 				<Route
 					path="/phdbusinesslaw"
-					element={<PhdBusinessLaw></PhdBusinessLaw>}
+					element={<PhDBusiness></PhDBusiness>}
 				></Route>
-				<Route path="/phdusalfiq" element={<PhdUsalFiq></PhdUsalFiq>}></Route>
+				<Route
+					path="/phdislamicstudy"
+					element={<PhDIslamicStudies></PhDIslamicStudies>}
+				></Route>
 			</Routes>
 			{/* <MediasIcon></MediasIcon> */}
 			<Footer></Footer>

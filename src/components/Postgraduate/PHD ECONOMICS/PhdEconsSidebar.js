@@ -1,19 +1,16 @@
-import {
-	faBookOpen,
-	faSquareCaretRight,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import { faBookOpen } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react';
 
-const PhdRightSideBar = () => {
-	return (
-		<div className=''>
+const PhdEconsSidebar = () => {
+    return (
+        <div className=''>
 		<div className=" bg-white mb-10">
 		<div class="  bg-white ">
 			<div className="  sm:w-full shadow  ">
 				<div className="  ">
 					<h1 className="text-medium mb-5 text-start font-bold p-2  pr-5 pt-5 pb-3 border-b-4 border-t-4 border-sky-700    text-sky-700">
-						PHD ADMISSION
+						SEE ALSO
 					</h1>
 				</div>
 				<div className="text-medium pl-2 pb-3">
@@ -26,8 +23,8 @@ const PhdRightSideBar = () => {
 								<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 							</div>
 							<div>
-								<a href="#">
-									<p>Post graduate program</p>
+								<a href="/phdfinance">
+									<p>Phd in Islamic Finance and Banking</p>
 								</a>
 							</div>
 						</a>
@@ -41,8 +38,8 @@ const PhdRightSideBar = () => {
 								<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 							</div>
 							<div>
-								<a href="#">
-									<p>Post graduate fees structure</p>
+								<a href="/phdbusinesslaw">
+									<p>PhD in Islamic Business Law</p>
 								</a>
 							</div>
 						</a>
@@ -56,9 +53,9 @@ const PhdRightSideBar = () => {
 								<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 							</div>
 							<div>
-								<a href="#">
+								<a href="/phdinsurance">
 									{" "}
-									<p>Postgraduate scholarship</p>
+									<p>PhD in Islamic Insurance </p>
 								</a>
 							</div>
 						</a>
@@ -73,8 +70,8 @@ const PhdRightSideBar = () => {
 								<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 							</div>
 							<div>
-								<a href="#">
-									<p>Apply now</p>
+								<a href="/phdusalfiq">
+									<p>PhD in Islamic Studies</p>
 								</a>
 							</div>
 						</a>
@@ -84,7 +81,7 @@ const PhdRightSideBar = () => {
 		</div>
 	</div>
 	</div>
-	);
+    );
 };
 
-export default PhdRightSideBar;
+export default PhdEconsSidebar;

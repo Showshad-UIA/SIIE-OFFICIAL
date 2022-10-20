@@ -1,12 +1,10 @@
-import React from "react";
-import ProfileSidebar from "../Navbar/AboutSubmenu/ProfileSidebar";
-import Sidebar from "../Submenu/Sidebar";
-import PhdMaincontent from "./PhdMaincontent";
-import PhdRightSideBar from "./PhdRightSideBar";
+import React from 'react';
+import MastersMain from './MastersMain';
+import MastersSidebar from './MastersSidebar';
 
-const Phd = () => {
-	return (
-		<div className="container mx-auto  lg:mb-16 lg:mt-16 ">
+const Masters = () => {
+    return (
+        <div className="container mx-auto  lg:mb-16 lg:mt-16 ">
 			<div className="lg:mx-[100px]">
 				<div className="grid   lg:grid-cols-2 sm:grid-cols-1">
 					<div className="shadow lg:w-full lg:mx-20  ">
@@ -14,7 +12,7 @@ const Phd = () => {
 							<div className="  ">
 								<h1 className=" mt-4 border-t-4 border-sky-700"></h1>
 								<h1 className="text-sky-700 text-xl font-bold text-justify mt-">
-									PhD Program
+									Masters Program
 								</h1>
 								<p className="  text-justify">
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -48,16 +46,16 @@ const Phd = () => {
 						</div>
 					</div>
 					<div className="lg:ml-[200px] mt-4">
-						<PhdRightSideBar></PhdRightSideBar>
+						<MastersSidebar></MastersSidebar>
 					</div>
 
 				</div>
 				<div>
-						<PhdMaincontent></PhdMaincontent>
+						<MastersMain></MastersMain>
 					</div>
 			</div>
 		</div>
-	);
+    );
 };
 
-export default Phd;
+export default Masters;

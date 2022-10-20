@@ -1,22 +1,25 @@
-import React from "react";
-import ProfileSidebar from "../Navbar/AboutSubmenu/ProfileSidebar";
-import Sidebar from "../Submenu/Sidebar";
-import PhdMaincontent from "./PhdMaincontent";
-import PhdRightSideBar from "./PhdRightSideBar";
+import React from 'react';
 
-const Phd = () => {
-	return (
-		<div className="container mx-auto  lg:mb-16 lg:mt-16 ">
+
+import PhdBusinessDetails from './PhdBusinessDetails';
+import PhDBusinessLawMain from './PhDBusinessLawMain';
+import PhdBusinessLawSidebar from './PhdBusinessLawSidebar';
+
+
+const PhDBusiness = () => {
+    return (
+        <div>
+			<div className="container mx-auto  lg:mb-16 lg:mt-16 ">
 			<div className="lg:mx-[100px]">
 				<div className="grid   lg:grid-cols-2 sm:grid-cols-1">
 					<div className="shadow lg:w-full lg:mx-20  ">
 						<div className=" bg-base-100 lg:px-8 px-3  pb-10 ">
 							<div className="  ">
 								<h1 className=" mt-4 border-t-4 border-sky-700"></h1>
-								<h1 className="text-sky-700 text-xl font-bold text-justify mt-">
-									PhD Program
+								<h1 className="text-sky-700 text-xl font-bold text-justify mt-4">
+									PhD in Islamic Business Law
 								</h1>
-								<p className="  text-justify">
+								<p className="  text-justify mt-3">
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 									Quae, similique, nobis explicabo voluptate ab impedit earum
 									dignissimos placeat error dolorem repudiandae corrupti quidem
@@ -48,16 +51,19 @@ const Phd = () => {
 						</div>
 					</div>
 					<div className="lg:ml-[200px] mt-4">
-						<PhdRightSideBar></PhdRightSideBar>
+						<PhdBusinessLawSidebar></PhdBusinessLawSidebar>
 					</div>
-
 				</div>
 				<div>
-						<PhdMaincontent></PhdMaincontent>
-					</div>
+					<PhDBusinessLawMain></PhDBusinessLawMain>
+				</div>
+			</div>
+			<div className="container lg:mr-52">
+				<PhdBusinessDetails></PhdBusinessDetails>
 			</div>
 		</div>
-	);
+		</div>
+    );
 };
 
-export default Phd;
+export default PhDBusiness;

@@ -12,15 +12,15 @@ export const links = [
 					{ name: "Phd in Islamic Business Law", link: "phdbusinesslaw" },
 					{ name: "Phd in Islamic Insurance", link: "/phdinsurance" },
 					// { name: "Phd in Islamic Shariah", link: "/phdsariah" },
-					{ name: "Phd in Islamic Studies", link: "/phdusalfiq" },
+					{ name: "Phd in Islamic Studies", link: "/phdislamicstudy" },
 				],
 			},
 
 			{
 				Head: "Masters (Research)",
-				link: "/masters",
+				link: "/mastersreserach",
 				sublink: [
-					{ name: "Master of Islamic Banking & Finance", link: "/" },
+					{ name: "Master of Islamic Banking & Finance", link: "/masterfinance" },
 					{ name: "Master of Islamic Economics", link: "/" },
 					{ name: "Master of Islamic Business law", link: "/" },
 					{ name: "Master of Islamic Insurance", link: "/" },
@@ -29,7 +29,7 @@ export const links = [
 			},
 			{
 				Head: "Masters (Coursework)",
-				link: "/masters",
+				link: "#",
 				sublink: [
 					{ name: "Master of Islamic Banking & Finance", link: "/" },
 					{ name: "Master of Islamic Economics", link: "/" },

@@ -67,6 +67,7 @@ const Navbar = () => {
 						
 						<CurentStudent></CurentStudent>
 						<AboutUs></AboutUs>
+						
 						<li>
 							<Link
 								onClick={() => setOpen(!open)}

@@ -1,35 +1,19 @@
 import { Route, Routes } from "react-router-dom";
 // import "./App.css";
-import AboutUs from "./components/AboutUs";
+
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import News from "./components/News";
 import Research from "./components/Research";
-import Funding from "./components/Funding";
-import EventsTraining from "./components/EventsTraining";
-import MediasIcon from "./components/MediasIcon";
-import Undergraduate from "./components/Submenu/Undergraduate";
-import BankingFinance from "./components/Submenu/UndergraduateCourses/BankingFinance";
 
 import Phd from "./components/Postgraduate/Phd";
-import UgBankingFinanceCourseplan from "./components/Submenu/UndergraduateCourses/UgBankingFinanceCourseplan";
 import Diploma from "./components/Pages/diploma/Diploma";
-import MenuBar from "./components/Navbar/MenuBar";
-import UgEconomics from "./components/Submenu/UndergraduateCourses/UgEconomics";
-import UgShariah from "./components/Submenu/UgShariah";
-import UgIslamicInsurance from "./components/Submenu/UndergraduateCourses/UgIslamicInsurance";
-import UgBusinessLaw from "./components/Submenu/UgBusinessLaw";
-import UgFaq from "./components/Submenu/UgFaq";
-import UgFiqh from "./components/Submenu/UndergraduateCourses/UgFiqh";
-
 import DiplomaFinance from "./components/Pages/diploma/DiplomaFinance";
 import DiplomaShariah from "./components/Pages/diploma/DiplomaShariah";
 import DiplomaEconomics from "./components/Pages/diploma/DiplomaEconomics";
 import DiplomaIslamicInsurance from "./components/Pages/diploma/DiplomaIslamicInsurance";
-// import Navbar from "./components/Submenu/UndergraduateCourses/Navbar";
 import Program from "./components/Submenu/Program";
-
 import Megmenubar from "./components/Megamenu/Megmenubar";
 import Topbar from "./components/Navbar/Topbar";
 import Navbar from "./components/Navbar/NavBar";
@@ -44,6 +28,21 @@ import PhDIslamicInsurance from "./components/Postgraduate/PHD BUSINESS INSURANC
 import PhDIslamicStudies from "./components/Postgraduate/PHD ISLAMIC STUDIES/PhDIslamicStudies";
 import Masters from "./components/MASTERS/MASTERS/Masters";
 import MastersFinance from "./components/MASTERS/MASTERS FINANCE/MastersFinance";
+import MasterEconomics from "./components/MASTERS/MASTERS ECONOMICS/MasterEconomics";
+import MasterIslamicInsurance from "./components/MASTERS/MASTER ISLAMIC INSURANCE/MasterIslamicInsurance";
+import MasterBLaw from "./components/MASTERS/MASTER BUSINESS LAW/MasterBLaw";
+import MasterIslamicStudy from "./components/MASTERS/MASTER ISLAMIC STUDY/MasterIslamicStudy";
+import MastersCw from "./components/MASTERS ( COURSEWORK )/MASTERS (CW)/MastersCw";
+import MastersCwFinance from "./components/MASTERS ( COURSEWORK )/MASTER CW FINANCE/MastersCwFinance";
+import MastersCwEconomics from "./components/MASTERS ( COURSEWORK )/MASTERS CW ECONOMICS/MastersCwEconomics";
+import MastersCwBusinessLaw from "./components/MASTERS ( COURSEWORK )/MASTERS CW BUSINESS LAW/MastersCwBusinessLaw";
+import MastersCwInsurance from "./components/MASTERS ( COURSEWORK )/MASTERS CW INSURANCE/MastersCwInsurance";
+import MastersCwIslamicStudies from "./components/MASTERS ( COURSEWORK )/MASTERS CW ISLAMIC STUDY/MastersCwIslamicStudies";
+import Undergraduate from "./components/UNDERGRADUATE/UNDERGRADUATE/Undergraduate";
+import UgFinance from "./components/UNDERGRADUATE/UG FINANCE/UgFinance";
+import EventsTraining from "./components/EventsTraining";
+import UgEconomics from "./components/UNDERGRADUATE/UG ECONOMICS/UgEconomics";
+import UgBusinessLaw from "./components/UNDERGRADUATE/UG BUSINESS LAW/UgBusinessLaw";
 
 function App() {
 	return (
@@ -56,7 +55,6 @@ function App() {
 
 			<Routes>
 				<Route path="/" element={<Home></Home>}></Route>
-				<Route path="/about" element={<AboutUs></AboutUs>}></Route>
 				<Route path="/profile" element={<Profile></Profile>}></Route>
 				<Route
 					path="/LeadershipGovernence"
@@ -66,37 +64,28 @@ function App() {
 				<Route path="/research" element={<Research></Research>}></Route>
 
 				<Route path="/news" element={<News></News>}></Route>
-				<Route path="/funding" element={<Funding></Funding>}></Route>
+
 				<Route
 					path="/events"
 					element={<EventsTraining></EventsTraining>}
 				></Route>
 				{/* <Route path="/research" element={<Research></Research>}></Route> */}
 				<Route path="/program" element={<Program></Program>}></Route>
+
+				{/* undergraduate pages start here */}
 				<Route
 					path="/undergraduate"
 					element={<Undergraduate></Undergraduate>}
 				></Route>
+				<Route path="/ugfinance" element={<UgFinance></UgFinance>}></Route>
+				<Route path="/ugeconomics" element={<UgEconomics></UgEconomics>}></Route>
+				<Route path="/ugbusinesslaw" element={<UgBusinessLaw></UgBusinessLaw>} ></Route>
 
-				<Route
-					path="/banking"
-					element={<BankingFinance></BankingFinance>}
-				></Route>
-				<Route
-					path="/plan"
-					element={<UgBankingFinanceCourseplan></UgBankingFinanceCourseplan>}
-				></Route>
-				<Route path="/economics" element={<UgEconomics></UgEconomics>}></Route>
-				<Route path="/shariah" element={<UgShariah></UgShariah>}></Route>
-				<Route
-					path="/insurance"
-					element={<UgIslamicInsurance></UgIslamicInsurance>}
-				></Route>
-				<Route
-					path="/businesslaw"
-					element={<UgBusinessLaw></UgBusinessLaw>}
-				></Route>
-				<Route path="/fiqh" element={<UgFiqh></UgFiqh>}></Route>
+
+
+
+
+
 				<Route path="/diploma" element={<Diploma></Diploma>}></Route>
 				<Route
 					path="/diplomafinance"
@@ -117,10 +106,50 @@ function App() {
 				{/* Masters reserach start here */}
 				<Route path="/mastersreserach" element={<Masters></Masters>}></Route>
 				<Route
-					path="/masterfinance"
+					path="/financeresearch"
 					element={<MastersFinance></MastersFinance>}
 				></Route>
-
+				<Route
+					path="/economicsresearch"
+					element={<MasterEconomics></MasterEconomics>}
+				></Route>
+				<Route
+					path="/insuranceresearch"
+					element={<MasterIslamicInsurance></MasterIslamicInsurance>}
+				></Route>
+				<Route
+					path="/businesslawresearch"
+					element={<MasterBLaw></MasterBLaw>}
+				></Route>
+				<Route
+					path="/islamicstudyresearch"
+					element={<MasterIslamicStudy></MasterIslamicStudy>}
+				></Route>
+				{/* Masters Coursework start here */}
+				<Route
+					path="/masterscoursework"
+					element={<MastersCw></MastersCw>}
+				></Route>
+				<Route
+					path="/financecoursework"
+					element={<MastersCwFinance></MastersCwFinance>}
+				></Route>
+				<Route
+					path="/economicscoursework"
+					element={<MastersCwEconomics></MastersCwEconomics>}
+				></Route>
+				<Route
+					path="/businesslawcoursework"
+					element={<MastersCwBusinessLaw></MastersCwBusinessLaw>}
+				></Route>
+				<Route
+					path="/insurancecoursework"
+					element={<MastersCwInsurance></MastersCwInsurance>}
+				></Route>
+				<Route
+					path="/islamicstudiescoursework"
+					element={<MastersCwIslamicStudies></MastersCwIslamicStudies>}
+				></Route>
 				{/* phd components start from here */}
 				<Route path="/phd" element={<Phd></Phd>}></Route>
 				<Route path="/phdfinance" element={<PhdFinance></PhdFinance>}></Route>
@@ -142,7 +171,7 @@ function App() {
 					element={<PhDIslamicStudies></PhDIslamicStudies>}
 				></Route>
 			</Routes>
-			{/* <MediasIcon></MediasIcon> */}
+
 			<Footer></Footer>
 		</div>
 	);

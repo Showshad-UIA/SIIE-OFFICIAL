@@ -20,22 +20,37 @@ export const links = [
 				Head: "Masters (Research)",
 				link: "/mastersreserach",
 				sublink: [
-					{ name: "Master of Islamic Banking & Finance", link: "/masterfinance" },
-					{ name: "Master of Islamic Economics", link: "/" },
-					{ name: "Master of Islamic Business law", link: "/" },
-					{ name: "Master of Islamic Insurance", link: "/" },
-					{ name: "Master of Islamic Studies", link: "/" },
+					{
+						name: "Master of Islamic Banking & Finance",
+						link: "/financeresearch",
+					},
+					{ name: "Master of Islamic Economics", link: "/economicsresearch" },
+					{
+						name: "Master of Islamic Business law",
+						link: "/businesslawresearch",
+					},
+					{ name: "Master of Islamic Insurance", link: "/insuranceresearch" },
+					{ name: "Master of Islamic Studies", link: "/islamicstudyresearch" },
 				],
 			},
 			{
 				Head: "Masters (Coursework)",
-				link: "#",
+				link: "/masterscoursework",
 				sublink: [
-					{ name: "Master of Islamic Banking & Finance", link: "/" },
-					{ name: "Master of Islamic Economics", link: "/" },
-					{ name: "Master of Islamic Business Law", link: "/" },
-					{ name: "Master of Islamic Insurance", link: "/" },
-					{ name: "Master of Islamic Studies", link: "/" },
+					{
+						name: "Master of Islamic Banking & Finance",
+						link: "/financecoursework",
+					},
+					{ name: "Master of Islamic Economics", link: "/economicscoursework" },
+					{
+						name: "Master of Islamic Business Law",
+						link: "/businesslawcoursework",
+					},
+					{ name: "Master of Islamic Insurance", link: "/insurancecoursework" },
+					{
+						name: "Master of Islamic Studies",
+						link: "/islamicstudiescoursework",
+					},
 				],
 			},
 
@@ -43,10 +58,13 @@ export const links = [
 				Head: "Undergraduate",
 				link: "/undergraduate",
 				sublink: [
-					{ name: "Bachelor of Islamic Banking &  Finance", link: "/" },
-					{ name: "Bachelor of Islamic Business law", link: "/" },
+					{
+						name: "Bachelor of Islamic Banking &  Finance",
+						link: "/ugfinance",
+					},
+					{ name: "Bachelor of Islamic Economics", link: "/ugeconomics" },
+					{ name: "Bachelor of Islamic Business law", link: "/ugbusinesslaw" },
 					{ name: "Bachelor of Islamic Insurance", link: "/" },
-					{ name: "Bachelor of Islamic Shariah", link: "/" },
 					{ name: "Bachelor of Islamic Studies", link: "/" },
 				],
 			},
@@ -62,7 +80,6 @@ export const links = [
 					{ name: "Diploma in Islamic Studies", link: "/" },
 				],
 			},
-			
 		],
 	},
 	// {

@@ -1,6 +1,6 @@
 import React from "react";
 import ProfileSidebar from "../Navbar/AboutSubmenu/ProfileSidebar";
-import Sidebar from "../Submenu/Sidebar";
+
 import PhdMaincontent from "./PhdMaincontent";
 import PhdRightSideBar from "./PhdRightSideBar";
 

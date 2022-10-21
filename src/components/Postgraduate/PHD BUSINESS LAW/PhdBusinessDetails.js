@@ -2,7 +2,7 @@ import React from "react";
 
 const PhdBusinessDetails = () => {
 	return (
-		<div className="mx-16">
+		<div className="lg:mx-16">
 			<div className="">
 				<div
 					className="lg:w-[75%] lg:mx-[110px]   text-justify sm:w-full"

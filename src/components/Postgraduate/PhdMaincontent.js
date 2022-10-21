@@ -112,11 +112,11 @@ const PhdMaincontent = () => {
 							></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<a href="/phdusalfiq">
+							<a href="/phdislamicstudy">
 								<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
 									PhD in Islamic studies
 								</h2>
-							</a>
+							</a>npm s
 						</div>
 					</div>
 				</div>

@@ -1,67 +1,10 @@
 import React from "react";
-import MediasIcon from "./MediasIcon";
+
 
 const Footer = () => {
 	return (
 		<>
-			{/* <footer className="footer p-10 grid sm:grid-cols-2 lg:grid-cols-6 bg-sky-700 text-white lg:mr-10">
-				<div className="text-medium lg:mx-32">
-					<span class="footer-title">Home</span>
-					<a class="link link-hover">About</a>
-					<a class="link link-hover">Courses</a>{" "}
-					<a class="link link-hover">Careers</a>{" "}
-					<a class="link link-hover">Sustainability</a>{" "}
-				</div>{" "}
-				<div className="">
-					<span class="footer-title">Future students</span>
-					<a class="link link-hover">PhD</a>
-					<a class="link link-hover">Masters</a>
-					<a class="link link-hover">Undergraduate</a>
-					<a class="link link-hover">Diploma</a>
-					<a class="link link-hover">Students life</a>
-					<a class="link link-hover">Scholarship</a>
-					<a class="link link-hover">Why SIBS?</a>
-				</div>
-				<div className="">
-					<span class="footer-title">Students</span>
-					<a class="link link-hover">Misconducts rule</a>
-					<a class="link link-hover">Study with integrity</a>
-					<a class="link link-hover">Enrolment</a>
-					<a class="link link-hover">Fees</a>
-					<a class="link link-hover">Forms</a>
-					<a class="link link-hover">Results</a>
-					<a class="link link-hover">Graduations</a>
-					<a class="link link-hover">Students support</a>
-				</div>
-				<div className="">
-					<span class="footer-title">Staff</span>
-					<a class="link link-hover">Working with us</a>
-					<a class="link link-hover">Career development</a>
-					<a class="link link-hover">salary and benefits</a>
-					<a class="link link-hover">New staffs</a>
-					<a class="link link-hover">Future staffs</a>
-					<a class="link link-hover">Teaching</a>
-					<a class="link link-hover">Research</a>
-					<a class="link link-hover">Staff service</a>
-				</div>
-				<div className="">
-					<span class="footer-title">Research</span>
-					<a class="link link-hover">Events</a>
-					<a class="link link-hover">Researchers</a>
-					<a class="link link-hover">Future students</a>
-					<a class="link link-hover">Current students</a>
-					<a class="link link-hover">Groups</a>
-					<a class="link link-hover">Community and industry</a>
-					<a class="link link-hover">Research</a>
-				</div>
-				<div className="">
-					<span class="footer-title">Alumni</span>
-					<a class="link link-hover">Alumni award</a>
-					<a class="link link-hover">Alumni benefits</a>
-					<a class="link link-hover">Future students</a>
-					<a class="link link-hover">Mentoring program</a>
-				</div>
-			</footer> */}
+			
 			<footer class=" text-white bg-sky-700 lg:mt-auto mt-16">
 				<div class="grid grid-cols-2 gap-5 lg:mx-28 py-8 px-6 md:grid-cols-4 lg:grid-cols-6">
 					<div>

@@ -23,8 +23,8 @@ const MastersFinanceSidebar = () => {
 										<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 									</div>
 									<div>
-										<a href="/masterfinance">
-											<p>Master of Islamic Finance and Banking</p>
+										<a href="/economicsresearch">
+											<p>Master of Islamic Economics</p>
 										</a>
 									</div>
 								</a>
@@ -38,7 +38,7 @@ const MastersFinanceSidebar = () => {
 										<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 									</div>
 									<div>
-										<a href="/masterbusinesslaw">
+										<a href="/businesslawresearch">
 											<p>Master of Islamic Business Law</p>
 										</a>
 									</div>
@@ -53,7 +53,7 @@ const MastersFinanceSidebar = () => {
 										<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 									</div>
 									<div>
-										<a href="/masterinsurance">
+										<a href="/insuranceresearch">
 											{" "}
 											<p>Master of Islamic Insurance </p>
 										</a>
@@ -70,7 +70,7 @@ const MastersFinanceSidebar = () => {
 										<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 									</div>
 									<div>
-										<a href="/masterislamicstudy">
+										<a href="/islamicstudyresearch">
 											<p>Master of Islamic Studies</p>
 										</a>
 									</div>

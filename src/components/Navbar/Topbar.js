@@ -1,5 +1,4 @@
 import React from "react";
-import MediasIcon from "../MediasIcon";
 import { FaBars, FaBook, FaBookOpen } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

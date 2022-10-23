@@ -9,22 +9,7 @@ const FinanceDetails = () => {
 						className="lg:w-[75%] lg:mx-[110px]   text-justify sm:w-full"
 						id="structure"
 					>
-						<div className="">
-							<div className="sm:mt-20 px-5 ">
-								<div className="text-xl text-blue-500  font-bold">
-									<h1 className="">Course duration</h1>
-								</div>
-
-								<p className="mt-2">
-									Full time: 3 to 4 years full time for domestic and
-									international students
-								</p>
-								<p className="mt-2">
-									Part time: 5 to 8 years part time available for domestic
-									students only
-								</p>
-							</div>
-						</div>
+						<div className=""></div>
 					</div>
 					<div
 						className="  lg:w-[75%] lg:mx-[110px] text-justify mt-5 px-5   sm:w-full"
@@ -45,7 +30,7 @@ const FinanceDetails = () => {
 										<li> BUSN1131 Philosophy of Business Research</li>
 										<li> BUSN1133 Research Methodology</li>
 										<li>
-											BUSN1154 Advanced quantitative methods OR Advanced
+											BUSN1154 Advanced Quantitative Methods or Advanced
 											qualitative methods
 										</li>
 									</ul>
@@ -76,7 +61,9 @@ const FinanceDetails = () => {
 					>
 						<div className=" ">
 							<div className="">
-								<h1 className="text-xl  font-bold text-blue-500">Thesis</h1>
+								<h1 className="text-xl  font-bold text-blue-500">
+									Thesis (Research work)
+								</h1>
 								<p className="mt-2">
 									The doctoral thesis should not exceed 100,000 words on an
 									approved topic, under the supervision of an academic panel. It
@@ -138,6 +125,27 @@ const FinanceDetails = () => {
 							</div>
 						</div>
 					</div>
+					<div
+						className="lg:w-[75%] lg:mx-[110px] px-5  mt-2 text-justify sm:w-full"
+						id="admission"
+					>
+						<div className=" ">
+							<div className="">
+								<h1 className="text-xl text-blue-500  font-bold">
+									Admission requirement
+								</h1>
+								<p className="mt-2">
+									Admission to a research degree in the Sydney Islamic Business
+									School is very competitive. You need to have completed an
+									Australian honour (or equivalent) or a postgraduate degree
+									with outstanding results (at least 80%) in order to be
+									considered for an offer. Admission to the PhD program also
+									requires prior completion of a 20,000-word honours or Master’s
+									thesis.
+								</p>
+							</div>
+						</div>
+					</div>
 
 					<div
 						className="lg:w-[75%] lg:mx-[110px] px-5 mt-3 text-justify sm:w-full"
@@ -160,27 +168,6 @@ const FinanceDetails = () => {
 									fuga totam cumque necessitatibus, quas dolorem quod natus
 									rerum provident amet excepturi aperiam. Doloremque voluptas
 									iusto beatae?
-								</p>
-							</div>
-						</div>
-					</div>
-					<div
-						className="lg:w-[75%] lg:mx-[110px] px-5  mt-2 text-justify sm:w-full"
-						id="admission"
-					>
-						<div className=" ">
-							<div className="">
-								<h1 className="text-xl text-blue-500  font-bold">
-									Who can apply
-								</h1>
-								<p className="mt-2">
-									Admission to a research degree in the Sydney Islamic Business
-									School is very competitive. You need to have completed an
-									Australian honour (or equivalent) or a postgraduate degree
-									with outstanding results (at least 80%) in order to be
-									considered for an offer. Admission to the PhD program also
-									requires prior completion of a 20,000-word honours or Master’s
-									thesis.
 								</p>
 							</div>
 						</div>

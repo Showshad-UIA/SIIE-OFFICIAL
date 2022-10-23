@@ -1,19 +1,19 @@
 import React from "react";
-import Governance from "../../../Carosel/Asset/Governance structure (2).jpg";
+import Governance from "../../../Carosel/Asset/Presentation8.jpg";
 // import Logo from "../../../images/SydneyIslamicLogo-10-01-01.png";
 import chancellor from "../../../Carosel/Asset/explore-3.png";
 import viceChancellor from "../../../Carosel/Asset/explore-2.jpg";
 import Chart from "../../../Organazational Chart/Chart";
 const LeadershipGovernence = () => {
 	return (
-		<div className="container mx-auto mb-10">
+		<div className="container mx-auto mb-10 ">
 			
 			<div className="lg:mx-24  ">
 				<a href="#">
 					<img src={Governance} alt="chart" className="" />
 				</a>
 			</div>
-			<div>
+			<div className="-mt-10">
 				<h1 className="text-2xl px-3 font-bold border-b-2 lg:mx-36  border-gray-400">
 					<a href="#">Board of Trustees</a>
 				</h1>

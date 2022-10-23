@@ -12,16 +12,45 @@ const PhdFinance = () => {
 						<div className="shadow lg:w-full lg:mx-20  ">
 							<div className=" bg-base-100 lg:px-8 px-3  pb-10 ">
 								<h1 className="text-sky-700 text-xl font-bold text-justify mt-4">
-									PhD in Islamic Banking and Finance
+									Doctor of Philosophy (Islamic Banking and Finance)
 								</h1>
+								<p className="   text-justify">Start date: 2 February 2024</p>
+
+								<p>
+									
+									Full time: 4 years full time for domestic and international
+									students
+								</p>
+								<p>
+									
+									Part time: 8 years part time available for domestic students
+									only
+								</p>
+
+								<p >
+									Location: Sydney, Australia.
+								</p>
+								<button className=" bg-sky-700 text-lg p-1 rounded-md text-white mb-3 mt-2 px-2">Apply Now</button>
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700"></h1>
 									<h1 className="mt-6 text-xl  font-bold text-blue-500">
-										About the programme
+										About the program
 									</h1>
 
 									<p className="  text-justify mt-3">
-									The degree of Doctor of Philosophy (PhD) in Islamic Banking and Finance at the Sydney Islamic Business School may be undertaken across various Islamic Banking and Finance research areas. As part of your progression towards the degree, as a Higher Degree by Research (HDR) student, you will have access to an extensive HDR Curriculum from which you will have to complete 30 units of credit (UOC) worth of coursework units and a research thesis of 80,000 words on an approved topic, under the supervision of an academic panel. You will need to complete the coursework units by the end of the second year of your PhD (for full time students) and by the end of the fourth year of your PhD (for part time students).
+										The degree of Doctor of Philosophy (PhD) in Islamic Banking
+										and Finance at the Sydney Islamic Business School may be
+										undertaken across various Islamic Banking and Finance
+										research areas. As part of your progression towards the
+										degree, as a Higher Degree by Research (HDR) student, you
+										will have access to an extensive HDR Curriculum from which
+										you will have to complete 30 units of credit (UOC) worth of
+										coursework units and a research thesis of 80,000 words on an
+										approved topic, under the supervision of an academic panel.
+										You will need to complete the coursework units by the end of
+										the second year of your PhD (for full time students) and by
+										the end of the fourth year of your PhD (for part time
+										students).
 									</p>
 									<p className="text-justify mt-3">
 										Our doctoral training will immerse you in all aspects of

@@ -17,24 +17,24 @@ export const links = [
 			},
 
 			{
-				Head: "Masters (Research)",
+				Head: "MPhil",
 				link: "/mastersreserach",
 				sublink: [
 					{
-						name: "Master of Islamic Banking & Finance",
+						name:"MPhil in Islamic Banking & Finance",
 						link: "/financeresearch",
 					},
-					{ name: "Master of Islamic Economics", link: "/economicsresearch" },
+					{ name: "MPhil in Islamic Economics", link: "/economicsresearch" },
 					{
-						name: "Master of Islamic Business law",
+						name: "MPhil in  Islamic Business law",
 						link: "/businesslawresearch",
 					},
-					{ name: "Master of Islamic Insurance", link: "/insuranceresearch" },
-					{ name: "Master of Islamic Studies", link: "/islamicstudyresearch" },
+					{ name: "MPhil in  Islamic Insurance", link: "/insuranceresearch" },
+					{ name: "MPhil in  Islamic Studies", link: "/islamicstudyresearch" },
 				],
 			},
 			{
-				Head: "Masters (Coursework)",
+				Head: "Masters",
 				link: "/masterscoursework",
 				sublink: [
 					{

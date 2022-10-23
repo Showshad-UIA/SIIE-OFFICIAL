@@ -7,7 +7,7 @@ const PhdFinanceAdditionalMain = () => {
 		<div className="lg:mx-auto mt-8">
 			<div className="w-50 text-2xl  font-bold cursor-pointer   text-center">
 				<button className="bg-sky-700  pr-16 pb-5 pt-5 pl-16">
-					<p className=" text-white  ">Overview</p>
+					<p className=" text-white  "> Program overview</p>
 				</button>
 			</div>
 			<div className="grid lg:grid-cols-2 gap-1  sm:grid-cols-1 m-5 lg:mx-24 mb-11">
@@ -22,7 +22,7 @@ const PhdFinanceAdditionalMain = () => {
 						<div className="">
 							<a href="#">
 								<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-									Course duration
+								Coursework 
 								</h2>
 							</a>
 						</div>
@@ -40,7 +40,7 @@ const PhdFinanceAdditionalMain = () => {
 							<a href="#">
 								{" "}
 								<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-								Coursework & Thesis
+								Thesis (Research work)
 
 								</h2>
 							</a>
@@ -94,7 +94,7 @@ const PhdFinanceAdditionalMain = () => {
 							<a href="#">
 								{" "}
 								<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-									Who can apply
+								Admission requirement
 								</h2>
 							</a>
 						</div>

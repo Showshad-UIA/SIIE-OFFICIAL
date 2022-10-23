@@ -23,7 +23,7 @@ const Program = () => {
 							<div className="">
 								<a href="/phd">
 									<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-										PhD
+									Doctor of Philosophy 
 									</h2>
 								</a>
 							</div>
@@ -41,7 +41,7 @@ const Program = () => {
 								<a href="/mastersreserach">
 									{" "}
 									<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-										Masters (Research)
+									Master of Philosophy
 									</h2>
 								</a>
 							</div>
@@ -58,7 +58,7 @@ const Program = () => {
 							<div className="">
 								<a href="/masterscoursework">
 									<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-										Masters (Coursework)
+										Masters
 									</h2>
 								</a>
 							</div>

@@ -1,58 +1,66 @@
 import React from "react";
+import { ResearchMenuLinks } from "./Navbar/ResearchMenuLink";
 import PhdDetails from "./Postgraduate/PhdDetails";
+import ResearchDetails from "./ResearchDetails";
 import ResearchMain from "./ResearchMain";
 import ResearchSidebar from "./ResearchSidebar";
 
 const Research = () => {
 	return (
-		<>
-			<div className=" sm:w-full ">
-				<div className="grid text-center lg:mx-[69px]  lg:mt-[100px] sm:mt-10   lg:grid-cols-2 sm:grid-cols-1">
-					<div className=" lg:ml-[200px] text-justify m-2 lg:w-full border-t-2 border-black">
-						<div className="">
-							<p className="mb-5 mt-3  text-2xl  font-bold cursor-pointer hover:text-red-500  text-blue-500">
-								Graduate Research Center
-							</p>
+		<div className="container mx-auto  lg:mb-16 lg:mt-16 ">
+			<div className="lg:mx-[100px]">
+				<div className="grid   lg:grid-cols-2 sm:grid-cols-1">
+					<div className="shadow lg:w-full lg:mx-20  ">
+						<div className=" bg-base-100 lg:px-8 px-3  pb-10 ">
+							<div className="  ">
+								<h1 className=" mt-4 border-t-4 border-sky-700"></h1>
+								<h1 className="text-sky-700 text-xl font-bold text-justify mt-">
+									Graduate Research Center
+								</h1>
+								<p className="  text-justify">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Quae, similique, nobis explicabo voluptate ab impedit earum
+									dignissimos placeat error dolorem repudiandae corrupti quidem
+									nisi expedita eum suscipit numquam dolor accusantium! Lorem
+									ipsum dolor sit amet, consectetur adipisicing elit. Quae,
+									similique, nobis explicabo voluptate ab impedit earum
+									dignissimos placeat error dolorem repudiandae corrupti quidem
+									nisi expedita eum suscipit numquam dolor accusantium! Lorem
+									ipsum dolor sit amet, consectetur adipisicing elit. Quae,
+									similique, nobis explicabo voluptate ab impedit earum
+									dignissimos placeat error dolorem repudiandae corrupti quidem
+									nisi expedita eum suscipit numquam dolor accusantium! Lorem
+									ipsum dolor sit amet, consectetur adipisicing elit. Quae,
+									similique, nobis explicabo voluptate ab impedit earum
+									dignissimos placeat error dolorem repudiandae corrupti quidem
+									nisi expedita eum suscipit numquam dolor accusantium! eum
+									suscipit numquam dolor accusantium! Lorem ipsum dolor sit
+									amet, consectetur adipisicing elit. Quae, similique, nobis
+									explicabo voluptate ab impedit earum dignissimos placeat error
+									dolorem repudiandae corrupti quidem nisi expedita eum suscipit
+									numquam dolor accusantium! Lorem ipsum dolor sit amet,
+									consectetur adipisicing elit. Quae, similique, nobis explicabo
+									voluptate ab impedit earum dignissimos placeat error dolorem
+									repudiandae corrupti quidem nisi expedita eum suscipit numquam
+									dolor accusantium!
+								</p>
+								<h1 className=" mt-3 border-t-4 border-sky-700"></h1>
+							</div>
 						</div>
-						<p className="mt-5">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae,
-							similique, nobis explicabo voluptate ab impedit earum dignissimos
-							placeat error dolorem repudiandae corrupti quidem nisi expedita
-							eum suscipit numquam dolor accusantium! Lorem ipsum dolor sit
-							amet, consectetur adipisicing elit. Quae, similique, nobis
-							explicabo voluptate ab impedit earum dignissimos placeat error
-							dolorem repudiandae corrupti quidem nisi expedita{" "}
-							<p>
-								eum suscipit numquam dolor accusantium! Lorem ipsum dolor sit
-								amet, consectetur adipisicing elit. Quae, similique, nobis
-								explicabo voluptate ab impedit earum dignissimos placeat error
-								dolorem repudiandae corrupti quidem nisi expedita eum suscipit
-								numquam dolor accusantium! Lorem ipsum dolor sit amet,
-								consectetur adipisicing elit. Quae, similique, nobis explicabo
-								voluptate ab impedit earum dignissimos placeat error dolorem
-								repudiandae corrupti quidem nisi expedita eum suscipit numquam
-								dolor accusantium! Lorem ipsum dolor sit amet, consectetur
-								adipisicing elit. Quae, similique, nobis explicabo voluptate ab
-								impedit earum dignissimos placeat error dolorem repudiandae
-								corrupti quidem nisi expedita eum suscipit numquam dolor
-								accusantium!
-							</p>
-						</p>
 					</div>
-					<div className="lg:mx-[200px] lg:ml-[250px] mt-2">
+					<div className="lg:ml-[200px] mt-4">
 						<ResearchSidebar></ResearchSidebar>
 					</div>
 				</div>
-				<div className="sm:w-full md:w-full lg:w-full">
+				<div>
 					<ResearchMain></ResearchMain>
 				</div>
 			</div>
 			<div>
-				<PhdDetails></PhdDetails>
+				<ResearchDetails></ResearchDetails>
 			</div>
-		</>
+		</div>
 	);
 };
 
 export default Research;
-

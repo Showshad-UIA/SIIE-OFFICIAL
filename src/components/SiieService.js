@@ -1,10 +1,10 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import image1 from "./../Carosel/Asset/image 8 (2).jpg";
-import image2 from "./../images/image-4.png";
-import image3 from "./../images/Image 2.jpg";
-import image4 from "./../images/Finance.png";
+import image1 from "./../Carosel/Asset/explore 04.jpg";
+import image2 from "./../Carosel/Asset/explore 01.jpg";
+import image3 from "./../Carosel/Asset/insurance.jpg";
+import image4 from "./../Carosel/Asset/explore 03.jpg";
 
 const SiieService = () => {
 	return (
@@ -17,7 +17,7 @@ const SiieService = () => {
 						<div class="flex justify-center text-xl lg:mb-24 md:mb-6  w-full ">
 							<div className="bg-sky-700 shadow-md">
 								<figure className="">
-									<img src={image1} alt="image-3" className="" />
+									<img src={image1} alt="image-3" className="h-[207px]" />
 								</figure>
 
 								<div className=" bg-sky-700  h-auto sm:h-[120px]">
@@ -25,9 +25,9 @@ const SiieService = () => {
 										<h1 className="text-[18px] text-left text-white hover:text-red-500 md:mt-4 lg:mt-1 px-2">
 											Islamic Finance & Banking
 										</h1>
-										<p className="text-justify text-white text-[16px] mt-3 px-2 mb-3  ">
+										<p className="text-justify text-white text-[16px] mt-2 px-2 mb-1  ">
 											Islamic finance addresses the issue of financial inclusion
-											risk-sharing other things{" "}
+											risk-sharing 
 										</p>
 									</a>
 								</div>
@@ -36,7 +36,7 @@ const SiieService = () => {
 						<div class="flex justify-center text-xl lg:mb-24 md:mb-6  w-full ">
 							<div className="bg-sky-700 shadow-md">
 								<figure className="">
-									<img src={image2} alt="image-2" className="" />
+									<img src={image2} alt="image-2" className="h-[207px]" />
 								</figure>
 
 								<div className=" bg-sky-700  lg:h-auto md:h-auto sm:h-[120px]">
@@ -44,8 +44,8 @@ const SiieService = () => {
 										<h1 className="text-[18px] text-left text-white hover:text-red-500 md:mt-4 lg:mt-1 px-2">
 											Islamic Economics
 										</h1>
-										<p className="text-justify text-white text-[16px] mt-3 px-2 mb-3 ">
-										The Islamic body of knowledge, has emerged as a new social science discipline 
+										<p className="text-justify text-white text-[16px] mt-2 px-2 mb-1 ">
+										The Islamic body of knowledge, has emerged as a new social  
 										</p>
 									</a>
 								</div>
@@ -54,7 +54,7 @@ const SiieService = () => {
 						<div class="flex justify-center text-xl lg:mb-24 md:mb-6 sm:mb-3 w-full ">
 							<div className="bg-sky-700  ">
 								<figure className="">
-									<img src={image3} alt="image-3" className="" />
+									<img src={image3} alt="image-3" className="h-[210px]" />
 								</figure>
 
 								<div className=" bg-sky-700  lg:h-auto md:h-auto sm:h-[120px]">
@@ -62,9 +62,9 @@ const SiieService = () => {
 										<h1 className="text-[18px] text-left text-white hover:text-red-500 md:mt-4 lg:mt-1 px-2">
 											Islamic Insurance
 										</h1>
-										<p className="text-justify text-white text-[16px] mt-3 px-2 mb-2 ">
+										<p className="text-justify text-white text-[16px] mt-2 px-2 mb-1 ">
 											Islam forbids transactions in which there is gharar. The
-											argument against conventional 
+											argument.. 
 											
 										</p>
 									</a>
@@ -74,7 +74,7 @@ const SiieService = () => {
 						<div class="flex justify-center text-xl lg:mb-24 md:mb-6  w-full ">
 							<div className="bg-sky-700 shadow-md">
 								<figure className="">
-									<img src={image4} alt="image-4" className="" />
+									<img src={image4} alt="image-4" className="h-[210px]" />
 								</figure>
 
 								<div className=" bg-sky-700  lg:h-auto md:h-auto sm:h-[120px]">
@@ -82,9 +82,8 @@ const SiieService = () => {
 										<h1 className="text-[18px] text-left text-white hover:text-red-500 md:mt-4 lg:mt-1 px-2">
 											Islamic Business Law
 										</h1>
-										<p className="text-justify text-[16px] mt-4 px-2 mb-2  text-white">
-											Islamic commercial law, as fiqh mua'malāt constitutes an
-											important branch of law
+										<p className="text-justify text-[16px] mt-2 px-2 mb-1  text-white">
+											Islamic commercial law, as fiqh mua'malāt constitutes 
 										</p>
 									</a>
 								</div>

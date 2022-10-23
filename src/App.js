@@ -8,11 +8,7 @@ import News from "./components/News";
 import Research from "./components/Research";
 
 import Phd from "./components/Postgraduate/Phd";
-import Diploma from "./components/Pages/diploma/Diploma";
-import DiplomaFinance from "./components/Pages/diploma/DiplomaFinance";
-import DiplomaShariah from "./components/Pages/diploma/DiplomaShariah";
-import DiplomaEconomics from "./components/Pages/diploma/DiplomaEconomics";
-import DiplomaIslamicInsurance from "./components/Pages/diploma/DiplomaIslamicInsurance";
+
 import Program from "./components/Submenu/Program";
 import Megmenubar from "./components/Megamenu/Megmenubar";
 import Topbar from "./components/Navbar/Topbar";
@@ -43,6 +39,14 @@ import UgFinance from "./components/UNDERGRADUATE/UG FINANCE/UgFinance";
 import EventsTraining from "./components/EventsTraining";
 import UgEconomics from "./components/UNDERGRADUATE/UG ECONOMICS/UgEconomics";
 import UgBusinessLaw from "./components/UNDERGRADUATE/UG BUSINESS LAW/UgBusinessLaw";
+import UgIslamicInsurance from "./components/UNDERGRADUATE/UG ISLAMIC INSURANCE/UgIslamicInsurance";
+import UgIslamicStudy from "./components/UNDERGRADUATE/UG ISLAMIC STUDY/UgIslamicStudy";
+import Diploma from "./components/DIPLOMA/DIPLOMA/Diploma";
+import DiplomaFinance from "./components/DIPLOMA/DIPLOMA FINANCE/DiplomaFinance";
+import ArticleOne from "./components/Home Content/NEWS/ArticleOne";
+import AirticleTwo from "./components/Home Content/NEWS/AirticleTwo";
+import ArticleThree from "./components/Home Content/NEWS/ArticleThree";
+import AcademicStructure from "./components/Navbar/AboutSubmenu/AcademicStructure";
 
 function App() {
 	return (
@@ -56,9 +60,14 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Home></Home>}></Route>
 				<Route path="/profile" element={<Profile></Profile>}></Route>
+				{/* About pages  */}
 				<Route
 					path="/LeadershipGovernence"
 					element={<LeadershipGovernence></LeadershipGovernence>}
+				></Route>
+				<Route
+					path="/AcademicStructure"
+					element={<AcademicStructure></AcademicStructure>}
 				></Route>
 
 				<Route path="/research" element={<Research></Research>}></Route>
@@ -78,31 +87,30 @@ function App() {
 					element={<Undergraduate></Undergraduate>}
 				></Route>
 				<Route path="/ugfinance" element={<UgFinance></UgFinance>}></Route>
-				<Route path="/ugeconomics" element={<UgEconomics></UgEconomics>}></Route>
-				<Route path="/ugbusinesslaw" element={<UgBusinessLaw></UgBusinessLaw>} ></Route>
+				<Route
+					path="/ugeconomics"
+					element={<UgEconomics></UgEconomics>}
+				></Route>
+				<Route
+					path="/ugbusinesslaw"
+					element={<UgBusinessLaw></UgBusinessLaw>}
+				></Route>
+				<Route
+					path="/uginsurance"
+					element={<UgIslamicInsurance></UgIslamicInsurance>}
+				></Route>
+				<Route
+					path="/ugislamicstudy"
+					element={<UgIslamicStudy></UgIslamicStudy>}
+				></Route>
 
-
-
-
-
-
+				{/* diploma program start here */}
 				<Route path="/diploma" element={<Diploma></Diploma>}></Route>
 				<Route
 					path="/diplomafinance"
 					element={<DiplomaFinance></DiplomaFinance>}
 				></Route>
-				<Route
-					path="/diplomashariah"
-					element={<DiplomaShariah></DiplomaShariah>}
-				></Route>
-				<Route
-					path="/diplomainsurance"
-					element={<DiplomaIslamicInsurance></DiplomaIslamicInsurance>}
-				></Route>
-				<Route
-					path="/diplomaeconomics"
-					element={<DiplomaEconomics></DiplomaEconomics>}
-				></Route>
+
 				{/* Masters reserach start here */}
 				<Route path="/mastersreserach" element={<Masters></Masters>}></Route>
 				<Route
@@ -169,6 +177,21 @@ function App() {
 				<Route
 					path="/phdislamicstudy"
 					element={<PhDIslamicStudies></PhDIslamicStudies>}
+				></Route>
+
+				{/* home page article  */}
+				{/* news content start here */}
+				<Route
+					path="/articleone"
+					element={<ArticleOne></ArticleOne>}
+				></Route>
+				<Route
+					path="/articletwo"
+					element={<AirticleTwo></AirticleTwo>}
+				></Route>
+				<Route
+					path="/articlethree"
+					element={<ArticleThree></ArticleThree>}
 				></Route>
 			</Routes>
 

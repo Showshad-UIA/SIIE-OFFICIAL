@@ -38,7 +38,7 @@ const ProfileSidebar = () => {
 									<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 								</div>
 								<div>
-									<a href="#">
+									<a href="/AcademicStructure">
 										<p className='font-serif'>Academic Structure</p>
 									</a>
 								</div>

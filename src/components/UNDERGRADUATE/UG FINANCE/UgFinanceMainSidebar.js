@@ -72,7 +72,7 @@ const UgFinanceMainSidebar = () => {
                                     <FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
                                 </div>
                                 <div>
-                                    <a href="/ugislamicstudies">
+                                    <a href="/ugislamicstudy">
                                         <p>Bachelor of Islamic Studies</p>
                                     </a>
                                 </div>

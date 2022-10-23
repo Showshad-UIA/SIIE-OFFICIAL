@@ -7,7 +7,7 @@ export const links = [
 				sublink: [
 					{ name: "Profile | Vision & Mission", link: "/profile" },
 					{ name: "Governance Structure", link: "/LeadershipGovernence" },
-					{ name: "Academic Structure", link: "/" },
+					{ name: "Academic Structure", link: "/AcademicStructure" },
 					{ name: "Accreditation", link: "/" },
 					{ name: "Our Facilities", link: "/" },
 

@@ -22,7 +22,7 @@ const UndergraduateMain = () => {
                     <div className="">
                         <a href="/ugfinance">
                             <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-                                Undergraduate of Islamic Banking & Finance
+                                Bachelor of Islamic Banking & Finance
                             </h2>
                         </a>
                     </div>
@@ -40,7 +40,7 @@ const UndergraduateMain = () => {
                         <a href="/ugeconomics">
                             {" "}
                             <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-                            Undergraduate of Islamic Economics
+                            Bachelor of Islamic Economics
                             </h2>
                         </a>
                     </div>
@@ -57,7 +57,7 @@ const UndergraduateMain = () => {
                     <div className="">
                         <a href="/ugbusinesslaw">
                             <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-                                Undergraduate of Islamic Business law
+                                Bachelor of Islamic Business law
                             </h2>
                         </a>
                     </div>
@@ -72,9 +72,9 @@ const UndergraduateMain = () => {
                         ></FontAwesomeIcon>
                     </div>
                     <div className="">
-                        <a href="/phdinsurance">
+                        <a href="/uginsurance">
                             <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-                                Undergraduate of Islamic Insurance
+                                Bachelor of Islamic Insurance
                             </h2>
                         </a>
                     </div>
@@ -89,10 +89,10 @@ const UndergraduateMain = () => {
                         ></FontAwesomeIcon>
                     </div>
                     <div className="">
-                        <a href="/phdsariah">
+                        <a href="#">
                             {" "}
                             <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-                                Undergraduate of Islamic Shariah
+                                Bachelor of Islamic Shariah
                             </h2>
                         </a>
                     </div>
@@ -110,7 +110,7 @@ const UndergraduateMain = () => {
                     <div className="">
                         <a href="/ugislamicstudy">
                             <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-                                Undergraduate of Islamic studies
+                                Bachelor of Islamic studies
                             </h2>
                         </a>
                     </div>

@@ -64,8 +64,8 @@ export const links = [
 					},
 					{ name: "Bachelor of Islamic Economics", link: "/ugeconomics" },
 					{ name: "Bachelor of Islamic Business law", link: "/ugbusinesslaw" },
-					{ name: "Bachelor of Islamic Insurance", link: "/" },
-					{ name: "Bachelor of Islamic Studies", link: "/" },
+					{ name: "Bachelor of Islamic Insurance", link: "/uginsurance" },
+					{ name: "Bachelor of Islamic Studies", link: "/ugislamicstudy" },
 				],
 			},
 
@@ -73,7 +73,7 @@ export const links = [
 				Head: "Diploma",
 				link: "/diploma",
 				sublink: [
-					{ name: "Diploma in Islamic Banking & Finance", link: "/" },
+					{ name: "Diploma in Islamic Banking & Finance", link: "/diplomafinance" },
 					{ name: "Diploma in Islamic Business law", link: "/" },
 					{ name: "Diploma in Islamic Insurance", link: "/" },
 					{ name: "Diploma in Islamic Shariah", link: "/" },

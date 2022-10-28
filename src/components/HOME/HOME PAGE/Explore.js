@@ -1,7 +1,7 @@
 import React from "react";
-import explore1 from "../../Carosel/Asset/news2.jpg";
-import explore2 from "../../Carosel/Asset/news1.jpg";
-import explore3 from "../../Carosel/Asset/news 3.jpg";
+import explore1 from "../../../Carosel/Asset/news2.jpg";
+import explore2 from "../../../Carosel/Asset/new1.png";
+import explore3 from "../../../Carosel/Asset/news 3.jpg";
 const Explore = () => {
 	return (
 		<>

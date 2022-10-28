@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Sibslinks } from "./SibsLink";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { links } from "./SibsLinks";
 const Sibs = () => {
-    const { open, setOpen } = useState("false");
+	const { open, setOpen } = useState("false");
 	const [heading, setHeading] = useState("");
 	const [subHeading, setSubHeading] = useState("");
 	return (
 		<>
-			{Sibslinks.map((link) => (
+			{links.map((link) => (
 				<div>
 					<div className="px-3 text-left md:cursor-pointer group">
 						<h1
@@ -41,15 +41,12 @@ const Sibs = () => {
 									<div className="bg-gray-100 shadow-md text-black grid grid-cols-1  p-4 left-10">
 										{link.sublinks.map(({ Head, link, sublink }) => (
 											<div>
-												
 												<a
 													className="text-md font-semibold onClick={() => setOpen(!open)} "
 													href={link}
 												>
 													{Head}{" "}
 												</a>
-
-												
 
 												{sublink.map((slink) => (
 													<li className="text-sm w-full  text-black pr-5  my-3">

@@ -1,10 +1,10 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import image1 from "../../Carosel/Asset/explore 04.jpg";
-import image2 from "../../Carosel/Asset/explore 01.jpg";
-import image3 from "../../Carosel/Asset/insurance.jpg";
-import image4 from "../../Carosel/Asset/explore 03.jpg";
+import image1 from "../../../Carosel/Asset/explore 04.jpg";
+import image2 from "../../../Carosel/Asset/explore 01.jpg";
+import image3 from "../../../Carosel/Asset/insurance.jpg";
+import image4 from "../../../Carosel/Asset/explore 03.jpg";
 
 const Discover = () => {
 	return (
@@ -27,7 +27,7 @@ const Discover = () => {
 										</h1>
 										<p className="text-justify text-white text-[16px] mt-2 px-2 mb-1  ">
 											Islamic finance addresses the issue of financial inclusion
-											risk-sharing 
+											risk-sharing
 										</p>
 									</a>
 								</div>
@@ -45,7 +45,7 @@ const Discover = () => {
 											Islamic Economics
 										</h1>
 										<p className="text-justify text-white text-[16px] mt-2 px-2 mb-1 ">
-										The Islamic body of knowledge, has emerged as a new social  
+											The Islamic body of knowledge, has emerged as a new social
 										</p>
 									</a>
 								</div>
@@ -64,8 +64,7 @@ const Discover = () => {
 										</h1>
 										<p className="text-justify text-white text-[16px] mt-2 px-2 mb-1 ">
 											Islam forbids transactions in which there is gharar. The
-											argument.. 
-											
+											argument..
 										</p>
 									</a>
 								</div>
@@ -83,7 +82,7 @@ const Discover = () => {
 											Islamic Business Law
 										</h1>
 										<p className="text-justify text-[16px] mt-2 px-2 mb-1  text-white">
-											Islamic commercial law, as fiqh mua'malāt constitutes 
+											Islamic commercial law, as fiqh mua'malāt constitutes
 										</p>
 									</a>
 								</div>

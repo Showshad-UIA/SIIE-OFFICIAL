@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileSidebar from "../Navbar/AboutSubmenu/ProfileSidebar";
+import ProfileSidebar from "../Navbar/ABOUT SIBS/ProfileSidebar";
 
 import PhdMaincontent from "./PhdMaincontent";
 import PhdRightSideBar from "./PhdRightSideBar";
@@ -50,11 +50,10 @@ const Phd = () => {
 					<div className="lg:ml-[200px] mt-4">
 						<PhdRightSideBar></PhdRightSideBar>
 					</div>
-
 				</div>
 				<div>
-						<PhdMaincontent></PhdMaincontent>
-					</div>
+					<PhdMaincontent></PhdMaincontent>
+				</div>
 			</div>
 		</div>
 	);

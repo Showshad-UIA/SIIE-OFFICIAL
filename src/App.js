@@ -1,14 +1,14 @@
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
-import Home from "./components/Home";
+import Home from "./components/HOME/Home";
 import Research from "./components/RESERACH/Research";
 import Phd from "./components/Postgraduate/Phd";
 import Topbar from "./components/Navbar/Topbar";
-import Navbar from "./components/Navbar/NavBar";
+import Navbar from "./components/Navbar/ACADEMIC PROGRAMS/NavBar";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import LeadershipGovernence from "./components/Navbar/AboutSubmenu/LeadershipGovernence";
-import Profile from "./components/Navbar/AboutSubmenu/Profile";
+import LeadershipGovernence from "./components/Navbar/ABOUT SIBS/LeadershipGovernence";
+import Profile from "./components/Navbar/ABOUT SIBS/Profile";
 import PhdFinance from "./components/Postgraduate/PHD FINANCE/PhdFinance";
 import PhdEconimics from "./components/Postgraduate/PHD ECONOMICS/PhdEconimics";
 import PhDBusiness from "./components/Postgraduate/PHD BUSINESS LAW/PhDBusiness";
@@ -28,19 +28,19 @@ import MastersCwInsurance from "./components/MASTERS ( COURSEWORK )/MASTERS CW I
 import MastersCwIslamicStudies from "./components/MASTERS ( COURSEWORK )/MASTERS CW ISLAMIC STUDY/MastersCwIslamicStudies";
 import Undergraduate from "./components/UNDERGRADUATE/UNDERGRADUATE/Undergraduate";
 import UgFinance from "./components/UNDERGRADUATE/UG FINANCE/UgFinance";
-import EventsTraining from "./components/Events";
+import EventsTraining from "./components/EVENT'S & NEWS/Events";
 import UgEconomics from "./components/UNDERGRADUATE/UG ECONOMICS/UgEconomics";
 import UgBusinessLaw from "./components/UNDERGRADUATE/UG BUSINESS LAW/UgBusinessLaw";
 import UgIslamicInsurance from "./components/UNDERGRADUATE/UG ISLAMIC INSURANCE/UgIslamicInsurance";
 import UgIslamicStudy from "./components/UNDERGRADUATE/UG ISLAMIC STUDY/UgIslamicStudy";
 import Diploma from "./components/DIPLOMA/DIPLOMA/Diploma";
 import DiplomaFinance from "./components/DIPLOMA/DIPLOMA FINANCE/DiplomaFinance";
-import ArticleOne from "./components/Home Content/NEWS/ArticleOne";
-import AirticleTwo from "./components/Home Content/NEWS/AirticleTwo";
-import ArticleThree from "./components/Home Content/NEWS/ArticleThree";
-import AcademicStructure from "./components/Navbar/AboutSubmenu/AcademicStructure";
+import ArticleOne from "./components/HOME/HOME CONTENT/NEWS/ArticleOne";
+import AirticleTwo from "./components/HOME/HOME CONTENT/NEWS/AirticleTwo";
+import ArticleThree from "./components/HOME/HOME CONTENT/NEWS/ArticleThree";
+import AcademicStructure from "./components/Navbar/ABOUT SIBS/AcademicStructure";
 import Footer from "./components/FOOTER/Footer";
-import Events from "./components/Events";
+import Events from "./components/EVENT'S & NEWS/Events";
 
 function App() {
 	return (

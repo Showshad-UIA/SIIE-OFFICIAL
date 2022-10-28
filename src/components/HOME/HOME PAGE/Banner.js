@@ -1,7 +1,7 @@
 import React from "react";
 
-import slider1 from "../../Carosel/Asset/mosque.jpg";
-import slider3 from "../../Carosel/Asset/slider.jpg";
+import slider1 from "../../../Carosel/Asset/mosque.jpg";
+import slider3 from "../../../Carosel/Asset/slider.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faChevronLeft,

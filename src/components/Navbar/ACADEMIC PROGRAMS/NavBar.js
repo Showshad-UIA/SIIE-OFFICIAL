@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../Carosel/Asset/SydneyIslamicLogo-10-01-01.png";
-import AboutUs from "./AboutUs";
-import CurentStudent from "./CurentStudent";
+import Logo from "../../../Carosel/Asset/SydneyIslamicLogo-10-01-01.png";
+import AboutUs from "../ABOUT SIBS/Sibs";
+import CurentStudent from "../STUDENTS/CurentStudent";
 import NavLinks from "./NavLinks";
-import ResearchMenu from "./ResearchMenu";
-
+import ResearchMenu from "../../RESERACH/ResearchMenu";
 
 const Navbar = () => {
 	const [open, setOpen] = useState(false);
@@ -21,7 +20,10 @@ const Navbar = () => {
 								className="md:cursor-pointer h-20 -mt-3"
 							/>
 						</Link>
-						<div className="text-3xl mt-6 md:hidden" onClick={() => setOpen(!open)}>
+						<div
+							className="text-3xl mt-6 md:hidden"
+							onClick={() => setOpen(!open)}
+						>
 							<ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
 						</div>
 					</div>
@@ -34,7 +36,6 @@ const Navbar = () => {
 						</li> */}
 						<ResearchMenu></ResearchMenu>
 
-						
 						<CurentStudent></CurentStudent>
 						<AboutUs></AboutUs>
 						<li>
@@ -42,7 +43,6 @@ const Navbar = () => {
 								NEWS & EVENTS
 							</Link>
 						</li>
-					
 					</ul>
 
 					{/* Mobile nav */}
@@ -64,10 +64,10 @@ const Navbar = () => {
 							</Link>
 						</li> */}
 						<ResearchMenu></ResearchMenu>
-						
+
 						<CurentStudent></CurentStudent>
 						<AboutUs></AboutUs>
-						
+
 						<li>
 							<Link
 								onClick={() => setOpen(!open)}
@@ -77,7 +77,7 @@ const Navbar = () => {
 								EVENTS & EVENTS
 							</Link>
 						</li>
-						
+
 						{/* <li>
 							<div className="dropdown dropdown-hover  ">
 								<h1 className="ml-3">ABOUT US</h1>

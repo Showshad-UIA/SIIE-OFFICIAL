@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-
 import logo2 from "../Carosel/Asset/capture  .png";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-
 import "../CSS/style.css";
 
 const Header = () => {

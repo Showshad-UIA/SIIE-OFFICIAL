@@ -1,7 +1,7 @@
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { links } from "./Mylinks";
+import { links } from "../ACADEMIC PROGRAMS/Mylinks";
 
 const NavLinks = () => {
 	const { open, setOpen } = useState("false");

@@ -1,7 +1,7 @@
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { links } from "../ACADEMIC PROGRAMS/Mylinks";
+import { links } from "./Programlinks";
 
 const NavLinks = () => {
 	const { open, setOpen } = useState("false");
@@ -43,15 +43,12 @@ const NavLinks = () => {
 									<div className="bg-gray-100 shadow-md text-black grid grid-cols-5  p-4 left-10">
 										{link.sublinks.map(({ Head, link, sublink }) => (
 											<div>
-												
 												<a
 													className="text-md font-semibold onClick={() => setOpen(!open)} "
 													href={link}
 												>
 													{Head}{" "}
 												</a>
-
-												
 
 												{sublink.map((slink) => (
 													<li className="text-sm w-full  text-black pr-5  my-3">
@@ -71,7 +68,7 @@ const NavLinks = () => {
 						)}
 					</div>
 
-					{/* Mobile menus */}
+					{/* Mobile view menus */}
 					<div
 						className={`
             ${heading === link.name ? "md:hidden" : "hidden"}

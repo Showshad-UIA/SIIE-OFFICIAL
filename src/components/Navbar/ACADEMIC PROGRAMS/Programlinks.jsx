@@ -15,13 +15,13 @@ export const links = [
 					{ name: "Phd in Islamic Studies", link: "/phdislamicstudy" },
 				],
 			},
-
+			// Masters (Research)
 			{
 				Head: "MPhil",
 				link: "/mastersreserach",
 				sublink: [
 					{
-						name:"MPhil in Islamic Banking & Finance",
+						name: "MPhil in Islamic Banking & Finance",
 						link: "/financeresearch",
 					},
 					{ name: "MPhil in Islamic Economics", link: "/economicsresearch" },
@@ -33,6 +33,7 @@ export const links = [
 					{ name: "MPhil in  Islamic Studies", link: "/islamicstudyresearch" },
 				],
 			},
+			// Masters (Coursework)
 			{
 				Head: "Masters",
 				link: "/masterscoursework",
@@ -53,7 +54,7 @@ export const links = [
 					},
 				],
 			},
-
+			// Undergraduate
 			{
 				Head: "Undergraduate",
 				link: "/undergraduate",
@@ -68,12 +69,15 @@ export const links = [
 					{ name: "Bachelor of Islamic Studies", link: "/ugislamicstudy" },
 				],
 			},
-
+			// Diploma
 			{
 				Head: "Diploma",
 				link: "/diploma",
 				sublink: [
-					{ name: "Diploma in Islamic Banking & Finance", link: "/diplomafinance" },
+					{
+						name: "Diploma in Islamic Banking & Finance",
+						link: "/diplomafinance",
+					},
 					{ name: "Diploma in Islamic Business law", link: "/" },
 					{ name: "Diploma in Islamic Insurance", link: "/" },
 					{ name: "Diploma in Islamic Shariah", link: "/" },
@@ -82,20 +86,4 @@ export const links = [
 			},
 		],
 	},
-	// {
-	// 	name: "ABOUT US",
-	// 	submenu: true,
-	// 	sublinks: [
-	// 		{
-	// 			sublink: [
-	// 				{ name: "Vision & mission", link: "/" },
-	// 				{ name: "Leadership & governance", link: "/" },
-	// 				{ name: "Academic structure", link: "/" },
-	// 				{ name: "Male campus", link: "/" },
-	// 				{ name: "Female campus", link: "/" },
-	// 				{ name: "Collaborations", link: "/" },
-	// 			],
-	// 		},
-	// 	],
-	// },
 ];

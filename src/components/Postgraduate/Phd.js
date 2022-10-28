@@ -1,6 +1,4 @@
 import React from "react";
-import ProfileSidebar from "../Navbar/ABOUT SIBS/ProfileSidebar";
-
 import PhdMaincontent from "./PhdMaincontent";
 import PhdRightSideBar from "./PhdRightSideBar";
 

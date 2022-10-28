@@ -28,7 +28,7 @@ import MastersCwInsurance from "./components/MASTERS ( COURSEWORK )/MASTERS CW I
 import MastersCwIslamicStudies from "./components/MASTERS ( COURSEWORK )/MASTERS CW ISLAMIC STUDY/MastersCwIslamicStudies";
 import Undergraduate from "./components/UNDERGRADUATE/UNDERGRADUATE/Undergraduate";
 import UgFinance from "./components/UNDERGRADUATE/UG FINANCE/UgFinance";
-import EventsTraining from "./components/EVENT'S & NEWS/Events";
+import EventsTraining from "./components/Navbar/EVENT'S & NEWS/Events";
 import UgEconomics from "./components/UNDERGRADUATE/UG ECONOMICS/UgEconomics";
 import UgBusinessLaw from "./components/UNDERGRADUATE/UG BUSINESS LAW/UgBusinessLaw";
 import UgIslamicInsurance from "./components/UNDERGRADUATE/UG ISLAMIC INSURANCE/UgIslamicInsurance";
@@ -40,7 +40,7 @@ import AirticleTwo from "./components/HOME/HOME CONTENT/NEWS/AirticleTwo";
 import ArticleThree from "./components/HOME/HOME CONTENT/NEWS/ArticleThree";
 import AcademicStructure from "./components/Navbar/ABOUT SIBS/AcademicStructure";
 import Footer from "./components/FOOTER/Footer";
-import Events from "./components/EVENT'S & NEWS/Events";
+import Events from "./components/Navbar/EVENT'S & NEWS/Events";
 
 function App() {
 	return (
@@ -49,12 +49,11 @@ function App() {
 			{/* <Header></Header> */}
 			<Navbar></Navbar>
 
-			{/* <Megmenubar></Megmenubar> */}
-
 			<Routes>
 				<Route path="/" element={<Home></Home>}></Route>
+
+				{/* About sibs navbar pages  */}
 				<Route path="/profile" element={<Profile></Profile>}></Route>
-				{/* About pages  */}
 				<Route
 					path="/LeadershipGovernence"
 					element={<LeadershipGovernence></LeadershipGovernence>}
@@ -64,10 +63,10 @@ function App() {
 					element={<AcademicStructure></AcademicStructure>}
 				></Route>
 
+				{/* Research navbar  */}
 				<Route path="/research" element={<Research></Research>}></Route>
-
+				{/* Events & News navbar  */}
 				<Route path="/events" element={<Events></Events>}></Route>
-				{/* <Route path="/research" element={<Research></Research>}></Route> */}
 
 				{/* undergraduate pages start here */}
 				<Route
@@ -99,7 +98,7 @@ function App() {
 					element={<DiplomaFinance></DiplomaFinance>}
 				></Route>
 
-				{/* Masters reserach start here */}
+				{/* Masters (research) start here */}
 				<Route path="/mastersreserach" element={<Masters></Masters>}></Route>
 				<Route
 					path="/financeresearch"
@@ -121,7 +120,7 @@ function App() {
 					path="/islamicstudyresearch"
 					element={<MasterIslamicStudy></MasterIslamicStudy>}
 				></Route>
-				{/* Masters Coursework start here */}
+				{/* Masters (Coursework) start here */}
 				<Route
 					path="/masterscoursework"
 					element={<MastersCw></MastersCw>}
@@ -146,6 +145,7 @@ function App() {
 					path="/islamicstudiescoursework"
 					element={<MastersCwIslamicStudies></MastersCwIslamicStudies>}
 				></Route>
+
 				{/* phd components start from here */}
 				<Route path="/phd" element={<Phd></Phd>}></Route>
 				<Route path="/phdfinance" element={<PhdFinance></PhdFinance>}></Route>
@@ -168,7 +168,7 @@ function App() {
 				></Route>
 
 				{/* home page article  */}
-				{/* news content start here */}
+				{/* Home page article - (news)  */}
 				<Route path="/articleone" element={<ArticleOne></ArticleOne>}></Route>
 				<Route path="/articletwo" element={<AirticleTwo></AirticleTwo>}></Route>
 				<Route

@@ -20,8 +20,8 @@ const MastersCwMain = () => {
                         ></FontAwesomeIcon>
                     </div>
                     <div className="">
-                        <a href="/phdfinance">
-                            <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
+                        <a href="/financecoursework">
+<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
                                 Master of Islamic Banking & Finance
                             </h2>
                         </a>
@@ -37,7 +37,7 @@ const MastersCwMain = () => {
                         ></FontAwesomeIcon>
                     </div>
                     <div className="">
-                        <a href="/phdeconomics">
+                        <a href="/economicscoursework">
                             {" "}
                             <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
                             Master of Islamic Economics
@@ -55,7 +55,7 @@ const MastersCwMain = () => {
                         ></FontAwesomeIcon>
                     </div>
                     <div className="">
-                        <a href="/phdbusinesslaw">
+                        <a href="/businesslawcoursework">
                             <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
                                 Master of Islamic Business law
                             </h2>
@@ -72,7 +72,7 @@ const MastersCwMain = () => {
                         ></FontAwesomeIcon>
                     </div>
                     <div className="">
-                        <a href="/phdinsurance">
+                        <a href="/insurancecoursework">
                             <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
                                 Master of Islamic Insurance
                             </h2>
@@ -89,7 +89,7 @@ const MastersCwMain = () => {
                         ></FontAwesomeIcon>
                     </div>
                     <div className="">
-                        <a href="/phdsariah">
+                        <a href="#">
                             {" "}
                             <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
                                 Master of Islamic Shariah
@@ -108,7 +108,7 @@ const MastersCwMain = () => {
                         ></FontAwesomeIcon>
                     </div>
                     <div className="">
-                        <a href="/phdusalfiq">
+                        <a href="/islamicstudiescoursework">
                             <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
                                 Master of Islamic studies
                             </h2>

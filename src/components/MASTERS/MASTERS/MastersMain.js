@@ -20,9 +20,9 @@ const MastersMain = () => {
 							></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<a href="/phdfinance">
+							<a href="/financeresearch">
 								<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-									Master of Islamic Banking & Finance
+								MPhil in Islamic Banking & Finance
 								</h2>
 							</a>
 						</div>
@@ -37,10 +37,10 @@ const MastersMain = () => {
 							></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<a href="/phdeconomics">
+							<a href="/economicsresearch">
 								{" "}
 								<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-								Master of Islamic Economics
+								MPhil in Islamic Economics
 								</h2>
 							</a>
 						</div>
@@ -55,9 +55,9 @@ const MastersMain = () => {
 							></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<a href="/phdbusinesslaw">
+							<a href="/businesslawresearch">
 								<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-									Master of Islamic Business law
+								MPhil in Islamic Business law
 								</h2>
 							</a>
 						</div>
@@ -72,9 +72,9 @@ const MastersMain = () => {
 							></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<a href="/phdinsurance">
+							<a href="/insuranceresearch">
 								<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-									Master of Islamic Insurance
+								MPhil in Islamic Insurance
 								</h2>
 							</a>
 						</div>
@@ -89,10 +89,10 @@ const MastersMain = () => {
 							></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<a href="/phdsariah">
+							<a href="#">
 								{" "}
 								<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-									Master of Islamic Shariah
+								MPhil in Islamic Shariah
 								</h2>
 							</a>
 						</div>
@@ -108,9 +108,9 @@ const MastersMain = () => {
 							></FontAwesomeIcon>
 						</div>
 						<div className="">
-							<a href="/phdusalfiq">
+							<a href="/islamicstudyresearch">
 								<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-									Master of Islamic studies
+								MPhil in Islamic studies
 								</h2>
 							</a>
 						</div>

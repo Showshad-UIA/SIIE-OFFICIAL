@@ -1,16 +1,8 @@
 import { Route, Routes } from "react-router-dom";
-// import "./App.css";
-
-import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./components/Home";
-import News from "./components/News";
-import Research from "./components/Research";
-
+import Research from "./components/RESERACH/Research";
 import Phd from "./components/Postgraduate/Phd";
-
-import Program from "./components/Submenu/Program";
-import Megmenubar from "./components/Megamenu/Megmenubar";
 import Topbar from "./components/Navbar/Topbar";
 import Navbar from "./components/Navbar/NavBar";
 import "slick-carousel/slick/slick.css";
@@ -36,7 +28,7 @@ import MastersCwInsurance from "./components/MASTERS ( COURSEWORK )/MASTERS CW I
 import MastersCwIslamicStudies from "./components/MASTERS ( COURSEWORK )/MASTERS CW ISLAMIC STUDY/MastersCwIslamicStudies";
 import Undergraduate from "./components/UNDERGRADUATE/UNDERGRADUATE/Undergraduate";
 import UgFinance from "./components/UNDERGRADUATE/UG FINANCE/UgFinance";
-import EventsTraining from "./components/EventsTraining";
+import EventsTraining from "./components/Events";
 import UgEconomics from "./components/UNDERGRADUATE/UG ECONOMICS/UgEconomics";
 import UgBusinessLaw from "./components/UNDERGRADUATE/UG BUSINESS LAW/UgBusinessLaw";
 import UgIslamicInsurance from "./components/UNDERGRADUATE/UG ISLAMIC INSURANCE/UgIslamicInsurance";
@@ -47,6 +39,8 @@ import ArticleOne from "./components/Home Content/NEWS/ArticleOne";
 import AirticleTwo from "./components/Home Content/NEWS/AirticleTwo";
 import ArticleThree from "./components/Home Content/NEWS/ArticleThree";
 import AcademicStructure from "./components/Navbar/AboutSubmenu/AcademicStructure";
+import Footer from "./components/FOOTER/Footer";
+import Events from "./components/Events";
 
 function App() {
 	return (
@@ -54,7 +48,7 @@ function App() {
 			<Topbar></Topbar>
 			{/* <Header></Header> */}
 			<Navbar></Navbar>
-			{/* <MenuBar></MenuBar> */}
+
 			{/* <Megmenubar></Megmenubar> */}
 
 			<Routes>
@@ -72,14 +66,8 @@ function App() {
 
 				<Route path="/research" element={<Research></Research>}></Route>
 
-				<Route path="/news" element={<News></News>}></Route>
-
-				<Route
-					path="/events"
-					element={<EventsTraining></EventsTraining>}
-				></Route>
+				<Route path="/events" element={<Events></Events>}></Route>
 				{/* <Route path="/research" element={<Research></Research>}></Route> */}
-				<Route path="/program" element={<Program></Program>}></Route>
 
 				{/* undergraduate pages start here */}
 				<Route
@@ -181,14 +169,8 @@ function App() {
 
 				{/* home page article  */}
 				{/* news content start here */}
-				<Route
-					path="/articleone"
-					element={<ArticleOne></ArticleOne>}
-				></Route>
-				<Route
-					path="/articletwo"
-					element={<AirticleTwo></AirticleTwo>}
-				></Route>
+				<Route path="/articleone" element={<ArticleOne></ArticleOne>}></Route>
+				<Route path="/articletwo" element={<AirticleTwo></AirticleTwo>}></Route>
 				<Route
 					path="/articlethree"
 					element={<ArticleThree></ArticleThree>}

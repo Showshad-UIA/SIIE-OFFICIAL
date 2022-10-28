@@ -1,11 +1,9 @@
 import React from "react";
-import Banner from "./Banner";
-import Explore from "./Explore";
-import SiieService from "./SiieService";
-import Research from "./Research";
-import Program from "./Program";
-import AboutSibs from "../images/AboutSibs";
-import Carosel from "../Carosel/Carosel";
+import Program from "./HOME PAGE/Program";
+import AboutSibs from "./HOME PAGE/AboutSibs";
+import Discover from "./HOME PAGE/Discover";
+import Banner from "./HOME PAGE/Banner";
+import Explore from "./HOME PAGE/Explore";
 
 const Home = () => {
 	return (
@@ -13,12 +11,8 @@ const Home = () => {
 			<Banner></Banner>
 			<AboutSibs></AboutSibs>
 			<Program></Program>
-			{/* <ResearchTrial></ResearchTrial> */}
-
 			<Explore></Explore>
-
-			<SiieService></SiieService>
-			{/* <Carosel></Carosel> */}
+			<Discover></Discover>
 		</div>
 	);
 };

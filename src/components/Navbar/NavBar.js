@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../images/SydneyIslamicLogo-10-01-01.png";
+import Logo from "../../Carosel/Asset/SydneyIslamicLogo-10-01-01.png";
 import AboutUs from "./AboutUs";
 import CurentStudent from "./CurentStudent";
 import NavLinks from "./NavLinks";

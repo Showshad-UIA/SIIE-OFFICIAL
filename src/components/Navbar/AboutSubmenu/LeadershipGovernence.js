@@ -1,9 +1,5 @@
 import React from "react";
 import Governance from "../../../Carosel/Asset/Presentation8.jpg";
-// import Logo from "../../../images/SydneyIslamicLogo-10-01-01.png";
-import chancellor from "../../../Carosel/Asset/explore-3.png";
-import viceChancellor from "../../../Carosel/Asset/explore-2.jpg";
-import Chart from "../../../Organazational Chart/Chart";
 const LeadershipGovernence = () => {
 	return (
 		<div className="container mx-auto mb-10 ">

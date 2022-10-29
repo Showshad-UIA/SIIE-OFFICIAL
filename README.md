@@ -6,9 +6,8 @@
 
 - HTML
 - CSS
+- JavaScript
 - Tailwind
 - DaisyUI
 - react JS
--
--
--
+

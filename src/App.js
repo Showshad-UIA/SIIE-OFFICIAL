@@ -190,7 +190,7 @@ function App() {
 					element={<PhDBusiness></PhDBusiness>}
 				></Route>
 				<Route
-					path="/phdislamicstudy"
+					path="/phdislamicstudies"
 					element={<PhDIslamicStudies></PhDIslamicStudies>}
 				></Route>
 

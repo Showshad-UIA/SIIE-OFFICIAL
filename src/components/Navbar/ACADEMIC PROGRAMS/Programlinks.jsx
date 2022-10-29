@@ -11,8 +11,7 @@ export const links = [
 					{ name: "Phd in Islamic Economics", link: "/phdeconomics" },
 					{ name: "Phd in Islamic Business Law", link: "phdbusinesslaw" },
 					{ name: "Phd in Islamic Insurance", link: "/phdinsurance" },
-					// { name: "Phd in Islamic Shariah", link: "/phdsariah" },
-					{ name: "Phd in Islamic Studies", link: "/phdislamicstudy" },
+					{ name: "Phd in Islamic Studies", link: "/phdislamicstudies" },
 				],
 			},
 			// Masters (Research)

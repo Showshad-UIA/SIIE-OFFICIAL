@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Logo from "../../../Carosel/Asset/SydneyIslamicLogo-10-01-01.png";
 import CurentStudent from "../STUDENTS/CurentStudent";
 import NavLinks from "./NavLinks";
-import ResearchMenu from "../../RESERACH/ResearchMenu";
+import ResearchMenu from "../RESERACH/ResearchMenu";
 import Sibs from "../ABOUT SIBS/Sibs";
 
 const Navbar = () => {

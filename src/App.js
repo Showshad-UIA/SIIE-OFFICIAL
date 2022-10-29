@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./components/HOME/Home";
-import Research from "./components/RESERACH/Research";
+
 import Phd from "./components/Postgraduate/Phd";
 import Topbar from "./components/Navbar/Topbar";
 import Navbar from "./components/Navbar/ACADEMIC PROGRAMS/NavBar";
@@ -41,6 +41,7 @@ import ArticleThree from "./components/HOME/HOME CONTENT/NEWS/ArticleThree";
 import AcademicStructure from "./components/Navbar/ABOUT SIBS/AcademicStructure";
 import Footer from "./components/FOOTER/Footer";
 import Events from "./components/Navbar/EVENT'S & NEWS/Events";
+import Research from "./components/Navbar/RESERACH/Research";
 
 function App() {
 	return (

@@ -1,6 +1,5 @@
 import React from "react";
 import { ResearchMenuLinks } from "./ResearchMenuLink";
-import PhdDetails from "../Postgraduate/PhdDetails";
 import ResearchDetails from "./ResearchDetails";
 import ResearchMain from "./ResearchMain";
 import ResearchSidebar from "./ResearchSidebar";

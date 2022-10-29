@@ -2,7 +2,7 @@ import React from "react";
 import explore1 from "../../../Carosel/Asset/news2.jpg";
 import explore2 from "../../../Carosel/Asset/new1.png";
 import explore3 from "../../../Carosel/Asset/news 3.jpg";
-const Explore = () => {
+const News = () => {
 	return (
 		<>
 			<div className="container mx-auto ">
@@ -147,4 +147,4 @@ const Explore = () => {
 	);
 };
 
-export default Explore;
+export default News;

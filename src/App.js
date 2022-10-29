@@ -1,47 +1,57 @@
 import { Route, Routes } from "react-router-dom";
-import Header from "./components/Header";
-import Home from "./components/HOME/Home";
-
-import Phd from "./components/Postgraduate/Phd";
-import Topbar from "./components/Navbar/Topbar";
-import Navbar from "./components/Navbar/ACADEMIC PROGRAMS/NavBar";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import LeadershipGovernence from "./components/Navbar/ABOUT SIBS/LeadershipGovernence";
-import Profile from "./components/Navbar/ABOUT SIBS/Profile";
+import Topbar from "./components/Navbar/Topbar";
+import Header from "./components/Header";
+import Home from "./components/HOME/Home";
+import Navbar from "./components/Navbar/ACADEMIC PROGRAMS/NavBar";
+// PHD
+import Phd from "./components/Postgraduate/Phd";
 import PhdFinance from "./components/Postgraduate/PHD FINANCE/PhdFinance";
 import PhdEconimics from "./components/Postgraduate/PHD ECONOMICS/PhdEconimics";
 import PhDBusiness from "./components/Postgraduate/PHD BUSINESS LAW/PhDBusiness";
 import PhDIslamicInsurance from "./components/Postgraduate/PHD BUSINESS INSURANCE/PhDIslamicInsurance";
 import PhDIslamicStudies from "./components/Postgraduate/PHD ISLAMIC STUDIES/PhDIslamicStudies";
+// Masters Research
 import Masters from "./components/MASTERS/MASTERS/Masters";
 import MastersFinance from "./components/MASTERS/MASTERS FINANCE/MastersFinance";
 import MasterEconomics from "./components/MASTERS/MASTERS ECONOMICS/MasterEconomics";
 import MasterIslamicInsurance from "./components/MASTERS/MASTER ISLAMIC INSURANCE/MasterIslamicInsurance";
 import MasterBLaw from "./components/MASTERS/MASTER BUSINESS LAW/MasterBLaw";
 import MasterIslamicStudy from "./components/MASTERS/MASTER ISLAMIC STUDY/MasterIslamicStudy";
+// Masters Coursework
 import MastersCw from "./components/MASTERS ( COURSEWORK )/MASTERS (CW)/MastersCw";
 import MastersCwFinance from "./components/MASTERS ( COURSEWORK )/MASTER CW FINANCE/MastersCwFinance";
 import MastersCwEconomics from "./components/MASTERS ( COURSEWORK )/MASTERS CW ECONOMICS/MastersCwEconomics";
 import MastersCwBusinessLaw from "./components/MASTERS ( COURSEWORK )/MASTERS CW BUSINESS LAW/MastersCwBusinessLaw";
 import MastersCwInsurance from "./components/MASTERS ( COURSEWORK )/MASTERS CW INSURANCE/MastersCwInsurance";
 import MastersCwIslamicStudies from "./components/MASTERS ( COURSEWORK )/MASTERS CW ISLAMIC STUDY/MastersCwIslamicStudies";
+// Undergraduate
 import Undergraduate from "./components/UNDERGRADUATE/UNDERGRADUATE/Undergraduate";
 import UgFinance from "./components/UNDERGRADUATE/UG FINANCE/UgFinance";
-import EventsTraining from "./components/Navbar/EVENT'S & NEWS/Events";
 import UgEconomics from "./components/UNDERGRADUATE/UG ECONOMICS/UgEconomics";
 import UgBusinessLaw from "./components/UNDERGRADUATE/UG BUSINESS LAW/UgBusinessLaw";
 import UgIslamicInsurance from "./components/UNDERGRADUATE/UG ISLAMIC INSURANCE/UgIslamicInsurance";
 import UgIslamicStudy from "./components/UNDERGRADUATE/UG ISLAMIC STUDY/UgIslamicStudy";
+// Diploma
 import Diploma from "./components/DIPLOMA/DIPLOMA/Diploma";
 import DiplomaFinance from "./components/DIPLOMA/DIPLOMA FINANCE/DiplomaFinance";
+import DiplomaEconomics from "./components/DIPLOMA/DIPLOMA ECONOMICS/DiplomaEconomics";
+import DiplomaBusinessLaw from "./components/DIPLOMA/DIPLOMA BUSINESS LAW/DiplomaBusinessLaw";
+import DiplomaIslamicInsurance from "./components/DIPLOMA/DIPLOMA ISLAMIC INSURANCE/DiplomaIslamicInsurance";
+// Other pages
+import Events from "./components/Navbar/EVENT'S & NEWS/Events";
+import EventsTraining from "./components/Navbar/EVENT'S & NEWS/Events";
+import Research from "./components/Navbar/RESERACH/Research";
+import Footer from "./components/FOOTER/Footer";
 import ArticleOne from "./components/HOME/HOME CONTENT/NEWS/ArticleOne";
 import AirticleTwo from "./components/HOME/HOME CONTENT/NEWS/AirticleTwo";
 import ArticleThree from "./components/HOME/HOME CONTENT/NEWS/ArticleThree";
 import AcademicStructure from "./components/Navbar/ABOUT SIBS/AcademicStructure";
-import Footer from "./components/FOOTER/Footer";
-import Events from "./components/Navbar/EVENT'S & NEWS/Events";
-import Research from "./components/Navbar/RESERACH/Research";
+import LeadershipGovernence from "./components/Navbar/ABOUT SIBS/LeadershipGovernence";
+import Profile from "./components/Navbar/ABOUT SIBS/Profile";
+import DiplomaIslamicStudies from "./components/DIPLOMA/DIPLOMA ISLAMIC STUDIES/DiplomaIslamicStudies";
+
 
 function App() {
 	return (
@@ -69,7 +79,30 @@ function App() {
 				{/* Events & News navbar  */}
 				<Route path="/events" element={<Events></Events>}></Route>
 
-				{/* undergraduate pages start here */}
+				{/* diploma program start here */}
+				<Route path="/diploma" element={<Diploma></Diploma>}></Route>
+				<Route
+					path="/diplomafinance"
+					element={<DiplomaFinance></DiplomaFinance>}
+				></Route>
+				<Route
+					path="/diplomaeconomics"
+					element={<DiplomaEconomics></DiplomaEconomics>}
+				></Route>
+				<Route
+					path="/diplomabusinesslaw"
+					element={<DiplomaBusinessLaw></DiplomaBusinessLaw>}
+				></Route>
+				<Route
+					path="/diplomainsurance"
+					element={<DiplomaIslamicInsurance></DiplomaIslamicInsurance>}
+				></Route>
+				<Route
+					path="/diplomaislamicstudies"
+					element={<DiplomaIslamicStudies></DiplomaIslamicStudies>}
+				></Route>
+
+				{/* undergraduate program start here */}
 				<Route
 					path="/undergraduate"
 					element={<Undergraduate></Undergraduate>}
@@ -90,13 +123,6 @@ function App() {
 				<Route
 					path="/ugislamicstudy"
 					element={<UgIslamicStudy></UgIslamicStudy>}
-				></Route>
-
-				{/* diploma program start here */}
-				<Route path="/diploma" element={<Diploma></Diploma>}></Route>
-				<Route
-					path="/diplomafinance"
-					element={<DiplomaFinance></DiplomaFinance>}
 				></Route>
 
 				{/* Masters (research) start here */}
@@ -147,7 +173,7 @@ function App() {
 					element={<MastersCwIslamicStudies></MastersCwIslamicStudies>}
 				></Route>
 
-				{/* phd components start from here */}
+				{/* phd program start from here */}
 				<Route path="/phd" element={<Phd></Phd>}></Route>
 				<Route path="/phdfinance" element={<PhdFinance></PhdFinance>}></Route>
 				<Route

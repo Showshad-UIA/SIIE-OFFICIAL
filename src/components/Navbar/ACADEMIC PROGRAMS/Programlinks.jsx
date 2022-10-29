@@ -78,10 +78,14 @@ export const links = [
 						name: "Diploma in Islamic Banking & Finance",
 						link: "/diplomafinance",
 					},
-					{ name: "Diploma in Islamic Business law", link: "/" },
-					{ name: "Diploma in Islamic Insurance", link: "/" },
-					{ name: "Diploma in Islamic Shariah", link: "/" },
-					{ name: "Diploma in Islamic Studies", link: "/" },
+					{ name: "Diploma in Islamic Economics", link: "/diplomaeconomics" },
+					{
+						name: "Diploma in Islamic Business law",
+						link: "/diplomabusinesslaw",
+					},
+					{ name: "Diploma in Islamic Insurance", link: "/diplomainsurance" },
+
+					{ name: "Diploma in Islamic Studies", link: "/diplomaislamicstudies" },
 				],
 			},
 		],

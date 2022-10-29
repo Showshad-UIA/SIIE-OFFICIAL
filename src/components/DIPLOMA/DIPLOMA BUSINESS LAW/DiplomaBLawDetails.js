@@ -1,6 +1,6 @@
 import React from "react";
 
-const MasterCwInsuranceDetails = () => {
+const DiplomaBLawDetails = () => {
 	return (
 		<div className="lg:mx-16">
 			<div className="">
@@ -163,4 +163,4 @@ const MasterCwInsuranceDetails = () => {
 	);
 };
 
-export default MasterCwInsuranceDetails;
+export default DiplomaBLawDetails;

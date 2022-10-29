@@ -70,7 +70,7 @@ const DiplomaFinanceSidebar = () => {
 										<FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 									</div>
 									<div>
-										<a href="/diplomaislamicstudy">
+										<a href="/diplomaislamicstudies">
 											<p>Diploma in Islamic Studies</p>
 										</a>
 									</div>

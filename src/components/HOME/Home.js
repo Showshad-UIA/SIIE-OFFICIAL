@@ -3,15 +3,17 @@ import Program from "../HOME/HOME PAGE/Program";
 import AboutSibs from "../HOME/HOME PAGE/AboutSibs";
 import Discover from "../HOME/HOME PAGE/Discover";
 import Banner from "../HOME/HOME PAGE/Banner";
-import Explore from "../HOME/HOME PAGE/Explore";
+import News from "./HOME PAGE/News";
+
 
 const Home = () => {
 	return (
 		<div className="bg-white ">
+			{/* Home page pages added  here */}
 			<Banner></Banner>
 			<AboutSibs></AboutSibs>
 			<Program></Program>
-			<Explore></Explore>
+			<News></News>
 			<Discover></Discover>
 		</div>
 	);

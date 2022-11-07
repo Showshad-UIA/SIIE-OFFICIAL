@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar/ACADEMIC PROGRAMS/NavBar";
 // PHD
 import Phd from "./components/Postgraduate/Phd";
 import PhdFinance from "./components/Postgraduate/PHD FINANCE/PhdFinance";
-import PhdEconimics from "./components/Postgraduate/PHD ECONOMICS/PhdEconimics";
+import PhdEconomics from "./components/Postgraduate/PHD ECONOMICS/PhdEconomics";
 import PhDBusiness from "./components/Postgraduate/PHD BUSINESS LAW/PhDBusiness";
 import PhDIslamicInsurance from "./components/Postgraduate/PHD BUSINESS INSURANCE/PhDIslamicInsurance";
 import PhDIslamicStudies from "./components/Postgraduate/PHD ISLAMIC STUDIES/PhDIslamicStudies";
@@ -51,6 +51,7 @@ import AcademicStructure from "./components/Navbar/ABOUT SIBS/AcademicStructure"
 import LeadershipGovernence from "./components/Navbar/ABOUT SIBS/LeadershipGovernence";
 import Profile from "./components/Navbar/ABOUT SIBS/Profile";
 import DiplomaIslamicStudies from "./components/DIPLOMA/DIPLOMA ISLAMIC STUDIES/DiplomaIslamicStudies";
+
 
 
 function App() {
@@ -183,7 +184,7 @@ function App() {
 
 				<Route
 					path="/phdeconomics"
-					element={<PhdEconimics></PhdEconimics>}
+					element={<PhdEconomics></PhdEconomics>}
 				></Route>
 				<Route
 					path="/phdbusinesslaw"

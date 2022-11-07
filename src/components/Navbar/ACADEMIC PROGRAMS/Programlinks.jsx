@@ -11,7 +11,7 @@ export const links = [
 					{ name: "Phd in Islamic Economics", link: "/phdeconomics" },
 					{ name: "Phd in Islamic Business Law", link: "phdbusinesslaw" },
 					{ name: "Phd in Islamic Insurance", link: "/phdinsurance" },
-					{ name: "Phd in Islamic Studies", link: "/phdislamicstudies" },
+					// { name: "Phd in Islamic Studies", link: "/phdislamicstudies" },
 				],
 			},
 			// Masters (Research)
@@ -29,7 +29,7 @@ export const links = [
 						link: "/businesslawresearch",
 					},
 					{ name: "MPhil in  Islamic Insurance", link: "/insuranceresearch" },
-					{ name: "MPhil in  Islamic Studies", link: "/islamicstudyresearch" },
+					// { name: "MPhil in  Islamic Studies", link: "/islamicstudyresearch" },
 				],
 			},
 			// Masters (Coursework)
@@ -47,10 +47,10 @@ export const links = [
 						link: "/businesslawcoursework",
 					},
 					{ name: "Master of Islamic Insurance", link: "/insurancecoursework" },
-					{
-						name: "Master of Islamic Studies",
-						link: "/islamicstudiescoursework",
-					},
+					// {
+					// 	name: "Master of Islamic Studies",
+					// 	link: "/islamicstudiescoursework",
+					// },
 				],
 			},
 			// Undergraduate
@@ -65,7 +65,7 @@ export const links = [
 					{ name: "Bachelor of Islamic Economics", link: "/ugeconomics" },
 					{ name: "Bachelor of Islamic Business law", link: "/ugbusinesslaw" },
 					{ name: "Bachelor of Islamic Insurance", link: "/uginsurance" },
-					{ name: "Bachelor of Islamic Studies", link: "/ugislamicstudy" },
+					// { name: "Bachelor of Islamic Studies", link: "/ugislamicstudy" },
 				],
 			},
 			// Diploma
@@ -84,7 +84,7 @@ export const links = [
 					},
 					{ name: "Diploma in Islamic Insurance", link: "/diplomainsurance" },
 
-					{ name: "Diploma in Islamic Studies", link: "/diplomaislamicstudies" },
+					// { name: "Diploma in Islamic Studies", link: "/diplomaislamicstudies" },
 				],
 			},
 		],

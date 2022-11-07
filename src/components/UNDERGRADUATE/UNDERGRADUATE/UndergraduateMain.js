@@ -80,7 +80,7 @@ const UndergraduateMain = () => {
                     </div>
                 </div>
             </div>
-            <div class=" hover:bg-sky-300 bg-sky-700 p-5">
+            {/* <div class=" hover:bg-sky-300 bg-sky-700 p-5">
                 <div className="">
                     <div className="items-center w-full text-center ">
                         <FontAwesomeIcon
@@ -97,9 +97,9 @@ const UndergraduateMain = () => {
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
-            <div class=" hover:bg-sky-300 bg-sky-700 p-5">
+            {/* <div class=" hover:bg-sky-300 bg-sky-700 p-5">
                 <div className="">
                     <div className="items-center w-full text-center ">
                         <FontAwesomeIcon
@@ -115,7 +115,7 @@ const UndergraduateMain = () => {
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
     );

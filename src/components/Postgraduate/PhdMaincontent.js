@@ -84,7 +84,9 @@ const PhdMaincontent = () => {
 						</div>
 					</div>
 				</div>
-				<div class=" hover:bg-sky-300 bg-sky-700 p-5">
+				{/* shariah part */}
+
+				{/* <div class=" hover:bg-sky-300 bg-sky-700 p-5">
 					<div className="">
 						<div className="items-center w-full text-center ">
 							<FontAwesomeIcon
@@ -101,9 +103,10 @@ const PhdMaincontent = () => {
 							</a>
 						</div>
 					</div>
-				</div>
+				</div> */}
 
-				<div class=" hover:bg-sky-300 bg-sky-700 p-5">
+				{/* islamic studies */}
+				{/* <div class=" hover:bg-sky-300 bg-sky-700 p-5">
 					<div className="">
 						<div className="items-center w-full text-center ">
 							<FontAwesomeIcon
@@ -116,10 +119,10 @@ const PhdMaincontent = () => {
 								<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
 									PhD in Islamic studies
 								</h2>
-							</a>npm s
+							</a>
 						</div>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</div>
 		// copy of previous code

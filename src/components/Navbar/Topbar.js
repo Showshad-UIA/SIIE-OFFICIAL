@@ -8,7 +8,7 @@ const Topbar = () => {
 			<div className="">
 				<div className="flex  text-start lg:visible  bg-gray-200  top-0 sticky">
 					<nav class="bg-gray-200  dark:bg-blue-500  ">
-						<div class="py-2ml-[80px] px-2 mx-auto  max-w-screen-xl md:px-6 flex">
+						<div class="py-2 px-2 mx-auto  max-w-screen-xl md:px-6 flex">
 							<div>
 								<div class="flex items-center ">
 									<ul class="flex flex-row  space-x-2 text-sm font-medium  text-white">

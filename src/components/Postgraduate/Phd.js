@@ -70,18 +70,24 @@ const Phd = () => {
 							<li>
 								<a href="/">Home</a>
 							</li>
-							
+
 							<li>
-								<a href="/phdfinance">PhD Islamic banking and finance</a>
+								<a href="/phdfinance">PhD in Islamic banking and finance</a>
 							</li>
 							<li>
-								<a href="/phdeconomics">PhD Islamic economics</a>
+								<a href="/phdeconomics">PhD in Islamic economics</a>
 							</li>
 							<li>
-								<a href="/phdbusinesslaw">PhD Islamic business law</a>
+								<a href="/phdbusinesslaw">PhD in Islamic business law</a>
 							</li>
 							<li>
-								<a href="/phdinsurance">PhD Islamic Insurance</a>
+								<a href="/phdinsurance">PhD in Islamic Insurance</a>
+							</li>
+							<li>
+								<a href="/phdmanagement">PhD in management</a>
+							</li>
+							<li>
+								<a href="#">PhD in International business</a>
 							</li>
 						</ul>
 					</div>
@@ -121,8 +127,8 @@ const Phd = () => {
 										discipline-specific material.
 									</p>
 									<p className="text-justify mt-3 lg:px-20 px-3">
-										Read more about SIB’S{" "}
-										<a href="#" className="text-sky-700">
+										Read more about Sydney IBS
+										<a href="#" className="text-sky-700 px-2">
 											PhD programs
 										</a>
 										.
@@ -138,25 +144,28 @@ const Phd = () => {
 					<div className="lg:mx-[100px] pb-10">
 						<div className="flex bg-sky-700 shadow p-5 mb-5 gap-10">
 							<div>
-								<img
-									src={finance}
-									alt=""
-									className="lg:h-28 lg:w-[280px] h-10 w-[200px]"
-								/>
+								<a href="/phdfinance">
+									<img
+										src={finance}
+										alt=""
+										className="lg:h-28 lg:w-[280px] h-24 w-[300px]"
+									/>
+								</a>
 							</div>
 							<div>
 								<a href="/phdfinance" className="text-2xl text-white">
 									Islamic Banking and Finance
 								</a>
-								<p className="mb-3 text-white mt-5">
-									Islamic banking, Islamic finance, or Sharia-compliant finance
-									is banking or financing activity that complies with Sharia and
-									its practical application through the development of Islamic
-									economics.
-								</p>
+								<a href="/phdfinance">
+									<p className="mb-3 text-white mt-5">
+										Islamic banking, Islamic finance, or Sharia-compliant
+										finance is banking or financing activity that complies with
+										Sharia and its practical application through the development
+										of Islamic economics.
+									</p>
+								</a>
 								<p className="text-right  cursor-pointer">
 									<a href="/phdfinance" className="underline text-white">
-										{" "}
 										Find out more
 										<FontAwesomeIcon
 											icon={faChevronRight}
@@ -168,16 +177,114 @@ const Phd = () => {
 						</div>
 						<div className="flex bg-sky-700 shadow p-5 mb-5 gap-10">
 							<div>
-								<img src={economics} alt="" className="lg:h-28 lg:w-[280px]" />
+								<a href="/phdeconomics">
+									<img
+										src={economics}
+										alt=""
+										className="lg:h-28 lg:w-[280px] h-24 w-[300px]"
+									/>
+								</a>
 							</div>
 							<div>
-								<p className="text-2xl mb-5 text-white">Islamic Economics</p>
-								<p className="mb-3 text-white">
-									It tries to promote human brotherhood, socio-economic justice
-									and the well-being of all through an integrated role of moral
-									values, market mechanism, families.Islamic economics refers to
-									the
+								<a href="/phdeconomics">
+									<p className="text-2xl mb-5 text-white">Islamic Economics</p>
+
+									<p className="mb-3 text-white">
+										It tries to promote human brotherhood, socio-economic
+										justice and the well-being of all through an integrated role
+										of moral values, market mechanism, families.Islamic
+										economics refers to the
+									</p>
+								</a>
+								<p className="text-right  cursor-pointer text-white">
+									<a href="/phdeconomics">Find out more</a>
+									<FontAwesomeIcon
+										icon={faChevronRight}
+										className="h-3 w-2"
+									></FontAwesomeIcon>
 								</p>
+							</div>
+						</div>
+						<div className="flex bg-sky-700 p-5 mb-5 gap-10">
+							<div>
+								<a href="/phdbusinesslaw">
+									<img
+										src={business}
+										alt=""
+										className="lg:h-28 lg:w-[280px] h-24 w-[300px]"
+									/>
+								</a>
+							</div>
+							<div>
+								<a href="/phdbusinesslaw">
+									<p className="text-2xl  mb-5 text-white">
+										Islamic Business Law
+									</p>
+									<p className="mb-3 text-white">
+										Shariah restrictions on certain financial and trade
+										transactions is the raison d’être for the emergence of
+										Islamic banking. It is, therefore, important for any student
+										of Islamic banking to grasp
+									</p>
+								</a>
+								<p className="text-right  cursor-pointer text-white">
+									<a href="/phdbusinesslaw">Find out more</a>
+									<FontAwesomeIcon
+										icon={faChevronRight}
+										className="h-3 w-2"
+									></FontAwesomeIcon>
+								</p>
+							</div>
+						</div>
+						<div className="flex bg-sky-700 p-5 mb-5 gap-10">
+							<div>
+								<a href="/phdinsurance">
+									<img
+										src={Insurance}
+										alt=""
+										className="lg:h-28 lg:w-[280px] h-24 w-[300px]"
+									/>
+								</a>
+							</div>
+							<div>
+								<a href="/phdinsurance">
+									<p className="text-2xl text-white mb-5">Islamic Insurance</p>
+									<p className="mb-3 text-white">
+										A Shariah-compliant insurance that can be renewed online.
+										DISCOVER. A Shariah-compliant motor insurance plan that can
+										be easily renewed online , important for any student of
+										Islamic
+									</p>
+								</a>
+								<p className="text-right  cursor-pointer text-white">
+									<a href="/phdinsurance">Find out more</a>
+									<FontAwesomeIcon
+										icon={faChevronRight}
+										className="h-3 w-2"
+									></FontAwesomeIcon>
+								</p>
+							</div>
+						</div>
+						<div className="flex bg-sky-700 p-5 mb-5 gap-10">
+							<div>
+								<a href="/phdmanagement">
+									<img
+										src={Management}
+										alt=""
+										className="lg:h-28 lg:w-[280px] h-24 w-[300px]"
+									/>
+								</a>
+							</div>
+							<div>
+								<a href="/phdmanagement">
+									<p className="text-2xl mb-5 text-white">Management</p>
+									<p className="mb-3 text-white">
+										Management is the coordination and administration of tasks
+										to achieve a goal. Such administration activities include
+										setting the organization’s strategy and coordinating the
+										efforts of staff to
+									</p>
+								</a>
 								<p className="text-right  cursor-pointer text-white">
 									Find out more
 									<FontAwesomeIcon
@@ -189,82 +296,26 @@ const Phd = () => {
 						</div>
 						<div className="flex bg-sky-700 p-5 mb-5 gap-10">
 							<div>
-								<img src={business} alt="" className="lg:h-28 lg:w-[280px]" />
+								<a href="/phdIntbusiness">
+									<img
+										src={IBusiness}
+										alt=""
+										className="lg:h-28 lg:w-[280px] h-24 w-[300px]"
+									/>
+								</a>
 							</div>
 							<div>
-								<p className="text-2xl  mb-5 text-white">
-									Islamic Business Law
-								</p>
-								<p className="mb-3 text-white">
-									Shariah restrictions on certain financial and trade
-									transactions is the raison d’être for the emergence of Islamic
-									banking. It is, therefore, important for any student of
-									Islamic banking to grasp
-								</p>
-								<p className="text-right  cursor-pointer text-white">
-									Find out more
-									<FontAwesomeIcon
-										icon={faChevronRight}
-										className="h-3 w-2"
-									></FontAwesomeIcon>
-								</p>
-							</div>
-						</div>
-						<div className="flex bg-sky-700 p-5 mb-5 gap-10">
-							<div>
-								<img src={Insurance} alt="" className="lg:h-28 lg:w-[280px]" />
-							</div>
-							<div>
-								<p className="text-2xl text-white mb-5">Islamic Insurance</p>
-								<p className="mb-3 text-white">
-									A Shariah-compliant insurance that can be renewed online.
-									DISCOVER. A Shariah-compliant motor insurance plan that can be
-									easily renewed online , important for any student of Islamic
-								</p>
-								<p className="text-right  cursor-pointer text-white">
-									Find out more
-									<FontAwesomeIcon
-										icon={faChevronRight}
-										className="h-3 w-2"
-									></FontAwesomeIcon>
-								</p>
-							</div>
-						</div>
-						<div className="flex bg-sky-700 p-5 mb-5 gap-10">
-							<div>
-								<img src={Management} alt="" className="lg:h-28 lg:w-[280px]" />
-							</div>
-							<div>
-								<p className="text-2xl mb-5 text-white">Management</p>
-								<p className="mb-3 text-white">
-									Management is the coordination and administration of tasks to
-									achieve a goal. Such administration activities include setting
-									the organization’s strategy and coordinating the efforts of
-									staff to
-								</p>
-								<p className="text-right  cursor-pointer text-white">
-									Find out more
-									<FontAwesomeIcon
-										icon={faChevronRight}
-										className="h-3 w-2"
-									></FontAwesomeIcon>
-								</p>
-							</div>
-						</div>
-						<div className="flex bg-sky-700 p-5 mb-5 gap-10">
-							<div>
-								<img src={IBusiness} alt="" className="lg:h-28 lg:w-[280px]" />
-							</div>
-							<div>
-								<p className="text-2xl text-white  mb-5">
-									International Business
-								</p>
-								<p className="mb-3 text-white">
-									International business relates to any situation where the
-									production or distribution of goods or services crosses
-									country borders. Globalization—the shift toward a more
-									International business
-								</p>
+								<a href="/phdIntbusiness">
+									<p className="text-2xl text-white  mb-5">
+										International Business
+									</p>
+									<p className="mb-3 text-white">
+										International business relates to any situation where the
+										production or distribution of goods or services crosses
+										country borders. Globalization—the shift toward a more
+										International business
+									</p>
+								</a>
 								<p className="text-right  cursor-pointer text-white">
 									Find out more
 									<FontAwesomeIcon

@@ -2,7 +2,7 @@ import { faBookOpen } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
-const PhDIslamicStudySidebar = () => {
+const PhDManagementSidebar= () => {
     return (
         <div className=''>
 		<div className=" bg-white mb-10">
@@ -84,4 +84,4 @@ const PhDIslamicStudySidebar = () => {
     );
 };
 
-export default PhDIslamicStudySidebar;
+export default PhDManagementSidebar;

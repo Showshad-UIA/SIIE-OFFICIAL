@@ -4,19 +4,20 @@ export const links = [
 		submenu: true,
 		sublinks: [
 			{
-				Head: "PhD",
+				Head: "Doctor of Philosophy (PhD)",
 				link: "/phd",
 				sublink: [
 					{ name: "PhD in Islamic Banking & Finance", link: "/phdfinance" },
 					{ name: "Phd in Islamic Economics", link: "/phdeconomics" },
 					{ name: "Phd in Islamic Business Law", link: "phdbusinesslaw" },
 					{ name: "Phd in Islamic Insurance", link: "/phdinsurance" },
-					// { name: "Phd in Islamic Studies", link: "/phdislamicstudies" },
+					{ name: "Phd in Management", link: "/phdmanagement" },
+					{ name: "Phd in International Business", link: "/phdIntbusiness" },
 				],
 			},
 			// Masters (Research)
 			{
-				Head: "MPhil",
+				Head: "Master of Philosophy  (MPhil)",
 				link: "/mastersreserach",
 				sublink: [
 					{
@@ -29,12 +30,17 @@ export const links = [
 						link: "/businesslawresearch",
 					},
 					{ name: "MPhil in  Islamic Insurance", link: "/insuranceresearch" },
+					{ name: "MPhil in  Management", link: "/managementresearch" },
+					{
+						name: "MPhil in  International Business",
+						link: "/Intbusinessresearch",
+					},
 					// { name: "MPhil in  Islamic Studies", link: "/islamicstudyresearch" },
 				],
 			},
 			// Masters (Coursework)
 			{
-				Head: "Masters",
+				Head: "Master (Coursework)",
 				link: "/masterscoursework",
 				sublink: [
 					{
@@ -54,23 +60,23 @@ export const links = [
 				],
 			},
 			// Undergraduate
-			{
-				Head: "Undergraduate",
-				link: "/undergraduate",
-				sublink: [
-					{
-						name: "Bachelor of Islamic Banking &  Finance",
-						link: "/ugfinance",
-					},
-					{ name: "Bachelor of Islamic Economics", link: "/ugeconomics" },
-					{ name: "Bachelor of Islamic Business law", link: "/ugbusinesslaw" },
-					{ name: "Bachelor of Islamic Insurance", link: "/uginsurance" },
-					// { name: "Bachelor of Islamic Studies", link: "/ugislamicstudy" },
-				],
-			},
+			// {
+			// 	Head: "Undergraduate",
+			// 	link: "/undergraduate",
+			// 	sublink: [
+			// 		{
+			// 			name: "Bachelor of Islamic Banking &  Finance",
+			// 			link: "/ugfinance",
+			// 		},
+			// 		{ name: "Bachelor of Islamic Economics", link: "/ugeconomics" },
+			// 		{ name: "Bachelor of Islamic Business law", link: "/ugbusinesslaw" },
+			// 		{ name: "Bachelor of Islamic Insurance", link: "/uginsurance" },
+			// 		// { name: "Bachelor of Islamic Studies", link: "/ugislamicstudy" },
+			// 	],
+			// },
 			// Diploma
 			{
-				Head: "Diploma",
+				Head: "Graduate Diploma",
 				link: "/diploma",
 				sublink: [
 					{

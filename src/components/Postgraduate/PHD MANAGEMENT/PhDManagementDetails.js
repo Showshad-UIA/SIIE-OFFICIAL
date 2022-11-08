@@ -1,6 +1,6 @@
 import React from "react";
 
-const FinanceDetails = () => {
+const PhDManagementDetails = () => {
 	return (
 		<div className="lg:-mt-5">
 			<div className="container mx-auto ">
@@ -439,4 +439,4 @@ const FinanceDetails = () => {
 	);
 };
 
-export default FinanceDetails;
+export default PhDManagementDetails;

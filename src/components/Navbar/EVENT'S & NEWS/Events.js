@@ -1,12 +1,15 @@
 import React from "react";
-import explore1 from "../../../Carosel/Asset/news2.jpg";
-import explore2 from "../../../Carosel/Asset/new1.png";
-import explore3 from "../../../Carosel/Asset/news 3.jpg";
+import finance from "../../../Carosel/Asset/Islamic finance.jpg";
+import economics from "../../../Carosel/Asset/economics.jpg";
+import business from "../../../Carosel/Asset/business.jpg";
+import Insurance from "../../../Carosel/Asset/insurance.jpg";
+import Management from "../../../Carosel/Asset/management.jpg";
+import IBusiness from "../../../Carosel/Asset/international-business.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 const Events = () => {
 	return (
-		<>
+		<div className="container mx-auto">
 			{/* <div className="container mx-auto lg:mt-10">
 				<div class="lg:mx-28 lg:w-[85%] md:mx-20 sm:w-full md:w-4/5  ">
 					<div className="flex px-2 ">
@@ -140,8 +143,274 @@ const Events = () => {
 					</div>
 				</div>
 			</div> */}
-			<p>This is events page </p>
-		</>
+			<div class=" p-2  my-5 ">
+				<div
+					class="flex flex-col w-full lg:flex-row lg:divide-x-4 
+                    divide-green-500"
+				>
+				<div className="lg:mx-[100px] pb-10">
+					<h1>NEWS(Testing phase)</h1>
+						<div className="flex bg-sky-700 shadow p-5 mb-5 gap-10">
+							<div>
+								<a href="/phdfinance">
+									<img
+										src={finance}
+										alt=""
+										className="lg:h-28 lg:w-[280px] h-24 w-[300px]"
+									/>
+								</a>
+							</div>
+							<div>
+								<a href="/phdfinance" className="text-2xl text-white">
+									Islamic Banking and Finance
+								</a>
+								<a href="/phdfinance">
+									<p className="mb-3 text-white mt-5">
+										Islamic banking, Islamic finance, or Sharia-compliant
+										finance is banking or financing activity that complies with
+										Sharia and its practical application through the development
+										of Islamic economics.
+									</p>
+								</a>
+								<p className="text-right  cursor-pointer">
+									<a href="/phdfinance" className="underline text-white">
+										Find out more
+										<FontAwesomeIcon
+											icon={faChevronRight}
+											className="h-3 w-2 "
+										></FontAwesomeIcon>
+									</a>
+								</p>
+							</div>
+						</div>
+						<div className="flex bg-sky-700 shadow p-5 mb-5 gap-10">
+							<div>
+								<a href="/phdeconomics">
+									<img
+										src={economics}
+										alt=""
+										className="lg:h-28 lg:w-[280px] h-24 w-[300px]"
+									/>
+								</a>
+							</div>
+							<div>
+								<a href="/phdeconomics">
+									<p className="text-2xl mb-5 text-white">Islamic Economics</p>
+
+									<p className="mb-3 text-white">
+										It tries to promote human brotherhood, socio-economic
+										justice and the well-being of all through an integrated role
+										of moral values, market mechanism, families.Islamic
+										economics refers to the
+									</p>
+								</a>
+								<p className="text-right  cursor-pointer text-white">
+									<a href="/phdeconomics">Find out more</a>
+									<FontAwesomeIcon
+										icon={faChevronRight}
+										className="h-3 w-2"
+									></FontAwesomeIcon>
+								</p>
+							</div>
+						</div>
+						<div className="flex bg-sky-700 p-5 mb-5 gap-10">
+							<div>
+								<a href="/phdbusinesslaw">
+									<img
+										src={business}
+										alt=""
+										className="lg:h-28 lg:w-[280px] h-24 w-[300px]"
+									/>
+								</a>
+							</div>
+							<div>
+								<a href="/phdbusinesslaw">
+									<p className="text-2xl  mb-5 text-white">
+										Islamic Business Law
+									</p>
+									<p className="mb-3 text-white">
+										Shariah restrictions on certain financial and trade
+										transactions is the raison d’être for the emergence of
+										Islamic banking. It is, therefore, important for any student
+										of Islamic banking to grasp
+									</p>
+								</a>
+								<p className="text-right  cursor-pointer text-white">
+									<a href="/phdbusinesslaw">Find out more</a>
+									<FontAwesomeIcon
+										icon={faChevronRight}
+										className="h-3 w-2"
+									></FontAwesomeIcon>
+								</p>
+							</div>
+						</div>
+						<div className="flex bg-sky-700 p-5 mb-5 gap-10">
+							<div>
+								<a href="/phdinsurance">
+									<img
+										src={Insurance}
+										alt=""
+										className="lg:h-28 lg:w-[280px] h-24 w-[300px]"
+									/>
+								</a>
+							</div>
+							<div>
+								<a href="/phdinsurance">
+									<p className="text-2xl text-white mb-5">Islamic Insurance</p>
+									<p className="mb-3 text-white">
+										A Shariah-compliant insurance that can be renewed online.
+										DISCOVER. A Shariah-compliant motor insurance plan that can
+										be easily renewed online , important for any student of
+										Islamic
+									</p>
+								</a>
+								<p className="text-right  cursor-pointer text-white">
+									<a href="/phdinsurance">Find out more</a>
+									<FontAwesomeIcon
+										icon={faChevronRight}
+										className="h-3 w-2"
+									></FontAwesomeIcon>
+								</p>
+							</div>
+						</div>
+						
+						
+					</div>
+					
+					<div className="px-5">
+					<h1>EVENTS(Testing phase)</h1>
+					<div className=" pb-10">
+						<div className="flex bg-sky-700 shadow p-5 mb-5 gap-10">
+							<div>
+								<a href="/phdfinance">
+									<img
+										src={finance}
+										alt=""
+										className="lg:h-28 lg:w-[280px] h-24 w-[300px]"
+									/>
+								</a>
+							</div>
+							<div>
+								<a href="/phdfinance" className="text-2xl text-white">
+									Islamic Banking and Finance
+								</a>
+								<a href="/phdfinance">
+									<p className="mb-3 text-white mt-5">
+										Islamic banking, Islamic finance, or Sharia-compliant
+										finance is banking or financing activity that complies with
+										Sharia and its practical application through the development
+										of Islamic economics.
+									</p>
+								</a>
+								<p className="text-right  cursor-pointer">
+									<a href="/phdfinance" className="underline text-white">
+										Find out more
+										<FontAwesomeIcon
+											icon={faChevronRight}
+											className="h-3 w-2 "
+										></FontAwesomeIcon>
+									</a>
+								</p>
+							</div>
+						</div>
+						<div className="flex bg-sky-700 shadow p-5 mb-5 gap-10">
+							<div>
+								<a href="/phdeconomics">
+									<img
+										src={economics}
+										alt=""
+										className="lg:h-28 lg:w-[280px] h-24 w-[300px]"
+									/>
+								</a>
+							</div>
+							<div>
+								<a href="/phdeconomics">
+									<p className="text-2xl mb-5 text-white">Islamic Economics</p>
+
+									<p className="mb-3 text-white">
+										It tries to promote human brotherhood, socio-economic
+										justice and the well-being of all through an integrated role
+										of moral values, market mechanism, families.Islamic
+										economics refers to the
+									</p>
+								</a>
+								<p className="text-right  cursor-pointer text-white">
+									<a href="/phdeconomics">Find out more</a>
+									<FontAwesomeIcon
+										icon={faChevronRight}
+										className="h-3 w-2"
+									></FontAwesomeIcon>
+								</p>
+							</div>
+						</div>
+						<div className="flex bg-sky-700 p-5 mb-5 gap-10">
+							<div>
+								<a href="/phdbusinesslaw">
+									<img
+										src={business}
+										alt=""
+										className="lg:h-28 lg:w-[280px] h-24 w-[300px]"
+									/>
+								</a>
+							</div>
+							<div>
+								<a href="/phdbusinesslaw">
+									<p className="text-2xl  mb-5 text-white">
+										Islamic Business Law
+									</p>
+									<p className="mb-3 text-white">
+										Shariah restrictions on certain financial and trade
+										transactions is the raison d’être for the emergence of
+										Islamic banking. It is, therefore, important for any student
+										of Islamic banking to grasp
+									</p>
+								</a>
+								<p className="text-right  cursor-pointer text-white">
+									<a href="/phdbusinesslaw">Find out more</a>
+									<FontAwesomeIcon
+										icon={faChevronRight}
+										className="h-3 w-2"
+									></FontAwesomeIcon>
+								</p>
+							</div>
+						</div>
+						<div className="flex bg-sky-700 p-5 mb-5 gap-10">
+							<div>
+								<a href="/phdinsurance">
+									<img
+										src={Insurance}
+										alt=""
+										className="lg:h-28 lg:w-[280px] h-24 w-[300px]"
+									/>
+								</a>
+							</div>
+							<div>
+								<a href="/phdinsurance">
+									<p className="text-2xl text-white mb-5">Islamic Insurance</p>
+									<p className="mb-3 text-white">
+										A Shariah-compliant insurance that can be renewed online.
+										DISCOVER. A Shariah-compliant motor insurance plan that can
+										be easily renewed online , important for any student of
+										Islamic
+									</p>
+								</a>
+								<p className="text-right  cursor-pointer text-white">
+									<a href="/phdinsurance">Find out more</a>
+									<FontAwesomeIcon
+										icon={faChevronRight}
+										className="h-3 w-2"
+									></FontAwesomeIcon>
+								</p>
+							</div>
+						</div>
+						
+						
+					</div>
+					</div>
+				
+				</div>
+			</div>
+		</div>
 	);
 };
 

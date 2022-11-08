@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-const FinanceDetails = () => {
-	return (
-		<div className="lg:-mt-5">
+const PhdIBusinessDetails = () => {
+    return (
+        <div className="lg:-mt-5">
 			<div className="container mx-auto ">
 				<div className="lg:mx-[100px]">
 					<div className="">
@@ -436,7 +436,7 @@ const FinanceDetails = () => {
 				</div>
 			</div>
 		</div>
-	);
+    );
 };
 
-export default FinanceDetails;
+export default PhdIBusinessDetails;

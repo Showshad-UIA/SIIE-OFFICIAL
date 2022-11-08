@@ -1,11 +1,11 @@
-import React from "react";
-import FinanceDetails from "./FinanceDetails";
-import PhdFinanceAdditionalMain from "./PhdFinanceAdditionalMain";
-import PhdFinanceSidebar from "./PhdFinanceSidebar";
+import React from 'react';
+import PhDManagementSidebar from '../PHD MANAGEMENT/PhDManagementSidebar';
+import PhdIBusinessDetails from './PhdIBusinessDetails';
+import PhdIBusinessMain from './PhdIBusinessMain';
 
-const PhdFinance = () => {
-	return (
-		<div className="">
+const PhdIBusiness = () => {
+    return (
+        <div className="">
 	{/* PhD sub pages added here using breadcrumbs */}
 			<div className="container mx-auto  lg:mb-5">
 				<div className="lg:mx-[100px] shadow">
@@ -44,7 +44,7 @@ const PhdFinance = () => {
 						<div className=" lg:w-full    ">
 							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
 								<h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 ">
-								Doctor of Philosophy (Islamic Banking and Finance)
+								Doctor of Philosophy (International Business)
 								</h1>
 								<p className=" lg:px-20 px-3 text-justify">
 								Start date: 4 March 2024
@@ -82,15 +82,15 @@ const PhdFinance = () => {
 						
 					</div>
 					<div className="">
-						<PhdFinanceAdditionalMain></PhdFinanceAdditionalMain>
+						<PhdIBusinessMain></PhdIBusinessMain>
 					</div>
 				</div>
 				<div className="container lg:mr-52 ">
-					<FinanceDetails></FinanceDetails>
+					<PhdIBusinessDetails></PhdIBusinessDetails>
 				</div>
 			</div>
 		</div>
-	);
+    );
 };
 
-export default PhdFinance;
+export default PhdIBusiness;

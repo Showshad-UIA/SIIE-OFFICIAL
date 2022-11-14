@@ -68,7 +68,7 @@ const Phd = () => {
 					<div className="text-sm breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
 						<ul>
 							<li>
-								<a href="/">Home</a>
+								<a href="/">Sibs</a>
 							</li>
 
 							<li>
@@ -87,7 +87,7 @@ const Phd = () => {
 								<a href="/phdmanagement">PhD in management</a>
 							</li>
 							<li>
-								<a href="#">PhD in International business</a>
+								<a href="/phdIntbusiness">PhD in International business</a>
 							</li>
 						</ul>
 					</div>
@@ -128,7 +128,7 @@ const Phd = () => {
 									</p>
 									<p className="text-justify mt-3 lg:px-20 px-3">
 										Read more about Sydney IBS
-										<a href="#" className="text-sky-700 px-2">
+										<a href="/phdprogram" className="text-sky-700 px-2">
 											PhD programs
 										</a>
 										.
@@ -142,22 +142,22 @@ const Phd = () => {
 					</div> */}
 
 					<div className="lg:mx-[100px] pb-10">
-						<div className="flex bg-sky-700 shadow p-5 mb-5 gap-10">
-							<div>
+						<div className="flex bg-sky-700 shadow p-3 mb-5 gap-5 ">
+							<div className="">
 								<a href="/phdfinance">
 									<img
 										src={finance}
 										alt=""
-										className="lg:h-28 lg:w-[280px] h-24 w-[300px]"
+										className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
 									/>
 								</a>
 							</div>
-							<div>
+							<div className="w-[75%]">
 								<a href="/phdfinance" className="text-2xl text-white">
 									Islamic Banking and Finance
 								</a>
 								<a href="/phdfinance">
-									<p className="mb-3 text-white mt-5">
+									<p className="mb-3 text-white mt-5 text-justify">
 										Islamic banking, Islamic finance, or Sharia-compliant
 										finance is banking or financing activity that complies with
 										Sharia and its practical application through the development
@@ -175,21 +175,21 @@ const Phd = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex bg-sky-700 shadow p-5 mb-5 gap-10">
-							<div>
+						<div className="flex bg-sky-700 shadow p-3 mb-5 gap-5">
+							<div className="">
 								<a href="/phdeconomics">
 									<img
 										src={economics}
 										alt=""
-										className="lg:h-28 lg:w-[280px] h-24 w-[300px]"
+										className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
 									/>
 								</a>
 							</div>
-							<div>
+							<div className="w-[75%]">
 								<a href="/phdeconomics">
 									<p className="text-2xl mb-5 text-white">Islamic Economics</p>
 
-									<p className="mb-3 text-white">
+									<p className="mb-3 text-white text-justify">
 										It tries to promote human brotherhood, socio-economic
 										justice and the well-being of all through an integrated role
 										of moral values, market mechanism, families.Islamic
@@ -205,22 +205,22 @@ const Phd = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex bg-sky-700 p-5 mb-5 gap-10">
-							<div>
+						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
+							<div className="">
 								<a href="/phdbusinesslaw">
 									<img
 										src={business}
 										alt=""
-										className="lg:h-28 lg:w-[280px] h-24 w-[300px]"
+										className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
 									/>
 								</a>
 							</div>
-							<div>
+							<div className="w-[75%]">
 								<a href="/phdbusinesslaw">
 									<p className="text-2xl  mb-5 text-white">
 										Islamic Business Law
 									</p>
-									<p className="mb-3 text-white">
+									<p className="mb-3 text-white text-justify">
 										Shariah restrictions on certain financial and trade
 										transactions is the raison d’être for the emergence of
 										Islamic banking. It is, therefore, important for any student
@@ -236,20 +236,20 @@ const Phd = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex bg-sky-700 p-5 mb-5 gap-10">
-							<div>
+						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
+							<div className="">
 								<a href="/phdinsurance">
 									<img
 										src={Insurance}
 										alt=""
-										className="lg:h-28 lg:w-[280px] h-24 w-[300px]"
+										className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
 									/>
 								</a>
 							</div>
-							<div>
+							<div className="w-[75%]">
 								<a href="/phdinsurance">
 									<p className="text-2xl text-white mb-5">Islamic Insurance</p>
-									<p className="mb-3 text-white">
+									<p className="mb-3 text-white text-justify">
 										A Shariah-compliant insurance that can be renewed online.
 										DISCOVER. A Shariah-compliant motor insurance plan that can
 										be easily renewed online , important for any student of
@@ -265,20 +265,20 @@ const Phd = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex bg-sky-700 p-5 mb-5 gap-10">
-							<div>
+						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
+							<div className="">
 								<a href="/phdmanagement">
 									<img
 										src={Management}
 										alt=""
-										className="lg:h-28 lg:w-[280px] h-24 w-[300px]"
+										className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
 									/>
 								</a>
 							</div>
-							<div>
+							<div className="w-[75%]">
 								<a href="/phdmanagement">
 									<p className="text-2xl mb-5 text-white">Management</p>
-									<p className="mb-3 text-white">
+									<p className="mb-3 text-white text-justify">
 										Management is the coordination and administration of tasks
 										to achieve a goal. Such administration activities include
 										setting the organization’s strategy and coordinating the
@@ -294,22 +294,22 @@ const Phd = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex bg-sky-700 p-5 mb-5 gap-10">
-							<div>
+						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
+							<div >
 								<a href="/phdIntbusiness">
 									<img
 										src={IBusiness}
 										alt=""
-										className="lg:h-28 lg:w-[280px] h-24 w-[300px]"
+										className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
 									/>
 								</a>
 							</div>
-							<div>
+							<div className="w-[75%]">
 								<a href="/phdIntbusiness">
 									<p className="text-2xl text-white  mb-5">
 										International Business
 									</p>
-									<p className="mb-3 text-white">
+									<p className="mb-3 text-white text-justify">
 										International business relates to any situation where the
 										production or distribution of goods or services crosses
 										country borders. Globalization—the shift toward a more
@@ -317,7 +317,8 @@ const Phd = () => {
 									</p>
 								</a>
 								<p className="text-right  cursor-pointer text-white">
-									Find out more
+									<a href="/phdIntbusiness"> Find out more</a>
+									
 									<FontAwesomeIcon
 										icon={faChevronRight}
 										className="h-3 w-2"
@@ -327,9 +328,7 @@ const Phd = () => {
 						</div>
 					</div>
 				</div>
-				{/* <div className="container lg:mr-52 ">
-					<FinanceDetails></FinanceDetails>
-				</div> */}
+				
 			</div>
 		</>
 	);

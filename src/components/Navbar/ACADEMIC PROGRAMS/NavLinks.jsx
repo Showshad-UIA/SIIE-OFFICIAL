@@ -1,4 +1,5 @@
-import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { faLink, faSortDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { links } from "./Programlinks";
@@ -27,8 +28,12 @@ const NavLinks = () => {
 									}`}
 								></ion-icon>
 							</span>
-							<span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-3">
-								<ion-icon name="chevron-down"></ion-icon>
+							<span className="text-xl -mt-2  md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-3">
+								
+								<FontAwesomeIcon
+										icon={faSortDown}
+										className=""
+									></FontAwesomeIcon>
 							</span>
 						</h1>
 						{link.submenu && (

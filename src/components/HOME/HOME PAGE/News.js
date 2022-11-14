@@ -1,6 +1,6 @@
 import React from "react";
-import explore1 from "../../../Carosel/Asset/news2.jpg";
-import explore2 from "../../../Carosel/Asset/new1.png";
+import explore1 from "../../../Carosel/Asset/finance.jpg";
+import explore2 from "../../../Carosel/Asset/finance.png";
 import explore3 from "../../../Carosel/Asset/news 3.jpg";
 const News = () => {
 	return (
@@ -51,15 +51,15 @@ const News = () => {
 										<img
 											src={explore2}
 											alt="image 2"
-											className="w-full lg:h-[220px] md:h-auto"
+											className="w-full lg:h-[220px] md:h-[165px]"
 										/>
 									</a>
 								</figure>
 
-								<div className=" bg-sky-700  lg:h-auto md:h-[112px]">
+								<div className=" bg-sky-700  lg:h-[98px]  md:h-[118px]">
 									<a href="/articletwo" className="">
 										<h1 className="text-[19px]  text-white lg:mt-1 px-2 hover:text-red-500">
-											Islamic banks — too big to fail or too small to succeed?
+											Islamic banks — too big to fail ?
 										</h1>
 										<p className="text-left text-gray-300 text-[12px] mb-3 px-2 lg:mt-1">
 											15 OCT 2022
@@ -94,10 +94,10 @@ const News = () => {
 						</div>
 						<div class="flex justify-center text-md px-0">
 							<div className="">
-								<div className="flex  lg:-mt-12 mb-[80px] ">
-									<div className="text-2xl font-bold ">EVENTS</div>
-									<p className="px-1 text-gray-500">|</p>
-									<div>
+								<div className="flex  lg:-mt-10 mb-[80px] ">
+									<div className="text-2xl font-bold lg:-mt-2 ">EVENTS</div>
+									<p className="px-1 text-gray-500 lg:-mt-2">|</p>
+									<div className="lg:-mt-2">
 										<a
 											href="#"
 											className="ml-[5px] text-[16px]  text-blue-500 font-bold "
@@ -106,11 +106,11 @@ const News = () => {
 										</a>
 									</div>
 								</div>
-								<div className="flex -mt-16 lg:w-full gap-3 lg:mb-6 ">
+								<div className="flex -mt-[65px] lg:w-full gap-3 lg:mb-6 ">
 									<div className="font-bold p-1  text-white w-10 h-[50px] text-sm bg-black ">
 										16 OCT
 									</div>
-									<div className=" text-justify">
+									<div className=" text-justify ">
 										<a href="#">
 											<p className="text-blue-500  text-[16px]  hover:text-red-500">
 												The knowledge of economics or economic activities and

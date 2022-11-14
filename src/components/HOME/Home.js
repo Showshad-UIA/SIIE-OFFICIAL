@@ -12,9 +12,11 @@ const Home = () => {
 			{/* Home page pages added  here */}
 			<Banner></Banner>
 			<AboutSibs></AboutSibs>
-			<Program></Program>
+			
 			<News></News>
 			<Discover></Discover>
+			<Program></Program>
+
 		</div>
 	);
 };

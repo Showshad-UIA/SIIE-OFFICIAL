@@ -22,17 +22,13 @@ const FinanceDetails = () => {
 											</p>
 											<ul className="mt-3">
 												<li>Discipline of Islamic Banking and Finance</li>
-												<li>Discipline of Islamic Economics </li>
-												<li>Discipline of Islamic Business Law</li>
-												<li>Discipline of Islamic Insurance</li>
-												<li>Discipline of Management</li>
-												<li>Discipline of International Business</li>
+												
 											</ul>
 										</div>
 									</p>
 								</div>
 								<div className=" mt-5 " id="structure">
-								<h1 className="lg:px-20 px-3 text-xl  font-bold text-sky-700">
+									<h1 className="lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Program structure
 									</h1>
 
@@ -44,7 +40,9 @@ const FinanceDetails = () => {
 												component after successfully completing the required
 												coursework.
 											</p>
-											<h1 className="text-md  font-bold text-black mt-3 mb-3">PhD coursework component</h1>
+											<h1 className="text-md  font-bold text-black mt-3 mb-3">
+												PhD coursework component
+											</h1>
 											<p>
 												In the coursework component, PhD candidates undertake a
 												comprehensive set of courses designed to provide
@@ -65,9 +63,9 @@ const FinanceDetails = () => {
 											</p>
 
 											<h1 className="mt-3">
-												<span className="font-bold text-black">Core units</span> – each
-												unit is 6UOC. You will be required to complete all three
-												units from this list:
+												<span className="font-bold text-black">Core units</span>{" "}
+												– each unit is 6UOC. You will be required to complete
+												all three units from this list:
 												<ul className="mt-3">
 													<li> BUSN1131 Philosophy of Business Research</li>
 													<li> BUSN1133 Research Methodology</li>
@@ -75,15 +73,14 @@ const FinanceDetails = () => {
 														BUSN1154 Advanced Quantitative Methods or Advanced
 														qualitative methods
 													</li>
-													<li>
-														BUSN1167 Islamic Business Transactions
-													</li>
+													<li>BUSN1167 Islamic Business Transactions</li>
 												</ul>
 											</h1>
 											<h1 className="mt-3">
-												<span className="font-bold text-black">Disciplinary units</span> –
-												each unit is 6UOC. You will be required to complete two
-												units from this list:
+											<span className="font-bold text-black">Disciplinary units</span>{" "}
+												– each unit is 6UOC.
+												<p className="mt-3">For the Discipline of Islamic Banking and Finance, you
+												will be required to complete two units from this list:</p>
 												<ul className="mt-3">
 													<li> FINS1101 Islamic Banking</li>
 													<li> FINS1201 Islamic Capital Markets</li>
@@ -214,7 +211,7 @@ const FinanceDetails = () => {
 										</div>
 									</p>
 								</div>
-								
+
 								<div className="  " id="Admission">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Admission requirements
@@ -274,7 +271,9 @@ const FinanceDetails = () => {
 										TOEFL score of at least 570, with at least 4.5 in the essay
 										component.
 									</p>
-									<h1 className="mt-6 lg:px-20 px-3 text-md  font-bold text-black">Application and supporting documentation</h1>
+									<h1 className="mt-6 lg:px-20 px-3 text-md  font-bold text-black">
+										Application and supporting documentation
+									</h1>
 									<p className="lg:px-20 px-3 text-justify mt-3">
 										You must submit your application online via the Sydney IBS
 										Application Portal.
@@ -286,17 +285,17 @@ const FinanceDetails = () => {
 									</p>
 									<ul className="lg:px-20 px-3 text-justify mt-3">
 										<li>
-											 - a one-page statement of purpose outlining your
+											- a one-page statement of purpose outlining your
 											motivation to undertake a PhD in Islamic Business at
 											Sydney IBS
 										</li>
 										<li>
-											-  a research proposal – see details below, as well as
+											- a research proposal – see details below, as well as
 											these guidelines on how to prepare a persuasive research
 											proposal
 										</li>
 										<li>
-											 - copies of written research work, e.g., honours or Master
+											- copies of written research work, e.g., honours or Master
 											thesis, research project, or published works
 										</li>
 										<li>
@@ -304,17 +303,19 @@ const FinanceDetails = () => {
 											degree and Master degree{" "}
 										</li>
 										<li className="text-justify">
-											 - either GRE General Test or GMAT results completed within
+											- either GRE General Test or GMAT results completed within
 											the last five years – some applicants are exempted from
 											this requirement (visit our page for further information){" "}
 										</li>
 										<li>
-											 - official TOEFL or IELTS results (where applicable) to
+											- official TOEFL or IELTS results (where applicable) to
 											demonstrate that you satisfy the University’s English
 											language requirements.{" "}
 										</li>
 									</ul>
-									<h1 className="mt-6 lg:px-20 px-3 text-md  font-bold text-black">Research proposal</h1>
+									<h1 className="mt-6 lg:px-20 px-3 text-md  font-bold text-black">
+										Research proposal
+									</h1>
 									<p className="lg:px-20 px-3 text-justify mt-3">
 										The online application requires you to submit a research
 										proposal. The proposal should set out an original research
@@ -357,24 +358,20 @@ const FinanceDetails = () => {
 											subject area in Islamic Business.
 										</li>
 										<li>
-											
 											- Graduates will grasp the analytical, methodological and
 											problem-solving skills needed to evaluate and conduct
 											research in their areas of specialisation.
 										</li>
 										<li>
-											
 											- Graduates will demonstrate their ability to design and
 											conduct original research in their chosen fields of
 											specialisation.
 										</li>
 										<li>
-											
-											- Graduates will be able to communicate the results of their
-											research in a clear and effective manner.
+											- Graduates will be able to communicate the results of
+											their research in a clear and effective manner.
 										</li>
 										<li>
-											
 											- Graduates will be able to pursue careers in industry,
 											academia, and research organisations
 										</li>

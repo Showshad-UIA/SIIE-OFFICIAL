@@ -21,12 +21,9 @@ const PhdEconsDetails = () => {
 												disciplines within the school:
 											</p>
 											<ul className="mt-3">
-												<li>Discipline of Islamic Banking and Finance</li>
+												
 												<li>Discipline of Islamic Economics </li>
-												<li>Discipline of Islamic Business Law</li>
-												<li>Discipline of Islamic Insurance</li>
-												<li>Discipline of Management</li>
-												<li>Discipline of International Business</li>
+												
 											</ul>
 										</div>
 									</p>
@@ -80,11 +77,10 @@ const PhdEconsDetails = () => {
 												</ul>
 											</h1>
 											<h1 className="mt-3">
-												<span className="font-bold text-black">
-													Disciplinary units
-												</span>{" "}
-												– For the Discipline of Islamic Economics, you will be
-												required to complete two units from this list:
+											<span className="font-bold text-black">Core units</span>{" "}
+												– each unit is 6UOC.
+											<p className="mt-3">	For the Discipline of Islamic Economics, you will be
+												required to complete two units from this list:</p>
 												<ul className="mt-3">
 													<li>
 														{" "}

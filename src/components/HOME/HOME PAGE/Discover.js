@@ -14,7 +14,7 @@ const Discover = () => {
 					<div className="text-2xl font-bold px-2">DISCOVER</div>
 
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-3  lg:grid-cols-4 px-3 mt-4">
-						<div class="flex justify-center text-xl lg:mb-24 md:mb-6  w-full ">
+						<div class="flex justify-center text-xl  md:mb-6  w-full ">
 							<div className="bg-sky-700 shadow-md">
 								<figure className="">
 									<img src={image1} alt="image-3" className="h-[207px]" />
@@ -33,7 +33,7 @@ const Discover = () => {
 								</div>
 							</div>
 						</div>
-						<div class="flex justify-center text-xl lg:mb-24 md:mb-6  w-full ">
+						<div class="flex justify-center text-xl  md:mb-6  w-full ">
 							<div className="bg-sky-700 shadow-md">
 								<figure className="">
 									<img src={image2} alt="image-2" className="h-[207px]" />
@@ -51,7 +51,7 @@ const Discover = () => {
 								</div>
 							</div>
 						</div>
-						<div class="flex justify-center text-xl lg:mb-24 md:mb-6 sm:mb-3 w-full ">
+						<div class="flex justify-center text-xl  md:mb-6 sm:mb-3 w-full ">
 							<div className="bg-sky-700  ">
 								<figure className="">
 									<img src={image3} alt="image-3" className="h-[210px]" />
@@ -70,7 +70,7 @@ const Discover = () => {
 								</div>
 							</div>
 						</div>
-						<div class="flex justify-center text-xl lg:mb-24 md:mb-6  w-full ">
+						<div class="flex justify-center text-xl  md:mb-6  w-full ">
 							<div className="bg-sky-700 shadow-md">
 								<figure className="">
 									<img src={image4} alt="image-4" className="h-[210px]" />

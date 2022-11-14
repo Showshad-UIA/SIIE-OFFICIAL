@@ -21,11 +21,7 @@ const PhdIBusinessDetails = () => {
 												disciplines within the school:
 											</p>
 											<ul className="mt-3">
-												<li>Discipline of Islamic Banking and Finance</li>
-												<li>Discipline of Islamic Economics </li>
-												<li>Discipline of Islamic Business Law</li>
-												<li>Discipline of Islamic Insurance</li>
-												<li>Discipline of Management</li>
+												
 												<li>Discipline of International Business</li>
 											</ul>
 										</div>
@@ -82,38 +78,22 @@ const PhdIBusinessDetails = () => {
 											</h1>
 											<h1 className="mt-3">
 												<span className="font-bold text-black">Disciplinary units</span> –
-												each unit is 6UOC. You will be required to complete two
-												units from this list:
+												For the Discipline of International Business, you will be required to complete two units from this list:
 												<ul className="mt-3">
-													<li> FINS1101 Islamic Banking</li>
-													<li> FINS1201 Islamic Capital Markets</li>
+													<li> MGMT1151 Organisational Behaviour </li>
+													<li> MGMT2154 Strategic Management </li>
 													<li>
-														{" "}
-														FINS1311 Contemporary Issues in Islamic Finance
+													MGMT1141 Managing Across Cultures 
 													</li>
 													<li>
-														{" "}
-														FINS2103 Contemporary Financial Transactions and
-														Interest-free System
+														MGMT1161 Leadership and Entrepreneurship
 													</li>
 													<li>
-														{" "}
-														FINS2115 Interest-Free Finance Standards and
-														Auditing
+													MGMT1162 Research Methods in Management
 													</li>
-													<li> FINS2104 Risk Management in Islamic Finance</li>
-													<li> ECON1311 Microeconomic Theory</li>
-													<li> ECON1322 Macroeconomic Theory </li>
-													<li>EMET1333 Advanced Econometrics</li>
-													<li>EMET2333 Advanced Econometrics II</li>
-													<li>
-														ECON1011 Advanced Topics in Islamic and Sustainable
-														Economy
-													</li>
-													<li>
-														{" "}
-														ECON1211 Fundamentals of Islamic Economics system{" "}
-													</li>
+													
+													
+													
 												</ul>
 											</h1>
 											<h1 className="text-md  font-bold text-black my-3">

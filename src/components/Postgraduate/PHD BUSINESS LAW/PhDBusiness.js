@@ -22,10 +22,16 @@ const PhDBusiness = () => {
 								<a href="/phdfinance">PhD Islamic banking and finance</a>
 							</li>
 							<li>
-								<a href="phdbusinesslaw">PhD Islamic economics</a>
+								<a href="/phdbusinesslaw">PhD Islamic economics</a>
 							</li>
 							<li>
 								<a href="/phdinsurance">PhD Islamic insurance</a>
+							</li>
+							<li>
+								<a href="/phdmanagement">PhD in management</a>
+							</li>
+							<li>
+								<a href="/phdIntbusiness">PhD in International business</a>
 							</li>
 
 						</ul>

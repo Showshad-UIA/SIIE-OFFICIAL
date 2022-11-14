@@ -21,12 +21,9 @@ const PhDInsuranceDetails = () => {
 												disciplines within the school:
 											</p>
 											<ul className="mt-3">
-												<li>Discipline of Islamic Banking and Finance</li>
-												<li>Discipline of Islamic Economics </li>
-												<li>Discipline of Islamic Business Law</li>
+												
 												<li>Discipline of Islamic Insurance</li>
-												<li>Discipline of Management</li>
-												<li>Discipline of International Business</li>
+												
 											</ul>
 										</div>
 									</p>

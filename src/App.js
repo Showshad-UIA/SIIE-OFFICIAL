@@ -18,7 +18,7 @@ import MastersFinance from "./components/MASTERS/MASTERS FINANCE/MastersFinance"
 import MasterEconomics from "./components/MASTERS/MASTERS ECONOMICS/MasterEconomics";
 import MasterIslamicInsurance from "./components/MASTERS/MASTER ISLAMIC INSURANCE/MasterIslamicInsurance";
 import MasterBLaw from "./components/MASTERS/MASTER BUSINESS LAW/MasterBLaw";
-import MasterIslamicStudy from "./components/MASTERS/MASTER ISLAMIC STUDY/MasterIslamicStudy";
+import MasterIslamicStudy from "./components/MASTERS/MASTER MANAGEMENT/MasterManagement";
 // Masters Coursework
 import MastersCw from "./components/MASTERS ( COURSEWORK )/MASTERS (CW)/MastersCw";
 import MastersCwFinance from "./components/MASTERS ( COURSEWORK )/MASTER CW FINANCE/MastersCwFinance";
@@ -50,11 +50,16 @@ import ArticleThree from "./components/HOME/HOME CONTENT/NEWS/ArticleThree";
 import AcademicStructure from "./components/Navbar/ABOUT SIBS/AcademicStructure";
 import LeadershipGovernence from "./components/Navbar/ABOUT SIBS/LeadershipGovernence";
 import Profile from "./components/Navbar/ABOUT SIBS/Profile";
-import DiplomaIslamicStudies from "./components/DIPLOMA/DIPLOMA ISLAMIC STUDIES/DiplomaIslamicStudies";
+import DiplomaIslamicStudies from "./components/DIPLOMA/DIPLOMA MANAGEMENT/DiplomaManagement";
 import PhDManagement from "./components/Postgraduate/PHD MANAGEMENT/PhDManagement";
 import PhdIBusiness from "./components/Postgraduate/PHD INTERNATIONAL BUSINESS/PhdIBusiness";
-
-
+import Phdprogram from "./components/Postgraduate/PHD PROGRAM/Phdprogram";
+import Masterprogram from "./components/MASTERS PROGRAM/Masterprogram";
+import MasterIntBusiness from "./components/MASTERS/MASTER INT BUSINESS/MasterIntBusiness";
+import MasterCwProgram from "./components/MASTERS ( COURSEWORK )/MASTER CW PROGRAM/MasterCwProgram";
+import GDProgram from "./components/DIPLOMA/GRADUATE DIPLOMA PROGRAM/GDProgram";
+import DiplomaManagement from "./components/DIPLOMA/DIPLOMA MANAGEMENT/DiplomaManagement";
+import DiplomaIntBusiness from "./components/DIPLOMA/DIPLOMA INTERNATIONAL BUSINESS/DiplomaIntBusiness";
 
 function App() {
 	return (
@@ -101,8 +106,16 @@ function App() {
 					element={<DiplomaIslamicInsurance></DiplomaIslamicInsurance>}
 				></Route>
 				<Route
-					path="/diplomaislamicstudies"
-					element={<DiplomaIslamicStudies></DiplomaIslamicStudies>}
+					path="/diplomamanagement"
+					element={<DiplomaManagement></DiplomaManagement>}
+				></Route>
+				<Route
+					path="/diplomaIntbusiness"
+					element={<DiplomaIntBusiness></DiplomaIntBusiness>}
+				></Route>
+				<Route
+					path="/gdiplomaprogram"
+					element={<GDProgram></GDProgram>}
 				></Route>
 
 				{/* undergraduate program start here */}
@@ -147,8 +160,16 @@ function App() {
 					element={<MasterBLaw></MasterBLaw>}
 				></Route>
 				<Route
-					path="/islamicstudyresearch"
+					path="/managementresearch"
 					element={<MasterIslamicStudy></MasterIslamicStudy>}
+				></Route>
+				<Route
+					path="/Intbusinessresearch"
+					element={<MasterIntBusiness></MasterIntBusiness>}
+				></Route>
+				<Route
+					path="/mastersprogram"
+					element={<Masterprogram></Masterprogram>}
 				></Route>
 				{/* Masters (Coursework) start here */}
 				<Route
@@ -176,6 +197,10 @@ function App() {
 					element={<MastersCwIslamicStudies></MastersCwIslamicStudies>}
 				></Route>
 
+				<Route
+					path="/mastersCwProgram"
+					element={<MasterCwProgram></MasterCwProgram>}
+				></Route>
 				{/* phd program start from here */}
 				<Route path="/phd" element={<Phd></Phd>}></Route>
 				<Route path="/phdfinance" element={<PhdFinance></PhdFinance>}></Route>
@@ -200,6 +225,7 @@ function App() {
 					path="/phdIntbusiness"
 					element={<PhdIBusiness></PhdIBusiness>}
 				></Route>
+				<Route path="/phdprogram" element={<Phdprogram></Phdprogram>}></Route>
 
 				{/* home page article  */}
 				{/* Home page article - (news)  */}

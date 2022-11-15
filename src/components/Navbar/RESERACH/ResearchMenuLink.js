@@ -1,18 +1,18 @@
 export const ResearchMenuLinks = [
 	{
-		name: "RESEARCH",
+		name: "GRADUATE RESEARCH",
 		submenu: true,
 		sublinks: [
 			{
 				sublink: [
 					{ name: "Graduate Research Center", link: "/research" },
-					{ name: "Seminar and Conference", link: "/" },
-					{ name: "Research Group ", link: "/" },
-					{ name: "Our Journal", link: "/" },
-					{ name: "Collaboration", link: "/" },
+					
+					// { name: "Australian Journal of Islamic Business", link: "/" },
+					
 					
 				],
 			},
 		],
 	},
 ];
+

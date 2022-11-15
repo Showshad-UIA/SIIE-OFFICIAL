@@ -90,7 +90,7 @@ const Diploma = () => {
                
 
                 <div className="lg:mx-[100px] pb-10">
-                    <div className="flex bg-blue-600 shadow p-3 mb-5 gap-5">
+                    <div className="flex bg-sky-500 shadow p-3 mb-5 gap-5">
                         <div>
                             <a href="/diplomafinance">
                                 <img
@@ -153,7 +153,7 @@ const Diploma = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex bg-blue-600 p-3 mb-5 gap-5">
+                    <div className="flex bg-sky-500 p-3 mb-5 gap-5">
                         <div>
                             <a href="#">
                                 <img
@@ -184,7 +184,7 @@ const Diploma = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex bg-blue-600 p-3 mb-5 gap-5">
+                    <div className="flex bg-sky-500 p-3 mb-5 gap-5">
                         <div>
                             <a href="#">
                                 <img

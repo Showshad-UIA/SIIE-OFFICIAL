@@ -5,6 +5,7 @@ import CurentStudent from "../STUDENTS/CurentStudent";
 import NavLinks from "./NavLinks";
 import ResearchMenu from "../RESERACH/ResearchMenu";
 import Sibs from "../ABOUT SIBS/Sibs";
+import EvnetsNewsMain from "../EVENT'S & NEWS/EvnetsNewsMain";
 
 const Navbar = () => {
 	const [open, setOpen] = useState(false);
@@ -35,11 +36,7 @@ const Navbar = () => {
 						<ResearchMenu></ResearchMenu>
 						<CurentStudent></CurentStudent>
 						<Sibs></Sibs>
-						<li>
-							<Link to="/events" className="py-7 px-3 inline-block">
-								NEWS & EVENTS
-							</Link>
-						</li>
+						<EvnetsNewsMain></EvnetsNewsMain>
 					</ul>
 
 					{/* Mobile view nav */}
@@ -55,16 +52,7 @@ const Navbar = () => {
 						<ResearchMenu></ResearchMenu>
 						<CurentStudent></CurentStudent>
 						<Sibs></Sibs>
-
-						<li>
-							<Link
-								onClick={() => setOpen(!open)}
-								to="/events"
-								className="py-2 px-3 inline-block"
-							>
-								EVENTS & EVENTS
-							</Link>
-						</li>
+						<EvnetsNewsMain></EvnetsNewsMain>
 					</ul>
 				</div>
 			</nav>

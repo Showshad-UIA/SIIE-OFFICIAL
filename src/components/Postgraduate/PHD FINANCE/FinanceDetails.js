@@ -380,7 +380,7 @@ const FinanceDetails = () => {
 
 								<div className="  " id="Fees">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
-										Fees | Scholarship
+										Fees | Scholarships
 									</h1>
 
 									<p className=" lg:px-20 px-3 text-justify mt-3 ">

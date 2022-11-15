@@ -1,18 +1,12 @@
 import React from "react";
-import finance from "../../../Carosel/Asset/Islamic finance.jpg";
+import business from "../../../Carosel/Asset/business.jpg";
 import events1 from "../../../Carosel/Asset/news1.jpg";
 import events2 from "../../../Carosel/Asset/news 3.jpg";
-import economics from "../../../Carosel/Asset/management.jpg";
-import business from "../../../Carosel/Asset/business.jpg";
-import Insurance from "../../../Carosel/Asset/insurance.jpg";
 import Management from "../../../Carosel/Asset/management.jpg";
 import IBusiness from "../../../Carosel/Asset/international-business.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faArrowRight,
-	faChevronRight,
-} from "@fortawesome/free-solid-svg-icons";
-const Events = () => {
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+const News = () => {
 	return (
 		<div className="container mx-auto mb-10 ">
 			<div class=" p-2  w-full  ">
@@ -25,7 +19,7 @@ const Events = () => {
 							<div className=" lg:w-full    ">
 								<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
 									<h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 ">
-										Events
+										News
 									</h1>
 
 									<div className="  ">
@@ -68,7 +62,7 @@ const Events = () => {
 						</div>
 						<div className=" mb-3 p-2 border-b-2 border-black ">
 							<div className="flex gap-5">
-								<img src={finance} className="max-w-sm w-1/5 px-2 h-24" />
+								<img src={IBusiness} className="max-w-sm w-1/5 px-2 h-24" />
 								<div>
 									<h1 className="text-xl font-bold">
 										Safety and financial security for women
@@ -92,7 +86,7 @@ const Events = () => {
 						</div>
 						<div className="mb-3 p-2 border-b-2 border-black  ">
 							<div className="flex gap-5">
-								<img src={Insurance} className="max-w-sm w-1/5 px-2 h-24" />
+								<img src={business} className="max-w-sm w-1/5 px-2 h-24" />
 								<div>
 									<h1 className="text-xl font-bold">
 										Journal of Mathematical Economics gains ANU expert
@@ -170,4 +164,4 @@ const Events = () => {
 	);
 };
 
-export default Events;
+export default News;

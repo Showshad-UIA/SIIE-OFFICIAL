@@ -42,7 +42,7 @@ import DiplomaIslamicInsurance from "./components/DIPLOMA/DIPLOMA ISLAMIC INSURA
 // Other pages
 import Events from "./components/Navbar/EVENT'S & NEWS/Events";
 import EventsTraining from "./components/Navbar/EVENT'S & NEWS/Events";
-import Research from "./components/Navbar/RESERACH/Research";
+
 import Footer from "./components/FOOTER/Footer";
 import ArticleOne from "./components/HOME/HOME CONTENT/NEWS/ArticleOne";
 import AirticleTwo from "./components/HOME/HOME CONTENT/NEWS/AirticleTwo";
@@ -60,6 +60,8 @@ import MasterCwProgram from "./components/MASTERS ( COURSEWORK )/MASTER CW PROGR
 import GDProgram from "./components/DIPLOMA/GRADUATE DIPLOMA PROGRAM/GDProgram";
 import DiplomaManagement from "./components/DIPLOMA/DIPLOMA MANAGEMENT/DiplomaManagement";
 import DiplomaIntBusiness from "./components/DIPLOMA/DIPLOMA INTERNATIONAL BUSINESS/DiplomaIntBusiness";
+import News from "./components/Navbar/EVENT'S & NEWS/News";
+import GraduateResearch from "./components/Navbar/RESERACH/GraduateResearch";
 
 function App() {
 	return (
@@ -83,9 +85,10 @@ function App() {
 				></Route>
 
 				{/* Research navbar  */}
-				<Route path="/research" element={<Research></Research>}></Route>
+				<Route path="/research" element={<GraduateResearch></GraduateResearch>}></Route>
 				{/* Events & News navbar  */}
 				<Route path="/events" element={<Events></Events>}></Route>
+				<Route path="/news" element={<News></News>}></Route>
 
 				{/* diploma program start here */}
 				<Route path="/diploma" element={<Diploma></Diploma>}></Route>

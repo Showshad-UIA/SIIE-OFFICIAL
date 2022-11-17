@@ -4,14 +4,14 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ResearchMenuLinks } from "./ResearchMenuLink";
 const ResearchMenu = () => {
-    const { open, setOpen } = useState("false");
+	const { open, setOpen } = useState("false");
 	const [heading, setHeading] = useState("");
 	const [subHeading, setSubHeading] = useState("");
 	return (
 		<>
 			{ResearchMenuLinks.map((link) => (
 				<div>
-				<div className="px-3 text-left md:cursor-pointer group">
+					<div className="px-3 text-left md:cursor-pointer group ">
 						<h1
 							className="py-3 flex justify-between items-center md:pr-0 pr-5 group"
 							onClick={() => {
@@ -27,8 +27,9 @@ const ResearchMenu = () => {
 									}`}
 								></ion-icon>
 							</span>
-							<span className="text-xl -mt-2 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-3">
-							<FontAwesomeIcon
+							<span className="text-xl -mt-2  md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-3">
+								
+								<FontAwesomeIcon
 										icon={faSortDown}
 										className=""
 									></FontAwesomeIcon>
@@ -43,29 +44,15 @@ const ResearchMenu = () => {
                      bg-white rotate-45"
 										></div>
 									</div>
-									<div className="bg-gray-100 shadow-md text-black grid grid-cols-1  p-4 left-10">
-										{link.sublinks.map(({ Head, link, sublink }) => (
+									<div className="bg-gray-100 shadow-md text-black grid grid-cols-1  p-6 left-10 ">
+										{link.sublinks.map(({ Head, link }) => (
 											<div>
-												
 												<a
-													className="text-md font-semibold onClick={() => setOpen(!open)} "
+													className="text-md  hover:bg-sky-700 hover:text-white dropdown-content menu p-2 text-black border-b-2 border-gray-300  onClick={() => setOpen(!open)} "
 													href={link}
 												>
-													{Head}{" "}
+													{Head}
 												</a>
-
-												
-
-												{sublink.map((slink) => (
-													<li className="text-sm w-full  text-black pr-5  my-3">
-														<Link
-															to={slink.link}
-															className="hover:bg-sky-700 hover:text-white dropdown-content menu p-2 text-black border-b-2 border-gray-300  "
-														>
-															{slink.name}
-														</Link>
-													</li>
-												))}
 											</div>
 										))}
 									</div>
@@ -74,7 +61,7 @@ const ResearchMenu = () => {
 						)}
 					</div>
 
-					{/* Mobile menus */}
+					{/* Mobile view menus */}
 					<div
 						className={`
             ${heading === link.name ? "md:hidden" : "hidden"}
@@ -92,31 +79,10 @@ const ResearchMenu = () => {
 										}
 										className="py-4 pl-7 font-semibold   flex justify-between items-center md:pr-0 pr-5"
 									>
-										{slinks.Head}
-
-										<span className="text-xl md:mt-1 md:ml-2 inline">
-											<ion-icon
-												name={`${
-													subHeading === slinks.Head
-														? "chevron-up"
-														: "chevron-down"
-												}`}
-											></ion-icon>
-										</span>
+										<Link onClick={() => setOpen(!open)} to={slinks.link}>
+											{slinks.Head}
+										</Link>
 									</h1>
-									<div
-										className={`${
-											subHeading === slinks.Head ? "md:hidden" : "hidden"
-										}`}
-									>
-										{slinks.sublink.map((slink) => (
-											<li className="py-3 pl-14 hover:bg-sky-700 hover:text-white dropdown-content menu p-2 text-black border-b-2 border-gray-300 ">
-												<Link onClick={() => setOpen(!open)} to={slink.link}>
-													{slink.name}
-												</Link>
-											</li>
-										))}
-									</div>
 								</div>
 							</div>
 						))}

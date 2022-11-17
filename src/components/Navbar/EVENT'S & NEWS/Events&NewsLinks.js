@@ -4,10 +4,21 @@ export const EventsNewsLinks = [
 		submenu: true,
 		sublinks: [
 			{
+				Head: "News",
+				link: "/news",
 				sublink: [
-					{ name: "News", link: "/news" },
-					{ name: "Events", link: "/events" },
-					
+					// { name: "", link: "/" },
+					// { name: "", link: "/" },
+				
+				],
+			},
+			{
+				Head: "Events",
+				link: "/events",
+				sublink: [
+					// { name: "", link: "" },
+					// { name: "", link: "" },
+				
 				],
 			},
 		],

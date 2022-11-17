@@ -4,12 +4,21 @@ export const ResearchMenuLinks = [
 		submenu: true,
 		sublinks: [
 			{
+				Head: "Current Students",
+				link: "/current",
 				sublink: [
-					{ name: "Graduate Research Center", link: "/research" },
-					
-					// { name: "Australian Journal of Islamic Business", link: "/" },
-					
-					
+					// { name: "Current Student", link: "/" },
+					// { name: "Future Student", link: "/phdeconomics" },
+				
+				],
+			},
+			{
+				Head: "Future Students",
+				link: "/future",
+				sublink: [
+					// { name: "Current Student", link: "/" },
+					// { name: "Future Student", link: "/phdeconomics" },
+				
 				],
 			},
 		],

@@ -16,7 +16,7 @@ const Footer = () => {
 								<p className="mt-2.5">Telephone: +61211223344</p>
 								<p className="mt-2.5">SIBS CRICOS Provider Code: XXXXX</p>
 								<p className="mt-2.5">TEQSA Provider ID: PRVXXXXX</p>
-								<p className="mt-2.5">ABN: 62647024815</p>
+								<p className="mt-2.5">ABN 54 663 441 870</p>
 							</li>
 						</ul>
 					</div>

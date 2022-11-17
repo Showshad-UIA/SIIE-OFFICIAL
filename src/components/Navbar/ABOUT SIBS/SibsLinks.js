@@ -1,21 +1,66 @@
 export const links = [
 	{
-		name: "ABOUT SIBS",
+		name: "ABOUT US",
 		submenu: true,
 		sublinks: [
-			{
-				sublink: [
-					{ name: "Profile | Vision & Mission", link: "/profile" },
-					{ name: "Governance Structure", link: "/LeadershipGovernence" },
-					{ name: "Academic Structure", link: "/AcademicStructure" },
-					{ name: "Accreditation", link: "/" },
-					{ name: "Our Facilities", link: "/" },
+			
+				{
+					Head: "Profile | Vision & Mission", 
+					link:  "/profile",
+					sublink: [
+						// { name: "", link: "/" },
+						// { name: "", link: "/" },
+					
+					],
+				},
+				{
+					Head: "Governance Structure",
+					link: "/LeadershipGovernence",
+					sublink: [
+						// { name: "", link: "/" },
+						// { name: "", link: "/" },
+					
+					],
+				},
+				{
+					Head:"Academic Structure",
+					link: "/AcademicStructure" ,
+					sublink: [
+						// { name: "", link: "/" },
+						// { name: "", link: "/" },
+					
+					],
+				},
+				{
+					Head: "Accreditation", 
+					link: "#",
+					sublink: [
+						// { name: "", link: "/" },
+						// { name: "", link: "/" },
+					
+					],
+				},
+				{
+					Head: "Our Facilities", 
+					link: "#",
+					sublink: [
+						// { name: "", link: "/" },
+						// { name: "", link: "/" },
+					
+					],
+				},
+				{
+					Head: "Collaborations", 
+					link: "#",
+					sublink: [
+						// { name: "", link: "/" },
+						// { name: "", link: "/" },
+					
+					],
+				},
+				
 
-					// { name: "Male Campus", link: "/" },
-					// { name: "Female Campus", link: "/" },
-					{ name: "Collaborations", link: "/" },
-				],
-			},
+			
 		],
 	},
 ];

@@ -61,7 +61,9 @@ import GDProgram from "./components/DIPLOMA/GRADUATE DIPLOMA PROGRAM/GDProgram";
 import DiplomaManagement from "./components/DIPLOMA/DIPLOMA MANAGEMENT/DiplomaManagement";
 import DiplomaIntBusiness from "./components/DIPLOMA/DIPLOMA INTERNATIONAL BUSINESS/DiplomaIntBusiness";
 import News from "./components/Navbar/EVENT'S & NEWS/News";
-import GraduateResearch from "./components/Navbar/RESERACH/GraduateResearch";
+import CurrentStudents from "./components/Navbar/RESERACH/CurrentStudents/CurrentStudents";
+import FutureStudents from "./components/Navbar/RESERACH/FutureStudents/FutureStudents";
+import Deadline from "./components/Navbar/RESERACH/FutureStudents/Deadline/Deadline";
 
 function App() {
 	return (
@@ -85,7 +87,14 @@ function App() {
 				></Route>
 
 				{/* Research navbar  */}
-				<Route path="/research" element={<GraduateResearch></GraduateResearch>}></Route>
+				<Route
+					path="/current"
+					element={<CurrentStudents></CurrentStudents>}
+				></Route>
+				<Route
+					path="/future"
+					element={<FutureStudents></FutureStudents>}
+				></Route>
 				{/* Events & News navbar  */}
 				<Route path="/events" element={<Events></Events>}></Route>
 				<Route path="/news" element={<News></News>}></Route>
@@ -237,6 +246,12 @@ function App() {
 				<Route
 					path="/articlethree"
 					element={<ArticleThree></ArticleThree>}
+				></Route>
+
+				{/* Future students content */}
+				<Route
+					path="/deadline"
+					element={<Deadline></Deadline>}
 				></Route>
 			</Routes>
 

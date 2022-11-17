@@ -123,7 +123,7 @@ const Diploma = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex bg-blue-600 shadow p-3 mb-5 gap-5">
+                    <div className="flex bg-sky-500 shadow p-3 mb-5 gap-5">
                         <div>
                             <a href="/diplomaeconomics">
                                 <img

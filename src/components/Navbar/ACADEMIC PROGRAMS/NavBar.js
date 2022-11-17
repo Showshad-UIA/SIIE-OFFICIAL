@@ -12,8 +12,8 @@ const Navbar = () => {
 	return (
 		<>
 			<nav className="bg-sky-700  sticky ">
-				<div className="flex items-center font-medium justify-around ">
-					<div className="z-50 p-3 md:w-auto w-full flex justify-between">
+				<div className="flex items-center font-medium justify-around lg:mx-[100px]">
+					<div className="z-50 p-3 md:w-auto w-full flex justify-between ">
 						<Link to="/" onClick={() => setOpen(!open)}>
 							<img
 								src={Logo}
@@ -34,9 +34,10 @@ const Navbar = () => {
 						<NavLinks />
 						{/* Other menubars   */}
 						<ResearchMenu></ResearchMenu>
-						<CurentStudent></CurentStudent>
-						<Sibs></Sibs>
+						{/* <CurentStudent></CurentStudent> */}
+
 						<EvnetsNewsMain></EvnetsNewsMain>
+						<Sibs></Sibs>
 					</ul>
 
 					{/* Mobile view nav */}
@@ -50,9 +51,10 @@ const Navbar = () => {
 						<NavLinks setOpen={setOpen} open={open} />
 						{/* other menubars */}
 						<ResearchMenu></ResearchMenu>
-						<CurentStudent></CurentStudent>
-						<Sibs></Sibs>
+						{/* <CurentStudent></CurentStudent> */}
+						
 						<EvnetsNewsMain></EvnetsNewsMain>
+						<Sibs></Sibs>
 					</ul>
 				</div>
 			</nav>

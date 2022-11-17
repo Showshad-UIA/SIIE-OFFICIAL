@@ -91,70 +91,158 @@ const Program = () => {
 		// 		</div>
 		// 	</div>
 		// </>
+		// <>
+		// 	<div className="container mx-auto   sm:mb-5  ">
+		// 		<div class="lg:mx-28 lg:w-[84%] md:mx-20 sm:w-full md:w-4/5  ">
+		// 			<div className="text-2xl font-bold px-2">STUDYING AT SYDNEY IBS</div>
+
+		// 			<div class="grid grid-cols-1 md:grid-cols-2 gap-3  lg:grid-cols-4 px-3 mt-4">
+		// 				<div class="flex justify-center text-xl  md:mb-6  w-full ">
+		// 					<div className="bg-sky-700 shadow-md">
+		// 						<figure className="">
+		// 							<img src={image1} alt="image-3" className="lg:h-[200px] " />
+		// 						</figure>
+
+		// 						<div className="">
+		// 							<a href="/phd" className="">
+		// 								<h1 className="text-[18px] text-left text-white hover:text-red-500 md:mt-4 lg:mt-1 px-2 py-5">
+		// 									Doctor of Philosophy (PhD)
+		// 								</h1>
+		// 							</a>
+		// 						</div>
+		// 					</div>
+		// 				</div>
+		// 				<div class="flex justify-center text-xl  md:mb-6  w-full ">
+		// 					<div className="bg-sky-700 shadow-md">
+		// 						<figure className="">
+		// 							<img src={image2} alt="image-2" className="lg:h-[200px]" />
+		// 						</figure>
+
+		// 						<div className="">
+		// 							<a href="/mastersreserach" className="">
+		// 								<h1 className="text-[18px] text-left text-white hover:text-red-500 md:mt-4 lg:mt-1 px-2 py-5">
+		// 									Master of Philosophy (MPhil)
+		// 								</h1>
+		// 							</a>
+		// 						</div>
+		// 					</div>
+		// 				</div>
+		// 				<div class="flex justify-center text-xl  md:mb-6 sm:mb-3 w-full ">
+		// 					<div className="bg-sky-700  ">
+		// 						<figure className="">
+		// 							<img src={image3} alt="image-3" className="lg:h-[200px] lg:w-[320px] " />
+		// 						</figure>
+
+		// 						<div className=" ">
+		// 							<a href="/masterscoursework" className="">
+		// 								<h1 className="text-[18px] text-left text-white hover:text-red-500 md:mt-4 lg:mt-1 p-5">
+		// 									Master (Coursework)
+		// 								</h1>
+		// 							</a>
+		// 						</div>
+		// 					</div>
+		// 				</div>
+		// 				<div class="flex justify-center text-xl  md:mb-6  w-full ">
+		// 					<div className="bg-sky-700 shadow-md">
+		// 						<figure className="">
+		// 							<img src={image4} alt="image-4" className="lg:h-[200px] md:h-[220px]" />
+		// 						</figure>
+
+		// 						<div className="md:h-[90px] ">
+		// 							<a href="/diploma" className="">
+		// 								<h1 className="text-[18px] text-left text-white hover:text-red-500 md:mt-4 lg:mt-1 px-2 py-5">
+		// 									Graduate Diploma{" "}
+		// 								</h1>
+		// 							</a>
+		// 						</div>
+		// 					</div>
+		// 				</div>
+		// 			</div>
+		// 		</div>
+		// 	</div>
+		// </>
 		<>
-			<div className="container mx-auto   sm:mb-5  ">
-				<div class="lg:mx-28 lg:w-[84%] md:mx-20 sm:w-full md:w-4/5  ">
-					<div className="text-2xl font-bold px-2">STUDYING AT SYDNEY IBS</div>
-
-					<div class="grid grid-cols-1 md:grid-cols-2 gap-3  lg:grid-cols-4 px-3 mt-4">
-						<div class="flex justify-center text-xl  md:mb-6  w-full ">
-							<div className="bg-sky-700 shadow-md">
-								<figure className="">
-									<img src={image1} alt="image-3" className="lg:h-[200px] " />
+			<div className="container mx-auto   sm:mb-5 pb-10 ">
+				<div class="lg:mx-28 lg:w-[85%] md:mx-20 sm:w-full md:w-4/5  ">
+					<div className="text-2xl font-bold px-3 mt-10 mb-3">
+						STUDYING AT SYDNEY IBS
+					</div>
+					<div class="grid grid-cols-1 md:grid-cols-2 gap-10  lg:grid-cols-4 px-3">
+						<div className="">
+							<a href="/phd">
+								{" "}
+								<figure>
+									<img
+										src={image1}
+										alt="image1"
+										className="lg:h-[190px] lg:w-[350px] "
+									/>
 								</figure>
-
-								<div className="">
-									<a href="/phd" className="">
-										<h1 className="text-[18px] text-left text-white hover:text-red-500 md:mt-4 lg:mt-1 px-2 py-5">
-											Doctor of Philosophy (PhD)
-										</h1>
-									</a>
-								</div>
+							</a>
+							<div className=" mt-3">
+								<a href="/phd">
+									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
+										Doctor of Philosophy (PhD)
+									</h2>
+								</a>
 							</div>
 						</div>
-						<div class="flex justify-center text-xl  md:mb-6  w-full ">
-							<div className="bg-sky-700 shadow-md">
-								<figure className="">
-									<img src={image2} alt="image-2" className="lg:h-[200px]" />
-								</figure>
 
-								<div className="">
-									<a href="/mastersreserach" className="">
-										<h1 className="text-[18px] text-left text-white hover:text-red-500 md:mt-4 lg:mt-1 px-2 py-5">
-											Master of Philosophy (MPhil)
-										</h1>
-									</a>
-								</div>
+						<div className=" ">
+							<a href="/mastersreserach">
+								{" "}
+								<figure>
+									<img
+										src={image2}
+										alt="image3"
+										className="lg:h-[190px] lg:w-[350px]"
+									/>
+								</figure>
+							</a>
+							<div className="mt-3">
+								<a href="/mastersreserach">
+									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
+										Masters (Research)
+									</h2>
+								</a>
 							</div>
 						</div>
-						<div class="flex justify-center text-xl  md:mb-6 sm:mb-3 w-full ">
-							<div className="bg-sky-700  ">
-								<figure className="">
-									<img src={image3} alt="image-3" className="lg:h-[200px] lg:w-[320px] " />
+						<div className=" ">
+							<a href="/masterscoursework">
+								<figure>
+									<img
+										src={image3}
+										alt="image2"
+										className="lg:h-[190px] lg:w-[350px]"
+									/>
 								</figure>
-
-								<div className=" ">
-									<a href="/masterscoursework" className="">
-										<h1 className="text-[18px] text-left text-white hover:text-red-500 md:mt-4 lg:mt-1 p-5">
-											Master (Coursework)
-										</h1>
-									</a>
-								</div>
+							</a>
+							<div className="mt-3">
+								<a href="/masterscoursework">
+									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
+										Masters (Coursework)
+									</h2>
+								</a>
 							</div>
 						</div>
-						<div class="flex justify-center text-xl  md:mb-6  w-full ">
-							<div className="bg-sky-700 shadow-md">
-								<figure className="">
-									<img src={image4} alt="image-4" className="lg:h-[200px] md:h-[220px]" />
-								</figure>
 
-								<div className="md:h-[90px] ">
-									<a href="/diploma" className="">
-										<h1 className="text-[18px] text-left text-white hover:text-red-500 md:mt-4 lg:mt-1 px-2 py-5">
-											Graduate Diploma{" "}
-										</h1>
-									</a>
-								</div>
+						<div className=" ">
+							<a href="/diploma">
+								{" "}
+								<figure>
+									<img
+										src={image4}
+										alt="image4"
+										className="lg:h-[190px] lg:w-[350px]"
+									/>
+								</figure>
+							</a>
+							<div className="mt-3">
+								<a href="/diploma">
+									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
+										Graduate Diploma
+									</h2>
+								</a>
 							</div>
 						</div>
 					</div>

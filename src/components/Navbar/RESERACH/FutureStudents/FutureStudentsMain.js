@@ -59,9 +59,12 @@ const FutureStudentsMain = () => {
 								/>
 							</figure>
 							<div className="mt-3">
-								<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
-									Fees | Scholarships
-								</h2>
+								<a href="/accordion	">
+									{" "}
+									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
+										Fees | Scholarships
+									</h2>
+								</a>
 								<p className="text-black text-md">
 									Information on human ethics training sessions and compulsory
 									research integrity training
@@ -91,17 +94,21 @@ const FutureStudentsMain = () => {
 						</div>
 
 						<div className="">
-							<figure>
-								<img
-									src={image3}
-									alt="image4"
-									className="lg:h-[190px] lg:w-[350px]"
-								/>
-							</figure>
+							<a href="/apply">
+								<figure>
+									<img
+										src={image3}
+										alt="image4"
+										className="lg:h-[190px] lg:w-[350px]"
+									/>
+								</figure>
+							</a>
 							<div className="mt-3">
-								<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
-									How to Apply
-								</h2>
+								<a href="/apply">
+									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
+										How to Apply
+									</h2>
+								</a>
 								<p className="text-black text-md">
 									How to have a productive relationship with your supervisor
 									scholarships for
@@ -117,9 +124,11 @@ const FutureStudentsMain = () => {
 								/>
 							</figure>
 							<div className="mt-3">
-								<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
-									Frequently Asked Questions
-								</h2>
+								<a href="/faq">
+									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
+										Frequently Asked Questions
+									</h2>
+								</a>
 								<p className="text-black text-md">
 									Resources and expert advice on making the most degree in f
 									scholarships relationship

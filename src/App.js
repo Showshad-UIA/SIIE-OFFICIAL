@@ -64,6 +64,9 @@ import News from "./components/Navbar/EVENT'S & NEWS/News";
 import CurrentStudents from "./components/Navbar/RESERACH/CurrentStudents/CurrentStudents";
 import FutureStudents from "./components/Navbar/RESERACH/FutureStudents/FutureStudents";
 import Deadline from "./components/Navbar/RESERACH/FutureStudents/Deadline/Deadline";
+import Apply from "./components/Navbar/RESERACH/FutureStudents/Apply";
+import Accordion from "./components/Navbar/RESERACH/Accordion/Accordion";
+import FaQ from "./components/Navbar/RESERACH/FutureStudents/FaQ";
 
 function App() {
 	return (
@@ -252,6 +255,18 @@ function App() {
 				<Route
 					path="/deadline"
 					element={<Deadline></Deadline>}
+				></Route>
+				<Route
+					path="/apply"
+					element={<Apply></Apply>}
+				></Route>
+				<Route
+					path="/accordion"
+					element={<Accordion></Accordion>}
+				></Route>
+				<Route
+					path="/faq"
+					element={<FaQ></FaQ>}
 				></Route>
 			</Routes>
 

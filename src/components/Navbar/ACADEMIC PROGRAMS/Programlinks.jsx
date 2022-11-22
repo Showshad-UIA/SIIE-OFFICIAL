@@ -17,7 +17,7 @@ export const links = [
 			},
 			// Masters (Research)
 			{
-				Head: "Masters  (Research)",
+				Head: "Masters of Philosophy (MPhil)",
 				link: "/mastersreserach",
 				sublink: [
 					{

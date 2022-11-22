@@ -184,6 +184,7 @@ const Program = () => {
 									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
 										Doctor of Philosophy (PhD)
 									</h2>
+									<p className="text-justify">Islamic banking, Islamic finance, or Sharia-compliant finance is banking .</p>
 								</a>
 							</div>
 						</div>
@@ -204,6 +205,7 @@ const Program = () => {
 									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
 										Masters (Research)
 									</h2>
+									<p className="text-justify">The master program consists of two components– coursework and research.</p>
 								</a>
 							</div>
 						</div>
@@ -222,6 +224,7 @@ const Program = () => {
 									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
 										Masters (Coursework)
 									</h2>
+									<p className="text-justify">coursework component, master candidates undertake a comprehensive  </p>
 								</a>
 							</div>
 						</div>
@@ -242,6 +245,7 @@ const Program = () => {
 									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
 										Graduate Diploma
 									</h2>
+									<p className="text-justify">diploma candidates undertake research training and independent research.</p>
 								</a>
 							</div>
 						</div>

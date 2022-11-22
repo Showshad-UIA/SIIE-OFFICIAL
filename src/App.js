@@ -64,9 +64,12 @@ import News from "./components/Navbar/EVENT'S & NEWS/News";
 import CurrentStudents from "./components/Navbar/RESERACH/CurrentStudents/CurrentStudents";
 import FutureStudents from "./components/Navbar/RESERACH/FutureStudents/FutureStudents";
 import Deadline from "./components/Navbar/RESERACH/FutureStudents/Deadline/Deadline";
-import Apply from "./components/Navbar/RESERACH/FutureStudents/Apply";
+
 import Accordion from "./components/Navbar/RESERACH/Accordion/Accordion";
+
+import Apply from "./components/Navbar/RESERACH/FutureStudents/Apply/Apply";
 import FaQ from "./components/Navbar/RESERACH/FutureStudents/FaQ";
+import Faq from "./components/Navbar/RESERACH/FutureStudents/FAQ/Faq";
 
 function App() {
 	return (
@@ -266,7 +269,7 @@ function App() {
 				></Route>
 				<Route
 					path="/faq"
-					element={<FaQ></FaQ>}
+					element={<Faq></Faq>}
 				></Route>
 			</Routes>
 

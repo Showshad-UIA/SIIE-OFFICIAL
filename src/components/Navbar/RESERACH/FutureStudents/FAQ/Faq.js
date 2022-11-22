@@ -1,9 +1,10 @@
-import React, { useState, useEffect, useRef } from "react";
-import "../Accordion/Accordion.css";
-import Chevron from "../Accordion/Chevron.svg";
-
-export default function Accordion() {
-	const [step1, setStep1] = useState(false);
+import React, { useState } from 'react';
+import "../FAQ/Faq.css";
+import Chevron from "../Apply/Chevron.svg";
+const Faq = () => {
+    
+    const [step, setStep] = useState(false);
+    const [step1, setStep1] = useState(false);
 	const [step2, setStep2] = useState(false);
 	const [step3, setStep3] = useState(false);
 	const [step4, setStep4] = useState(false);
@@ -15,39 +16,57 @@ export default function Accordion() {
 	const [step10, setStep10] = useState(false);
 	const [step11, setStep11] = useState(false);
 	const [step12, setStep12] = useState(false);
+	const [step13, setStep13] = useState(false);
+	const [step14, setStep14] = useState(false);
 
 	return (
-		<div className="accordion container mx-auto pb-20">
+		<div className="accordion container mx-auto ">
 			<div className="lg:mx-[150px]">
 				<div className="mx-4">
-					<h1 className="text-2xl font-bold my-3">How to Apply</h1>
-					<p className="mb-3">
-						Ready to apply for a research higher degree program at UNSW? The
-						information below outlines the steps you need to follow, including
-						where to find the application form for admission and scholarship,
-						the supporting documents you need to provide, and the{" "}
-						<span className="text-sky-700 font-bold">key dates</span> for your
-						application.
-					</p>
-					<p className="mb-3">
-						It is the applicant’s responsibility to ensure that their
-						application is submitted in full by the scholarship closing date.
-						All correct and satisfactory documents must be fully submitted with
-						the application, including English translations, Financial
-						Declaration and proof of English. Additional documents can’t be
-						added to an application until after the application has been
-						reviewed, which may not occur before application deadlines.
-					</p>
-					<p className="mb-10 text-md">
-						Please refer to Step 3 to ensure you have the correct documents
-						before submission.
-					</p>
+					<h1 className="text-2xl font-bold my-3">FAQs- Admission & Scholarships</h1>
+					
 				</div>
+
+                <button
+					onClick={() => setStep(!step)}
+					className="accordion-visible  text-sky-700 mb-3 border-t border-gray-500"
+				>
+					<span>What is a census date?</span>
+					<img className={step && "active"} src={Chevron} />
+				</button>
+				{step && (
+					<div
+						
+					>
+						<div aria-hidden={step ? "true" : "false"} className=" mx-4">
+                        <p className="mb-5 text-justify">
+							The census date for each term is set by SYDNEY IBS in accordance with
+							Commonwealth legislation. It is the deadline for:
+						</p>
+
+						<div className="mx-3">
+							<li className="text-justify mb-3">
+								Change of study load (full time / part time)
+							</li>
+							<li className="text-justify mb-3">Taking program leave</li>
+							<li className="text-justify mb-3">
+								Withdrawal from a course without financial or academic penalty
+							</li>
+							<li className="text-justify mb-3">Change of Residency status</li>
+						</div>
+
+						
+							
+						</div>
+					</div>
+				)}
+
+
 				<button
 					onClick={() => setStep1(!step1)}
 					className="accordion-visible  text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<span>Step 1: Determine Your Eligibility</span>
+					<span>Am I a Domestic or International candidate?</span>
 					<img className={step1 && "active"} src={Chevron} />
 				</button>
 				{step1 && (
@@ -55,91 +74,17 @@ export default function Accordion() {
 						
 					>
 						<div aria-hidden={step1 ? "true" : "false"} className=" mx-4">
-							<p className="mb-5 text-justify">
-								There are a number of eligibility requirements you ensure you
-								meet prior to applying for a Higher Research Degree. These
-								include the following.
-							</p>
-							<div className="mx-5">
-								{" "}
-								<li className="text-justify mb-3">
-									Admission and scholarship application minimum requirements:
-									visit{" "}
-									<span className="text-sky-700 font-bold cursor-pointer hover:underline">
-										{" "}
-										Research Higher Degree Programs
-									</span>
-								</li>
-								<li className="text-justify mb-3">
-									English requirements:{" "}
-									<span className="text-black font-bold cursor-pointer hover:underline">
-										{" "}
-										All applicants
-									</span>{" "}
-									, whether domestic or international, must provide evidence
-									that their English language ability meets the minimum{" "}
-									<span className="text-sky-700 font-bold cursor-pointer hover:underline">
-										{" "}
-										SYDNEY IBS English Language Requirements
-									</span>{" "}
-									.{" "}
-								</li>
-								<li className="text-justify mb-3">
-									Source of funding:{" "}
-									<span className="text-black font-bold cursor-pointer hover:underline">
-										{" "}
-										All applicants
-									</span>{" "}
-									, whether domestic or international, must complete the{" "}
-									<span className="text-sky-700 font-bold cursor-pointer hover:underline">
-										{" "}
-										GTE & Financial Declaration Form{" "}
-									</span>
-									and, if required, submit evidence of your capacity to fund all{" "}
-									<span className="text-sky-700 font-bold cursor-pointer hover:underline">
-										{" "}
-										living costs, fees and other associated costs{" "}
-									</span>
-									. As an applicant to UNSW, you must demonstrate that you have
-									the ability to financially support yourself (and any
-									dependants) for the duration of your studies and, if an
-									international applicant, that you are a
-									<span className="text-sky-700 font-bold cursor-pointer hover:underline">
-										{" "}
-										Genuine Temporary Entrant{" "}
-									</span>{" "}
-									(GTE). This may be through applying for a UNSW Research
-									Scholarship, an alternative scholarship or sponsorship
-									(provided by a source external to UNSW), or through
-									self-funding.
-								</li>
-								<li className="text-justify mb-3">
-									Supervision and resources: You must consider whether you need
-									to contact a supervisor or undertake an EOI.{" "}
-									<span className="text-sky-700 font-bold cursor-pointer hover:underline">
-										{" "}
-										Approval{" "}
-									</span>{" "}
-									must be provided by a potential supervisor or School before
-									you can apply. Further checks on{" "}
-									<span className="text-sky-700 font-bold cursor-pointer hover:underline">
-										{" "}
-										appropriate supervision
-									</span>{" "}
-									and{" "}
-									<span className="text-sky-700 font-bold cursor-pointer hover:underline">
-										{" "}
-										resources
-									</span>{" "}
-									will be completed during the assessment process, so please
-									note that approval to apply does not guarantee an offer.
-								</li>
-								<li className="text-justify mb-3">
-									Other: Specific Faculties or programs may have additional
-									requirements, please see your Faculty’s website for further
-									details
-								</li>
-							</div>
+                        <p className="mb-3">
+							Please complete the admission and scholarship application using
+							your current residential status. This can be updated when your
+							residency status changes.
+						</p>
+						<p className="mb-3 text-justify">
+							International scholarship applicants who receive their Australian
+							Permanent Residency before the census date of the term they are
+							applying for, will be considered for the equivalent domestic
+							scholarship
+						</p>
 						</div>
 					</div>
 				)}
@@ -148,8 +93,7 @@ export default function Accordion() {
 					onClick={() => setStep2(!step2)}
 					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<span>
-						Step 2: Find a Supervisor and Prepare Your Research Description
+					<span>I am in the process of applying for Permanent Residency, should I apply as a Domestic or International candidate?
 					</span>
 					<img className={step2 && "active"} src={Chevron} />
 				</button>
@@ -158,27 +102,19 @@ export default function Accordion() {
 						
 					>
 						<div aria-hidden={step2 ? "true" : "false"} className="mx-4">
-						<p className="text-justify mb-3">
-							Finding a supervisor with compatible research interests and
-							working styles is critical to your success as a Higher Degree
-							Research candidate.
+                        <p className="my-3 ">
+							All applicants to the University must provide evidence of English
+							ability that meets the SYDNEY IBS English language requirements.
 						</p>
-						<p className="text-justify mb-3">
-							Most Faculties/Schools require applicants to contact potential
-							supervisors. See the <span className="text-sky-700 font-bold cursor-pointer hover:underline"> Finding a Supervisor</span>  page for full details.
+
+						<p className="mb-3">
+							You must submit your satisfactory proof of English before your
+							application can be assessed
 						</p>
-						<p className="text-justify mb-3">
-							Once you have identified a supervisor in your research area, you
-							must participate in a pre-admission interview to discuss your
-							proposed research project and determine whether appropriate
-							resources will be available. The interview can be face-to-face or
-							via Skype (or other such video messaging).
-						</p>
-						<p className="text-justify mb-3">
-							Once supervision is confirmed, you will need to develop a research
-							description and fulfil any additional Faculty requirements before
-							submitting an application for admission. For more information,
-							visit <span className="text-sky-700 font-bold cursor-pointer hover:underline"> Finding a Supervisor</span>  
+						<p className="mb-3">
+							If you are applying for a SYDNEY IBS Scholarship, this must be prior to
+							the scholarship application deadline (for those applying for a
+							Waiver, the Waiver must be fully approved by the deadline)
 						</p>
 						</div>
 					</div>
@@ -188,7 +124,7 @@ export default function Accordion() {
 					onClick={() => setStep3(!step3)}
 					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<span>Step 3: Prepare Your Supporting Documentation</span>
+					<span>I am an International applicant but I don’t have my English test result yet. Will my application still be processed?</span>
 					<img className={step3 && "active"} src={Chevron} />
 				</button>
 				{step3 && (
@@ -241,11 +177,11 @@ export default function Accordion() {
 					</div>
 				)}
 
-				<button
+<button
 					onClick={() => setStep4(!step4)}
-					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
+					className="accordion-visible text-sky-700 mb-3 text-justify border-t border-gray-500"
 				>
-					<span>Step 4: English Translations of Documents</span>
+					<span>I am an international applicant and I have a strong command of the English language, but no IELTS result. How can I prove my English ability?</span>
 					<img className={step4 && "active"} src={Chevron} />
 				</button>
 				{step4 && (
@@ -289,7 +225,7 @@ export default function Accordion() {
 					onClick={() => setStep5(!step5)}
 					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<span>Step 5: Meet the UNSW English Language Requirements</span>
+					<span>How do I submit my documents?</span>
 					<img className={step5 && "active"} src={Chevron} />
 				</button>
 				{step5 && (
@@ -336,7 +272,7 @@ export default function Accordion() {
 					onClick={() => setStep6(!step6)}
 					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<span>Step 6: Submit an Application</span>
+					<span>What are my chances of getting a scholarship?</span>
 					<img className={step6 && "active"} src={Chevron} />
 				</button>
 
@@ -377,7 +313,7 @@ export default function Accordion() {
 					onClick={() => setStep7(!step7)}
 					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<span>After You Submit an Application</span>
+					<span>How will my referees be contacted?</span>
 					<img className={step7 && "active"} src={Chevron} />
 				</button>
 
@@ -418,7 +354,7 @@ export default function Accordion() {
 					onClick={() => setStep8(!step8)}
 					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<span>Receiving an Offer</span>
+					<span>How do I track the status of my application and check all documents are received?</span>
 					<img className={step8 && "active"} src={Chevron} />
 				</button>
 
@@ -465,7 +401,7 @@ export default function Accordion() {
 					onClick={() => setStep9(!step9)}
 					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<span>Responding to an Offer</span>
+					<span>What is a conditional offer?</span>
 					<img className={step9 && "active"} src={Chevron} />
 				</button>
 				{step9 && (
@@ -590,7 +526,7 @@ export default function Accordion() {
 					onClick={() => setStep10(!step10)}
 					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<span>Travelling to Australia</span>
+					<span>Why did I get an offer but no notification of scholarship success?</span>
 					<img className={step10 && "active"} src={Chevron} />
 				</button>
 				{step10 && (
@@ -624,7 +560,7 @@ export default function Accordion() {
 					onClick={() => setStep11(!step11)}
 					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<span>Frequently Asked Questions</span>
+					<span>I have applied for a scholarship - why does my admission letter state I am 'Full Fee-Paying'?</span>
 					<img className={step11 && "active"} src={Chevron} />
 				</button>
 
@@ -648,7 +584,7 @@ export default function Accordion() {
 					onClick={() => setStep12(!step12)}
 					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<span>Contact Us</span>
+					<span>When will I receive the outcome of my application?</span>
 					<img className={step12 && "active"} src={Chevron} />
 				</button>
 				{step12 && (
@@ -702,7 +638,125 @@ export default function Accordion() {
 						</div>
 					</div>
 				)}
+				<button
+					onClick={() => setStep13(!step13)}
+					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
+				>
+					<span>Can I defer my offer?</span>
+					<img className={step13 && "active"} src={Chevron} />
+				</button>
+				{step13 && (
+					<div
+						
+					>
+						<div aria-hidden={step13 ? "true" : "false"} className="mx-4">
+						<p className="my-3">
+							Have questions? Contact the HDR Admissions and Scholarships team
+						</p>
+						<p className="mb-3">
+							<span className="text-black  font-bold">Phone: </span>{" "}
+							<a
+								href=""
+								className="text-sky-700 cursor-pointer hover:underline"
+							>
+								+61211223344
+							</a>
+						</p>
+						<p className="mb-3">
+							<span className="text-black  font-bold">General enquiries:</span>{" "}
+							<a
+								href=""
+								className="text-sky-700 cursor-pointer hover:underline"
+							>
+								grs@sibs.edu.au
+							</a>
+						</p>
+						<p className="mb-3">
+							<span className="text-black  font-bold">
+								Domestic applicants:{" "}
+							</span>{" "}
+							<a
+								href=""
+								className="text-sky-700 cursor-pointer hover:underline"
+							>
+								domestic.grs@sibs.edu.au
+							</a>
+						</p>
+						<p>
+							<span className="text-black  font-bold">
+								International applicants:
+							</span>{" "}
+							<a
+								href=""
+								className="text-sky-700 cursor-pointer hover:underline"
+							>
+								international.grs@sibs.edu.au
+							</a>
+						</p>
+						</div>
+					</div>
+				)}
+				<button
+					onClick={() => setStep14(!step14)}
+					className="accordion-visible text-justify text-sky-700 mb-3 border-t border-gray-500"
+				>
+					<span>I submitted my Commencement of Study Form to activate my scholarship payments, but when I log onto MySYDNEY IBS it asks me to pay the tuition fee. What should I do?</span>
+					<img className={step14 && "active"} src={Chevron} />
+				</button>
+				{step14 && (
+					<div
+						
+					>
+						<div aria-hidden={step14 ? "true" : "false"} className="mx-4">
+						<p className="my-3 text-justify">
+							Have questions? Contact the HDR Admissions and Scholarships team
+						</p>
+						<p className="mb-3">
+							<span className="text-black  font-bold">Phone: </span>{" "}
+							<a
+								href=""
+								className="text-sky-700 cursor-pointer hover:underline"
+							>
+								+61211223344
+							</a>
+						</p>
+						<p className="mb-3">
+							<span className="text-black  font-bold">General enquiries:</span>{" "}
+							<a
+								href=""
+								className="text-sky-700 cursor-pointer hover:underline"
+							>
+								grs@sibs.edu.au
+							</a>
+						</p>
+						<p className="mb-3">
+							<span className="text-black  font-bold">
+								Domestic applicants:{" "}
+							</span>{" "}
+							<a
+								href=""
+								className="text-sky-700 cursor-pointer hover:underline"
+							>
+								domestic.grs@sibs.edu.au
+							</a>
+						</p>
+						<p>
+							<span className="text-black  font-bold">
+								International applicants:
+							</span>{" "}
+							<a
+								href=""
+								className="text-sky-700 cursor-pointer hover:underline"
+							>
+								international.grs@sibs.edu.au
+							</a>
+						</p>
+						</div>
+					</div>
+				)}
 			</div>
 		</div>
 	);
-}
+};
+
+export default Faq;

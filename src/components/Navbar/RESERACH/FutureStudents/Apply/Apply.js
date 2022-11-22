@@ -1,10 +1,25 @@
 import React, { useState } from "react";
-
+import "../Apply/Apply.css";
+import Chevron from "../Apply/Chevron.svg";
 const Apply = () => {
+	
+	const [step1, setStep1] = useState(false);
+	const [step2, setStep2] = useState(false);
+	const [step3, setStep3] = useState(false);
+	const [step4, setStep4] = useState(false);
+	const [step5, setStep5] = useState(false);
+	const [step6, setStep6] = useState(false);
+	const [step7, setStep7] = useState(false);
+	const [step8, setStep8] = useState(false);
+	const [step9, setStep9] = useState(false);
+	const [step10, setStep10] = useState(false);
+	const [step11, setStep11] = useState(false);
+	const [step12, setStep12] = useState(false);
+
 	return (
-		<div className="container mx-auto">
-			<div className="lg:mx-[150px] my-5">
-				<div>
+		<div className="accordion container mx-auto ">
+			<div className="lg:mx-[150px]">
+				<div className="mx-4">
 					<h1 className="text-2xl font-bold my-3">How to Apply</h1>
 					<p className="mb-3">
 						Ready to apply for a research higher degree program at UNSW? The
@@ -28,65 +43,121 @@ const Apply = () => {
 						before submission.
 					</p>
 				</div>
-				<div
-					tabIndex={1}
-					className="collapse collapse-arrow border-y border-gray-400  mt-5"
+				<button
+					onClick={() => setStep1(!step1)}
+					className="accordion-visible  text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<div className="collapse-title text-xl font-medium text-sky-700">
-						Step 1: Determine Your Eligibility
+					<span>Step 1: Determine Your Eligibility</span>
+					<img className={step1 && "active"} src={Chevron} />
+				</button>
+				{step1 && (
+					<div
+						
+					>
+						<div aria-hidden={step1 ? "true" : "false"} className=" mx-4">
+							<p className="mb-5 text-justify">
+								There are a number of eligibility requirements you ensure you
+								meet prior to applying for a Higher Research Degree. These
+								include the following.
+							</p>
+							<div className="mx-5">
+								{" "}
+								<li className="text-justify mb-3">
+									Admission and scholarship application minimum requirements:
+									visit{" "}
+									<span className="text-sky-700 font-bold cursor-pointer hover:underline">
+										{" "}
+										Research Higher Degree Programs
+									</span>
+								</li>
+								<li className="text-justify mb-3">
+									English requirements:{" "}
+									<span className="text-black font-bold cursor-pointer hover:underline">
+										{" "}
+										All applicants
+									</span>{" "}
+									, whether domestic or international, must provide evidence
+									that their English language ability meets the minimum{" "}
+									<span className="text-sky-700 font-bold cursor-pointer hover:underline">
+										{" "}
+										SYDNEY IBS English Language Requirements
+									</span>{" "}
+									.{" "}
+								</li>
+								<li className="text-justify mb-3">
+									Source of funding:{" "}
+									<span className="text-black font-bold cursor-pointer hover:underline">
+										{" "}
+										All applicants
+									</span>{" "}
+									, whether domestic or international, must complete the{" "}
+									<span className="text-sky-700 font-bold cursor-pointer hover:underline">
+										{" "}
+										GTE & Financial Declaration Form{" "}
+									</span>
+									and, if required, submit evidence of your capacity to fund all{" "}
+									<span className="text-sky-700 font-bold cursor-pointer hover:underline">
+										{" "}
+										living costs, fees and other associated costs{" "}
+									</span>
+									. As an applicant to UNSW, you must demonstrate that you have
+									the ability to financially support yourself (and any
+									dependants) for the duration of your studies and, if an
+									international applicant, that you are a
+									<span className="text-sky-700 font-bold cursor-pointer hover:underline">
+										{" "}
+										Genuine Temporary Entrant{" "}
+									</span>{" "}
+									(GTE). This may be through applying for a UNSW Research
+									Scholarship, an alternative scholarship or sponsorship
+									(provided by a source external to UNSW), or through
+									self-funding.
+								</li>
+								<li className="text-justify mb-3">
+									Supervision and resources: You must consider whether you need
+									to contact a supervisor or undertake an EOI.{" "}
+									<span className="text-sky-700 font-bold cursor-pointer hover:underline">
+										{" "}
+										Approval{" "}
+									</span>{" "}
+									must be provided by a potential supervisor or School before
+									you can apply. Further checks on{" "}
+									<span className="text-sky-700 font-bold cursor-pointer hover:underline">
+										{" "}
+										appropriate supervision
+									</span>{" "}
+									and{" "}
+									<span className="text-sky-700 font-bold cursor-pointer hover:underline">
+										{" "}
+										resources
+									</span>{" "}
+									will be completed during the assessment process, so please
+									note that approval to apply does not guarantee an offer.
+								</li>
+								<li className="text-justify mb-3">
+									Other: Specific Faculties or programs may have additional
+									requirements, please see your Faculty’s website for further
+									details
+								</li>
+							</div>
+						</div>
 					</div>
-					<div className="collapse-content">
-						<p className="mb-5 text-justify">
-							There are a number of eligibility requirements you ensure you meet
-							prior to applying for a Higher Research Degree. These include the
-							following.
-						</p>
+				)}
 
-						<li className="text-justify mb-3">
-							Admission and scholarship application minimum requirements: visit <span className="text-sky-700 font-bold cursor-pointer hover:underline"> Research Higher Degree Programs</span>
-							
-						</li>
-						<li className="text-justify mb-3">
-							English requirements: <span className="text-black font-bold cursor-pointer hover:underline"> All applicants</span> , whether domestic or
-							international, must provide evidence that their English language
-							ability meets the minimum  <span className="text-sky-700 font-bold cursor-pointer hover:underline"> SYDNEY IBS English Language Requirements</span>  .{" "}
-						</li>
-						<li className="text-justify mb-3">
-							Source of funding: <span className="text-black font-bold cursor-pointer hover:underline"> All applicants</span> , whether domestic or
-							international, must complete the <span className="text-sky-700 font-bold cursor-pointer hover:underline"> GTE & Financial Declaration Form </span> 
-							and, if required, submit evidence of your capacity to fund all  <span className="text-sky-700 font-bold cursor-pointer hover:underline"> living costs, fees and other associated costs </span>
-							. As an applicant to
-							UNSW, you must demonstrate that you have the ability to
-							financially support yourself (and any dependants) for the duration
-							of your studies and, if an international applicant, that you are a
-							<span className="text-sky-700 font-bold cursor-pointer hover:underline"> Genuine Temporary Entrant </span> (GTE). This may be through applying for
-							a UNSW Research Scholarship, an alternative scholarship or
-							sponsorship (provided by a source external to UNSW), or through
-							self-funding.
-						</li>
-						<li className="text-justify mb-3">
-							Supervision and resources: You must consider whether you need to
-							contact a supervisor or undertake an EOI. <span className="text-sky-700 font-bold cursor-pointer hover:underline"> Approval </span>  must be
-							provided by a potential supervisor or School before you can apply.
-							Further checks on  <span className="text-sky-700 font-bold cursor-pointer hover:underline"> appropriate supervision</span>   and <span className="text-sky-700 font-bold cursor-pointer hover:underline"> resources</span>   will be
-							completed during the assessment process, so please note that
-							approval to apply does not guarantee an offer.
-						</li>
-						<li className="text-justify mb-3">
-							Other: Specific Faculties or programs may have additional
-							requirements, please see your Faculty’s website for further
-							details
-						</li>
-					</div>
-				</div>
-				<div
-					tabIndex={0}
-					className="collapse collapse-arrow border-y border-gray-400 mt-5"
+				<button
+					onClick={() => setStep2(!step2)}
+					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<div className="collapse-title text-xl font-medium text-sky-700">
+					<span>
 						Step 2: Find a Supervisor and Prepare Your Research Description
-					</div>
-					<div className="collapse-content">
+					</span>
+					<img className={step2 && "active"} src={Chevron} />
+				</button>
+				{step2 && (
+					<div
+						
+					>
+						<div aria-hidden={step2 ? "true" : "false"} className="mx-4">
 						<p className="text-justify mb-3">
 							Finding a supervisor with compatible research interests and
 							working styles is critical to your success as a Higher Degree
@@ -109,27 +180,33 @@ const Apply = () => {
 							submitting an application for admission. For more information,
 							visit <span className="text-sky-700 font-bold cursor-pointer hover:underline"> Finding a Supervisor</span>  
 						</p>
+						</div>
 					</div>
-				</div>
-				<div
-					tabIndex={0}
-					className="collapse collapse-arrow border-y border-gray-400 mt-5"
+				)}
+
+				<button
+					onClick={() => setStep3(!step3)}
+					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<div className="collapse-title text-xl font-medium text-sky-700 ">
-						Step 3: Prepare Your Supporting Documentation
-					</div>
-					<div className="collapse-content">
+					<span>Step 3: Prepare Your Supporting Documentation</span>
+					<img className={step3 && "active"} src={Chevron} />
+				</button>
+				{step3 && (
+					<div
+						
+					>
+						<div aria-hidden={step3 ? "true" : "false"} className="mx-4">
 						<p className="mb-3">
 							Before you apply, prepare your supporting documentation as per the
 							<span className="text-sky-700 font-bold cursor-pointer hover:underline"> Document Submission Guidelines</span> .
 						</p>
-						<p className="mb-3 text-justify">
+						<p className=" text-justify mb-3">
 							Specific scholarship schemes, research programs, or Faculties may
 							require additional documents not listed above, and these may be
 							requested after the initial application. Visit your Faculty
 							website below for guidance.
 						</p>
-						<p className="text-justify">
+						<p className="text-justify mb-3">
 							You may submit scanned copies of your documents with your
 							application. Documents may be verified at a later date, either
 							with your home institution, or by sighting original documentation.
@@ -137,39 +214,45 @@ const Apply = () => {
 							for inspection prior to enrolment if requested, so you will need
 							to bring your original documents with you.
 						</p>
-						<div className="mx-10">
-							<li className="mt-5 mb-3 text-sky-700 cursor-pointer hover:underline">
+						<div className="mx-10 mb-10">
+							<li className=" mb-2 text-sky-700 cursor-pointer hover:underline">
 								Sydney IBS Business School
 							</li>
-							<li className="mb-3 text-sky-700 cursor-pointer hover:underline">
+							<li className="mb-2 text-sky-700 cursor-pointer hover:underline">
 								Faculty of Arts, Design & Architecture
 							</li>
-							<li className="mb-3 text-sky-700 cursor-pointer hover:underline">
+							<li className="mb-2 text-sky-700 cursor-pointer hover:underline">
 								Faculty of Engineering
 							</li>
-							<li className="mb-3 text-sky-700 cursor-pointer hover:underline">
+							<li className="mb-2 text-sky-700 cursor-pointer hover:underline">
 								Faculty of Law & Justice
 							</li>
-							<li className="mb-3 text-sky-700 cursor-pointer hover:underline">
+							<li className="mb-2 text-sky-700 cursor-pointer hover:underline">
 								Faculty of Medicine & Health
 							</li>
-							<li className="mb-3 text-sky-700 cursor-pointer hover:underline">
+							<li className="mb-2 text-sky-700 cursor-pointer hover:underline">
 								Faculty of Science
 							</li>
-							<li className="mb-3 text-sky-700 cursor-pointer hover:underline">
+							<li className="pb-3 text-sky-700 cursor-pointer hover:underline">
 								UNSW Canberra
 							</li>
 						</div>
+						</div>
 					</div>
-				</div>
-				<div
-					tabIndex={0}
-					className="collapse collapse-arrow border-y border-gray-400 mt-5"
+				)}
+
+				<button
+					onClick={() => setStep4(!step4)}
+					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<div className="collapse-title text-xl font-medium text-sky-700">
-						Step 4: English Translations of Documents
-					</div>
-					<div className="collapse-content">
+					<span>Step 4: English Translations of Documents</span>
+					<img className={step4 && "active"} src={Chevron} />
+				</button>
+				{step4 && (
+					<div
+						
+					>
+						<div aria-hidden={step4 ? "true" : "false"} className="mx-4">
 						<p className="my-3 ">
 							Documents that are in a language other than English must be
 							translated by an accredited translator before they are submitted
@@ -198,16 +281,22 @@ const Apply = () => {
 								and complete translation of the original document”
 							</li>
 						</div>
+						</div>
 					</div>
-				</div>
-				<div
-					tabIndex={0}
-					className="collapse collapse-arrow border-y border-gray-400 mt-5"
+				)}
+
+				<button
+					onClick={() => setStep5(!step5)}
+					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<div className="collapse-title text-xl font-medium text-sky-700">
-						Step 5: Meet the SYDNEY IBS English Language Requirements
-					</div>
-					<div className="collapse-content">
+					<span>Step 5: Meet the UNSW English Language Requirements</span>
+					<img className={step5 && "active"} src={Chevron} />
+				</button>
+				{step5 && (
+					<div
+						
+					>
+						<div aria-hidden={step5 ? "true" : "false"} className="mx-4">
 						<p className="my-3">
 							All applicants, domestic and international, must meet* <span className="text-sky-700 font-bold cursor-pointer hover:underline">SYDNEY IBS English Language Requirements</span>  before submitting an application.
 							Scholarship applicants must do so before the scholarship deadline
@@ -232,23 +321,30 @@ const Apply = () => {
 								For full details of the  SYDNEY IBS English Language requirements
 								please refer to the <span className="text-sky-700 font-bold cursor-pointer hover:underline">SYDNEY IBS English Language Requirements policy.</span> 
 							</p>
-							<p className="text-sm">
+							<p className="text-sm mb-3">
 								{" "}
 								*All English waiver requests must be approved by the scholarship
 								deadline. In order to meet the deadline, all waiver requests
 								must be submitted at least 6 weeks prior to the due date.
 							</p>
 						</div>
+						</div>
 					</div>
-				</div>
-				<div
-					tabIndex={0}
-					className="collapse collapse-arrow border-y border-gray-400 mt-5"
+				)}
+
+				<button
+					onClick={() => setStep6(!step6)}
+					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<div className="collapse-title text-xl font-medium text-sky-700">
-						Step 6: Submit an Application
-					</div>
-					<div className="collapse-content">
+					<span>Step 6: Submit an Application</span>
+					<img className={step6 && "active"} src={Chevron} />
+				</button>
+
+				{step6 && (
+					<div
+						
+					>
+						<div aria-hidden={step6 ? "true" : "false"} className="mx-4">
 						<p className="my-3">
 							Once you have secured a supervisor, held your interview, developed
 							a research description, and prepared your supporting documents,
@@ -272,17 +368,24 @@ const Apply = () => {
 						<p className="mb-3">
 							Applicants should only submit <span className="text-black font-bold cursor-pointer hover:underline">one </span> application at a time.
 						</p>
-						<p>Application deadlines can be found on <span className="text-sky-700 font-bold cursor-pointer hover:underline">this page </span>.</p>
+						<p className="mb-5">Application deadlines can be found on <span className="text-sky-700 font-bold cursor-pointer hover:underline">this page </span>.</p>
+						</div>
 					</div>
-				</div>
-				<div
-					tabIndex={0}
-					className="collapse collapse-arrow border-y border-gray-400 mt-5"
+				)}
+
+				<button
+					onClick={() => setStep7(!step7)}
+					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<div className="collapse-title text-xl font-medium text-sky-700">
-						After You Submit an Application
-					</div>
-					<div className="collapse-content">
+					<span>After You Submit an Application</span>
+					<img className={step7 && "active"} src={Chevron} />
+				</button>
+
+				{step7 && (
+					<div
+						
+					>
+						<div aria-hidden={step7 ? "true" : "false"} className="mx-4">
 						<p className="my-3">
 						It will take 4 working days for your application to be processed after you submit it. Once processed, you’ll receive an email confirmation with a UNSW Student ID. If you have any outstanding documentation, these will also be listed in your confirmation email.
 						</p>
@@ -306,17 +409,24 @@ const Apply = () => {
 						</h1>
 						<p className="my-3">If you wish to make any changes after submitting your application, simply send us an email and we’ll make the changes for you!</p>
 						<p className="mb-3">You don’t need to submit a new application. If you want to defer your start term, change programs or be included in the next scholarship round, we can update your existing application. </p>
-						<p className=" mb-3">Or if you wish to provide outstanding documents to your submitted application, please upload them through your <span className="text-sky-700 font-bold cursor-pointer hover:underline">SYDNEY IBS Apply Online </span>account.</p>
+						<p className=" mb-5">Or if you wish to provide outstanding documents to your submitted application, please upload them through your <span className="text-sky-700 font-bold cursor-pointer hover:underline">SYDNEY IBS Apply Online </span>account.</p>
+						</div>
 					</div>
-				</div>
-				<div
-					tabIndex={0}
-					className="collapse collapse-arrow border-y border-gray-400 mt-5"
+				)}
+
+				<button
+					onClick={() => setStep8(!step8)}
+					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<div className="collapse-title text-xl font-medium text-sky-700">
-						Receiving an Offer{" "}
-					</div>
-					<div className="collapse-content">
+					<span>Receiving an Offer</span>
+					<img className={step8 && "active"} src={Chevron} />
+				</button>
+
+				{step8 && (
+					<div
+						
+					>
+						<div aria-hidden={step8 ? "true" : "false"} className="mx-4">
 						<p className="my-3">
 							If you have met the requirements, you will receive a letter of
 							offer to study at SYDNEY SIBS.
@@ -347,17 +457,22 @@ const Apply = () => {
 							letter. Your offer letter will outline how to accept the offer and
 							pay any fees required before you can enrol.
 						</p>
+						</div>
 					</div>
-				</div>
+				)}
 
-				<div
-					tabIndex={0}
-					className="collapse collapse-arrow border-y border-gray-400 mt-5"
+				<button
+					onClick={() => setStep9(!step9)}
+					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<div className="collapse-title text-xl font-medium text-sky-700">
-						Responding to an Offer{" "}
-					</div>
-					<div className="collapse-content">
+					<span>Responding to an Offer</span>
+					<img className={step9 && "active"} src={Chevron} />
+				</button>
+				{step9 && (
+					<div
+						
+					>
+						<div aria-hidden={step9 ? "true" : "false"} className="mx-4">
 						<p className="my-3">
 							New candidates are expected to enrol by the term{" "}
 							<span className="text-sky-700 font-bold cursor-pointer hover:underline">
@@ -458,7 +573,7 @@ const Apply = () => {
 								following fortnight. You will need to use this to apply for a
 								visa.{" "}
 							</p>
-							<p className="mt-3">
+							<p className="mt-3 mb-5">
 								Before proceeding with the next steps, you must arrive at your
 								study location, and if you are International, must hold on an
 								appropriate visa for the full length of study. If you are not
@@ -467,16 +582,22 @@ const Apply = () => {
 								you should defer your offer (see “Deferral” above).
 							</p>
 						</div>
+						</div>
 					</div>
-				</div>
-				<div
-					tabIndex={0}
-					className="collapse collapse-arrow border-y border-gray-400 mt-5"
+				)}
+
+				<button
+					onClick={() => setStep10(!step10)}
+					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<div className="collapse-title text-xl font-medium text-sky-700">
-						Travelling to Australia{" "}
-					</div>
-					<div className="collapse-content">
+					<span>Travelling to Australia</span>
+					<img className={step10 && "active"} src={Chevron} />
+				</button>
+				{step10 && (
+					<div
+						
+					>
+						<div aria-hidden={step10 ? "true" : "false"} className="mx-4">
 						<p className="my-3">
 							Planning your relocation to Australia? Sydney IBS international
 							travel concierge service can help you plan your trip, including:
@@ -489,22 +610,29 @@ const Apply = () => {
 							<li> keeping up-to-date with the latest COVID-19 measures</li>
 						</div>
 
-						<p className="mt-5">
+						<p className="mt-5 mb-5">
 							<span className="text-sky-700 font-bold cursor-pointer hover:underline">
 								Click here
 							</span>{" "}
 							for more information.
 						</p>
+						</div>
 					</div>
-				</div>
-				<div
-					tabIndex={0}
-					className="collapse collapse-arrow border-y border-gray-400 mt-5"
+				)}
+
+				<button
+					onClick={() => setStep11(!step11)}
+					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<div className="collapse-title text-xl font-medium text-sky-700">
-						Frequently Asked Questions{" "}
-					</div>
-					<div className="collapse-content">
+					<span>Frequently Asked Questions</span>
+					<img className={step11 && "active"} src={Chevron} />
+				</button>
+
+				{step11 && (
+					<div
+						
+					>
+						<div aria-hidden={step11 ? "true" : "false"} className="mx-4">
 						<p className="my-3">
 							Have questions about applying for admission or a scholarship?{" "}
 							<span className="text-sky-700 font-bold cursor-pointer hover:underline">
@@ -512,16 +640,22 @@ const Apply = () => {
 							</span>{" "}
 							for answers to some common questions.
 						</p>
+						</div>
 					</div>
-				</div>
-				<div
-					tabIndex={0}
-					className="collapse collapse-arrow border-y border-gray-400 mt-5"
+				)}
+
+				<button
+					onClick={() => setStep12(!step12)}
+					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<div className="collapse-title text-xl font-medium text-sky-700">
-						Contact Us{" "}
-					</div>
-					<div className="collapse-content">
+					<span>Contact Us</span>
+					<img className={step12 && "active"} src={Chevron} />
+				</button>
+				{step12 && (
+					<div
+						
+					>
+						<div aria-hidden={step12 ? "true" : "false"} className="mx-4">
 						<p className="my-3">
 							Have questions? Contact the HDR Admissions and Scholarships team
 						</p>
@@ -565,8 +699,9 @@ const Apply = () => {
 								international.grs@sibs.edu.au
 							</a>
 						</p>
+						</div>
 					</div>
-				</div>
+				)}
 			</div>
 		</div>
 	);

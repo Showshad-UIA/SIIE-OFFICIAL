@@ -178,6 +178,7 @@ const News = () => {
 									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
 										What’s next for Islamic banking?
 									</h2>
+									<p>The ethical principles on which Islamic finance is based may bring banks </p>
 								</a>
 								<p className="text-black text-sm ">13 OCT 2022</p>
 							</div>
@@ -196,7 +197,9 @@ const News = () => {
 							<div className="mt-3">
 								<a href="/articletwo"><h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
 									Islamic banks — too big to fail ?
-								</h2></a>
+								</h2>
+								<p>Economics aside, size is also important because banking revolves around faith .</p>
+								</a>
 								<p className="text-black text-sm">15 OCT 2022</p>
 							</div>
 						</div>
@@ -212,8 +215,10 @@ const News = () => {
 							</a>
 							<div className="mt-3">
 								<a href="/articlethree"><h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
-									Funding social expenditure with risk sharing sukuk
-								</h2></a>
+									Funding social expenditure 
+								</h2>
+								<p>While the use of risk-sharing instruments for the funding of revenue</p>
+								</a>
 								<p className="text-black text-sm">17 OCT 2022</p>
 							</div>
 						</div>

@@ -35,7 +35,7 @@ const Deadline = () => {
 				</div>
 				<div
 					tabIndex={0}
-					className="collapse collapse-arrow border border-gray-400  mt-5"
+					className="collapse collapse-arrow border-t border-gray-400  mt-5"
 				>
 					<div className="collapse-title text-xl font-medium text-sky-700">
 						International Applicants
@@ -206,7 +206,7 @@ const Deadline = () => {
 				</div>
 				<div
 					tabIndex={0}
-					className="collapse collapse-arrow border border-gray-400 mt-5"
+					className="collapse collapse-arrow border-t border-gray-400 mt-5"
 				>
 					<div className="collapse-title text-xl font-medium text-sky-700">
 						Domestic Applicants
@@ -336,7 +336,7 @@ const Deadline = () => {
 				</div>
 				<div
 					tabIndex={0}
-					className="collapse collapse-arrow border border-gray-400 mt-5"
+					className="collapse collapse-arrow border-t border-gray-400 mt-5"
 				>
 					<div className="collapse-title text-xl font-medium text-sky-700 ">
 						Enrolment Dates
@@ -360,7 +360,7 @@ const Deadline = () => {
 				</div>
 				<div
 					tabIndex={0}
-					className="collapse collapse-arrow border border-gray-400 mt-5"
+					className="collapse collapse-arrow border-t border-gray-400 mt-5"
 				>
 					<div className="collapse-title text-xl font-medium text-sky-700">
 						Contact Us

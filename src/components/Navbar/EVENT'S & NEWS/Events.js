@@ -1,12 +1,4 @@
 import React from "react";
-import finance from "../../../Carosel/Asset/Islamic finance.jpg";
-import events1 from "../../../Carosel/Asset/news1.jpg";
-import events2 from "../../../Carosel/Asset/news 3.jpg";
-import economics from "../../../Carosel/Asset/management.jpg";
-import business from "../../../Carosel/Asset/business.jpg";
-import Insurance from "../../../Carosel/Asset/insurance.jpg";
-import Management from "../../../Carosel/Asset/management.jpg";
-import IBusiness from "../../../Carosel/Asset/international-business.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faArrowRight,
@@ -32,137 +24,284 @@ const Events = () => {
 										<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
 
 										<p className=" lg:px-20 px-3 text-justify mt-3 ">
-											Sydney Islamic Business School (Sydney IBS) offers PhD
-											programs across all disciplines within Islamic Business.
-											The PhD program consists of two components– coursework and
-											research. 
+										Our seminars can be attended remotely through Zoom. If you plan to attend any of our seminars, please email us on enquiries@sibs.edu.au in advance for the meeting passwords and any further information. 
 										</p>
 									</div>
 								</div>
 							</div>
 						</div>
-				<div className="lg:mx-24">
-				<div className=" mb-3 p-2 border-b-2 border-black   ">
-							<div className="flex gap-5 ">
-								<img src={Management} className="max-w-sm w-1/5 px-2 h-24" />
-								<div>
-									<h1 className="text-xl font-bold">
-										Lee Sarandopoulos headshot the caravans
-									</h1>
-									<p className="py-6">
-										Provident cupiditate voluptatem et in. Quaerat fugiat ut
-										assumenda excepturi exercitationem quasi. In deleniti eaque
-										aut repudiandae et a id nisi.
-									</p>
-								</div>
+						<div className="lg:mx-24">
+							<div class="overflow-x-auto relative">
+								{/* table start here */}
+								<table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+									<thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+										<tr>
+											<th scope="col" class="py-3 px-6">
+												DATE
+											</th>
+											<th scope="col" class="py-3 px-6">
+												TIME
+											</th>
+											<th scope="col" class="py-3 px-6">
+												PRESENTER
+											</th>
+											<th scope="col" class="py-3 px-6">
+												SEMINAR TITLE
+											</th>
+											<th scope="col" class="py-3 px-6">
+												VALUE
+											</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+											<th
+												scope="row"
+												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+											>
+												23-Nov-22
+											</th>
+											<td class="py-4 px-6">11:00am-12:30pm</td>
+											<td class="py-4 px-6">
+												<p className="text-sky-700 hover:underline cursor-pointer font-bold">Dr. Victor Sojo</p> <p>University of Melbourne</p>
+											</td>
+											<td class="py-4 px-6">
+												$Using Anonymous Application Procedures to Address
+												Discrimination in Personnel Selection: A Systematic
+												Review
+											</td>
+											<td class="py-4 px-6">
+												F2F or Click <span className="text-sky-700 font-bold hover:underline cursor-pointer">here</span>   to attend the Zoom Seminar
+											</td>
+										</tr>
+										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+											<th
+												scope="row"
+												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+											>
+												22-Nov-22
+											</th>
+											<td class="py-4 px-6">10:00am-11:30am</td>
+											<td class="py-4 px-6">
+												<p className="text-sky-700 font-bold hover:underline cursor-pointer">Professor Girish Prayag</p>{" "}
+												<p>University of Canterbury</p>
+											</td>
+											<td class="py-4 px-6">
+												Organisational Resilience: Beyond jingle and jangle
+												fallacies
+											</td>
+											<td class="py-4 px-6">
+												F2F or Click  <span className="text-sky-700 font-bold hover:underline cursor-pointer">here</span> to attend the Zoom Seminar{" "}
+											</td>
+										</tr>
+										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+											<th
+												scope="row"
+												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+											>
+												17-Nov-22
+											</th>
+											<td class="py-4 px-6">10:00am-11:30am</td>
+											<td class="py-4 px-6">
+												<p className="text-sky-700 font-bold hover:underline cursor-pointer">Prof Greta Hsu </p> <p>University of California, Davis</p>
+											</td>
+											<td class="py-4 px-6">
+												Organisational Resilience: Beyond jingle and jangle
+												fallacies
+											</td>
+											<td class="py-4 px-6">
+												F2F or Click  <span className="text-sky-700 font-bold hover:underline cursor-pointer">here</span> to attend the Zoom Seminar{" "}
+											</td>
+										</tr>
+										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+											<th
+												scope="row"
+												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+											>
+												10-Nov-22
+											</th>
+											<td class="py-4 px-6">1:00pm-2:30pm </td>
+											<td class="py-4 px-6">
+												<p className="text-sky-700 font-bold hover:underline cursor-pointer"> Dr Andrew Yu </p> <p>University of Melbourne</p>
+											</td>
+											<td class="py-4 px-6">
+												Age and the Work-family Interface: How Perceptions of
+												Work and Family Change Over the Lifespan and the
+												Influence of Life Course Factors
+											</td>
+											<td class="py-4 px-6">
+												F2F or Click  <span className="text-sky-700 font-bold hover:underline cursor-pointer">here</span> to attend the Zoom seminar
+											</td>
+										</tr>
+										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+											<th
+												scope="row"
+												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+											>
+												27-Oct-22
+											</th>
+											<td class="py-4 px-6">1:00pm-2:30pm</td>
+											<td class="py-4 px-6">
+												<p className="text-sky-700 font-bold hover:underline cursor-pointer">Professor Paula Jarzabkowski </p> <p>University of Queenslande</p>
+											</td>
+											<td class="py-4 px-6">
+												Reimagining Insurance: Rebalancing Knowledge, Markets
+												and Responsibility in the Face of Increasing Disaster
+											</td>
+											<td class="py-4 px-6">
+												F2F or Click  <span className="text-sky-700 font-bold hover:underline cursor-pointer">here</span> to attend the Zoom Seminar{" "}
+											</td>
+										</tr>
+										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+											<th
+												scope="row"
+												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+											>
+												20-Oct-22
+											</th>
+											<td class="py-4 px-6">11:00am-12:30pm</td>
+											<td class="py-4 px-6">
+												<p className="text-sky-700 font-bold hover:underline cursor-pointer">A Prof Daniel Gozman </p> <p>University of Sydney</p>
+											</td>
+											<td class="py-4 px-6">
+												A Case Study of Using Blockchain Technology in
+												Regulatory Technology
+											</td>
+											<td class="py-4 px-6">
+												F2F or Click  <span className="text-sky-700 font-bold hover:underline cursor-pointer">here</span> to attend the Zoom Seminar{" "}
+											</td>
+										</tr>
+										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+											<th
+												scope="row"
+												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+											>
+												13-Oct-22
+											</th>
+											<td class="py-4 px-6">1:00am-2:30am</td>
+											<td class="py-4 px-6">
+												<p className="text-sky-700 font-bold hover:underline cursor-pointer">Prof Andrew Timming Royal</p> <p>Melbourne Institute of
+												Technology</p>
+											</td>
+											<td class="py-4 px-6">
+												Using Artificial Neural Networks to Predict Suicidal
+												Ideation: Implications for Algorithmic HRM
+											</td>
+											<td class="py-4 px-6">
+												F2F or Click  <span className="text-sky-700 font-bold hover:underline cursor-pointer">here</span> to attend the Zoom Seminar{" "}
+											</td>
+										</tr>
+										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+											<th
+												scope="row"
+												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+											>
+												29-Sep-22
+											</th>
+											<td class="py-4 px-6">1:00am-2:30pm</td>
+											<td class="py-4 px-6">
+												<p className="text-sky-700 font-bold hover:underline cursor-pointer">Dr Erica Coslor</p> <p>University of Melbourne</p>
+											</td>
+											<td class="py-4 px-6">World on a Calendar</td>
+											<td class="py-4 px-6">
+												F2F or Click  <span className="text-sky-700 font-bold hover:underline cursor-pointer">here</span> to attend the Zoom Seminar{" "}
+											</td>
+										</tr>
+										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+											<th
+												scope="row"
+												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+											>
+												15-Sep-22
+											</th>
+											<td class="py-4 px-6">1:00pm - 2:30pm</td>
+											<td class="py-4 px-6">
+												<p className="text-sky-700 font-bold hover:underline cursor-pointer">Professor Tyler Okimoto</p> <p>University of Queensland</p>
+											</td>
+											<td class="py-4 px-6">
+												Expectations of Reconciliation After Conflict
+											</td>
+											<td class="py-4 px-6">
+												F2F or Click  <span className="text-sky-700 font-bold hover:underline cursor-pointer">here</span> to attend the Zoom Seminar{" "}
+											</td>
+										</tr>
+										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+											<th
+												scope="row"
+												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+											>
+												25-Aug-22
+											</th>
+											<td class="py-4 px-6">2:00pm - 3:30pm</td>
+											<td class="py-4 px-6"><p className="text-sky-700 font-bold hover:underline cursor-pointer">Professor Barney Tan</p> <p>UNSW</p></td>
+											<td class="py-4 px-6">
+												When it takes a village: A research agenda for achieving
+												sustainable development through digital ecosystems
+											</td>
+											<td class="py-4 px-6">
+												F2F or Click  <span className="text-sky-700 font-bold hover:underline cursor-pointer">here</span> to attend the Zoom Seminar{" "}
+											</td>
+										</tr>
+										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+											<th
+												scope="row"
+												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+											>
+												18- Aug-22
+											</th>
+											<td class="py-4 px-6">2:00pm - 3:30pm</td>
+											<td class="py-4 px-6">
+												<p className="text-sky-700 font-bold hover:underline cursor-pointer">Associate Professor Aleksandra Luksyte</p> <p> University of
+												Western Australia</p>
+											</td>
+											<td class="py-4 px-6">Presenteeism and Gender</td>
+											<td class="py-4 px-6">
+												F2F or Click  <span className="text-sky-700 font-bold hover:underline cursor-pointer">here</span> to attend the Zoom Seminar{" "}
+											</td>
+										</tr>
+										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+											<th
+												scope="row"
+												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+											>
+												15-Aug-22
+											</th>
+											<td class="py-4 px-6">2:00pm - 3:30pm</td>
+											<td class="py-4 px-6">
+												<p className="text-sky-700 font-bold hover:underline cursor-pointer">Professor Sali Li</p> <p>University of South Caroline</p>
+											</td>
+											<td class="py-4 px-6">
+												What if one creates no content? Social Platform
+												performance under different intellectual property right
+												regimes
+											</td>
+											<td class="py-4 px-6">
+												F2F or Click  <span className="text-sky-700 font-bold hover:underline cursor-pointer">here</span> to attend the Zoom Seminar{" "}
+											</td>
+										</tr>
+										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+											<th
+												scope="row"
+												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+											>
+												04-Aug-22
+											</th>
+											<td class="py-4 px-6">2:00pm - 3:30pm</td>
+											<td class="py-4 px-6">
+											<p className="text-sky-700 hover:underline cursor-pointer font-bold">Associate Professor Daiane Scaraboto</p>  <p>University of
+												Melbourne</p>
+											</td>
+											<td class="py-4 px-6">TBC</td>
+											<td class="py-4 px-6">
+												F2F or Click  <span className="text-sky-700 font-bold hover:underline cursor-pointer">here</span> to attend the Zoom Seminar{" "}
+											</td>
+										</tr>
+
+
+									</tbody>
+								</table>
 							</div>
-							<p className="text-right  cursor-pointer">
-								<a href="#" className=" text-sky-700 hover:underline">
-									Find out more
-									<FontAwesomeIcon
-										icon={faChevronRight}
-										className="h-3 w-2 "
-									></FontAwesomeIcon>
-								</a>
-							</p>
 						</div>
-						<div className=" mb-3 p-2 border-b-2 border-black ">
-							<div className="flex gap-5">
-								<img src={finance} className="max-w-sm w-1/5 px-2 h-24" />
-								<div>
-									<h1 className="text-xl font-bold">
-										Safety and financial security for women
-									</h1>
-									<p className="py-6">
-										Provident cupiditate voluptatem et in. Quaerat fugiat ut
-										assumenda excepturi exercitationem quasi. In deleniti eaque
-										aut repudiandae et a id nisi.
-									</p>
-								</div>
-							</div>
-							<p className="text-right  cursor-pointer">
-								<a href="#" className=" text-sky-700 hover:underline">
-									Find out more
-									<FontAwesomeIcon
-										icon={faChevronRight}
-										className="h-3 w-2 "
-									></FontAwesomeIcon>
-								</a>
-							</p>
-						</div>
-						<div className="mb-3 p-2 border-b-2 border-black  ">
-							<div className="flex gap-5">
-								<img src={Insurance} className="max-w-sm w-1/5 px-2 h-24" />
-								<div>
-									<h1 className="text-xl font-bold">
-										Journal of Mathematical Economics gains ANU expert
-									</h1>
-									<p className="py-6">
-										Provident cupiditate voluptatem et in. Quaerat fugiat ut
-										assumenda excepturi exercitationem quasi. In deleniti eaque
-										aut repudiandae et a id nisi.
-									</p>
-								</div>
-							</div>
-							<p className="text-right  cursor-pointer">
-								<a href="#" className=" text-sky-700 hover:underline">
-									Find out more
-									<FontAwesomeIcon
-										icon={faChevronRight}
-										className="h-3 w-2 "
-									></FontAwesomeIcon>
-								</a>
-							</p>
-						</div>
-						<div className=" mb-3 p-2 border-b-2 border-black ">
-							<div className="flex gap-5 ">
-								<img src={events1} className="max-w-sm w-1/5 px-2 h-24" />
-								<div>
-									<h1 className="text-xl font-bold">
-										2022 Australasian Actuarial Education and Research Symposium
-									</h1>
-									<p className="py-6">
-										Provident cupiditate voluptatem et in. Quaerat fugiat ut
-										assumenda excepturi exercitationem quasi. In deleniti eaque
-										aut repudiandae et a id nisi.
-									</p>
-								</div>
-							</div>
-							<p className="text-right  cursor-pointer">
-								<a href="#" className=" text-sky-700 hover:underline">
-									Find out more
-									<FontAwesomeIcon
-										icon={faChevronRight}
-										className="h-3 w-2 "
-									></FontAwesomeIcon>
-								</a>
-							</p>
-						</div>
-						<div className="mb-3 p-2   ">
-							<div className="flex gap-5">
-								<img src={events2} className="max-w-sm w-1/5 px-2 h-24" />
-								<div>
-									<h1 className="text-xl font-bold">
-										CBE Alumni Networking Event{" "}
-									</h1>
-									<p className="py-6">
-										Provident cupiditate voluptatem et in. Quaerat fugiat ut
-										assumenda excepturi exercitationem quasi. In deleniti eaque
-										aut repudiandae et a id nisi.
-									</p>
-								</div>
-							</div>
-							<p className="text-right  cursor-pointer">
-								<a href="#" className=" text-sky-700 hover:underline">
-									Find out more
-									<FontAwesomeIcon
-										icon={faChevronRight}
-										className="h-3 w-2 "
-									></FontAwesomeIcon>
-								</a>
-							</p>
-						</div>
-				</div>
 					</div>
 				</div>
 			</div>

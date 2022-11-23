@@ -1,10 +1,17 @@
-import React from "react";
-
+import React, { useState } from 'react';
+import "./Deadline.css";
+import Chevron from "../Application Deadline/Chevron.svg";
 const Deadline = () => {
-	return (
-		<div className="container mx-auto">
-			<div className="lg:mx-[150px] my-5">
-				<div>
+    
+        const [step1, setStep1] = useState(false);
+        const [step2, setStep2] = useState(false);
+        const [step3, setStep3] = useState(false);
+        const [step12, setStep12] = useState(false);
+    
+        return (
+            <div className="accordion container mx-auto ">
+                <div className="lg:mx-[150px]">
+                <div>
 					<h1 className="text-2xl font-bold my-3">Application Deadlines</h1>
 					<p className="mb-3">
 						Applications must be submitted by the application deadline for the
@@ -33,14 +40,20 @@ const Deadline = () => {
 						.
 					</p>
 				</div>
-				<div
-					tabIndex={0}
-					className="collapse collapse-arrow border-t border-gray-400  mt-5"
-				>
-					<div className="collapse-title text-xl font-medium text-sky-700">
-						International Applicants
-					</div>
-					<div className="collapse-content">
+                    <button
+                        onClick={() => setStep1(!step1)}
+                        className="accordion-visible  text-sky-700 font-bold mb-3 border-t border-gray-500"
+                    >
+                        <span>International Applicants</span>
+                        <img className={step1 && "active"} src={Chevron} />
+                    </button>
+                    {step1 && (
+                        <div
+                            
+                        >
+                            <div aria-hidden={step1 ? "true" : "false"} className=" mx-4">
+                          
+					
 						<p className="mb-5">
 							Sydney IBS has three scholarship application rounds per year.
 							Applicants need to allow adequate time between the receipt of
@@ -62,7 +75,7 @@ const Deadline = () => {
 							by the following deadlines:
 						</p>
 						<div>
-							<table class="border-collapse border-2 border-gray-500 lg:w-[70%] my-5">
+							<table class=" border-2 border-gray-500 lg:w-[70%] my-5">
 								<tr>
 									<td class="border border-gray-400 p-2">
 										<h1 className="text-black font-bold text-xl -mt-5 mb-5 ">
@@ -190,7 +203,7 @@ const Deadline = () => {
 								been reviewed, which may not occur before the application
 								deadline.
 							</p>
-							<p>
+							<p className='mb-5'>
 								Please refer to the{" "}
 								<span className="text-sky-700 cursor-pointer hover:underline">
 									application instructions
@@ -203,15 +216,26 @@ const Deadline = () => {
 							</p>
 						</div>
 					</div>
-				</div>
-				<div
-					tabIndex={0}
-					className="collapse collapse-arrow border-t border-gray-400 mt-5"
-				>
-					<div className="collapse-title text-xl font-medium text-sky-700">
-						Domestic Applicants
-					</div>
-					<div className="collapse-content">
+                            </div>
+                      
+                    )}
+    
+                    <button
+                        onClick={() => setStep2(!step2)}
+                        className="accordion-visible text-sky-700 font-bold mb-3 border-t border-gray-500"
+                    >
+                        <span>
+                        Domestic Applicants
+                        </span>
+                        <img className={step2 && "active"} src={Chevron} />
+                    </button>
+                    {step2 && (
+                        <div
+                            
+                        >
+                            <div aria-hidden={step2 ? "true" : "false"} className="mx-4">
+                            
+					<div className="">
 						<p className="mb-5">
 							If you are not eligible or are not applying for a scholarship
 							stipend, you must submit your application (and all required
@@ -227,7 +251,7 @@ const Deadline = () => {
 							documentation) by the following deadlines:
 						</p>
 						<div>
-							<table class="border-collapse border-2 border-gray-500 lg:w-[70%] my-5">
+							<table class=" border-2 border-gray-500 lg:w-[70%] my-5">
 								<tr>
 									<td class="border border-gray-400 p-2">
 										<h1 className="text-black font-bold text-xl -mt-7">
@@ -320,7 +344,7 @@ const Deadline = () => {
 								been reviewed, which may not occur before the application
 								deadline.
 							</p>
-							<p>
+							<p className='mb-5'>
 								Please refer to the{" "}
 								<span className="text-sky-700 cursor-pointer hover:underline">
 									application instructions
@@ -333,16 +357,23 @@ const Deadline = () => {
 							</p>
 						</div>
 					</div>
-				</div>
-				<div
-					tabIndex={0}
-					className="collapse collapse-arrow border-t border-gray-400 mt-5"
-				>
-					<div className="collapse-title text-xl font-medium text-sky-700 ">
-						Enrolment Dates
-					</div>
-					<div className="collapse-content">
-						<p className="mb-3">
+                            </div>
+                        </div>
+                    )}
+    
+                    <button
+                        onClick={() => setStep3(!step3)}
+                        className="accordion-visible text-sky-700 font-bold mb-3 border-t border-gray-500"
+                    >
+                        <span>Enrolment Dates</span>
+                        <img className={step3 && "active"} src={Chevron} />
+                    </button>
+                    {step3 && (
+                        <div
+                            
+                        >
+                            <div aria-hidden={step3 ? "true" : "false"} className="mx-4">
+                            <p className="mb-3">
 							The Sydney IBS HDR Academic Calendar provides a level of
 							flexibility for HDR candidates that reflects the ongoing nature of
 							a research candidature.
@@ -352,21 +383,29 @@ const Deadline = () => {
 							Term 3 and Summer Term) of approximately three months each. New
 							candidates are expected to enrol by the Term Start Date.
 						</p>
-						<p>
-							For information on the HDR Academic Calendar, please visit this
-							page.
+						<p className='mb-5'>
+							For information on the HDR Academic Calendar, please visit <span className='text-sky-700 cursor-pointer hover:underline'>this
+							page</span> .
 						</p>
-					</div>
-				</div>
-				<div
-					tabIndex={0}
-					className="collapse collapse-arrow border-t border-gray-400 mt-5"
-				>
-					<div className="collapse-title text-xl font-medium text-sky-700">
-						Contact Us
-					</div>
-					<div className="collapse-content">
-						<p className="my-3">
+                            </div>
+                        </div>
+                    )}
+    
+                    
+    
+                    <button
+                        onClick={() => setStep12(!step12)}
+                        className="accordion-visible text-sky-700 font-bold mb-3 border-t border-gray-500"
+                    >
+                        <span>Contact Us</span>
+                        <img className={step12 && "active"} src={Chevron} />
+                    </button>
+                    {step12 && (
+                        <div
+                            
+                        >
+                            <div aria-hidden={step12 ? "true" : "false"} className="mx-4">
+                            <p className="my-3">
 							Have questions? Contact the HDR Admissions and Scholarships team
 						</p>
 						<p className="mb-3">
@@ -409,14 +448,13 @@ const Deadline = () => {
 								international.grs@sibs.edu.au
 							</a>
 						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		
+                            </div>
+                        </div>
+                    )}
+                </div>
+            </div>
+        );
 
-
-	);
 };
 
 export default Deadline;

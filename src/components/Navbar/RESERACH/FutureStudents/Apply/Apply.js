@@ -22,7 +22,7 @@ const Apply = () => {
 				<div className="mx-4">
 					<h1 className="text-2xl font-bold my-3">How to Apply</h1>
 					<p className="mb-3">
-						Ready to apply for a research higher degree program at UNSW? The
+						Ready to apply for a research higher degree program at SYDNEY IBS? The
 						information below outlines the steps you need to follow, including
 						where to find the application form for admission and scholarship,
 						the supporting documents you need to provide, and the{" "}
@@ -100,7 +100,7 @@ const Apply = () => {
 										{" "}
 										living costs, fees and other associated costs{" "}
 									</span>
-									. As an applicant to UNSW, you must demonstrate that you have
+									. As an applicant to SYDNEY IBS, you must demonstrate that you have
 									the ability to financially support yourself (and any
 									dependants) for the duration of your studies and, if an
 									international applicant, that you are a
@@ -108,9 +108,9 @@ const Apply = () => {
 										{" "}
 										Genuine Temporary Entrant{" "}
 									</span>{" "}
-									(GTE). This may be through applying for a UNSW Research
+									(GTE). This may be through applying for a SYDNEY IBS Research
 									Scholarship, an alternative scholarship or sponsorship
-									(provided by a source external to UNSW), or through
+									(provided by a source external to SYDNEY IBS), or through
 									self-funding.
 								</li>
 								<li className="text-justify mb-3">
@@ -210,7 +210,7 @@ const Apply = () => {
 							You may submit scanned copies of your documents with your
 							application. Documents may be verified at a later date, either
 							with your home institution, or by sighting original documentation.
-							You must be prepared to present your original documents to UNSW
+							You must be prepared to present your original documents to SYDNEY IBS
 							for inspection prior to enrolment if requested, so you will need
 							to bring your original documents with you.
 						</p>
@@ -234,7 +234,7 @@ const Apply = () => {
 								Faculty of Science
 							</li>
 							<li className="pb-3 text-sky-700 cursor-pointer hover:underline">
-								UNSW Canberra
+								SYDNEY IBS Canberra
 							</li>
 						</div>
 						</div>
@@ -256,7 +256,7 @@ const Apply = () => {
 						<p className="my-3 ">
 							Documents that are in a language other than English must be
 							translated by an accredited translator before they are submitted
-							to UNSW.
+							to SYDNEY IBS.
 						</p>
 						<div className="mx-10">
 							<li className="mb-3">
@@ -289,7 +289,7 @@ const Apply = () => {
 					onClick={() => setStep5(!step5)}
 					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
 				>
-					<span>Step 5: Meet the UNSW English Language Requirements</span>
+					<span>Step 5: Meet the SYDNEY IBS English Language Requirements</span>
 					<img className={step5 && "active"} src={Chevron} />
 				</button>
 				{step5 && (
@@ -387,7 +387,7 @@ const Apply = () => {
 					>
 						<div aria-hidden={step7 ? "true" : "false"} className="mx-4">
 						<p className="my-3">
-						It will take 4 working days for your application to be processed after you submit it. Once processed, you’ll receive an email confirmation with a UNSW Student ID. If you have any outstanding documentation, these will also be listed in your confirmation email.
+						It will take 4 working days for your application to be processed after you submit it. Once processed, you’ll receive an email confirmation with a SYDNEY IBS Student ID. If you have any outstanding documentation, these will also be listed in your confirmation email.
 						</p>
 						<p className="mb-3">
 						Once you’ve received your confirmation email, you can upload any outstanding documents through your <span className="text-sky-700 font-bold cursor-pointer hover:underline">SYDNEY IBS Apply Online </span> account. You will be notified of any rejected or outstanding documents within this account so you will need to log in periodically to view. Please allow a week for additional submitted documents to be checked and updated
@@ -484,19 +484,19 @@ const Apply = () => {
 						<h1 className="text-sky-700 text-md mb-3">Deferral</h1>
 						<p>
 							Higher Degree Research (HDR) applicants can request to defer for
-							up to one year after the initial offer term. UNSW HDR Scholarship
+							up to one year after the initial offer term. SYDNEY IBS HDR Scholarship
 							offers may be able to be deferred on a case by case basis (check
 							your scholarship letter for details). Deferrals are only approved
-							where conditions are met, including continuing to meet UNSW entry
+							where conditions are met, including continuing to meet SYDNEY IBS entry
 							requirements, and availability of supervision and resources.
 						</p>
 						<h1 className="text-sky-700 my-3">How do I defer?</h1>
 						<div>
 							<li>
 								If you have a conditional offer, please email
-								<span>domestic.grs@unsw.edu.au</span> or{" "}
+								<span>domestic.grs@SYDNEY IBS.edu.au</span> or{" "}
 								<span className="text-sky-700 cursor-pointer">
-									international.grs@unsw.edu.au
+									international.grs@SYDNEY IBS.edu.au
 								</span>
 								, indicating the new term you wish to start in
 							</li>
@@ -539,7 +539,7 @@ const Apply = () => {
 								<span className="text-black font-bold ">Part I:</span> Accept or
 								defer your offer of admission and scholarship (if applicable) in
 								Accept Online to ensure your place in the program. As part of
-								this process, unless accepting an unconditional UNSW tuition
+								this process, unless accepting an unconditional SYDNEY IBS tuition
 								paying scholarship, international applicants will be required to
 								pay a tuition fee deposit.
 							</p>

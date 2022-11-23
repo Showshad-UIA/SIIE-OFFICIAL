@@ -10,6 +10,7 @@ const Faq = () => {
 	const [step4, setStep4] = useState(false);
 	const [step5, setStep5] = useState(false);
 	const [step6, setStep6] = useState(false);
+	const [steps, setSteps] = useState(false);
 	const [step7, setStep7] = useState(false);
 	const [step8, setStep8] = useState(false);
 	const [step9, setStep9] = useState(false);
@@ -29,7 +30,7 @@ const Faq = () => {
 
                 <button
 					onClick={() => setStep(!step)}
-					className="accordion-visible  text-sky-700 mb-3 border-t border-gray-500"
+					className="accordion-visible  text-sky-700 font-bold mb-3 border-t border-gray-500"
 				>
 					<span>What is a census date?</span>
 					<img className={step && "active"} src={Chevron} />
@@ -64,7 +65,7 @@ const Faq = () => {
 
 				<button
 					onClick={() => setStep1(!step1)}
-					className="accordion-visible  text-sky-700 mb-3 border-t border-gray-500"
+					className="accordion-visible  text-sky-700 font-bold mb-3 border-t border-gray-500"
 				>
 					<span>Am I a Domestic or International candidate?</span>
 					<img className={step1 && "active"} src={Chevron} />
@@ -74,7 +75,32 @@ const Faq = () => {
 						
 					>
 						<div aria-hidden={step1 ? "true" : "false"} className=" mx-4">
-                        <p className="mb-3">
+						<li className="text-justify mb-3">
+							Domestic candidates are: Australian Permanent Residents or
+							Citizens, or New Zealand Citizens
+						</li>
+						<li className="text-justify mb-3">
+							International candidates are: New Zealand Permanent Residents, or
+							Citizens or Permanent Residents of all other countries
+						</li>
+						</div>
+					</div>
+				)}
+
+				<button
+					onClick={() => setStep2(!step2)}
+					className="accordion-visible text-sky-700 font-bold mb-3 border-t border-gray-500"
+				>
+					<span>I am in the process of applying for Permanent Residency, should I apply as a Domestic or International candidate?
+					</span>
+					<img className={step2 && "active"} src={Chevron} />
+				</button>
+				{step2 && (
+					<div
+						
+					>
+						<div aria-hidden={step2 ? "true" : "false"} className="mx-4">
+						<p className="mb-3">
 							Please complete the admission and scholarship application using
 							your current residential status. This can be updated when your
 							residency status changes.
@@ -90,39 +116,8 @@ const Faq = () => {
 				)}
 
 				<button
-					onClick={() => setStep2(!step2)}
-					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
-				>
-					<span>I am in the process of applying for Permanent Residency, should I apply as a Domestic or International candidate?
-					</span>
-					<img className={step2 && "active"} src={Chevron} />
-				</button>
-				{step2 && (
-					<div
-						
-					>
-						<div aria-hidden={step2 ? "true" : "false"} className="mx-4">
-                        <p className="my-3 ">
-							All applicants to the University must provide evidence of English
-							ability that meets the SYDNEY IBS English language requirements.
-						</p>
-
-						<p className="mb-3">
-							You must submit your satisfactory proof of English before your
-							application can be assessed
-						</p>
-						<p className="mb-3">
-							If you are applying for a SYDNEY IBS Scholarship, this must be prior to
-							the scholarship application deadline (for those applying for a
-							Waiver, the Waiver must be fully approved by the deadline)
-						</p>
-						</div>
-					</div>
-				)}
-
-				<button
 					onClick={() => setStep3(!step3)}
-					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
+					className="accordion-visible text-sky-700 font-bold mb-3 border-t border-gray-500"
 				>
 					<span>I am an International applicant but I don’t have my English test result yet. Will my application still be processed?</span>
 					<img className={step3 && "active"} src={Chevron} />
@@ -132,54 +127,28 @@ const Faq = () => {
 						
 					>
 						<div aria-hidden={step3 ? "true" : "false"} className="mx-4">
+						<p className="my-3 ">
+							All applicants to the University must provide evidence of English
+							ability that meets the  <span className='text-sky-700 cursor-pointer hover:underline'>SYDNEY IBS
+							English language requirements</span>.
+						</p>
+
 						<p className="mb-3">
-							Before you apply, prepare your supporting documentation as per the
-							<span className="text-sky-700 font-bold cursor-pointer hover:underline"> Document Submission Guidelines</span> .
+							You must submit your satisfactory proof of English before your
+							application can be assessed
 						</p>
-						<p className=" text-justify mb-3">
-							Specific scholarship schemes, research programs, or Faculties may
-							require additional documents not listed above, and these may be
-							requested after the initial application. Visit your Faculty
-							website below for guidance.
+						<p className="mb-3">
+							If you are applying for a SYDNEY IBS Scholarship, this must be prior to
+							the   <span className='text-sky-700 cursor-pointer hover:underline'> scholarship application deadline</span>  (for those applying for a
+							Waiver, the Waiver must be fully approved by the deadline)
 						</p>
-						<p className="text-justify mb-3">
-							You may submit scanned copies of your documents with your
-							application. Documents may be verified at a later date, either
-							with your home institution, or by sighting original documentation.
-							You must be prepared to present your original documents to UNSW
-							for inspection prior to enrolment if requested, so you will need
-							to bring your original documents with you.
-						</p>
-						<div className="mx-10 mb-10">
-							<li className=" mb-2 text-sky-700 cursor-pointer hover:underline">
-								Sydney IBS Business School
-							</li>
-							<li className="mb-2 text-sky-700 cursor-pointer hover:underline">
-								Faculty of Arts, Design & Architecture
-							</li>
-							<li className="mb-2 text-sky-700 cursor-pointer hover:underline">
-								Faculty of Engineering
-							</li>
-							<li className="mb-2 text-sky-700 cursor-pointer hover:underline">
-								Faculty of Law & Justice
-							</li>
-							<li className="mb-2 text-sky-700 cursor-pointer hover:underline">
-								Faculty of Medicine & Health
-							</li>
-							<li className="mb-2 text-sky-700 cursor-pointer hover:underline">
-								Faculty of Science
-							</li>
-							<li className="pb-3 text-sky-700 cursor-pointer hover:underline">
-								UNSW Canberra
-							</li>
-						</div>
 						</div>
 					</div>
 				)}
 
 <button
 					onClick={() => setStep4(!step4)}
-					className="accordion-visible text-sky-700 mb-3 text-justify border-t border-gray-500"
+					className="accordion-visible text-sky-700 font-bold mb-3 text-justify border-t border-gray-500"
 				>
 					<span>I am an international applicant and I have a strong command of the English language, but no IELTS result. How can I prove my English ability?</span>
 					<img className={step4 && "active"} src={Chevron} />
@@ -189,41 +158,63 @@ const Faq = () => {
 						
 					>
 						<div aria-hidden={step4 ? "true" : "false"} className="mx-4">
-						<p className="my-3 ">
-							Documents that are in a language other than English must be
-							translated by an accredited translator before they are submitted
-							to UNSW.
+						<p className="my-3">
+							There are a number of ways to meet the English language
+							proficiency requirements for admission to a research higher degree
+							at SYDNEY IBS. These include completion of an approved English test and
+							gaining scores that meet the SYDNEY IBS English language requirements,
+							and completing a recognised qualification at an institution where
+							the language that courses are taught in is English. For a detailed
+							list of approved ways to meet these requirements, visit <span className='text-sky-700 cursor-pointer hover:underline'>SYDNEY IBS
+							English language requirements</span> .
 						</p>
-						<div className="mx-10">
-							<li className="mb-3">
-								<span className="text-sky-700 font-bold cursor-pointer hover:underline ">NAATI</span> (the National Standards and Accreditation body for
-								Translators and Interpreters), or
-							</li>
-							<li className="mb-3">
-								A registered translator in an overseas country considered
-								acceptable by the <span className="text-sky-700 font-bold cursor-pointer hover:underline ">Australian diplomatic mission</span> .
-							</li>
-						</div>
-
-						<p className="mb-3">Each translation must include the following:</p>
-						<div className="mx-10">
-							<li className="mb-3">Translator’s signature and printed name</li>
-							<li className="mb-3">
-								Proof of accreditation, including name and membership number
-							</li>
-							<li className="mb-3">Date that the statement is made</li>
-							<li className="mb-3">
-								The text “The translated text in this document is an accurate
-								and complete translation of the original document”
-							</li>
-						</div>
 						</div>
 					</div>
 				)}
 
 				<button
+					onClick={() => setSteps(!steps)}
+					className="accordion-visible text-sky-700 font-bold mb-3 border-t border-gray-500"
+				>
+					<span>How do I apply for a scholarship?</span>
+					<img className={steps && "active"} src={Chevron} />
+				</button>
+				{steps && (
+					<div
+						
+					>
+						<div aria-hidden={steps ? "true" : "false"} className="mx-4">
+						<p className="my-3">
+						You can apply for a SYDNEY IBS scholarship when you complete your application for admission. 
+
+						</p>
+						<p className="mb-3">
+						For more on SYDNEY IBS Scholarship information, visit  <span className='text-sky-700 cursor-pointer hover:underline'>Scholarships</span>  . For information on how to submit an application, visit  <span className='text-sky-700 cursor-pointer hover:underline'>How to Apply</span> . 
+
+						</p>
+
+						<p className="mb-3">
+						SYDNEY IBS Sydney Postgraduate Research Scholarships are assessed in 3 Rounds throughout the year. These rounds will be open to both International and Domestic applicants.
+
+						</p>
+
+						<p className="mb-3">
+						Please check  <span className='text-sky-700 cursor-pointer hover:underline'>this page</span>  for the application dates, and to ensure you are selecting the correct round and the respective application term. Late applications will not be accepted.
+.
+
+						</p>
+
+						<p className="mb-3">
+						Domestic candidates will automatically be considered for the RTP Fee Offset. If you  <span className='text-black font-bold cursor-pointer hover:underline'>are not</span>   applying for a stipend scholarship, during the online application you must indicate that you are not applying for a scholarship. 
+
+
+						</p>
+						</div>
+					</div>
+				)}
+				<button
 					onClick={() => setStep5(!step5)}
-					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
+					className="accordion-visible text-sky-700 font-bold mb-3 border-t border-gray-500"
 				>
 					<span>How do I submit my documents?</span>
 					<img className={step5 && "active"} src={Chevron} />
@@ -234,43 +225,35 @@ const Faq = () => {
 					>
 						<div aria-hidden={step5 ? "true" : "false"} className="mx-4">
 						<p className="my-3">
-							All applicants, domestic and international, must meet* <span className="text-sky-700 font-bold cursor-pointer hover:underline">SYDNEY IBS English Language Requirements</span>  before submitting an application.
-							Scholarship applicants must do so before the scholarship deadline
-							(see Key Dates).
+							You need to submit scanned copies of your supporting documents
+							with your application for admission, so it’s a good idea to
+							prepare these documents before completing the online application
+							form. All documents must be in English or include a certified
+							English translation.
 						</p>
 						<p className="mb-3">
-							You must meet the requirements through the following three
-							channels:
+							It is possible to submit supporting documents after you’ve
+							submitted your online application form, however some documents are
+							compulsory for your application to be processed. For further
+							information, see the Document Submission Guidelines at  <span className='text-sky-700 cursor-pointer hover:underline'>this page</span>  .
 						</p>
-						<div>
-							<div className="mx-10">
-								<li className="text-justify mb-3"> <span className="text-sky-700 font-bold cursor-pointer hover:underline">English Language Tests and University English Courses</span>
-									. You
-									must confirm with your testing authority (e.g. Pearson's) that
-									SYDNEY IBS has permission to view and verify your test results.
-								</li>
 
-								<li className="mb-3 text-sky-700 font-bold cursor-pointer hover:underline">Prior study in the medium of English</li>
-								<li className="mb-3 text-sky-700 font-bold cursor-pointer hover:underline">Other qualifications</li>
-							</div>
-							<p className="mb-5">
-								For full details of the  SYDNEY IBS English Language requirements
-								please refer to the <span className="text-sky-700 font-bold cursor-pointer hover:underline">SYDNEY IBS English Language Requirements policy.</span> 
-							</p>
-							<p className="text-sm mb-3">
-								{" "}
-								*All English waiver requests must be approved by the scholarship
-								deadline. In order to meet the deadline, all waiver requests
-								must be submitted at least 6 weeks prior to the due date.
-							</p>
-						</div>
+						<p className="mb-3">
+							Documents will be verified at a later date. You must be prepared
+							to present your original documents to SYDNEY IBS for inspection prior to
+							enrolment if requested, so you will need to bring your original
+							documents with you. Additionally, SYDNEY IBS may verify your documents
+							with your home institution. If your documents can't be verified,
+							you may be required to bring them to the Graduate Research School
+							for verification.
+						</p>
 						</div>
 					</div>
 				)}
 
 				<button
 					onClick={() => setStep6(!step6)}
-					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
+					className="accordion-visible text-sky-700 font-bold mb-3 border-t border-gray-500"
 				>
 					<span>What are my chances of getting a scholarship?</span>
 					<img className={step6 && "active"} src={Chevron} />
@@ -282,36 +265,22 @@ const Faq = () => {
 					>
 						<div aria-hidden={step6 ? "true" : "false"} className="mx-4">
 						<p className="my-3">
-							Once you have secured a supervisor, held your interview, developed
-							a research description, and prepared your supporting documents,
-							you are ready to <span className="text-sky-700 font-bold cursor-pointer hover:underline">lodge your application</span>  . Only full applications
-							(i.e. with all required <span className="text-sky-700 font-bold cursor-pointer hover:underline">documents</span> ) will be processed for
-							assessment.
+							Scholarships are extremely competitive, particularly for
+							Internationals. All applicants must meet minimum eligibility and
+							academic requirements as outlined in the <span className='text-sky-700 cursor-pointer hover:underline'>Higher Degree Research
+							Scholarships Procedure </span>   . Of these potential applicants only an
+							estimated 10% of Internationals are competitive for a main
+							scholarship. Therefore if you require a scholarship, it is
+							imperative that you secure a supervisor stipend for <span className='text-sky-700 cursor-pointer hover:underline'>TFS
+							consideration </span>   .
 						</p>
-						<p className="mb-3">
-							If you wish to be considered for a scholarship, simply indicate
-							this on the application form and select the applicable scholarship
-							round for your preferred term start date. For more information on
-							applying for a scholarship, please visit  <span className="text-sky-700 font-bold cursor-pointer hover:underline">Graduate Research
-							Scholarships.</span> 
-						</p>
-						<p className="mb-3">
-							Your program needs to be within the same school as your
-							supervisor. You should confirm the correct program code with your
-							supervisor, your <span className="text-sky-700 font-bold cursor-pointer hover:underline">Postgraduate Coordinator </span>  or by referring to the
-							 <span className="text-sky-700 font-bold cursor-pointer hover:underline">SYDNEY IBS Handbook</span> .
-						</p>
-						<p className="mb-3">
-							Applicants should only submit <span className="text-black font-bold cursor-pointer hover:underline">one </span> application at a time.
-						</p>
-						<p className="mb-5">Application deadlines can be found on <span className="text-sky-700 font-bold cursor-pointer hover:underline">this page </span>.</p>
 						</div>
 					</div>
 				)}
 
 				<button
 					onClick={() => setStep7(!step7)}
-					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
+					className="accordion-visible text-sky-700 font-bold mb-3 border-t border-gray-500"
 				>
 					<span>How will my referees be contacted?</span>
 					<img className={step7 && "active"} src={Chevron} />
@@ -323,36 +292,24 @@ const Faq = () => {
 					>
 						<div aria-hidden={step7 ? "true" : "false"} className="mx-4">
 						<p className="my-3">
-						It will take 4 working days for your application to be processed after you submit it. Once processed, you’ll receive an email confirmation with a UNSW Student ID. If you have any outstanding documentation, these will also be listed in your confirmation email.
+							You will be required to provide the contact details of two
+							referees in your online application. Schools and supervisors may
+							contact your referees to gauge an impression of your abilities. If
+							this assessment is required, they will contact your referees
+							directly.
 						</p>
-						<p className="mb-3">
-						Once you’ve received your confirmation email, you can upload any outstanding documents through your <span className="text-sky-700 font-bold cursor-pointer hover:underline">SYDNEY IBS Apply Online </span> account. You will be notified of any rejected or outstanding documents within this account so you will need to log in periodically to view. Please allow a week for additional submitted documents to be checked and updated
+
+						<p className='mb-5'>
+							All Engineering applicants must provide these referee details to
+							their proposed supervisor before applying.
 						</p>
-						<h1 className="mb-3 text-lg text-black font-bold">
-						Tracking Progress of your Application
-						</h1>
-						<p className="mb-3">
-						If you have applied for Admission and Scholarship, both outcomes will be released after the date outlined on <span className="text-sky-700 font-bold cursor-pointer hover:underline">this page </span>. If you have alternative funding, and have applied for admission only, the outcome would typically take 6-8 weeks to be processed.
-						</p>
-						<p>
-						You can track the progress of your application through your <span className="text-sky-700 font-bold cursor-pointer hover:underline">SYDNEY IBS Apply Online </span> account.
-						</p>
-						<p className="my-3">
-						In addition to updating the overall status of your application, the Graduate Research School will update the status of each document once it has been checked. We recommend that you check this document tracking to ensure that you have submitted all required documentation.
-						</p>
-						<h1 className="text-black text-lg font-bold">
-						Making Changes to your Application
-						</h1>
-						<p className="my-3">If you wish to make any changes after submitting your application, simply send us an email and we’ll make the changes for you!</p>
-						<p className="mb-3">You don’t need to submit a new application. If you want to defer your start term, change programs or be included in the next scholarship round, we can update your existing application. </p>
-						<p className=" mb-5">Or if you wish to provide outstanding documents to your submitted application, please upload them through your <span className="text-sky-700 font-bold cursor-pointer hover:underline">SYDNEY IBS Apply Online </span>account.</p>
 						</div>
 					</div>
 				)}
 
 				<button
 					onClick={() => setStep8(!step8)}
-					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
+					className="accordion-visible text-sky-700 font-bold mb-3 border-t border-gray-500"
 				>
 					<span>How do I track the status of my application and check all documents are received?</span>
 					<img className={step8 && "active"} src={Chevron} />
@@ -364,34 +321,21 @@ const Faq = () => {
 					>
 						<div aria-hidden={step8 ? "true" : "false"} className="mx-4">
 						<p className="my-3">
-							If you have met the requirements, you will receive a letter of
-							offer to study at SYDNEY SIBS.
+							After you have submitted your application, within one week you
+							will be emailed an application receipt letter containing your SYDNEY IBS
+							student ID and outstanding documentation.
 						</p>
-						<p className="mb-3">There are two types of offer letters:</p>
-						<h1 className="mb-3 text-black font-bold text-lg">
-							Conditional Offer
-						</h1>
-						<p className="mb-3">
-							You have met some, but not all, requirements. The conditions that
-							you need to meet will be outlined in your offer letter. You will
-							not be able to accept a conditional offer, but are required to
-							upload your remaining documents through <span className="text-sky-700 text-bold cursor-pointer hover:underline">Apply Online</span> for
-							unconditional consideration.
-						</p>
-						<p>
-							New candidates are expected to enrol by the term <span className="font-bold text-sky-700 cursor-pointer hover:underline ">Start Date</span>,
-							therefore you must ensure you submit your documents early enough
-							to allow time to arrive by that date.
-						</p>
-						<h1 className="text-black text-lg font-bold">
-							Unconditional Offer
-						</h1>
-						<p className="my-3">
-							You have met the admission requirements and conditions for entry.
-							You may still be required to meet certain conditions prior to
-							enrolment, and these conditions will be outlined in your offer
-							letter. Your offer letter will outline how to accept the offer and
-							pay any fees required before you can enrol.
+
+						<p className="mb-5">
+							From this point you can provide your outstanding documentation
+							and/or track your application by logging in to your SYDNEY IBS Apply
+							Online account. If you have not received your application receipt
+							letter after one week, please contact the Admissions and
+							Scholarships team at the Graduate Research School <span className='text-sky-700 cursor-pointer hover:underline'>domestic.grs@SYDNEY IBS.edu.au </span>  
+							 or <span className='text-sky-700 cursor-pointer hover:underline'> international.grs@SYDNEY IBS.edu.au</span>   or for
+							Canberra applicants the Admin Research Student Unit: <span className='text-sky-700 cursor-pointer hover:underline'>rsu@adfa.edu.au</span> 
+							. If you applied through a SYDNEY IBS agent, please
+							provide all the outstanding documentation to your agent.
 						</p>
 						</div>
 					</div>
@@ -399,7 +343,7 @@ const Faq = () => {
 
 				<button
 					onClick={() => setStep9(!step9)}
-					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
+					className="accordion-visible text-sky-700 font-bold mb-3 border-t border-gray-500"
 				>
 					<span>What is a conditional offer?</span>
 					<img className={step9 && "active"} src={Chevron} />
@@ -410,121 +354,26 @@ const Faq = () => {
 					>
 						<div aria-hidden={step9 ? "true" : "false"} className="mx-4">
 						<p className="my-3">
-							New candidates are expected to enrol by the term{" "}
-							<span className="text-sky-700 font-bold cursor-pointer hover:underline">
-								Start Date
-							</span>
-							, therefore you must ensure you respond to your offer early to
-							allow enough time to arrive by that date.
+							This means that you are offered admission to a higher degree
+							research program on the condition that you meet the requirements
+							listed in your offer letter. Once you submit this evidence, and it
+							is deemed to meet the requirements, you will receive an
+							unconditional offer along with instructions on how to accept..
 						</p>
-						<h1 className="text-sky-700 text-md mb-3">Deferral</h1>
-						<p>
-							Higher Degree Research (HDR) applicants can request to defer for
-							up to one year after the initial offer term. UNSW HDR Scholarship
-							offers may be able to be deferred on a case by case basis (check
-							your scholarship letter for details). Deferrals are only approved
-							where conditions are met, including continuing to meet UNSW entry
-							requirements, and availability of supervision and resources.
+						<p className="mb-5">
+							If you do not meet the required conditions, you will not be able
+							to accept or enrol in the program. Once the acceptance deadline
+							passes, your offer of admission will no longer be valid. If you
+							still wish to enrol in a SYDNEY IBS higher degree research program, you
+							will need to re-apply during a future application round.
 						</p>
-						<h1 className="text-sky-700 my-3">How do I defer?</h1>
-						<div>
-							<li>
-								If you have a conditional offer, please email
-								<span>domestic.grs@unsw.edu.au</span> or{" "}
-								<span className="text-sky-700 cursor-pointer">
-									international.grs@unsw.edu.au
-								</span>
-								, indicating the new term you wish to start in
-							</li>
-							<li>
-								If you have an unconditional offer, please login to{" "}
-								<span className="text-sky-700 cursor-pointer hover:underline">
-									Accept Online
-								</span>
-							</li>
-							<p className="mt-3">
-								Please ensure you have already submitted any extra required
-								documentation prior to requesting deferral.
-							</p>
-						</div>
-
-						<p className="mb-3 text-black text-md font-bold mt-3">Acceptance</p>
-						<p className="mb-3">
-							<span className="text-black  font-bold">
-								Conditional offers:{" "}
-							</span>{" "}
-							Conditional admission and/or scholarship offers cannot be accepted
-							through Apply Online. Outstanding documentation must be provided
-							prior to a full offer being issued.
-						</p>
-						<p className="mb-3">
-							<span className="text-black  font-bold">
-								Sponsored applicants:{" "}
-							</span>{" "}
-							Sponsored applicants must accept their offer by completing and
-							emailing the admission offer reply forms, International Sponsored
-							Student Agreement form, and financial guarantee from your sponsor
-							as per your offer letter
-						</p>
-						<div>
-							<h1 className="mb-3 text-md text-black font-bold">
-								Unconditional Offers - Accept Online
-							</h1>
-							<p>Accepting online is a 2 part-process</p>
-							<p className="mb-3 mt-3">
-								<span className="text-black font-bold ">Part I:</span> Accept or
-								defer your offer of admission and scholarship (if applicable) in
-								Accept Online to ensure your place in the program. As part of
-								this process, unless accepting an unconditional UNSW tuition
-								paying scholarship, international applicants will be required to
-								pay a tuition fee deposit.
-							</p>
-							<p>
-								<span className="text-black font-bold ">Part II: </span> Confirm
-								your personal details, complete the Financial and Student
-								Declaration sections. Part II must only be completed once you
-								are ready to arrive and enrol (including for International
-								applicants, being granted the student visa and arriving in
-								Australia). Acceptance deadlines and procedures vary.
-							</p>
-						</div>
-						<div>
-							<h1 className="text-lg text-black font-bold mt-3">Deadline</h1>
-							<p>
-								Scholarship recipients must accept or defer within 2 weeks of
-								receiving their unconditional offers, admission only recipients
-								must accept or defer within 1 month of receiving the
-								unconditional offer.
-							</p>
-							<p>
-								If you do not accept or defer by the deadline date your offer
-								may lapse.
-							</p>
-							<h1 className="text-lg text-black mt-3 font-bold">
-								After acceptance
-							</h1>
-							<p>
-								Once you have provided all requirements for acceptance, a
-								Confirmation of Enrolment (CoE) will be issued to you within the
-								following fortnight. You will need to use this to apply for a
-								visa.{" "}
-							</p>
-							<p className="mt-3 mb-5">
-								Before proceeding with the next steps, you must arrive at your
-								study location, and if you are International, must hold on an
-								appropriate visa for the full length of study. If you are not
-								able to meet these requirements prior to the{" "}
-								<span className="text-sky-700 font-bold">Term Start Date</span>,
-								you should defer your offer (see “Deferral” above).
-							</p>
-						</div>
 						</div>
 					</div>
 				)}
 
 				<button
 					onClick={() => setStep10(!step10)}
-					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
+					className="accordion-visible text-sky-700 font-bold mb-3 border-t border-gray-500"
 				>
 					<span>Why did I get an offer but no notification of scholarship success?</span>
 					<img className={step10 && "active"} src={Chevron} />
@@ -535,22 +384,20 @@ const Faq = () => {
 					>
 						<div aria-hidden={step10 ? "true" : "false"} className="mx-4">
 						<p className="my-3">
-							Planning your relocation to Australia? Sydney IBS international
-							travel concierge service can help you plan your trip, including:
+							Scholarship selection is a competitive process. All scholarship
+							applications are considered at the same time, as each applicant is
+							considered against all other applicants.
 						</p>
-
-						<div className="mx-3">
-							<li> booking your flights</li>
-							<li> organising transport from the airport</li>
-							<li> arranging accommodation</li>
-							<li> keeping up-to-date with the latest COVID-19 measures</li>
-						</div>
-
-						<p className="mt-5 mb-5">
-							<span className="text-sky-700 font-bold cursor-pointer hover:underline">
-								Click here
-							</span>{" "}
-							for more information.
+						<p className="mb-3">
+							If you have received an offer of admission to the course but you
+							have not been notified of the outcome of your scholarship
+							application, this is because the scholarship selection process is
+							still taking place.
+						</p>
+						<p className="mb-3">
+							All scholarship outcomes are sent <span className='text-black font-bold cursor-pointer hover:underline'>from</span>  the release date outlined
+							on <span className='text-sky-700 cursor-pointer hover:underline'>this page</span> . This process takes several weeks as all applicants
+							must be contacted.
 						</p>
 						</div>
 					</div>
@@ -558,7 +405,7 @@ const Faq = () => {
 
 				<button
 					onClick={() => setStep11(!step11)}
-					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
+					className="accordion-visible text-sky-700 font-bold mb-3 border-t border-gray-500"
 				>
 					<span>I have applied for a scholarship - why does my admission letter state I am 'Full Fee-Paying'?</span>
 					<img className={step11 && "active"} src={Chevron} />
@@ -570,19 +417,21 @@ const Faq = () => {
 					>
 						<div aria-hidden={step11 ? "true" : "false"} className="mx-4">
 						<p className="my-3">
-							Have questions about applying for admission or a scholarship?{" "}
-							<span className="text-sky-700 font-bold cursor-pointer hover:underline">
-								Visit this page
-							</span>{" "}
-							for answers to some common questions.
-						</p>
+								All International candidates are admitted to their research
+								higher degree as Full-Fee Paying students.
+							</p>
+							<p className="mb-3">
+								If you have been granted a tuition fee scholarship or
+								sponsorship, your tuition fees will be paid by your scholarship
+								or sponsor for the duration of the award
+							</p>
 						</div>
 					</div>
 				)}
 
 				<button
 					onClick={() => setStep12(!step12)}
-					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
+					className="accordion-visible text-sky-700 font-bold mb-3 border-t border-gray-500"
 				>
 					<span>When will I receive the outcome of my application?</span>
 					<img className={step12 && "active"} src={Chevron} />
@@ -593,54 +442,29 @@ const Faq = () => {
 					>
 						<div aria-hidden={step12 ? "true" : "false"} className="mx-4">
 						<p className="my-3">
-							Have questions? Contact the HDR Admissions and Scholarships team
-						</p>
-						<p className="mb-3">
-							<span className="text-black  font-bold">Phone: </span>{" "}
-							<a
-								href=""
-								className="text-sky-700 cursor-pointer hover:underline"
-							>
-								+61211223344
-							</a>
-						</p>
-						<p className="mb-3">
-							<span className="text-black  font-bold">General enquiries:</span>{" "}
-							<a
-								href=""
-								className="text-sky-700 cursor-pointer hover:underline"
-							>
-								grs@sibs.edu.au
-							</a>
-						</p>
-						<p className="mb-3">
-							<span className="text-black  font-bold">
-								Domestic applicants:{" "}
-							</span>{" "}
-							<a
-								href=""
-								className="text-sky-700 cursor-pointer hover:underline"
-							>
-								domestic.grs@sibs.edu.au
-							</a>
-						</p>
-						<p>
-							<span className="text-black  font-bold">
-								International applicants:
-							</span>{" "}
-							<a
-								href=""
-								className="text-sky-700 cursor-pointer hover:underline"
-							>
-								international.grs@sibs.edu.au
-							</a>
-						</p>
+								If you have not applied for a SYDNEY IBS scholarship, the admission
+								assessment will take around 8 weeks from when you submitted all
+								required documentation.
+							</p>
+							<p className="mb-3">
+								Applicants who applied for a SYDNEY IBS scholarship will receive both
+								admission and scholarship outcome after the release date
+								outlined in <span className='text-sky-700 cursor-pointer hover:underline'> Key Dates</span>. Results cannot be released prior to the
+								release date as scholarships are competitive (applicants are
+								ranked against all other applicants).
+							</p>
+							<p className="mb-3">
+								Please note that outcomes may be delayed if your academic
+								results or required documentation has not been received, you
+								have applied for special consideration (eg Transferring in,
+								English Waiver).
+							</p>
 						</div>
 					</div>
 				)}
 				<button
 					onClick={() => setStep13(!step13)}
-					className="accordion-visible text-sky-700 mb-3 border-t border-gray-500"
+					className="accordion-visible text-sky-700 font-bold mb-3 border-t border-gray-500"
 				>
 					<span>Can I defer my offer?</span>
 					<img className={step13 && "active"} src={Chevron} />
@@ -651,54 +475,31 @@ const Faq = () => {
 					>
 						<div aria-hidden={step13 ? "true" : "false"} className="mx-4">
 						<p className="my-3">
-							Have questions? Contact the HDR Admissions and Scholarships team
-						</p>
-						<p className="mb-3">
-							<span className="text-black  font-bold">Phone: </span>{" "}
-							<a
-								href=""
-								className="text-sky-700 cursor-pointer hover:underline"
-							>
-								+61211223344
-							</a>
-						</p>
-						<p className="mb-3">
-							<span className="text-black  font-bold">General enquiries:</span>{" "}
-							<a
-								href=""
-								className="text-sky-700 cursor-pointer hover:underline"
-							>
-								grs@sibs.edu.au
-							</a>
-						</p>
-						<p className="mb-3">
-							<span className="text-black  font-bold">
-								Domestic applicants:{" "}
-							</span>{" "}
-							<a
-								href=""
-								className="text-sky-700 cursor-pointer hover:underline"
-							>
-								domestic.grs@sibs.edu.au
-							</a>
-						</p>
-						<p>
-							<span className="text-black  font-bold">
-								International applicants:
-							</span>{" "}
-							<a
-								href=""
-								className="text-sky-700 cursor-pointer hover:underline"
-							>
-								international.grs@sibs.edu.au
-							</a>
-						</p>
+								If you receive an offer to enrol in a Higher Degree Research
+								(HDR) program at SYDNEY IBS but you cannot start straight away, you
+								can defer or delay starting your degree. HDR admission offers
+								can be requested to defer for up to one year after the initial
+								offer term. SYDNEY IBS HDR Scholarship offers may be able to be
+								deferred on a case by case basis (check your scholarship letter
+								for details), however cannot be deferred to a new University
+								year (e.g. from Term 3, 2022 to Summer 2023).
+							</p>
+							<p className="mb-3">
+								Deferrals are approved only where conditions are met, including
+								continuing to meet SYDNEY IBS entry requirements, and availability of
+								supervision and resources. Applicants must check their English
+								is still valid before deferring.
+							</p>
+							<p className="mb-3">
+								See 'Responding to an Offer' on <span className='text-sky-700 cursor-pointer hover:underline'>this page</span>  for instructions on
+								deferral.
+							</p>
 						</div>
 					</div>
 				)}
 				<button
 					onClick={() => setStep14(!step14)}
-					className="accordion-visible text-justify text-sky-700 mb-3 border-t border-gray-500"
+					className="accordion-visible text-justify font-bold text-sky-700 mb-3 border-t border-gray-500"
 				>
 					<span>I submitted my Commencement of Study Form to activate my scholarship payments, but when I log onto MySYDNEY IBS it asks me to pay the tuition fee. What should I do?</span>
 					<img className={step14 && "active"} src={Chevron} />
@@ -708,49 +509,13 @@ const Faq = () => {
 						
 					>
 						<div aria-hidden={step14 ? "true" : "false"} className="mx-4">
-						<p className="my-3 text-justify">
-							Have questions? Contact the HDR Admissions and Scholarships team
-						</p>
-						<p className="mb-3">
-							<span className="text-black  font-bold">Phone: </span>{" "}
-							<a
-								href=""
-								className="text-sky-700 cursor-pointer hover:underline"
-							>
-								+61211223344
-							</a>
-						</p>
-						<p className="mb-3">
-							<span className="text-black  font-bold">General enquiries:</span>{" "}
-							<a
-								href=""
-								className="text-sky-700 cursor-pointer hover:underline"
-							>
-								grs@sibs.edu.au
-							</a>
-						</p>
-						<p className="mb-3">
-							<span className="text-black  font-bold">
-								Domestic applicants:{" "}
-							</span>{" "}
-							<a
-								href=""
-								className="text-sky-700 cursor-pointer hover:underline"
-							>
-								domestic.grs@sibs.edu.au
-							</a>
-						</p>
-						<p>
-							<span className="text-black  font-bold">
-								International applicants:
-							</span>{" "}
-							<a
-								href=""
-								className="text-sky-700 cursor-pointer hover:underline"
-							>
-								international.grs@sibs.edu.au
-							</a>
-						</p>
+						<p className="my-3">
+								Commencement Forms may take some time to process. Once your form
+								has been processed, you will receive a confirmation email. If
+								tuition fees are still outstanding after you have received this
+								confirmation, you can discuss payment with us by responding to
+								this email.
+							</p>
 						</div>
 					</div>
 				)}

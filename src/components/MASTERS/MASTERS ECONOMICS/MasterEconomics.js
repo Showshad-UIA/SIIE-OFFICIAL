@@ -12,26 +12,15 @@ const MasterEconomics = () => {
 					<div className="text-sm breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
 						<ul>
 							<li>
-								<a href="/">Home</a>
+								<a >Home</a>
 							</li>
 							<li>
-								<a href="/mastersreserach">MPhil</a>
+								<a href="/mastersreserach">Master of Philosophy(MPhil)</a>
 							</li>
 							<li>
-								<a href="/financereserach">MPhil Islamic banking and finance</a>
+								<a >Master of Philosophy (Islamic Economics)</a>
 							</li>
-							<li>
-								<a href="/businesslawreserach">MPhil business law</a>
-							</li>
-							<li>
-								<a href="/insuranceresearch">MPhil Islamic Insurance</a>
-							</li>
-							<li>
-								<a href="/managementresearch">MPhil in management</a>
-							</li>
-							<li>
-								<a href="/intbusinessresearch">MPhil in International business</a>
-							</li>
+
 
 						</ul>
 					</div>

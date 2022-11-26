@@ -12,26 +12,15 @@ const DiplomaFinance = () => {
 						<div className="text-sm breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
 							<ul>
 								<li>
-									<a href="/">Home</a>
+									<a >Academic programs</a>
 								</li>
 								<li>
-									<a href="/diploma">Diploma</a>
+									<a href="/diploma">Graduate Diploma</a>
 								</li>
 								<li>
-									<a href="/diplomaeconomics">Diploma in Islamic economics</a>
+									<a >Graduate Diploma (Islamic Banking and Finance)</a>
 								</li>
-								<li>
-									<a href="/diplomabusinesslaw">Diploma in Islamic business law</a>
-								</li>
-								<li>
-									<a href="/diplomainsurance">Diploma in Islamic Insurance</a>
-								</li>
-								<li>
-									<a href="/diplomainsurance">Diploma in management</a>
-								</li>
-								<li>
-									<a href="/diplomainsurance">Diploma in International business</a>
-								</li>
+								
 	
 							</ul>
 						</div>

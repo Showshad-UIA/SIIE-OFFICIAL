@@ -14,27 +14,15 @@ const MasterManagement = () => {
 					<div className="text-sm breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
 						<ul>
 							<li>
-								<a href="/">Home</a>
+								<a >Home</a>
 							</li>
 							<li>
-								<a href="/phd">MPhil</a>
+								<a href="/mastersreserach">Master of Philosophy </a>
 							</li>
 							<li>
-								<a href="/phdfinance">MPhil in Islamic finance and banking</a>
+								<a >Master of Philosophy (Management)</a>
 							</li>
-							<li>
-								<a href="/phdeconomics">MPhil in Islamic economics</a>
-							</li>
-							<li>
-								<a href="phdbusinesslaw">MPhil in Islamic business law</a>
-							</li>
-							<li>
-								<a href="/phdinsurance">MPhil in Islamic Insurance</a>
-							</li>
-							
-							<li>
-								<a href="/phdIntbusiness">MPhil in International business</a>
-							</li>
+
 
 						</ul>
 					</div>

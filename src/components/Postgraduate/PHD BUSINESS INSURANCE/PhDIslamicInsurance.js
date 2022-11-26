@@ -12,26 +12,15 @@ const PhDIslamicInsurance = () => {
 					<div className="text-sm breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
 						<ul>
 							<li>
-								<a href="/">Home</a>
+								<a href=''>Academic programs</a>
 							</li>
 							<li>
-								<a href="/phd">PhD</a>
+								<a href='/phd'>Doctor of Philosophy(PhD)</a>
 							</li>
 							<li>
-								<a href="/phdfinance">PhD Islamic banking and finance</a>
+								<p>Doctor of Philosophy (Islamic Insurance)</p>
 							</li>
-							<li>
-								<a href="/phdeconomics">PhD Islamic economics</a>
-							</li>
-							<li>
-								<a href="/phdbusinesslaw">PhD Islamic business law</a>
-							</li>
-							<li>
-								<a href="/phdmanagement">PhD in management</a>
-							</li>
-							<li>
-								<a href="/phdIntbusiness">PhD in International business</a>
-							</li>
+							
 							
 
 						</ul>

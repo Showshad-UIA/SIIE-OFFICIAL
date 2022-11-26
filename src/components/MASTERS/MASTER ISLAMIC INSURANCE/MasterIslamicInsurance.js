@@ -16,23 +16,12 @@ const MasterIslamicInsurance = () => {
 									<a href="/">Home</a>
 								</li>
 								<li>
-									<a href="/mastersreserach">MPhil</a>
+									<a href="/mastersreserach">Master of Philosophy(MPhil)</a>
 								</li>
 								<li>
-									<a href="/financeresearch">MPhil Islamic banking and finance</a>
+									<a >Master of Philosophy (Islamic Insurance)</a>
 								</li>
-								<li>
-									<a href="/businesslawresearch">MPhil Islamic economics</a>
-								</li>
-								<li>
-									<a href="/businesslawresearch">MPhil Islamic business law</a>
-								</li>
-								<li>
-									<a href="/managementresearch">MPhil in management</a>
-								</li>
-								<li>
-									<a href="/Intbusinessresearch">MPhil in International business</a>
-								</li>
+								
 	
 							</ul>
 						</div>

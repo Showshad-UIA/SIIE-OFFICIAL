@@ -11,26 +11,15 @@ const MasterIntBusiness = () => {
 					<div className="text-sm breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
 						<ul>
 							<li>
-								<a href="/">Home</a>
+								<a >Home</a>
 							</li>
 							<li>
-								<a href="/mastersreserach">MPhil</a>
+								<a href="/mastersreserach">Master of Philosophy (MPhil)</a>
 							</li>
 							<li>
-								<a href="/financeresearch">MPhil in Islamic finance and banking</a>
+								<a >Master of Philosophy (International Business)</a>
 							</li>
-							<li>
-								<a href="/economicsresearch">MPhil in Islamic economics</a>
-							</li>
-							<li>
-								<a href="/businesslawresearch">MPhil in Islamic business law</a>
-							</li>
-							<li>
-								<a href="/insuranceresearch">MPhil in Islamic Insurance</a>
-							</li>
-							<li>
-								<a href="/managementresearch">MPhil in management</a>
-							</li>
+							
 							
 
 						</ul>

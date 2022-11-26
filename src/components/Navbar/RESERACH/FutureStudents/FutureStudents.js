@@ -13,12 +13,12 @@ const FutureStudents = () => {
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
-								<div className=" flex text-sky-700 text-2xl font-bold cursor-pointer lg:px-20 px-3 ">
+								<div className=" flex text-sky-700 text-md font-bold cursor-pointer lg:px-20 px-3 ">
 									<div>
 										Graduate Research{" "}
 										<FontAwesomeIcon
 											icon={faChevronRight}
-											className="h-6 w-2.5  "
+											className="h-4 w-2 px-1  "
 										></FontAwesomeIcon>
 									</div>
 									<div className="px-2">Future Students</div>

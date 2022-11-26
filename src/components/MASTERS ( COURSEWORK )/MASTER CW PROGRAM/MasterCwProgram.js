@@ -8,34 +8,21 @@ const MasterCwProgram = () => {
         {/* PhD sub pages added here using breadcrumbs */}
                 <div className="container mx-auto  lg:mb-5">
                     <div className="lg:mx-[100px] shadow">
-                        <div className="text-sm breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
+                        <div className="text-md breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
                             <ul>
                                 <li>
-                                    <a href="/">Home</a>
+                                    <a>Academic programs</a>
                                 </li>
                                 <li>
-                                    <a href="/mastersreserach">MPhil</a>
+                                    <a href='/masterscoursework'>Master(Islamic Business- Coursework)</a>
                                 </li>
-                                <li>
-                                    <a href="/financeresearch">MPhil in Islamic finance and banking</a>
-                                </li>
-                                <li>
-                                    <a href="/economicsresearch">MPhil in Islamic economics</a>
-                                </li>
-                                <li>
-                                    <a href="/insuranceresearch">MPhil in Islamic insurance</a>
-                                </li>
-                                <li>
-                                    <a href="/businesslawresearch">MPhil in Islamic business law</a>
-                                </li>
+
+                               
                                 
                                 <li>
-                                    <a href="/managementresearch">MPhil in management</a>
+                                    <a>Master(coursework) programs</a>
                                 </li>
-                                <li>
-                                    <a href="/Intbusinessresearch">MPhil in International business</a>
-                                </li>
-    
+                               
                             </ul>
                         </div>
                     </div>

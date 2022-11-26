@@ -15,7 +15,7 @@ const MastersCw = () => {
         <>
 			<div className="container mx-auto  lg:mb-5">
 				<div className="lg:mx-[100px] shadow">
-					<div className="text-sm breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
+					{/* <div className="text-sm breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
 						<ul>
 							<li>
 								<a href="/">Sibs</a>
@@ -33,14 +33,9 @@ const MastersCw = () => {
 							<li>
 								<a href="#">Masters of Islamic insurance</a>
 							</li>
-							{/* <li>
-								<a href="#">Master in management</a>
-							</li>
-							<li>
-								<a href="#">Master in International business</a>
-							</li> */}
+							
 						</ul>
-					</div>
+					</div> */}
 				</div>
 			</div>
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">
@@ -48,12 +43,22 @@ const MastersCw = () => {
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
-								<h1 className="text-sky-700 text-2xl font-bold lg:px-20 px-3 ">
-									Master  (Coursework)
-								</h1>
-
+								
+							<div className=" flex text-sky-700 text-md font-bold cursor-pointer lg:px-20 px-3 ">
+									<div>
+										Academic Programs
+										<FontAwesomeIcon
+											icon={faChevronRight}
+											className="h-4 w-2 px-1 "
+										></FontAwesomeIcon>
+									</div>
+									<div className="">Master (Coursework)</div>
+								</div>
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
+									<h1 className="text-sky-700 text-2xl font-bold lg:px-20 px-3 ">
+									Master  (Coursework)
+								</h1>
 
 									<p className=" lg:px-20 px-3 text-justify mt-3 ">
 									Sydney IBS offers master programmes across the complete spectrum of

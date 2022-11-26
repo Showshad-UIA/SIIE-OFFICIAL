@@ -65,7 +65,7 @@ const Phd = () => {
 		<>
 			<div className="container mx-auto  lg:mb-5">
 				<div className="lg:mx-[100px] shadow">
-					<div className="text-sm breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
+					{/* <div className="text-sm breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
 						<ul>
 							<li>
 								<a href="/">Sibs</a>
@@ -90,7 +90,7 @@ const Phd = () => {
 								<a href="/phdIntbusiness">PhD in International business</a>
 							</li>
 						</ul>
-					</div>
+					</div> */}
 				</div>
 			</div>
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">
@@ -98,12 +98,22 @@ const Phd = () => {
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
-								<h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 ">
-									Doctor of Philosophy (PhD)
-								</h1>
+								<div className=" flex text-sky-700 text-md font-bold cursor-pointer lg:px-20 px-3 ">
+									<div>
+										Academic Programs
+										<FontAwesomeIcon
+											icon={faChevronRight}
+											className="h-4 w-2 px-1 "
+										></FontAwesomeIcon>
+									</div>
+									<div className="">Doctor of Philosophy (PhD)</div>
+								</div>
 
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
+									<h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 ">
+										Doctor of Philosophy (PhD)
+									</h1>
 
 									<p className=" lg:px-20 px-3 text-justify mt-3 ">
 										SIBS offers PhD programmes across the complete spectrum of
@@ -295,7 +305,7 @@ const Phd = () => {
 							</div>
 						</div>
 						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
-							<div >
+							<div>
 								<a href="/phdIntbusiness">
 									<img
 										src={IBusiness}
@@ -318,7 +328,7 @@ const Phd = () => {
 								</a>
 								<p className="text-right  cursor-pointer text-white">
 									<a href="/phdIntbusiness"> Find out more</a>
-									
+
 									<FontAwesomeIcon
 										icon={faChevronRight}
 										className="h-3 w-2"
@@ -328,7 +338,6 @@ const Phd = () => {
 						</div>
 					</div>
 				</div>
-				
 			</div>
 		</>
 	);

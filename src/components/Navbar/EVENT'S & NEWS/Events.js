@@ -15,18 +15,12 @@ const Events = () => {
 					<div className="flex flex-col px-2">
 						<div className="">
 							<div className=" lg:w-full    ">
-								<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
+								<div className=" bg-base-100 lg:px-8 px-3 py-3  ">
 									<h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 ">
 										Events
 									</h1>
 
-									<div className="  ">
-										<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
-
-										<p className=" lg:px-20 px-3 text-justify mt-3 ">
-										Our seminars can be attended remotely through Zoom. If you plan to attend any of our seminars, please email us on enquiries@sibs.edu.au in advance for the meeting passwords and any further information. 
-										</p>
-									</div>
+									
 								</div>
 							</div>
 						</div>
@@ -34,7 +28,7 @@ const Events = () => {
 							<div class="overflow-x-auto relative">
 								{/* table start here */}
 								<table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-									<thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+									<thead class="text-xs text-white uppercase bg-sky-700 dark:bg-gray-700 dark:text-gray-400">
 										<tr>
 											<th scope="col" class="py-3 px-6">
 												DATE

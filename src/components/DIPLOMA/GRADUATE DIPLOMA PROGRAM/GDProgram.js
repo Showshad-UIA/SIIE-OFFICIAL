@@ -11,31 +11,17 @@ const GDProgram = () => {
                         <div className="text-sm breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
                             <ul>
                                 <li>
-                                    <a href="/">Home</a>
+                                    <p>Academic Programs</p>
                                 </li>
                                 <li>
-                                    <a href="/diploma">Diploma</a>
+                                    <p> Graduate Diploma</p>
                                 </li>
                                 <li>
-                                    <a href="/diplomafinance">Diploma in Islamic finance and banking</a>
+                                    <p>Graduate diploma programs.</p>
                                 </li>
-                                <li>
-                                    <a href="/diplomaeconomics">Diploma in Islamic economics</a>
-                                </li>
-                                <li>
-                                    <a href="/diplomainsurance">Diploma in Islamic insurance</a>
-                                </li>
-                                <li>
-                                    <a href="/diplomabusinesslaw">Diploma in Islamic business law</a>
-                                </li>
+                               
                                 
-                                <li>
-                                    <a href="/diplomamanagement">Diploma in management</a>
-                                </li>
-                                <li>
-                                    <a href="/diplomaIntbusiness">Diploma in International business</a>
-                                </li>
-    
+                              
                             </ul>
                         </div>
                     </div>

@@ -6,12 +6,12 @@ import Governance from "../../../Carosel/Asset/Presentation8.jpg";
 const AcademicStructure = () => {
 	return (
 		<div className="">
-			{/* Main content start here */}
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">
 				<div className="lg:mx-[100px] shadow mb-5">
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
+								{/* Breadcrumb start here */}
 								<div className=" flex text-sky-700 text-md font-bold cursor-pointer lg:px-20 px-3 ">
 									<div>
 										About Us{" "}
@@ -23,13 +23,19 @@ const AcademicStructure = () => {
 									<div className="px-2">Academic Structure</div>
 								</div>
 
+								{/* AcademicStructure content start here */}
+
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
+
+									{/* AcademicStructure Image added here */}
 									<img
 										src={academicStructure}
 										alt=""
 										className="lg:px-14 lg:ml-5"
 									/>
+
+									{/* AcademicStructure details start here */}
 									<h1 className="text-2xl px-4  font-bold border-b-2 lg:mx-20  mt-5 border-gray-400">
 										<a href="#"> Dean</a>
 									</h1>
@@ -38,6 +44,8 @@ const AcademicStructure = () => {
 										Quisquam maiores expedita nulla officia qui, cumque
 										voluptatibus soluta in, voluptatem, quasi labore.
 									</p>
+
+									{/* Deputy Dean details start here */}
 									<div>
 										<h1 className="text-2xl px-4 font-bold border-b-2 lg:mx-20 mt-5 border-gray-400">
 											<a href="#">Deputy Dean</a>
@@ -49,6 +57,8 @@ const AcademicStructure = () => {
 											obcaecati dolor quos itaque veniam enim.
 										</p>
 									</div>
+
+									{/* Associate Dean, Accreditation Unit details start here */}
 									<div>
 										<h1 className="text-2xl px-4 font-bold border-b-2 lg:mx-20 mt-5  border-gray-400">
 											<a href="#">Associate Dean, Accreditation Unit</a>
@@ -61,6 +71,8 @@ const AcademicStructure = () => {
 											aperiam!
 										</p>
 									</div>
+
+									{/* Associate Dean, Learning and Teaching details start here */}
 									<div>
 										<h1 className="text-2xl px-4 font-bold border-b-2 lg:mx-20 mt-5  border-gray-400">
 											<a href="#">Associate Dean, Learning and Teaching</a>
@@ -73,6 +85,8 @@ const AcademicStructure = () => {
 											aperiam!
 										</p>
 									</div>
+
+									{/* Associate Dean, Graduate Research Studies details start here*/}
 									<div>
 										<h1 className="text-2xl px-4 font-bold border-b-2 lg:mx-20 mt-5  border-gray-400">
 											<a href="#">Associate Dean, Graduate Research Studies</a>
@@ -85,6 +99,8 @@ const AcademicStructure = () => {
 											aperiam!
 										</p>
 									</div>
+
+									{/* Associate Dean, Funding, Industry & Community Engagement details start here*/}
 									<div>
 										<h1 className="text-2xl px-4 font-bold border-b-2 lg:mx-20 mt-5  border-gray-400">
 											<a href="#">
@@ -100,6 +116,8 @@ const AcademicStructure = () => {
 										</p>
 									</div>
 
+									{/* Registrar details start here*/}
+
 									<div>
 										<h1 className="text-2xl px-4 font-bold border-b-2 lg:mx-20 mt-5  border-gray-400">
 											<a href="#">Registrar</a>
@@ -113,6 +131,7 @@ const AcademicStructure = () => {
 										</p>
 									</div>
 
+									{/* School Manager start here*/}
 									<div>
 										<h1 className="text-2xl px-4 font-bold border-b-2 lg:mx-20 mt-5  border-gray-400">
 											<a href="#">School Manager</a>

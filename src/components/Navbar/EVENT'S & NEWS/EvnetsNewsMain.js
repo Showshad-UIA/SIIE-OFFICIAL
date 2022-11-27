@@ -1,13 +1,14 @@
-import { faSortDown } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { faSortDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { EventsNewsLinks } from "./Events&NewsLinks";
 
 const EvnetsNewsMain = () => {
 	const { open, setOpen } = useState("false");
 	const [heading, setHeading] = useState("");
 	const [subHeading, setSubHeading] = useState("");
+	
 	return (
 		<>
 			{EventsNewsLinks.map((link) => (
@@ -29,11 +30,10 @@ const EvnetsNewsMain = () => {
 								></ion-icon>
 							</span>
 							<span className="text-xl -mt-2  md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-3">
-								
 								<FontAwesomeIcon
-										icon={faSortDown}
-										className=""
-									></FontAwesomeIcon>
+									icon={faSortDown}
+									className=""
+								></FontAwesomeIcon>
 							</span>
 						</h1>
 						{link.submenu && (
@@ -91,9 +91,7 @@ const EvnetsNewsMain = () => {
 				</div>
 			))}
 		</>
-	); 
-        
-    
+	);
 };
 
 export default EvnetsNewsMain;

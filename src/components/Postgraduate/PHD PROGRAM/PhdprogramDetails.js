@@ -2,12 +2,14 @@ import React from "react";
 
 const PhdprogramDetails = () => {
 	return (
-		<div className="lg:-mt-5">
+		<div className="">
 			<div className="container mx-auto ">
 				<div className="lg:mx-[100px]">
+					{/* programs details start from here */}
 					<div className="">
 						<div className="shadow lg:w-full    ">
 							<div className=" bg-base-100 lg:px-8 px-3 py-1 pb-10  ">
+								{/* Research areas details start from here */}
 								<div className="  " id="Research">
 									<h1 className="lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Research areas
@@ -21,16 +23,60 @@ const PhdprogramDetails = () => {
 												disciplines within the school:
 											</p>
 											<div className="mt-3">
-												<p ><a href="/phdfinance" className="hover:text-blue-700   underline hover:underline-offset-4">Discipline of Islamic Banking and Finance</a></p>
-												<p ><a href="phdeconomics" className="hover:text-blue-700 underline hover:underline-offset-4 ">Discipline of Islamic Economics </a></p>
-												<p ><a href="/phdbusinesslaw" className="hover:text-blue-700 underline hover:underline-offset-4 ">Discipline of Islamic Business Law</a></p>
-												<p ><a href="/phdinsurance" className="hover:text-blue-700 underline hover:underline-offset-4 ">Discipline of Islamic Insurance</a></p>
-												<p ><a href="/phdmanagement" className="hover:text-blue-700 underline hover:underline-offset-4">Discipline of Management</a></p>
-												<p ><a href="/phdIntbusiness" className="hover:text-blue-700 underline hover:underline-offset-4  ">Discipline of International Business</a></p>
+												<p>
+													<a
+														href="/phdfinance"
+														className="hover:text-sky-700   hover:underline"
+													>
+														Discipline of Islamic Banking and Finance
+													</a>
+												</p>
+												<p>
+													<a
+														href="phdeconomics"
+														className="hover:text-sky-700 hover:underline "
+													>
+														Discipline of Islamic Economics{" "}
+													</a>
+												</p>
+												<p>
+													<a
+														href="/phdbusinesslaw"
+														className="hover:text-sky-700 hover:underline "
+													>
+														Discipline of Islamic Business Law
+													</a>
+												</p>
+												<p>
+													<a
+														href="/phdinsurance"
+														className="hover:text-sky-700 hover:underline "
+													>
+														Discipline of Islamic Insurance
+													</a>
+												</p>
+												<p>
+													<a
+														href="/phdmanagement"
+														className="hover:text-sky-700 hover:underline"
+													>
+														Discipline of Management
+													</a>
+												</p>
+												<p>
+													<a
+														href="/phdIntbusiness"
+														className="hover:text-sky-700 hover:underline "
+													>
+														Discipline of International Business
+													</a>
+												</p>
 											</div>
 										</div>
 									</p>
 								</div>
+
+								{/* Program structure details start from here */}
 								<div className=" mt-5 " id="structure">
 									<h1 className="lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Program structure
@@ -44,6 +90,9 @@ const PhdprogramDetails = () => {
 												component after successfully completing the required
 												coursework.
 											</p>
+
+											{/* PhD coursework component start here */}
+
 											<h1 className="text-md  font-bold text-black mt-3 mb-3">
 												PhD coursework component
 											</h1>
@@ -66,6 +115,7 @@ const PhdprogramDetails = () => {
 												follows:
 											</p>
 
+											{/* Core units details start here */}
 											<h1 className="mt-3">
 												<span className="font-bold text-black">Core units</span>{" "}
 												– each unit is 6UOC. You will be required to complete
@@ -80,13 +130,19 @@ const PhdprogramDetails = () => {
 													<li>BUSN1167 Islamic Business Transactions</li>
 												</ul>
 											</h1>
+
+											{/* Disciplinary units details start here */}
 											<h1 className="mt-3">
-                                            <span className="font-bold text-black">Disciplinary units</span>{" "}
+												<span className="font-bold text-black">
+													Disciplinary units
+												</span>{" "}
 												– each unit is 6UOC.
 												<p className="mt-3">
-													
-													For the Discipline of <span className="font-bold">Islamic Banking and Finance</span>,
-													you will be required to complete two units from this
+													For the Discipline of{" "}
+													<span className="font-bold">
+														Islamic Banking and Finance
+													</span>
+													, you will be required to complete two units from this
 													list:
 												</p>
 												<ul className="mt-3">
@@ -120,8 +176,13 @@ const PhdprogramDetails = () => {
 														ECON1211 Fundamentals of Islamic Economics system{" "}
 													</li>
 												</ul>
-                                                <p className="mt-3"> For the Discipline of <span className="font-bold">Islamic Economics</span>, you will be
-												required to complete two units from this list:</p>
+												<p className="mt-3">
+													{" "}
+													For the Discipline of{" "}
+													<span className="font-bold">Islamic Economics</span>,
+													you will be required to complete two units from this
+													list:
+												</p>
 												<ul className="mt-3">
 													<li>
 														{" "}
@@ -140,8 +201,15 @@ const PhdprogramDetails = () => {
 													<li> EMET1333 Advanced Econometrics </li>
 													<li> EMET2333 Advanced Econometrics II </li>
 												</ul>
-                                               <p className="mt-3"> For the Discipline of <span className="font-bold">Islamic Business Law</span>, you will be
-												required to complete two units from this list:</p>
+												<p className="mt-3">
+													{" "}
+													For the Discipline of{" "}
+													<span className="font-bold">
+														Islamic Business Law
+													</span>
+													, you will be required to complete two units from this
+													list:
+												</p>
 												<ul className="mt-3">
 													<li>LAWS2101 Islamic Law of Contracts</li>
 													<li> LAWS2001 Islamic Law and Jurisprudence </li>
@@ -166,8 +234,13 @@ const PhdprogramDetails = () => {
 														ECON1211 Fundamentals of Islamic Economics system{" "}
 													</li>
 												</ul>
-                                             <p className="mt-3">   For the Discipline of  <span className="font-bold">Islamic Insurance</span>, you will be
-												required to complete two units from this list:</p>
+												<p className="mt-3">
+													{" "}
+													For the Discipline of{" "}
+													<span className="font-bold">Islamic Insurance</span>,
+													you will be required to complete two units from this
+													list:
+												</p>
 												<ul className="mt-3">
 													<li>INSU1142 Principles of Takaful Insurance</li>
 													<li> INSU1121 Insurance Jurisprudence</li>
@@ -184,9 +257,11 @@ const PhdprogramDetails = () => {
 														ECON1211 Fundamentals of Islamic Economics system{" "}
 													</li>
 												</ul>
-<p className="mt-3">
-												 For the Discipline of <span className="font-bold">Management</span>, you will be required
-												to complete two units from this list:</p>
+												<p className="mt-3">
+													For the Discipline of{" "}
+													<span className="font-bold">Management</span>, you
+													will be required to complete two units from this list:
+												</p>
 												<ul className="mt-3">
 													<li>MGMT1151 Organisational Behaviour </li>
 													<li>MGMT2154 Strategic Management </li>
@@ -194,24 +269,25 @@ const PhdprogramDetails = () => {
 													<li>MGMT1161 Leadership and Entrepreneurship</li>
 													<li>MGMT1162 Research Methods in Management</li>
 												</ul>
-                                                <p className="mt-3">For the Discipline of <span className="font-bold">International Business</span> , you will be required to complete two units from this list:</p>
+												<p className="mt-3">
+													For the Discipline of{" "}
+													<span className="font-bold">
+														International Business
+													</span>{" "}
+													, you will be required to complete two units from this
+													list:
+												</p>
 												<ul className="mt-3">
 													<li> MGMT1151 Organisational Behaviour </li>
 													<li> MGMT2154 Strategic Management </li>
-													<li>
-													MGMT1141 Managing Across Cultures 
-													</li>
-													<li>
-														MGMT1161 Leadership and Entrepreneurship
-													</li>
-													<li>
-													MGMT1162 Research Methods in Management
-													</li>
-													
-													
-													
+													<li>MGMT1141 Managing Across Cultures</li>
+													<li>MGMT1161 Leadership and Entrepreneurship</li>
+													<li>MGMT1162 Research Methods in Management</li>
 												</ul>
 											</h1>
+
+											{/* PhD research component start here */}
+
 											<h1 className="text-md  font-bold text-black my-3">
 												PhD research component
 											</h1>
@@ -241,6 +317,8 @@ const PhdprogramDetails = () => {
 												presentation to the supervisory panel and others to
 												provide constructive feedback about your progress.
 											</p>
+
+											{/*Research supervisory panel component start here */}
 											<h1 className="text-md  font-bold text-black my-3">
 												Research supervisory panel
 											</h1>
@@ -260,6 +338,8 @@ const PhdprogramDetails = () => {
 												you need to contact the faculty in advance of making
 												your application and note this within your application.
 											</p>
+
+											{/*HDR colloquium component start here */}
 											<h1 className="text-md  font-bold text-black my-3">
 												HDR colloquium
 											</h1>
@@ -272,6 +352,8 @@ const PhdprogramDetails = () => {
 												participate in the colloquiums throughout their
 												candidature.
 											</p>
+
+											{/*Research integrity training component  start here */}
 											<h1 className="text-md  font-bold text-black my-3">
 												Research integrity training
 											</h1>
@@ -283,6 +365,8 @@ const PhdprogramDetails = () => {
 												information on research integrity training, please visit
 												our page.
 											</p>
+
+											{/*Annual progress reviews component  start here */}
 											<h1 className="text-md  font-bold text-black my-3">
 												Annual progress reviews
 											</h1>
@@ -297,6 +381,7 @@ const PhdprogramDetails = () => {
 												outlines the coursework and research the candidate
 												intends to undertake in the following 12 months.
 											</p>
+											{/*Thesis submission and examination component  start here */}
 											<h1 className="text-md  font-bold text-black my-3">
 												Thesis submission and examination
 											</h1>
@@ -311,6 +396,7 @@ const PhdprogramDetails = () => {
 									</p>
 								</div>
 
+								{/* Admission requirements details start from here */}
 								<div className="  " id="Admission">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Admission requirements
@@ -358,6 +444,8 @@ const PhdprogramDetails = () => {
 										contact the Sydney IBS HDR Co-ordinator for more
 										information.
 									</p>
+
+									{/* English language requirements details start from here */}
 									<h1 className="mt-6 lg:px-20 px-3 text-md  font-bold text-black my-3">
 										English language requirements
 									</h1>
@@ -370,6 +458,8 @@ const PhdprogramDetails = () => {
 										TOEFL score of at least 570, with at least 4.5 in the essay
 										component.
 									</p>
+
+									{/* Application and supporting documentation details start from here */}
 									<h1 className="mt-6 lg:px-20 px-3 text-md  font-bold text-black">
 										Application and supporting documentation
 									</h1>
@@ -412,6 +502,8 @@ const PhdprogramDetails = () => {
 											language requirements.{" "}
 										</li>
 									</ul>
+
+									{/* Research proposal details start from here */}
 									<h1 className="mt-6 lg:px-20 px-3 text-md  font-bold text-black">
 										Research proposal
 									</h1>
@@ -442,6 +534,7 @@ const PhdprogramDetails = () => {
 									</p>
 								</div>
 
+								{/* Course outcome details start from here */}
 								<div className="  " id="outcome">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Course outcome
@@ -477,6 +570,7 @@ const PhdprogramDetails = () => {
 									</ul>
 								</div>
 
+								{/* Fees & Scholarship details start from here */}
 								<div className="  " id="Fees">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Fees | Scholarship
@@ -516,6 +610,7 @@ const PhdprogramDetails = () => {
 										the middle-end of February.
 									</p>
 								</div>
+								{/* Contact us details start from here */}
 								<div className=" ">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Contact us

@@ -72,14 +72,14 @@ import Deadline from "./components/Navbar/RESERACH/FutureStudents/Application De
 function App() {
 	return (
 		<div className="bg-white">
+			{/* navbar section added here  */}
 			<Topbar></Topbar>
-			{/* <Header></Header> */}
 			<Navbar></Navbar>
 
 			<Routes>
 				<Route path="/" element={<Home></Home>}></Route>
 
-				{/* About sibs navbar pages  */}
+				{/* Under about Us pages added here */}
 				<Route path="/profile" element={<Profile></Profile>}></Route>
 				<Route
 					path="/LeadershipGovernence"
@@ -90,20 +90,28 @@ function App() {
 					element={<AcademicStructure></AcademicStructure>}
 				></Route>
 
-				{/* Research navbar  */}
-				<Route
-					path="/current"
-					element={<CurrentStudents></CurrentStudents>}
-				></Route>
+				{/* Graduate research pages added here  */}
 				<Route
 					path="/future"
 					element={<FutureStudents></FutureStudents>}
 				></Route>
-				{/* Events & News navbar  */}
+				{/* Future students content */}
+				<Route path="/deadline" element={<Deadline></Deadline>}></Route>
+				<Route path="/apply" element={<Apply></Apply>}></Route>
+				<Route path="/faq" element={<Faq></Faq>}></Route>
+
+				<Route
+					path="/current"
+					element={<CurrentStudents></CurrentStudents>}
+				></Route>
+
+				{/* Events & News pages added here  */}
 				<Route path="/events" element={<Events></Events>}></Route>
 				<Route path="/news" element={<News></News>}></Route>
 
-				{/* diploma program start here */}
+				{/* Academic programs pages added here */}
+
+				{/* diploma programs */}
 				<Route path="/diploma" element={<Diploma></Diploma>}></Route>
 				<Route
 					path="/diplomafinance"
@@ -134,7 +142,7 @@ function App() {
 					element={<GDProgram></GDProgram>}
 				></Route>
 
-				{/* undergraduate program start here */}
+				{/* undergraduate programs */}
 				<Route
 					path="/undergraduate"
 					element={<Undergraduate></Undergraduate>}
@@ -157,7 +165,7 @@ function App() {
 					element={<UgIslamicStudy></UgIslamicStudy>}
 				></Route>
 
-				{/* Masters (research) start here */}
+				{/* Masters (research) programs */}
 				<Route path="/mastersreserach" element={<Masters></Masters>}></Route>
 				<Route
 					path="/financeresearch"
@@ -187,7 +195,8 @@ function App() {
 					path="/mastersprogram"
 					element={<Masterprogram></Masterprogram>}
 				></Route>
-				{/* Masters (Coursework) start here */}
+
+				{/* Masters (Coursework) programs */}
 				<Route
 					path="/masterscoursework"
 					element={<MastersCw></MastersCw>}
@@ -217,7 +226,9 @@ function App() {
 					path="/mastersCwProgram"
 					element={<MasterCwProgram></MasterCwProgram>}
 				></Route>
-				{/* phd program start from here */}
+
+				{/* PhD programs */}
+
 				<Route path="/phd" element={<Phd></Phd>}></Route>
 				<Route path="/phdfinance" element={<PhdFinance></PhdFinance>}></Route>
 				<Route
@@ -243,32 +254,13 @@ function App() {
 				></Route>
 				<Route path="/phdprogram" element={<Phdprogram></Phdprogram>}></Route>
 
-				{/* home page article  */}
-				{/* Home page article - (news)  */}
+				{/* home content added here  */}
+				{/* News & all News  */}
 				<Route path="/articleone" element={<ArticleOne></ArticleOne>}></Route>
 				<Route path="/articletwo" element={<AirticleTwo></AirticleTwo>}></Route>
 				<Route
 					path="/articlethree"
 					element={<ArticleThree></ArticleThree>}
-				></Route>
-
-				{/* Future students content */}
-				{/* <Route
-					path="/deadline"
-					element={<Deadline></Deadline>}
-				></Route> */}
-				<Route
-					path="/deadline"
-					element={<Deadline></Deadline>}
-				></Route>
-				<Route
-					path="/apply"
-					element={<Apply></Apply>}
-				></Route>
-				
-				<Route
-					path="/faq"
-					element={<Faq></Faq>}
 				></Route>
 			</Routes>
 

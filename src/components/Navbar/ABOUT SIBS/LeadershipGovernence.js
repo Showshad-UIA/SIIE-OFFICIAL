@@ -11,6 +11,7 @@ const LeadershipGovernence = () => {
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
+								{/* Breadcrumb start here */}
 								<div className=" flex text-sky-700 text-md font-bold cursor-pointer lg:px-20 px-3 ">
 									<div>
 										About Us{" "}
@@ -24,7 +25,13 @@ const LeadershipGovernence = () => {
 
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
+
+									{/* Governance body image added here */}
+
 									<img src={Governance} alt="" className="lg:px-14 lg:ml-5" />
+
+									{/* Governance body details added here */}
+
 									<div className="-mt-10">
 										<h1 className="text-2xl px-3 font-bold border-b-2 lg:mx-24  border-gray-400">
 											<a href="#">Board of Trustees</a>
@@ -34,6 +41,8 @@ const LeadershipGovernence = () => {
 											manages development of broad policies and strategic plans,
 											and is informed by a number of standing committees.
 										</p>
+
+										{/* CEO and President start here */}
 										<h1 className="text-2xl px-4  font-bold border-b-2 lg:mx-24  mt-5 border-gray-400">
 											<a href="#"> CEO and President</a>
 										</h1>
@@ -43,6 +52,8 @@ const LeadershipGovernence = () => {
 											They are informed by the University Executive consisting
 											of the Administrative and Academic Boards.
 										</p>
+
+										{/* Board Committees start here */}
 										<div>
 											<h1 className="text-2xl px-4 font-bold border-b-2 lg:mx-24 mt-5 border-gray-400">
 												<a href="#">Board Committees</a>
@@ -53,6 +64,8 @@ const LeadershipGovernence = () => {
 												number of standing committees.
 											</p>
 										</div>
+
+										{/* Academic Senate start here */}
 										<div>
 											<h1 className="text-2xl px-4 font-bold border-b-2 lg:mx-24 mt-5  border-gray-400">
 												<a href="#">Academic Senate</a>

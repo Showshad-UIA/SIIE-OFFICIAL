@@ -30,6 +30,7 @@ const Profile = () => {
 							<div className=" lg:w-full    ">
 								<div className=" bg-base-100  px-3 py-3 pb-10  ">
 									<div className="  ">
+										{/* breadcrumb start here */}
 										<div className=" flex text-sky-700 text-md font-bold cursor-pointer lg:px-20 px-3 ">
 											<div>
 												About Us{" "}
@@ -40,6 +41,8 @@ const Profile = () => {
 											</div>
 											<div className="px-2">Profile</div>
 										</div>
+
+										{/* About Us content start here */}
 
 										<h1 className=" border-t-4 border-sky-700 lg:mx-20 mx-3 mb-3"></h1>
 										<h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 my-2 ">
@@ -73,11 +76,14 @@ const Profile = () => {
 							</div>
 						</div>
 
+						{/* Profile page main content start here  */}
 						<div>
 							<div className="lg:mx-24 pb-10">
 								<div className="">
 									<div class="px-3 ">
+										{/* About Us  main content layout figure out here  */}
 										<div class="grid grid-cols-1 md:grid-cols-2 gap-10  lg:grid-cols-3 ">
+											{/* Academic structure start here  */}
 											<div className="">
 												<figure>
 													<img
@@ -100,6 +106,7 @@ const Profile = () => {
 												</div>
 											</div>
 
+											{/* Governance Structure start here  */}
 											<div className=" ">
 												<figure>
 													<img
@@ -120,6 +127,9 @@ const Profile = () => {
 													</p>
 												</div>
 											</div>
+
+											{/* Industry engagement start here  */}
+
 											<div className=" ">
 												<figure>
 													<img
@@ -131,8 +141,7 @@ const Profile = () => {
 												<div className="mt-3">
 													<a href="">
 														<h2 className="text-xl text-sky-700 cursor-pointer hover:underline text-justify">
-														Industry engagement
-
+															Industry engagement
 														</h2>
 													</a>
 													<p className="text-justify text-black text-md">
@@ -142,8 +151,7 @@ const Profile = () => {
 												</div>
 											</div>
 											
-
-											
+											{/* Our Facilities start here  */}
 											<div className=" ">
 												<figure>
 													<img
@@ -164,6 +172,8 @@ const Profile = () => {
 													</p>
 												</div>
 											</div>
+
+											{/* Academic Collaborations start here  */}
 											<div className=" ">
 												<figure>
 													<img
@@ -184,6 +194,8 @@ const Profile = () => {
 													</p>
 												</div>
 											</div>
+
+											{/* Accreditation start here  */}
 											<div className=" ">
 												<figure>
 													<img

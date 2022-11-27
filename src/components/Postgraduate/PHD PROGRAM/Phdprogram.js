@@ -5,13 +5,13 @@ import PhdprogramMain from "./PhdprogramMain";
 const Phdprogram = () => {
 	return (
 		<div className="">
-			{/* PhD sub pages added here using breadcrumbs */}
+			{/* breadcrumbs added here */}
 			<div className="container mx-auto  lg:mb-5">
 				<div className="lg:mx-[100px] shadow">
 					<div className="text-md breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
 						<ul>
 							<li>
-								<a >Academic Programs</a>
+								<a>Academic Programs</a>
 							</li>
 							<li>
 								<a href="/phd"> Doctor of Philosophy (Islamic Business)</a>
@@ -90,10 +90,12 @@ const Phdprogram = () => {
 							</div>
 						</div>
 					</div>
+					{/* program overview component added here */}
 					<div className="">
 						<PhdprogramMain></PhdprogramMain>
 					</div>
 				</div>
+				{/* phd program details component added here */}
 				<div className="container lg:mr-52 ">
 					<PhdprogramDetails></PhdprogramDetails>
 				</div>

@@ -12,92 +12,16 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 const Phd = () => {
 	return (
-		// <div className="container mx-auto  lg:mb-16 lg:mt-16 ">
-		// 	<div className="lg:mx-[100px]">
-		// 		<div className="grid   lg:grid-cols-2 sm:grid-cols-1">
-		// 			<div className="shadow lg:w-full lg:mx-20  ">
-		// 				<div className=" bg-base-100 lg:px-8 px-3  pb-10 ">
-		// 					<div className="  ">
-		// 						<h1 className=" mt-4 border-t-4 border-sky-700"></h1>
-		// 						<h1 className="text-sky-700 text-xl font-bold text-justify mt-">
-		// 							PhD Program
-		// 						</h1>
-		// 						<p className="  text-justify">
-		// 							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-		// 							Quae, similique, nobis explicabo voluptate ab impedit earum
-		// 							dignissimos placeat error dolorem repudiandae corrupti quidem
-		// 							nisi expedita eum suscipit numquam dolor accusantium! Lorem
-		// 							ipsum dolor sit amet, consectetur adipisicing elit. Quae,
-		// 							similique, nobis explicabo voluptate ab impedit earum
-		// 							dignissimos placeat error dolorem repudiandae corrupti quidem
-		// 							nisi expedita eum suscipit numquam dolor accusantium! Lorem
-		// 							ipsum dolor sit amet, consectetur adipisicing elit. Quae,
-		// 							similique, nobis explicabo voluptate ab impedit earum
-		// 							dignissimos placeat error dolorem repudiandae corrupti quidem
-		// 							nisi expedita eum suscipit numquam dolor accusantium! Lorem
-		// 							ipsum dolor sit amet, consectetur adipisicing elit. Quae,
-		// 							similique, nobis explicabo voluptate ab impedit earum
-		// 							dignissimos placeat error dolorem repudiandae corrupti quidem
-		// 							nisi expedita eum suscipit numquam dolor accusantium! eum
-		// 							suscipit numquam dolor accusantium! Lorem ipsum dolor sit
-		// 							amet, consectetur adipisicing elit. Quae, similique, nobis
-		// 							explicabo voluptate ab impedit earum dignissimos placeat error
-		// 							dolorem repudiandae corrupti quidem nisi expedita eum suscipit
-		// 							numquam dolor accusantium! Lorem ipsum dolor sit amet,
-		// 							consectetur adipisicing elit. Quae, similique, nobis explicabo
-		// 							voluptate ab impedit earum dignissimos placeat error dolorem
-		// 							repudiandae corrupti quidem nisi expedita eum suscipit numquam
-		// 							dolor accusantium!
-		// 						</p>
-		// 						<h1 className=" mt-3 border-t-4 border-sky-700"></h1>
-		// 					</div>
-		// 				</div>
-		// 			</div>
-		// 			<div className="lg:ml-[200px] mt-4">
-		// 				<PhdRightSideBar></PhdRightSideBar>
-		// 			</div>
-		// 		</div>
-		// 		<div>
-		// 			<PhdMaincontent></PhdMaincontent>
-		// 		</div>
-		// 	</div>
-		// </div>
 		<>
 			<div className="container mx-auto  lg:mb-5">
-				<div className="lg:mx-[100px] shadow">
-					{/* <div className="text-sm breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
-						<ul>
-							<li>
-								<a href="/">Sibs</a>
-							</li>
-
-							<li>
-								<a href="/phdfinance">PhD in Islamic banking and finance</a>
-							</li>
-							<li>
-								<a href="/phdeconomics">PhD in Islamic economics</a>
-							</li>
-							<li>
-								<a href="/phdbusinesslaw">PhD in Islamic business law</a>
-							</li>
-							<li>
-								<a href="/phdinsurance">PhD in Islamic Insurance</a>
-							</li>
-							<li>
-								<a href="/phdmanagement">PhD in management</a>
-							</li>
-							<li>
-								<a href="/phdIntbusiness">PhD in International business</a>
-							</li>
-						</ul>
-					</div> */}
-				</div>
+				<div className="lg:mx-[100px] shadow"></div>
 			</div>
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">
 				<div className="lg:mx-[100px] shadow ">
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
+								{/* breadcrumb added here */}
 								<div className=" flex text-sky-700 text-md font-bold cursor-pointer lg:px-20 px-3 ">
 									<div>
 										Academic Programs
@@ -108,6 +32,8 @@ const Phd = () => {
 									</div>
 									<div className="">Doctor of Philosophy (PhD)</div>
 								</div>
+
+								{/* Doctor of Philosophy (PhD) first paragraph added here */}
 
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
@@ -136,6 +62,9 @@ const Phd = () => {
 										to a PhD programme, you should carefully evaluate all
 										discipline-specific material.
 									</p>
+
+									{/* PhD programs page added here  */}
+
 									<p className="text-justify mt-3 lg:px-20 px-3">
 										Read more about Sydney IBS
 										<a href="/phdprogram" className="text-sky-700 px-2">
@@ -147,11 +76,11 @@ const Phd = () => {
 							</div>
 						</div>
 					</div>
-					{/* <div className="">
-						<PhdFinanceAdditionalMain></PhdFinanceAdditionalMain>
-					</div> */}
+
+					{/* PhD courses added here */}
 
 					<div className="lg:mx-[100px] pb-10">
+						{/* PhD Banking and Finance start here */}
 						<div className="flex bg-sky-700 shadow p-3 mb-5 gap-5 ">
 							<div className="">
 								<a href="/phdfinance">
@@ -185,6 +114,7 @@ const Phd = () => {
 								</p>
 							</div>
 						</div>
+						{/* PhD islamic economics start here */}
 						<div className="flex bg-sky-700 shadow p-3 mb-5 gap-5">
 							<div className="">
 								<a href="/phdeconomics">
@@ -215,6 +145,7 @@ const Phd = () => {
 								</p>
 							</div>
 						</div>
+						{/* PhD islamic business start here */}
 						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div className="">
 								<a href="/phdbusinesslaw">
@@ -246,6 +177,8 @@ const Phd = () => {
 								</p>
 							</div>
 						</div>
+
+						{/* PhD islamic Insurance start here */}
 						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div className="">
 								<a href="/phdinsurance">
@@ -275,6 +208,8 @@ const Phd = () => {
 								</p>
 							</div>
 						</div>
+
+						{/* PhD islamic Management start here */}
 						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div className="">
 								<a href="/phdmanagement">
@@ -304,6 +239,8 @@ const Phd = () => {
 								</p>
 							</div>
 						</div>
+
+						{/* PhD islamic IBusiness start here */}
 						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div>
 								<a href="/phdIntbusiness">

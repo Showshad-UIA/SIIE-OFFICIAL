@@ -9,10 +9,9 @@ import News from "./HOME PAGE/News";
 const Home = () => {
 	return (
 		<div className="bg-white ">
-			{/* Home page pages added  here */}
+			{/* Home page components  */}
 			<Banner></Banner>
 			<AboutSibs></AboutSibs>
-			
 			<News></News>
 			<Discover></Discover>
 			<Program></Program>

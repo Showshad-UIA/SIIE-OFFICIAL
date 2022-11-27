@@ -1,7 +1,7 @@
 import React from "react";
 
 import slider1 from "../../../Carosel/Asset/mosque.jpg";
-import slider3 from "../../../Carosel/Asset/slider.jpg";
+import slider2 from "../../../Carosel/Asset/slider.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faChevronLeft,
@@ -13,6 +13,7 @@ const Banner = () => {
 	return (
 		<div>
 			<div className="carousel w-full relative h-[430px] ">
+				{/* Banner one added here  */}
 				<div
 					id="item2"
 					className="carousel-item w-full   bg-cover"
@@ -34,16 +35,14 @@ const Banner = () => {
 						</a>
 					</div>
 				</div>
-				
+
+				{/* Banner two added here  */}
 				<div
 					id="item3"
 					className="carousel-item w-full   bg-cover"
-					style={{ backgroundImage: `url(${slider3})` }}
+					style={{ backgroundImage: `url(${slider2})` }}
 				>
-					
-					<div className=" text-black w-full my-auto  flex  justify-items-center content-center ">
-						
-					</div>
+					<div className=" text-black w-full my-auto  flex  justify-items-center content-center "></div>
 					<div className="flex  my-[400px] py-2 gap-2 px-2">
 						<a href="#item1" className="">
 							<FontAwesomeIcon

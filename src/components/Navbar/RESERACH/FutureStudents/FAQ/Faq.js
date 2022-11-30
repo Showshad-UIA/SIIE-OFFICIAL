@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import "../FAQ/Faq.css";
 import Chevron from "../Apply/Chevron.svg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 const Faq = () => {
     
     const [step, setStep] = useState(false);
@@ -21,10 +23,28 @@ const Faq = () => {
 	const [step14, setStep14] = useState(false);
 
 	return (
-		<div className="accordion container mx-auto ">
-			<div className="lg:mx-[150px]">
-				<div className="mx-4">
-					<h1 className="text-2xl font-bold my-3">FAQs- Admission & Scholarships</h1>
+		<div className="accordion container mx-auto  ">
+			<div className="lg:mx-[150px] shadow-md ">
+			<div className=" flex text-sky-700 text-md font-bold cursor-pointer mx-3 ">
+						<div>
+							Graduate Research{" "}
+							<FontAwesomeIcon
+								icon={faChevronRight}
+								className="h-4 w-2 px-1  "
+							></FontAwesomeIcon>
+						</div>
+						<div className="">
+							<a href="/future" className="hover:underline">Future Students</a>
+							<FontAwesomeIcon
+								icon={faChevronRight}
+								className="h-4 w-2 px-1  "
+							></FontAwesomeIcon>
+						</div>
+						<div className="">FAQs</div>
+					</div>
+				<div className="mx-3">
+				<h1 className="mb-3 border-t-4 border-sky-700   my-2"></h1>
+					<h1 className="text-2xl font-bold my-5">FAQs- Admission & Scholarships</h1>
 					
 				</div>
 

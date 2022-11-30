@@ -15,16 +15,20 @@ const FutureStudentsMain = () => {
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-10  lg:grid-cols-3 ">
 						<div className="">
 							<figure>
-								<img
-									src={image2}
-									alt="image1"
-									className="lg:h-[190px] lg:w-[350px] "
-								/>
+								<a href="/phd">
+									<img
+										src={image2}
+										alt="image1"
+										className="lg:h-[190px] lg:w-[350px] "
+									/>
+								</a>
 							</figure>
 							<div className=" mt-3">
-								<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
-									Higher Degree Research Programs
-								</h2>
+								<a href="/phd">
+									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
+										Higher Degree Research Programs
+									</h2>
+								</a>
 								<p className="text-black text-md ">
 									Academic leadership and oversight of all Higher Degree
 									Research Programs at SIBS
@@ -34,16 +38,20 @@ const FutureStudentsMain = () => {
 
 						<div className=" ">
 							<figure>
-								<img
-									src={image6}
-									alt="image3"
-									className="lg:h-[190px] lg:w-[350px]"
-								/>
+								<a href="/supervisors">
+									<img
+										src={image6}
+										alt="image3"
+										className="lg:h-[190px] lg:w-[350px]"
+									/>
+								</a>
 							</figure>
 							<div className="mt-3">
-								<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
-									Finding a Supervisor
-								</h2>
+								<a href="/supervisors">
+									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
+										Finding a Supervisor
+									</h2>
+								</a>
 								<p className="text-black text-md">
 									Resources, workshops and communities to help you make the most
 									of your time at SIBS

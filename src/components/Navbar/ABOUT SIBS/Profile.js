@@ -13,9 +13,9 @@ import React from "react";
 import governanceBody from "../../../Carosel/Asset/governance.jpg";
 import academics from "../../../Carosel/Asset/academics.jpg";
 import accrediation from "../../../Carosel/Asset/Accreditation.png";
-import facilities from "../../../Carosel/Asset/Facilities .jpg";
-import colleborate from "../../../Carosel/Asset/colleborate.jpg";
 import mosque from "../../../Carosel/Asset/mosque.png";
+import collaborate from "../../../Carosel/Asset/colleborate.jpg";
+import engagement from "../../../Carosel/Asset/engagement.jpg";
 
 const Profile = () => {
 	return (
@@ -87,7 +87,7 @@ const Profile = () => {
 											<div className="">
 												<figure>
 													<img
-														src={mosque}
+														src={academics}
 														alt="image1"
 														className="lg:h-[190px] lg:w-[350px] "
 													/>
@@ -110,7 +110,7 @@ const Profile = () => {
 											<div className=" ">
 												<figure>
 													<img
-														src={mosque}
+														src={governanceBody}
 														alt="image3"
 														className="lg:h-[190px] lg:w-[350px]"
 													/>
@@ -133,7 +133,7 @@ const Profile = () => {
 											<div className=" ">
 												<figure>
 													<img
-														src={mosque}
+														src={engagement}
 														alt="image4"
 														className="lg:h-[190px] lg:w-[350px]"
 													/>
@@ -150,7 +150,7 @@ const Profile = () => {
 													</p>
 												</div>
 											</div>
-											
+
 											{/* Our Facilities start here  */}
 											<div className=" ">
 												<figure>
@@ -177,7 +177,7 @@ const Profile = () => {
 											<div className=" ">
 												<figure>
 													<img
-														src={mosque}
+														src={collaborate}
 														alt="image4"
 														className="lg:h-[190px] lg:w-[350px]"
 													/>
@@ -199,7 +199,7 @@ const Profile = () => {
 											<div className=" ">
 												<figure>
 													<img
-														src={mosque}
+														src={accrediation}
 														alt="image2"
 														className="lg:h-[190px] lg:w-[350px]"
 													/>

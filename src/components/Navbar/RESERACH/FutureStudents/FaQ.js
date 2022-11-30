@@ -4,6 +4,7 @@ const FaQ = () => {
 	return (
 		<div className="container mx-auto ">
 			<div className="lg:mx-[150px] pb-16">
+				
 				<div>
 					<h1 className="text-2xl font-bold my-3 mt-20">
 						FAQs- Admission & Scholarships

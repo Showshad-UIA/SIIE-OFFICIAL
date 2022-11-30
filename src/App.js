@@ -68,6 +68,10 @@ import FutureStudents from "./components/Navbar/RESERACH/FutureStudents/FutureSt
 import Apply from "./components/Navbar/RESERACH/FutureStudents/Apply/Apply";
 import Faq from "./components/Navbar/RESERACH/FutureStudents/FAQ/Faq";
 import Deadline from "./components/Navbar/RESERACH/FutureStudents/Application Deadline/Deadline";
+import Supervisors from "./components/Navbar/RESERACH/FutureStudents/Supervisors/Supervisors";
+import Dean from "./components/Navbar/RESERACH/FutureStudents/Supervisors/Staffs Profile/Dean/Dean";
+import Contact from "./components/Navbar/RESERACH/FutureStudents/Supervisors/Staffs Profile/Dean/Contact";
+import Publication from "./components/Navbar/RESERACH/FutureStudents/Supervisors/Staffs Profile/Dean/Publication";
 
 function App() {
 	return (
@@ -96,6 +100,10 @@ function App() {
 					element={<FutureStudents></FutureStudents>}
 				></Route>
 				{/* Future students content */}
+				
+				<Route path="/dean" element={<Dean></Dean>}></Route>
+			
+
 				<Route path="/deadline" element={<Deadline></Deadline>}></Route>
 				<Route path="/apply" element={<Apply></Apply>}></Route>
 				<Route path="/faq" element={<Faq></Faq>}></Route>

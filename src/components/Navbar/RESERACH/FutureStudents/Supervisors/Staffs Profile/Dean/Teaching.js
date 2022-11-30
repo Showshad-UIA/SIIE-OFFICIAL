@@ -6,7 +6,7 @@ const Teaching = () => {
 			<div className="mx-3">
 				<p className="border-b-2 border-gray-200 my-4">
 					<span className="font-bold">
-						FIQH MUAMALAH IN BANKING AND FINANCE{" "}
+						FIQH MUAMALAH IN BANKING AND FINANCE
 					</span>
 					<span className="mx-20">
 						2021/2022 2019/2020 2018/2019 2017/2018  

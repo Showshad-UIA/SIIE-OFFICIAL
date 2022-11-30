@@ -3,6 +3,7 @@ import dean from "../../../../../../../Carosel/Asset/Academic staffs/male-1.png"
 import Contact from "./Contact";
 import Projects from "./Projects";
 import Publication from "./Publication";
+import Supervision from "./Supervision";
 import Teaching from "./Teaching";
 const Dean = () => {
 	return (
@@ -22,7 +23,7 @@ const Dean = () => {
 								<div className="flex gap-10 ">
 									<img src={dean} className="  max-w-sm w-52 px-2 h-44 mb-3" />
 									<div>
-										<h1 className="text-xl font-bold  ">
+										<h1 className="lg:text-xl font-bold text-sm   ">
 											Prof. Dr. Mohd Daud Bakar
 										</h1>
 
@@ -45,8 +46,9 @@ const Dean = () => {
 								</div>
 							</div>
 							{/* navbar start here */}
-							<ul class="flex border-b">
-								<li class="-mb-px mr-1">
+							<div className="text-md breadcrumbs md:px-6 bg-sky-700   ">
+									<ul className="text-sky-700 ">
+									<li class="">
 									<a
 										class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-1 lg:px-4 text-blue-700 font-semibold"
 										href="#biography"
@@ -54,56 +56,52 @@ const Dean = () => {
 										Biography
 									</a>
 								</li>
-								<li class="mr-1">
+									<li class="-mb-px mr-1">
 									<a
-										class="bg-white inline-block py-2 px-1 lg:px-4 text-blue-500 font-semibold"
+										class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-1 lg:px-4 text-blue-700 font-semibold"
 										href="#supervisions"
 									>
 										Supervisions
 									</a>
 								</li>
-
-								<li class="mr-1">
+									<li class="-mb-px mr-1">
 									<a
-										class="bg-white inline-block py-2 px-1 lg:px-4 text-blue-500 hover:text-blue-800 font-semibold"
+										class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-1 lg:px-4 text-blue-700 font-semibold"
 										href="#teaching"
 									>
 										Teaching
 									</a>
 								</li>
-
-								<li class="mr-1">
+									<li class="-mb-px mr-1">
 									<a
-										class="bg-white inline-block py-2 lg:px-4 px-1 text-blue-500 font-semibold"
+										class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-1 lg:px-4 text-blue-700 font-semibold"
 										href="#projects"
 									>
 										Projects
 									</a>
 								</li>
-								<li class="mr-1">
+									
+									<li class="-mb-px mr-1">
 									<a
-										class="bg-white inline-block py-2 px-1 lg:px-4 text-blue-500 font-semibold"
+										class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-1 lg:px-4 text-blue-700 font-semibold"
 										href="#publications"
 									>
 										Publications
 									</a>
 								</li>
-								<li class="mr-1">
+								<li class="-mb-px mr-1">
 									<a
-										class="bg-white inline-block py-2 px-1 lg:px-4 text-blue-500 font-semibold"
+										class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-1 lg:px-4 text-blue-700 font-semibold"
 										href="#contact"
 									>
 										Contact
 									</a>
 								</li>
-							</ul>
-
-
-
-
+										
+									</ul>
+								</div>
 							
 
-							
 							{/* Biography start here */}
 
 							<div className="border-2 ">
@@ -149,7 +147,7 @@ const Dean = () => {
 											Sdn Bhd and MyFinb.
 										</p>
 
-										<p className="my-5">
+										<p className="my-5 text-justify">
 											In 2016, he received the “Award of Excellence for
 											Outstanding Contribution for Shariah Leadership &
 											Advisory” at London Sukuk Summit Awards and “Shariah
@@ -165,7 +163,7 @@ const Dean = () => {
 											Dubai, Oct 2015.
 										</p>
 
-										<p className="mb-3">
+										<p className="mb-3 text-justify">
 											He received his first degree in Shariah from University of
 											Kuwait in 1988 and obtained his PhD from University of St.
 											Andrews, United Kingdom in 1993. In 2002, he completed his
@@ -173,7 +171,7 @@ const Dean = () => {
 											Malaya.
 										</p>
 
-										<p className="mb-3">
+										<p className="mb-3 text-justify">
 											His first book entitled “Shariah Minds in Islamic Finance:
 											An Inside Story of A Shariah Scholar” has won the “Islamic
 											Finance Book of the Year 2016” by the Global Islamic
@@ -183,7 +181,7 @@ const Dean = () => {
 											the “Best Islamic Finance Case 2017” by the GIFA 2017 in
 											Kazakhstan.
 										</p>
-										<p className="mb-3">
+										<p className="mb-3 text-justify">
 											His latest books include Mindset Is Everything (2019), The
 											Hard Truth of Islamic Finance (2019), Ratiocination in
 											Islamic Legal Theory (2019), and Corporate Matrimony
@@ -224,22 +222,7 @@ const Dean = () => {
 											{" "}
 											Supervision
 										</h1>
-										<p className="my-3 text-justify">
-											Datuk Dr. Mohd Daud Bakar has been appointed as the 8th
-											President of the International Islamic University Malaysia
-											(IIUM) effective from 01st July 2019 until 30th June 2022.
-											He is also Founder and Executive Chairman of Amanie Group.
-											One of its flagship companies namely Amanie Advisors, is
-											operating in few cities globally. He has recently been
-											appointed as the Chairman of the Federal Territories
-											Islamic Religious Council effective from 15th February
-											2021. He also serves as the Chairman of the Shariah
-											Advisory Council (SAC) of the Astana International
-											Financial Centre (AIFC), Kazakhstan and at the Central
-											Bank of Malaysia, the Securities Commission of Malaysia,
-											the Labuan Financial Services Authority, the First Abu
-											Dhabi Bank, and Permodalan Nasional Berhad.
-										</p>
+										<Supervision></Supervision>
 									</div>
 									<div id="teaching">
 										<h1 className="text-xl  font-bold text-sky-700 my-5">
@@ -255,7 +238,6 @@ const Dean = () => {
 											Projects
 										</h1>
 										<Projects></Projects>
-										
 									</div>
 									<div id="publications">
 										<h1 className="text-xl  font-bold text-sky-700 my-5">

@@ -3,55 +3,74 @@ import React from "react";
 const Teaching = () => {
 	return (
 		<div>
-			<div className="mx-3">
-				<p className="border-b-2 border-gray-200 my-4">
-					<span className="font-bold">
-						FIQH MUAMALAH IN BANKING AND FINANCE
-					</span>
-					<span className="mx-20">
-						2021/2022 2019/2020 2018/2019 2017/2018  
-					</span>{" "}
-				</p>
-				<p className="border-b-2 border-gray-200 my-4">
-					<span className="font-bold">FIQH FOR ECONOMISTS I </span>
-					<span className="lg:mx-[230px]">2018/2019</span>{" "}
-				</p>
-				<p className="border-b-2 border-gray-200 my-4">
-					<span className="font-bold">FIQH FOR ECONOMISTS II </span>
-					<span className="lg:mx-[225px]">
-						2019/2020 2018/2019 2017/2018 2015/2016 
-					</span>{" "}
-				</p>
-				<p className="border-b-2 border-gray-200 my-4">
-					<span className="font-bold">FIQH FOR ECONOMIST III </span>
-					<span className="lg:mx-[232px]">
-						2019/2020 2018/2019 2017/2018 2016/2017 2015
-					</span>{" "}
-				</p>
-				<p className="border-b-2 border-gray-200 my-4">
-					<span className="font-bold">ECONOMICS IN THE QUR'AN & SUNNAH </span>
-					<span className="lg:mx-[118px]">2015/2016</span>{" "}
-				</p>
-				<p className="border-b-2 border-gray-200 my-4">
-					<span className="font-bold"> ASSHARI'AH, ECONOMICS AND SOCIETY </span>
-					<span className="lg:mx-[110px]">2020/2021 2016/2017 2015/2016</span>{" "}
-				</p>
-				<p className="border-b-2 border-gray-200 my-4">
-					<span className="font-bold">ECONOMICS OF ZAKAT </span>
-					<span className="lg:mx-[245px]">2014/2015 2013/2014</span>{" "}
-				</p>
-				<p className="border-b-2 border-gray-200 my-4">
-					<span className="font-bold">FOUNDATIONS OF ISLAMIC ECONOMICS</span>
-					<span className="lg:mx-[115px]">2017/2018</span>{" "}
-				</p>
-				<p className="border-b-2 border-gray-200 my-4">
-					<span className="font-bold">ISLAMIC COMMERCIAL LAW </span>
-					<span className="lg:mx-[208px]">2017/2018</span>{" "}
-				</p>
-				<p className="border-b-2 border-gray-200 my-4">
-					<span className="font-bold">ISLAMIC ECONOMICS THOUGHT</span>
-					<span className="lg:mx-[180px]">2014/2015</span>{" "}
-				</p>
+			<div class="overflow-x-auto relative sm:rounded-lg">
+				<table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+					<tbody>
+						<tr class="bg-white dark:bg-gray-800 border-b">
+							<th
+								scope="row"
+								class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+							>
+								<p>FIQH MUAMALAH IN BANKING AND FINANCE</p>
+							</th>
+							<td class="py-4 px-6">2021/2022 2019/2020 2018/2019 2017/2018</td>
+						</tr>
+						<tr class="bg-white dark:bg-gray-800 border-b">
+							<th
+								scope="row"
+								class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+							>
+								<p>FIQH FOR ECONOMISTS I</p>
+							</th>
+							<td class="py-4 px-6">2018/2019</td>
+						</tr>
+						<tr class="bg-white dark:bg-gray-800 border-b">
+							<th
+								scope="row"
+								class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+							>
+								<p>FIQH FOR ECONOMISTS II</p>
+							</th>
+							<td class="py-4 px-6">2021/2022 2019/2020</td>
+						</tr>
+						<tr class="bg-white dark:bg-gray-800 border-b">
+							<th
+								scope="row"
+								class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+							>
+								<p>FIQH FOR ECONOMISTS III</p>
+							</th>
+							<td class="py-4 px-6">2021/2022 2019/2020 2018/2019</td>
+						</tr>
+						<tr class="bg-white dark:bg-gray-800 border-b">
+							<th
+								scope="row"
+								class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+							>
+								<p>ISLAMIC ECONOMICS THOUGHT</p>
+							</th>
+							<td class="py-4 px-6">2021/2022 2019/2020 2018/2019</td>
+						</tr>
+						<tr class="bg-white dark:bg-gray-800 border-b">
+							<th
+								scope="row"
+								class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+							>
+								<p>ECONOMISTS OF ZAKAT</p>
+							</th>
+							<td class="py-4 px-6">2021/2022 2019/2020 2018/2019</td>
+						</tr>
+						<tr class="bg-white dark:bg-gray-800 border-b">
+							<th
+								scope="row"
+								class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+							>
+								<p>ISLAMIC COMMERCIAL LAW</p>
+							</th>
+							<td class="py-4 px-6">2021/2022 2019/2020 2018/2019</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</div>
 	);

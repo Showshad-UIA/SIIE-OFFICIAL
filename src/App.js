@@ -100,9 +100,11 @@ function App() {
 					element={<FutureStudents></FutureStudents>}
 				></Route>
 				{/* Future students content */}
-				
+
+				<Route path="/supervisors" element={<Supervisors></Supervisors>}>
+					{" "}
+				</Route>
 				<Route path="/dean" element={<Dean></Dean>}></Route>
-			
 
 				<Route path="/deadline" element={<Deadline></Deadline>}></Route>
 				<Route path="/apply" element={<Apply></Apply>}></Route>

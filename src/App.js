@@ -72,6 +72,8 @@ import Supervisors from "./components/Navbar/RESERACH/FutureStudents/Supervisors
 import Dean from "./components/Navbar/RESERACH/FutureStudents/Supervisors/Staffs Profile/Dean/Dean";
 import Contact from "./components/Navbar/RESERACH/FutureStudents/Supervisors/Staffs Profile/Dean/Contact";
 import Publication from "./components/Navbar/RESERACH/FutureStudents/Supervisors/Staffs Profile/Dean/Publication";
+import GettingStarts from "./components/Navbar/RESERACH/CurrentStudents/Getting Started/GettingStarts";
+import AcademicProgress from "./components/Navbar/RESERACH/CurrentStudents/Academic Progress/AcademicProgress";
 
 function App() {
 	return (
@@ -99,7 +101,7 @@ function App() {
 					path="/future"
 					element={<FutureStudents></FutureStudents>}
 				></Route>
-				{/* Future students content */}
+				{/* Future students content start here */}
 
 				<Route path="/supervisors" element={<Supervisors></Supervisors>}>
 					{" "}
@@ -110,9 +112,19 @@ function App() {
 				<Route path="/apply" element={<Apply></Apply>}></Route>
 				<Route path="/faq" element={<Faq></Faq>}></Route>
 
+
+				{/* Current students content start here */}
 				<Route
 					path="/current"
 					element={<CurrentStudents></CurrentStudents>}
+				></Route>
+				<Route
+					path="/gettingStarted"
+					element={<GettingStarts></GettingStarts>}
+				></Route>
+				<Route
+					path="/progress"
+					element={<AcademicProgress></AcademicProgress>}
 				></Route>
 
 				{/* Events & News pages added here  */}

@@ -24,11 +24,14 @@ const FutureStudentsMain = () => {
 								</a>
 							</figure>
 							<div className=" mt-3">
-								<a href="/phd">
-									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
-										Higher Degree Research Programs
-									</h2>
-								</a>
+								<h2 className="text-xl text-sky-700 ">
+									Our Programs <span className="text-xl hover:underline cursor-pointer"> <a href="/phd">PhD |</a> </span>		
+									<span className="text-xl hover:underline cursor-pointer"><a href="/mastersreserach">MPhil |</a></span>
+									<span className="text-xl hover:underline cursor-pointer"><a href="/masterscoursework"> Masters</a></span>								
+									
+								</h2>
+
+							
 								<p className="text-black text-md ">
 									Academic leadership and oversight of all Higher Degree
 									Research Programs at SIBS

@@ -8,7 +8,7 @@ import Insurance from "../../Carosel/Asset/Islamic insurance.jpg";
 import Management from "../../Carosel/Asset/management.jpg";
 import IBusiness from "../../Carosel/Asset/international-business.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight, faHouse } from "@fortawesome/free-solid-svg-icons";
 
 const Phd = () => {
 	return (
@@ -22,16 +22,26 @@ const Phd = () => {
 						<div className=" lg:w-full    ">
 							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
 								{/* breadcrumb added here */}
-								<div className=" flex text-sky-700 text-md font-bold cursor-pointer lg:px-20 px-3 ">
-									<div>
-										Academic Programs
-										<FontAwesomeIcon
-											icon={faChevronRight}
-											className="h-4 w-2 px-1 "
-										></FontAwesomeIcon>
-									</div>
-									<div className="">Doctor of Philosophy (PhD)</div>
-								</div>
+								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
+					<ul className="text-sky-700 ">
+						<li>
+							<a href="/">
+								<FontAwesomeIcon
+									icon={faHouse}
+									className="h-6 w-4 px-1  "
+								></FontAwesomeIcon>
+							</a>
+						</li>
+						<li>
+							<p>Academic programs</p>
+						</li>
+						<li>
+							<p className="text-black"> PhD</p>
+						</li>
+
+					</ul>
+				</div>
+								<div className=" flex text-sky-700 text-md font-bold  lg:px-20 px-3 "></div>
 
 								{/* Doctor of Philosophy (PhD) first paragraph added here */}
 

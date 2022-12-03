@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faArrowRight,
 	faChevronRight,
+	faHouse,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Events = () => {
@@ -17,10 +18,31 @@ const Events = () => {
 					<div className="flex flex-col px-2">
 						<div className="">
 							<div className=" lg:w-full    ">
-								<div className=" bg-base-100 lg:px-8 px-3 py-3  ">
-									<h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 ">
-										Events
-									</h1>
+								<div className=" bg-base-100 lg:px-3 py-3  ">
+									<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
+									<ul className="text-sky-700 ">
+										<li>
+											<a href="/">
+												<FontAwesomeIcon
+													icon={faHouse}
+													className="h-6 w-4 px-1  "
+												></FontAwesomeIcon>
+											</a>
+										</li>
+										<li>
+											<p>Events & News</p>
+										</li>
+										<li>
+											<p className="text-black"> Events</p>
+										</li>
+									</ul>
+								</div>
+									<div >
+									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
+										<h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 mt-5">
+											Events
+										</h1>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -68,7 +90,7 @@ const Events = () => {
 												</p>{" "}
 												<p>University of Melbourne</p>
 											</td>
-											<td class="py-4 px-6">
+											<td class="py-4 px-6 text-justify">
 												$Using Anonymous Application Procedures to Address
 												Discrimination in Personnel Selection: A Systematic
 												Review
@@ -95,7 +117,7 @@ const Events = () => {
 												</p>{" "}
 												<p>University of Canterbury</p>
 											</td>
-											<td class="py-4 px-6">
+											<td class="py-4 px-6 text-justify">
 												Organisational Resilience: Beyond jingle and jangle
 												fallacies
 											</td>
@@ -116,18 +138,18 @@ const Events = () => {
 											</th>
 											<td class="py-4 px-6">10:00am-11:30am</td>
 											<td class="py-4 px-6">
-												<p className="text-sky-700 font-bold hover:underline cursor-pointer">
+												<p className="text-sky-700 font-bold hover:underline cursor-pointer text-justify">
 													Prof Greta Hsu{" "}
 												</p>{" "}
 												<p>University of California, Davis</p>
 											</td>
-											<td class="py-4 px-6">
+											<td class="py-4 px-6 text-justify">
 												Organisational Resilience: Beyond jingle and jangle
 												fallacies
 											</td>
 											<td class="py-4 px-6">
 												F2F or Click{" "}
-												<span className="text-sky-700 font-bold hover:underline cursor-pointer">
+												<span className="text-sky-700 font-bold hover:underline cursor-pointer text-justify">
 													here
 												</span>{" "}
 												to attend the Zoom Seminar{" "}
@@ -148,7 +170,7 @@ const Events = () => {
 												</p>{" "}
 												<p>University of Melbourne</p>
 											</td>
-											<td class="py-4 px-6">
+											<td class="py-4 px-6 text-justify">
 												Age and the Work-family Interface: How Perceptions of
 												Work and Family Change Over the Lifespan and the
 												Influence of Life Course Factors
@@ -175,7 +197,7 @@ const Events = () => {
 												</p>{" "}
 												<p>University of Queenslande</p>
 											</td>
-											<td class="py-4 px-6">
+											<td class="py-4 px-6 text-justify">
 												Reimagining Insurance: Rebalancing Knowledge, Markets
 												and Responsibility in the Face of Increasing Disaster
 											</td>
@@ -201,7 +223,7 @@ const Events = () => {
 												</p>{" "}
 												<p>University of Sydney</p>
 											</td>
-											<td class="py-4 px-6">
+											<td class="py-4 px-6 text-justify">
 												A Case Study of Using Blockchain Technology in
 												Regulatory Technology
 											</td>
@@ -227,7 +249,7 @@ const Events = () => {
 												</p>{" "}
 												<p>Melbourne Institute of Technology</p>
 											</td>
-											<td class="py-4 px-6">
+											<td class="py-4 px-6 text-justify">
 												Using Artificial Neural Networks to Predict Suicidal
 												Ideation: Implications for Algorithmic HRM
 											</td>
@@ -276,7 +298,7 @@ const Events = () => {
 												</p>{" "}
 												<p>University of Queensland</p>
 											</td>
-											<td class="py-4 px-6">
+											<td class="py-4 px-6 text-justify">
 												Expectations of Reconciliation After Conflict
 											</td>
 											<td class="py-4 px-6">
@@ -301,7 +323,7 @@ const Events = () => {
 												</p>{" "}
 												<p>Sydney IBS</p>
 											</td>
-											<td class="py-4 px-6">
+											<td class="py-4 px-6 text-justify">
 												When it takes a village: A research agenda for achieving
 												sustainable development through digital ecosystems
 											</td>
@@ -350,7 +372,7 @@ const Events = () => {
 												</p>{" "}
 												<p>University of South Caroline</p>
 											</td>
-											<td class="py-4 px-6">
+											<td class="py-4 px-6 text-justify">
 												What if one creates no content? Social Platform
 												performance under different intellectual property right
 												regimes

@@ -74,6 +74,8 @@ import Contact from "./components/Navbar/RESERACH/FutureStudents/Supervisors/Sta
 import Publication from "./components/Navbar/RESERACH/FutureStudents/Supervisors/Staffs Profile/Dean/Publication";
 import GettingStarts from "./components/Navbar/RESERACH/CurrentStudents/Getting Started/GettingStarts";
 import AcademicProgress from "./components/Navbar/RESERACH/CurrentStudents/Academic Progress/AcademicProgress";
+import Safety from "./components/Navbar/RESERACH/CurrentStudents/Safety & wellbeing/Safety";
+import Track from "./components/Navbar/RESERACH/CurrentStudents/Staying Track/Track";
 
 function App() {
 	return (
@@ -125,6 +127,14 @@ function App() {
 				<Route
 					path="/progress"
 					element={<AcademicProgress></AcademicProgress>}
+				></Route>
+				<Route
+					path="/safety"
+					element={<Safety></Safety>}
+				></Route>
+				<Route
+					path="/track"
+					element={<Track></Track>}
 				></Route>
 
 				{/* Events & News pages added here  */}

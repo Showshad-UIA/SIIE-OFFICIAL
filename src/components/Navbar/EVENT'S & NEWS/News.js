@@ -5,7 +5,7 @@ import events2 from "../../../Carosel/Asset/news 3.jpg";
 import Management from "../../../Carosel/Asset/management.jpg";
 import IBusiness from "../../../Carosel/Asset/international-business.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight, faHouse } from "@fortawesome/free-solid-svg-icons";
 const News = () => {
 	return (
 		<div className="container mx-auto mb-10 ">
@@ -19,14 +19,33 @@ const News = () => {
 						<div className="">
 							<div className=" lg:w-full    ">
 								<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
+								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
+									<ul className="text-sky-700 ">
+										<li>
+											<a href="/">
+												<FontAwesomeIcon
+													icon={faHouse}
+													className="h-6 w-4 px-1  "
+												></FontAwesomeIcon>
+											</a>
+										</li>
+										<li>
+											<p>Events & News</p>
+										</li>
+										<li>
+											<p className="text-black"> News</p>
+										</li>
+									</ul>
+								</div>
+									<div>
+									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
 									<h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 ">
 										News
 									</h1>
+									</div>
 
 									{/* News details start here */}
 									<div className="  ">
-										<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
-
 										<p className=" lg:px-20 px-3 text-justify mt-3 ">
 											Sydney Islamic Business School (Sydney IBS) offers PhD
 											programs across all disciplines within Islamic Business.
@@ -122,7 +141,7 @@ const News = () => {
 							</div>
 
 							{/* Fourth news  start here */}
-							
+
 							<div className=" mb-3 p-2 border-b-2 border-black ">
 								<div className="flex gap-5 ">
 									<img src={events1} className="max-w-sm w-1/5 px-2 h-24" />

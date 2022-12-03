@@ -1,15 +1,16 @@
 import { faBookOpen, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import image1 from "../../../../Carosel/Asset/policy.jpg";
-import image2 from "../../../../Carosel/Asset/integrity.jpg";
+import image1 from "../../../../Carosel/Asset/current students/getting started.jpg";
+import image2 from "../../../../Carosel/Asset/policy.jpg";
+import image4 from "../../../../Carosel/Asset/current students/integrity.jpg";
 import image3 from "../../../../Carosel/Asset/training.jpg";
-import image4 from "../../../../Carosel/Asset/safety.jpg";
-import image5 from "../../../../Carosel/Asset/fees.jpg";
-import image6 from "../../../../Carosel/Asset/supervisor.jpg";
+import image5 from "../../../../Carosel/Asset/safety.jpg";
+
+import image6 from "../../../../Carosel/Asset/current students/progress.jpg";
 import image7 from "../../../../Carosel/Asset/adminstrative.jpg";
 import image8 from "../../../../Carosel/Asset/association.jpg";
-import image9 from "../../../../Carosel/Asset/photo.jpg";
+import image9 from "../../../../Carosel/Asset/current students/degree.jpg";
 
 const CurrentStudentsMain = () => {
 	return (
@@ -21,7 +22,7 @@ const CurrentStudentsMain = () => {
 							<a href="/gettingStarted">
 								<figure>
 									<img
-										src={image5}
+										src={image1}
 										alt="image1"
 										className="lg:h-[190px] lg:w-[350px] "
 									/>
@@ -43,7 +44,7 @@ const CurrentStudentsMain = () => {
 						<div className="">
 							<figure>
 								<img
-									src={image1}
+									src={image2}
 									alt="image4"
 									className="lg:h-[190px] lg:w-[350px]"
 								/>
@@ -79,7 +80,7 @@ const CurrentStudentsMain = () => {
 						<div className=" ">
 							<figure>
 								<img
-									src={image2}
+									src={image4}
 									alt="image2"
 									className="lg:h-[190px] lg:w-[350px]"
 								/>
@@ -96,17 +97,22 @@ const CurrentStudentsMain = () => {
 						</div>
 
 						<div className=" ">
-							<figure>
-								<img
-									src={image4}
-									alt="image4"
-									className="lg:h-[190px] lg:w-[350px]"
-								/>
-							</figure>
+							<a href="/safety">
+								{" "}
+								<figure>
+									<img
+										src={image5}
+										alt="image4"
+										className="lg:h-[190px] lg:w-[350px]"
+									/>
+								</figure>
+							</a>
 							<div className="mt-3">
-								<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
-									Safety and Wellbeing
-								</h2>
+								<a href="/safety">
+									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
+										Safety and Wellbeing
+									</h2>
+								</a>
 								<p className="text-black text-md">
 									At SIBS, we recognise that a safe and healthy University
 									supports research success.
@@ -135,17 +141,21 @@ const CurrentStudentsMain = () => {
 							</div>
 						</div>
 						<div className="">
-							<figure>
-								<img
-									src={image7}
-									alt="image4"
-									className="lg:h-[190px] lg:w-[350px]"
-								/>
-							</figure>
+							<a href="/track">
+								<figure>
+									<img
+										src={image7}
+										alt="image4"
+										className="lg:h-[190px] lg:w-[350px]"
+									/>
+								</figure>
+							</a>
 							<div className="mt-3">
-								<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
-									Staying on track
-								</h2>
+								<a href="/track">
+									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
+										Staying on track
+									</h2>
+								</a>
 								<p className="text-black text-md">
 									Resources and expert advice on making the most degree in f
 									scholarships relationship

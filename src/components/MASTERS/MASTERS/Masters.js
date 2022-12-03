@@ -2,7 +2,7 @@ import React from "react";
 import MastersMain from "./MastersMain";
 import MastersSidebar from "./MastersSidebar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight, faHouse } from "@fortawesome/free-solid-svg-icons";
 import finance from "../../../Carosel/Asset/Islamic finance and banking.jpg";
 import economics from "../../../Carosel/Asset/Islamic economics.jpg";
 import business from "../../../Carosel/Asset/business law.jpg";
@@ -47,15 +47,23 @@ const Masters = () => {
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
-							<div className=" flex text-sky-700 text-md font-bold cursor-pointer lg:px-20 px-3 ">
-									<div>
-										Academic Programs
-										<FontAwesomeIcon
-											icon={faChevronRight}
-											className="h-4 w-2 px-1 "
-										></FontAwesomeIcon>
-									</div>
-									<div className="">Master of Philosophy (MPhil)</div>
+							<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
+									<ul className="text-sky-700 ">
+										<li>
+											<a href="/">
+												<FontAwesomeIcon
+													icon={faHouse}
+													className="h-6 w-4 px-1  "
+												></FontAwesomeIcon>
+											</a>
+										</li>
+										<li>
+											<p>Academic programs</p>
+										</li>
+										<li>
+											<p className="text-black"> Masters of philosophy (MPhil)</p>
+										</li>
+									</ul>
 								</div>
 
 

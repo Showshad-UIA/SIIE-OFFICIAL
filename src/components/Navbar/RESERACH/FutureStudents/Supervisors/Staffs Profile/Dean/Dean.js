@@ -46,7 +46,7 @@ const Dean = () => {
 								</div>
 							</div>
 							{/* navbar start here */}
-							<div className="text-md breadcrumbs md:px-6 bg-sky-700   ">
+							<div className="text-md breadcrumbs md:px-6    ">
 									<ul className="text-sky-700 ">
 									<li class="">
 									<a
@@ -203,13 +203,13 @@ const Dean = () => {
 											external Bachelor of Jurisprudence at University of Malaya
 											in 2002
 										</li>
-										<h1 className="font-bold text-lg my-3">
+										<h1 className="font-bold text-lg ">
 											Professional Memberships
 										</h1>
 										<li>CPA Australia (2011)</li>
 										<li>CPA ASA (2006 - 2011)</li>
 										<li>AFAANZ (2009 - 2014)</li>
-										<h1 className="font-bold text-lg my-5">
+										<h1 className="font-bold text-lg ">
 											{" "}
 											Research Interests
 										</h1>
@@ -218,7 +218,7 @@ const Dean = () => {
 										<li>Work-integrated Learning</li>
 									</div>
 									<div id="supervisions">
-										<h1 className="text-xl  font-bold text-sky-700 my-5">
+										<h1 className="text-xl  font-bold text-sky-700 my-2">
 											{" "}
 											Supervision
 										</h1>

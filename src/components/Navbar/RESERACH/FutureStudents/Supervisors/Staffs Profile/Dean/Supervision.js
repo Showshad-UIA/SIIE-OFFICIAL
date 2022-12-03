@@ -3,7 +3,7 @@ import React from "react";
 const Supervision = () => {
 	return (
 		<div>
-			<div className="my-3">
+			<div className="my-2">
 				<h1>
 				Prof. Dr. Mohd Daud Bakar is available to be a principal supervisor for doctoral
 					projects
@@ -18,7 +18,7 @@ const Supervision = () => {
 						<tr class="bg-white dark:bg-gray-800 border-t">
 							<th
 								scope="row"
-								class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+								class="py-2 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
 							>
 								<p>Thesis Title:</p>
 							</th>
@@ -30,7 +30,7 @@ const Supervision = () => {
 						<tr class=" border-b">
 							<th
 								scope="row"
-								class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+								class="pb-3 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
 							>
 								<p className="text-black font-bold">Field of Research:</p>
 							</th>
@@ -38,7 +38,7 @@ const Supervision = () => {
 						<tr class="bg-white dark:bg-gray-800 border-t">
 							<th
 								scope="row"
-								class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+								class="py-2 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
 							>
 								<p>Thesis Title:</p>
 							</th>
@@ -50,7 +50,7 @@ const Supervision = () => {
 						<tr class=" border-b">
 							<th
 								scope="row"
-								class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+								class="pb-2 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
 							>
 								<p className="text-black font-bold">Field of Research:</p>
 							</th>
@@ -58,7 +58,7 @@ const Supervision = () => {
 						<tr class="bg-white dark:bg-gray-800 border-t">
 							<th
 								scope="row"
-								class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+								class="py-2 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
 							>
 								<p>Thesis Title:</p>
 							</th>
@@ -69,7 +69,7 @@ const Supervision = () => {
 						<tr class=" border-b">
 							<th
 								scope="row"
-								class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+								class="pb-2 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
 							>
 								<p className="text-black font-bold">Field of Research:</p>
 							</th>
@@ -77,23 +77,23 @@ const Supervision = () => {
 						<tr class="bg-white dark:bg-gray-800 border-t">
 							<th
 								scope="row"
-								class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+								class="px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
 							>
 								<p>Thesis Title:</p>
 							</th>
-							<td class="px-6">
+							<td class="px-6 py-2">
 							Stakeholder Management in Business Succession. A multi-source analysis of the Australian cake and pastry manufacturing industry
 							</td>
 						</tr>
 						<tr class=" ">
 							<th
 								scope="row"
-								class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+								class=" px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
 							>
 								<p className="font-bold text-black">Field of Research:</p>
 							</th>
 							<td>
-								<p className="mx-7">Business And Management</p>
+								<p className="mx-7 pb-2">Business And Management</p>
 							</td>
 							
 						</tr>
@@ -101,24 +101,24 @@ const Supervision = () => {
 						<tr class="bg-white dark:bg-gray-800 border-t">
 							<th
 								scope="row"
-								class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+								class="px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
 							>
-								<h1 className="text-sky-700 text-lg font-bold">Previous Supervision</h1>
+								<h1 className="text-sky-700 text-lg font-bold my-2 ">Previous Supervision</h1>
 								<p>Thesis Title:</p>
 							</th>
-							<td class="px-6 pt-7">
+							<td class="px-6 mt-2">
 							Exploring Political Corporate Social Responsibility A Case Study in Australian Mining
 							</td>
 						</tr>
 						<tr class=" border-b">
 							<th
 								scope="row"
-								class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+								class="px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
 							>
-								<p className="font-bold text-black">Field of Research:</p>
+								<p className="pb-2 font-bold text-black">Field of Research:</p>
 							</th>
 							<td>
-								<p className="mx-7">	Business Management; Other Management And Commerce</p>
+								<p className="mx-7 pb-2">	Business Management; Other Management And Commerce</p>
 							</td>
 						</tr>
 						

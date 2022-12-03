@@ -11,44 +11,29 @@ const GettingStarts = () => {
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
-								<div className=" flex text-sky-700 text-md font-bold  lg:px-20 px-3 ">
-									<div>
+							<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
+									<ul className="text-sky-700 ">
+										<li>
 										<a href="/">
 											<FontAwesomeIcon
 												icon={faHouse}
 												className="h-6 w-4 px-1  "
 											></FontAwesomeIcon>
 										</a>
-										<FontAwesomeIcon
-											icon={faChevronRight}
-											className="h-6 w-2 px-1  "
-										></FontAwesomeIcon>
-									</div>
-									<div>
-										Graduate Research{" "}
-										<FontAwesomeIcon
-											icon={faChevronRight}
-											className="h-4 w-2 px-1  "
-										></FontAwesomeIcon>
-									</div>
-									<div className="px-2">
-										<a href="/current">
-											<p className="cursor-pointer hover:underline">
-												Current Students
-											</p>
-										
-										
-                                        </a>
-									</div>
-								
-                                    <FontAwesomeIcon
-											icon={faChevronRight}
-											className="h-6 w-2 px-1  "
-										></FontAwesomeIcon>
-                                        	<div className="px-2">
-										<p className="">Getting started</p>
-									</div>
+										</li>
+										<li>
+											<p>Graduate Research</p>
+										</li>
+										<li>
+											<a href="/current"> Current students</a>
+										</li>
+										<li>
+											<p className="text-black"> Getting started</p>
+										</li>
+									</ul>
 								</div>
+
+								
 
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>

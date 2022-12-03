@@ -1,8 +1,8 @@
-import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
-import MastersCwMain from './MastersCwMain';
-import MastersCwSidebar from './MastersCwSidebar';
+import { faChevronRight, faHouse } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
+import MastersCwMain from "./MastersCwMain";
+import MastersCwSidebar from "./MastersCwSidebar";
 import finance from "../../../Carosel/Asset/Islamic finance and banking.jpg";
 import economics from "../../../Carosel/Asset/Islamic economics.jpg";
 import business from "../../../Carosel/Asset/business law.jpg";
@@ -11,8 +11,8 @@ import Management from "../../../Carosel/Asset/management .jpg";
 import IBusiness from "../../../Carosel/Asset/International-Business.png";
 
 const MastersCw = () => {
-    return (
-        <>
+	return (
+		<>
 			<div className="container mx-auto  lg:mb-5">
 				<div className="lg:mx-[100px] shadow">
 					{/* <div className="text-sm breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
@@ -43,26 +43,34 @@ const MastersCw = () => {
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
-								
-							<div className=" flex text-sky-700 text-md font-bold cursor-pointer lg:px-20 px-3 ">
-									<div>
-										Academic Programs
-										<FontAwesomeIcon
-											icon={faChevronRight}
-											className="h-4 w-2 px-1 "
-										></FontAwesomeIcon>
-									</div>
-									<div className="">Master (Coursework)</div>
+							<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
+									<ul className="text-sky-700 ">
+										<li>
+											<a href="/">
+												<FontAwesomeIcon
+													icon={faHouse}
+													className="h-6 w-4 px-1  "
+												></FontAwesomeIcon>
+											</a>
+										</li>
+										<li>
+											<p>Academic programs</p>
+										</li>
+										<li>
+											<p className="text-black"> Masters (Coursework)</p>
+										</li>
+									</ul>
 								</div>
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
 									<h1 className="text-sky-700 text-2xl font-bold lg:px-20 px-3 ">
-									Master  (Coursework)
-								</h1>
+										Master (Coursework)
+									</h1>
 
 									<p className=" lg:px-20 px-3 text-justify mt-3 ">
-									Sydney IBS offers master programmes across the complete spectrum of
-										business, economics, management, and related fields.
+										Sydney IBS offers master programmes across the complete
+										spectrum of business, economics, management, and related
+										fields.
 									</p>
 									<p className=" lg:px-20 px-3 text-justify mt-3 ">
 										Master applicants at the University are obliged to submit
@@ -107,7 +115,7 @@ const MastersCw = () => {
 									/>
 								</a>
 							</div>
-							<div className='w-[75%]'>
+							<div className="w-[75%]">
 								<a href="#" className="text-2xl text-white">
 									Masters of Islamic Banking and Finance
 								</a>
@@ -140,9 +148,11 @@ const MastersCw = () => {
 									/>
 								</a>
 							</div>
-							<div className='w-[75%]'>
+							<div className="w-[75%]">
 								<a href="#">
-									<p className="text-2xl mb-5 text-white">Masters of Islamic Economics</p>
+									<p className="text-2xl mb-5 text-white">
+										Masters of Islamic Economics
+									</p>
 
 									<p className="mb-3 text-justify text-white">
 										It tries to promote human brotherhood, socio-economic
@@ -170,10 +180,10 @@ const MastersCw = () => {
 									/>
 								</a>
 							</div>
-							<div className='w-[75%]'>
+							<div className="w-[75%]">
 								<a href="#">
-									<p className="text-2xl  mb-5 text-white">Masters of
-										Islamic Business Law
+									<p className="text-2xl  mb-5 text-white">
+										Masters of Islamic Business Law
 									</p>
 									<p className="mb-3 text-justify text-white">
 										Shariah restrictions on certain financial and trade
@@ -201,9 +211,11 @@ const MastersCw = () => {
 									/>
 								</a>
 							</div>
-							<div className='w-[75%]'>
+							<div className="w-[75%]">
 								<a href="#">
-									<p className="text-2xl text-white mb-5">Masters of Islamic Insurance</p>
+									<p className="text-2xl text-white mb-5">
+										Masters of Islamic Insurance
+									</p>
 									<p className="mb-3 text-white text-justify">
 										A Shariah-compliant insurance that can be renewed online.
 										DISCOVER. A Shariah-compliant motor insurance plan that can
@@ -284,7 +296,7 @@ const MastersCw = () => {
 				</div>
 			</div>
 		</>
-    );
+	);
 };
 
 export default MastersCw;

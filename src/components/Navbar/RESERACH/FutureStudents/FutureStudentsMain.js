@@ -1,11 +1,10 @@
 import React from "react";
-import image1 from "../../../../Carosel/Asset/policy.jpg";
-import image2 from "../../../../Carosel/Asset/integrity.jpg";
-import image3 from "../../../../Carosel/Asset/training.jpg";
-import image4 from "../../../../Carosel/Asset/safety.jpg";
+import image1 from "../../../../Carosel/Asset/future students/programs.png";
+import image2 from "../../../../Carosel/Asset/future students/application.jpg";
+import image4 from "../../../../Carosel/Asset/future students/apply.jpg";
 import image5 from "../../../../Carosel/Asset/fees.jpg";
 import image6 from "../../../../Carosel/Asset/supervisor.jpg";
-import image7 from "../../../../Carosel/Asset/adminstrative.jpg";
+import image7 from "../../../../Carosel/Asset/future students/faq.jpg";
 
 const FutureStudentsMain = () => {
 	return (
@@ -17,7 +16,7 @@ const FutureStudentsMain = () => {
 							<figure>
 								<a href="/phd">
 									<img
-										src={image2}
+										src={image1}
 										alt="image1"
 										className="lg:h-[190px] lg:w-[350px] "
 									/>
@@ -25,13 +24,19 @@ const FutureStudentsMain = () => {
 							</figure>
 							<div className=" mt-3">
 								<h2 className="text-xl text-sky-700 ">
-									Our Programs <span className="text-xl hover:underline cursor-pointer"> <a href="/phd">PhD |</a> </span>		
-									<span className="text-xl hover:underline cursor-pointer"><a href="/mastersreserach">MPhil |</a></span>
-									<span className="text-xl hover:underline cursor-pointer"><a href="/masterscoursework"> Masters</a></span>								
-									
+									Our Programs{" "}
+									<span className="text-xl hover:underline cursor-pointer">
+										{" "}
+										<a href="/phd">PhD |</a>{" "}
+									</span>
+									<span className="text-xl hover:underline cursor-pointer">
+										<a href="/mastersreserach">MPhil |</a>
+									</span>
+									<span className="text-xl hover:underline cursor-pointer">
+										<a href="/masterscoursework"> Masters</a>
+									</span>
 								</h2>
 
-							
 								<p className="text-black text-md ">
 									Academic leadership and oversight of all Higher Degree
 									Research Programs at SIBS
@@ -86,7 +91,7 @@ const FutureStudentsMain = () => {
 						<div className=" ">
 							<figure>
 								<img
-									src={image4}
+									src={image2}
 									alt="image4"
 									className="lg:h-[190px] lg:w-[350px]"
 								/>
@@ -108,7 +113,7 @@ const FutureStudentsMain = () => {
 							<a href="/apply">
 								<figure>
 									<img
-										src={image3}
+										src={image4}
 										alt="image4"
 										className="lg:h-[190px] lg:w-[350px]"
 									/>

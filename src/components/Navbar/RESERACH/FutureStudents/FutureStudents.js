@@ -1,4 +1,4 @@
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight, faHouse } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import CurrentStudentsMain from "../CurrentStudents/CurrentStudentsMain";
@@ -18,10 +18,18 @@ const FutureStudents = () => {
 								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 									<ul className="text-sky-700 ">
 										<li>
+										<a href="/">
+											<FontAwesomeIcon
+												icon={faHouse}
+												className="h-6 w-4 px-1  "
+											></FontAwesomeIcon>
+										</a>
+										</li>
+										<li>
 											<p>Graduate Research</p>
 										</li>
 										<li>
-											<p href=""> Future students</p>
+											<p className="text-black"> Future students</p>
 										</li>
 									</ul>
 								</div>

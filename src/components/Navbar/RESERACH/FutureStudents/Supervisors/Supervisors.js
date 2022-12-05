@@ -197,7 +197,7 @@ const Supervisors = () => {
 
 							<div className="mb-3 p-2  border-b-2 border-gray  ">
 								<div className="flex gap-10">
-									<img src={male1} className="max-w-sm lg:w-52 px-2 lg:h-44" />
+									<img src={male1} className="max-w-sm w-48 lg:w-52 px-2 h-44 " />
 									<div>
 										<h1 className=" font-bold text-sky-700">Ziyaad Mahomed</h1>
 										<p>Associate professor</p>
@@ -223,7 +223,7 @@ const Supervisors = () => {
 								<div className="flex gap-10">
 									<img
 										src={female1}
-										className="max-w-sm lg:w-52 px-2 lg:h-44"
+										className="max-w-sm w-48 lg:w-52 px-2 h-44 "
 									/>
 									<div>
 										<h1 className="font-bold text-sky-700">
@@ -252,7 +252,7 @@ const Supervisors = () => {
 								<div className="flex gap-10">
 									<img
 										src={female1}
-										className="max-w-sm lg:w-52 px-2 lg:h-44"
+										className="max-w-sm w-48 lg:w-52 px-2 h-44 "
 									/>
 									<div>
 										<h1 className="font-bold text-sky-700">
@@ -279,7 +279,7 @@ const Supervisors = () => {
 								</div>
 							</div>
 							<div className="mb-3 p-2 border-b-2 border-gray   ">
-								<div className="flex gap-10 my-3">
+								<div className="flex gap-10 my-3 ">
 									<img
 										src={male1}
 										className="max-w-sm lg:w-52 w-44 px-2 h-44"
@@ -394,10 +394,7 @@ const Supervisors = () => {
 							</div>
 							<div className="mb-3 p-2 border-b-2 border-gray   ">
 								<div className="flex gap-10 my-3">
-									<img
-										src={female1}
-										className="max-w-sm lg:w-52 w-44 px-2 h-44"
-									/>
+									<img src={female1} className="max-w-sm w-48 lg:w-52 px-2 h-44 " />
 									<div className="">
 										<h1 className=" font-bold text-sky-700">
 											Salina Bt. Kassim

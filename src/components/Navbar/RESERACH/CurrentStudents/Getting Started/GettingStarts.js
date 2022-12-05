@@ -11,15 +11,15 @@ const GettingStarts = () => {
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
-							<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
+								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 									<ul className="text-sky-700 ">
 										<li>
-										<a href="/">
-											<FontAwesomeIcon
-												icon={faHouse}
-												className="h-6 w-4 px-1  "
-											></FontAwesomeIcon>
-										</a>
+											<a href="/">
+												<FontAwesomeIcon
+													icon={faHouse}
+													className="h-6 w-4 px-1  "
+												></FontAwesomeIcon>
+											</a>
 										</li>
 										<li>
 											<p>Graduate Research</p>
@@ -33,12 +33,10 @@ const GettingStarts = () => {
 									</ul>
 								</div>
 
-								
-
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
 									<h1 className="lg:px-20 px-3 text-xl text-sky-700 font-bold ">
-										Checklist for postgraduate research students
+										Checklist for HDR students
 									</h1>
 									<p className="lg:px-20 px-3 text-justify ">
 										Congratulations on your candidature as a higher degree by
@@ -52,7 +50,7 @@ const GettingStarts = () => {
 									<h1 className="text-xl text-sky-700 font-bold  ">
 										Your first two weeks
 									</h1>
-									<div className="px-7 text-justify ">
+									<div className=" text-justify ">
 										<li className="my-2">
 											Get in touch with your local HDR Administrator by sending
 											them an email or visiting your relevant student office.
@@ -72,9 +70,9 @@ const GettingStarts = () => {
 												Services and Amenities
 											</span>{" "}
 											fee and pick up your Student Card (which doubles as your
-											library card) from
-											<span className="text-sky-700 cursor-pointer hover:underline">
-												Student Central
+											library card) from 
+											<span className="text-sky-700 cursor-pointer hover:underline ml-1">
+												  Student Central 
 											</span>
 											;
 										</li>
@@ -126,7 +124,7 @@ const GettingStarts = () => {
 									<h1 className="text-xl text-sky-700 font-bold my-3">
 										Your first three months
 									</h1>
-									<div className="px-7 text-justify">
+									<div className=" text-justify">
 										<li className="my-2">
 											Get started on the{" "}
 											<span className="text-sky-700 cursor-pointer hover:underline">
@@ -168,8 +166,8 @@ const GettingStarts = () => {
 											<span className="text-sky-700 cursor-pointer hover:underline">
 												Sydney IBS Researcher Development team
 											</span>{" "}
-											send out useful links continuously on
-											<span className="text-sky-700 cursor-pointer hover:underline">
+											send out useful links continuously on 
+											<span className="text-sky-700 cursor-pointer hover:underline ml-1">
 												Twitter
 											</span>{" "}
 											and{" "}
@@ -208,7 +206,7 @@ const GettingStarts = () => {
 									<h1 className="text-xl text-sky-700 font-bold my-3">
 										Your first six months
 									</h1>
-									<div className="px-7 text-justify">
+									<div className=" text-justify">
 										<li className="my-2">
 											Meet all your panel members individually to discuss their
 											roles in your research project;
@@ -257,7 +255,7 @@ const GettingStarts = () => {
 										HDR Administrator for general advice. Sydney IBS also offers
 										a range of support services to help you stay on track:
 									</p>
-									<div className="px-7">
+									<div className="">
 										<li className="my-2 text-justify">
 											The{" "}
 											<span className="text-sky-700 cursor-pointer hover:underline">
@@ -301,7 +299,7 @@ const GettingStarts = () => {
 										time to familiarise yourself with key elements of your
 										candidature:
 									</p>
-									<div className="px-7">
+									<div className="">
 										<li className="my-3">
 											{" "}
 											All candidates must comply with the rules and guidelines

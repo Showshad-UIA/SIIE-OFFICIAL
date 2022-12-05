@@ -21,7 +21,7 @@ const Safety = () => {
 							<p>Graduate Research</p>
 						</li>
 						<li>
-							<p href=""> Current students</p>
+							<a href="/current"> Current students</a>
 						</li>
 						<li>
 							<p className="text-black"> Safety & wellbeing</p>
@@ -38,11 +38,11 @@ const Safety = () => {
 
 						<div className="lg:px-20 px-3 text-justify ">
 							<p>
-								At ANU, we recognise that a healthy university supports student
-								success. Here you will find a number of initiatives, programs
-								and resources that will support your physical, social, spiritual
-								and mental health to help you to maintain a healthy lifestyle
-								during your studies.
+								At Sydney IBS, we recognise that a healthy university supports
+								student success. Here you will find a number of initiatives,
+								programs and resources that will support your physical, social,
+								spiritual and mental health to help you to maintain a healthy
+								lifestyle during your studies.
 							</p>
 							<p>
 								Explore further important information on how to stay safe and

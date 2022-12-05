@@ -25,7 +25,7 @@ const AcademicProgress = () => {
 											<p>Graduate Research</p>
 										</li>
 										<li>
-											<p href=""> Current students</p>
+											<a href="/current"> Current students</a>
 										</li>
 										<li>
 											<p className="text-black"> Academic progress</p>
@@ -36,10 +36,10 @@ const AcademicProgress = () => {
 								<div>
 									<div className="  ">
 										<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
-										<h1 className="lg:px-20 px-3 text-2xl text-sky-700 font-bold ">
+										<h1 className="lg:px-20 px-3 text-xl text-sky-700 font-bold">
 											Research Candidate Milestones
 										</h1>
-										<h1 className="lg:px-20 my-5 text-sky-700 text-xl">
+										<h1 className="lg:px-20 mt-3 text-xl text-sky-700 font-bold">
 											Milestone eForm via ISIS
 										</h1>
 										<div className="lg:px-20 px-3 text-justify ">

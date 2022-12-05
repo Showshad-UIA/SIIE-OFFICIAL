@@ -76,6 +76,8 @@ import GettingStarts from "./components/Navbar/RESERACH/CurrentStudents/Getting 
 import AcademicProgress from "./components/Navbar/RESERACH/CurrentStudents/Academic Progress/AcademicProgress";
 import Safety from "./components/Navbar/RESERACH/CurrentStudents/Safety & wellbeing/Safety";
 import Track from "./components/Navbar/RESERACH/CurrentStudents/Staying Track/Track";
+import Degree from "./components/Navbar/RESERACH/CurrentStudents/Finishing Degree/Degree";
+import Policies from "./components/Navbar/RESERACH/CurrentStudents/Policies/Policies";
 
 function App() {
 	return (
@@ -114,7 +116,6 @@ function App() {
 				<Route path="/apply" element={<Apply></Apply>}></Route>
 				<Route path="/faq" element={<Faq></Faq>}></Route>
 
-
 				{/* Current students content start here */}
 				<Route
 					path="/current"
@@ -125,17 +126,17 @@ function App() {
 					element={<GettingStarts></GettingStarts>}
 				></Route>
 				<Route
+					path="/policies"
+					element={<Policies></Policies>}
+				></Route>
+
+				<Route
 					path="/progress"
 					element={<AcademicProgress></AcademicProgress>}
 				></Route>
-				<Route
-					path="/safety"
-					element={<Safety></Safety>}
-				></Route>
-				<Route
-					path="/track"
-					element={<Track></Track>}
-				></Route>
+				<Route path="/safety" element={<Safety></Safety>}></Route>
+				<Route path="/track" element={<Track></Track>}></Route>
+				<Route path="/degree" element={<Degree></Degree>}></Route>
 
 				{/* Events & News pages added here  */}
 				<Route path="/events" element={<Events></Events>}></Route>

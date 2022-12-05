@@ -6,10 +6,9 @@ import image2 from "../../../../Carosel/Asset/policy.jpg";
 import image4 from "../../../../Carosel/Asset/current students/integrity.jpg";
 import image3 from "../../../../Carosel/Asset/training.jpg";
 import image5 from "../../../../Carosel/Asset/safety.jpg";
-
 import image6 from "../../../../Carosel/Asset/current students/progress.jpg";
-import image7 from "../../../../Carosel/Asset/adminstrative.jpg";
-import image8 from "../../../../Carosel/Asset/association.jpg";
+import image7 from "../../../../Carosel/Asset/current students/track.jpg";
+import image8 from "../../../../Carosel/Asset/current students/Associations.jpg";
 import image9 from "../../../../Carosel/Asset/current students/degree.jpg";
 
 const CurrentStudentsMain = () => {
@@ -42,17 +41,23 @@ const CurrentStudentsMain = () => {
 							</div>
 						</div>
 						<div className="">
-							<figure>
-								<img
-									src={image2}
-									alt="image4"
-									className="lg:h-[190px] lg:w-[350px]"
-								/>
-							</figure>
+							<a href="/policies">
+								<figure>
+									<img
+										src={image2}
+										alt="image4"
+										className="lg:h-[190px] lg:w-[350px]"
+									/>
+								</figure>
+							</a>
+
 							<div className="mt-3">
-								<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
-									Policies and Procedures
-								</h2>
+								<a href="/policies">
+									{" "}
+									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
+										Policies and Procedures
+									</h2>
+								</a>
 								<p className="text-black text-md">
 									Discover the range of funding options to assist you with your
 									study expenses.
@@ -163,17 +168,21 @@ const CurrentStudentsMain = () => {
 							</div>
 						</div>
 						<div className="   ">
-							<figure>
-								<img
-									src={image9}
-									alt="image4"
-									className="lg:h-[190px] lg:w-[350px]"
-								/>
-							</figure>
+							<a href="/degree">
+								<figure>
+									<img
+										src={image9}
+										alt="image4"
+										className="lg:h-[190px] lg:w-[350px]"
+									/>
+								</figure>
+							</a>
 							<div className="mt-3">
-								<h2 className="text-xl text-sky-700 hover:underline cursor-pointer">
-									Finishing your degree
-								</h2>
+								<a href="/degree">
+									<h2 className="text-xl text-sky-700 hover:underline cursor-pointer">
+										Finishing your degree
+									</h2>
+								</a>
 								<p className="text-black text-md">
 									Information to help you submit your thesis, complete all the f
 									scholarships for higher degree

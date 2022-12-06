@@ -10,117 +10,82 @@ const Supervision = () => {
 				</h1>
 			</div>
 			<div class="overflow-x-auto relative  sm:rounded-lg">
-				<table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+				<table class="w-full text-sm text-left  ">
 					<tbody>
-						<h1 className="text-lg text-sky-700 font-bold mx-6">
-							Current Supervision
-						</h1>
-						<tr class="bg-white dark:bg-gray-800 border-t">
+					
+						<tr class="bg-white  border-t">
 							<th
 								scope="row"
-								class="py-2 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+								class="py-2  font-medium  whitespace-nowrap dark:text-white"
 							>
 								<p>Thesis Title:</p>
 							</th>
-							<td class="px-6">
+							<td class="text-justify">
 								The Impact of Employee Perceptions of Organizational Work
-								Environment and Job Satisfaction on Innovative Climate
+								Environment and Job Satisfaction on Innovative Climate (Ongoing)
 							</td>
 						</tr>
 						<tr class=" border-b">
 							<th
 								scope="row"
-								class="pb-3 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+								class="pb-3  font-medium text-gray-900 whitespace-nowrap dark:text-white"
 							>
-								<p className="text-black font-bold">Field of Research:</p>
+								
 							</th>
 						</tr>
 						<tr class="bg-white dark:bg-gray-800 border-t">
 							<th
 								scope="row"
-								class="py-2 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+								class="py-2  font-medium text-gray-900 whitespace-nowrap dark:text-white"
 							>
 								<p>Thesis Title:</p>
 							</th>
-							<td class="px-6">
+							<td class="text-justify">
 								The Impact of Employee Perceptions of Organizational Work
-								Environment and Job Satisfaction on Innovative Climate
+								Environment and Job Satisfaction on Innovative Climate (Completed)
 							</td>
 						</tr>
 						<tr class=" border-b">
 							<th
 								scope="row"
-								class="pb-2 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+								class="pb-2  font-medium text-gray-900 whitespace-nowrap dark:text-white"
 							>
-								<p className="text-black font-bold">Field of Research:</p>
+								
 							</th>
 						</tr>
 						<tr class="bg-white dark:bg-gray-800 border-t">
 							<th
 								scope="row"
-								class="py-2 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+								class="py-2  font-medium text-gray-900 whitespace-nowrap dark:text-white"
 							>
 								<p>Thesis Title:</p>
 							</th>
-							<td class="px-6">
-							Business Model of Non-University Providers in NSW, Australia: A Multiple Case Study Analysis.
+							<td class="text-justify">
+							Business Model of Non-University Providers in NSW, Australia: A Multiple Case Study Analysis (Completed)
 							</td>
 						</tr>
 						<tr class=" border-b">
 							<th
 								scope="row"
-								class="pb-2 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+								class="pb-2  font-medium text-gray-900 whitespace-nowrap dark:text-white"
 							>
-								<p className="text-black font-bold">Field of Research:</p>
+
 							</th>
 						</tr>
 						<tr class="bg-white dark:bg-gray-800 border-t">
 							<th
 								scope="row"
-								class="px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+								class=" font-medium text-gray-900 whitespace-nowrap dark:text-white "
 							>
-								<p>Thesis Title:</p>
+								<p className="mr-24">Thesis Title:</p>
 							</th>
-							<td class="px-6 py-2">
-							Stakeholder Management in Business Succession. A multi-source analysis of the Australian cake and pastry manufacturing industry
+							<td class=" py-2 text-justify">
+							Stakeholder Management in Business Succession. A multi-source analysis of the Australian cake and pastry manufacturing industry (Completed)
 							</td>
 						</tr>
-						<tr class=" ">
-							<th
-								scope="row"
-								class=" px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-							>
-								<p className="font-bold text-black">Field of Research:</p>
-							</th>
-							<td>
-								<p className="mx-7 pb-2">Business And Management</p>
-							</td>
-							
-						</tr>
-				
-						<tr class="bg-white dark:bg-gray-800 border-t">
-							<th
-								scope="row"
-								class="px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-							>
-								<h1 className="text-sky-700 text-lg font-bold my-2 ">Previous Supervision</h1>
-								<p>Thesis Title:</p>
-							</th>
-							<td class="px-6 mt-2">
-							Exploring Political Corporate Social Responsibility A Case Study in Australian Mining
-							</td>
-						</tr>
-						<tr class=" border-b">
-							<th
-								scope="row"
-								class="px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-							>
-								<p className="pb-2 font-bold text-black">Field of Research:</p>
-							</th>
-							<td>
-								<p className="mx-7 pb-2">	Business Management; Other Management And Commerce</p>
-							</td>
-						</tr>
+						
+						
+
 						
 					</tbody>
 				</table>

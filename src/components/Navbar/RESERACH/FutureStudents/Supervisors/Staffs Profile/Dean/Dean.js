@@ -104,7 +104,7 @@ const Dean = () => {
 
 							{/* Biography start here */}
 
-							<div className="border-2 ">
+							<div className="border-2 border-sky-700 ">
 								<div className="mx-5">
 									<div id="biography">
 										<h1 className="text-xl  font-bold text-sky-700 my-5">
@@ -147,7 +147,7 @@ const Dean = () => {
 											Sdn Bhd and MyFinb.
 										</p>
 
-										<p className="my-5 text-justify">
+										<p className="my-3 text-justify">
 											In 2016, he received the “Award of Excellence for
 											Outstanding Contribution for Shariah Leadership &
 											Advisory” at London Sukuk Summit Awards and “Shariah
@@ -163,35 +163,8 @@ const Dean = () => {
 											Dubai, Oct 2015.
 										</p>
 
-										<p className="mb-3 text-justify">
-											He received his first degree in Shariah from University of
-											Kuwait in 1988 and obtained his PhD from University of St.
-											Andrews, United Kingdom in 1993. In 2002, he completed his
-											external Bachelor of Jurisprudence at University of
-											Malaya.
-										</p>
-
-										<p className="mb-3 text-justify">
-											His first book entitled “Shariah Minds in Islamic Finance:
-											An Inside Story of A Shariah Scholar” has won the “Islamic
-											Finance Book of the Year 2016” by the Global Islamic
-											Finance Award (GIFA) 2016. Then, his book on sukuk
-											entitled “An Insightful Journey to Emirates Airline Sukuk:
-											Pushing The Boundaries of Islamic Finance” has also won
-											the “Best Islamic Finance Case 2017” by the GIFA 2017 in
-											Kazakhstan.
-										</p>
-										<p className="mb-3 text-justify">
-											His latest books include Mindset Is Everything (2019), The
-											Hard Truth of Islamic Finance (2019), Ratiocination in
-											Islamic Legal Theory (2019), and Corporate Matrimony
-											(2019). His other books include Mainstreaming Islamic
-											Finance (2018), Shariah is Life (2018), I Have 25 Hours A
-											Day (2016), Dhuha (Cahaya Pagi yang Terang) (2020) and
-											Kembara Ilmu Dari Sg. Kolok ke St. Andrew (2021).
-										</p>
-
-										<h1 className="font-bold text-lg">Qualifications</h1>
+					
+										<h1 className="font-bold text-lg text-sky-700 my-2">Qualifications</h1>
 										<li>
 											He received his first degree in Shariah from University of
 											Kuwait in 1988
@@ -203,13 +176,13 @@ const Dean = () => {
 											external Bachelor of Jurisprudence at University of Malaya
 											in 2002
 										</li>
-										<h1 className="font-bold text-lg ">
+										<h1 className="font-bold text-lg text-sky-700 my-2">
 											Professional Memberships
 										</h1>
 										<li>CPA Australia (2011)</li>
 										<li>CPA ASA (2006 - 2011)</li>
 										<li>AFAANZ (2009 - 2014)</li>
-										<h1 className="font-bold text-lg ">
+										<h1 className="font-bold text-lg text-sky-700 my-2 ">
 											{" "}
 											Research Interests
 										</h1>
@@ -218,14 +191,14 @@ const Dean = () => {
 										<li>Work-integrated Learning</li>
 									</div>
 									<div id="supervisions">
-										<h1 className="text-xl  font-bold text-sky-700 my-2">
+										<h1 className="text-xl  font-bold text-sky-700 border-b mt-2">
 											{" "}
 											Supervision
 										</h1>
 										<Supervision></Supervision>
 									</div>
 									<div id="teaching">
-										<h1 className="text-xl  font-bold text-sky-700 my-5">
+										<h1 className="text-xl  font-bold text-sky-700 border-b my-2">
 											{" "}
 											Teaching
 										</h1>
@@ -233,14 +206,14 @@ const Dean = () => {
 									</div>
 									<div id="projects">
 										{" "}
-										<h1 className="text-xl  font-bold text-sky-700 my-5">
+										<h1 className="text-xl  font-bold text-sky-700 mt-2">
 											{" "}
 											Projects
 										</h1>
 										<Projects></Projects>
 									</div>
 									<div id="publications">
-										<h1 className="text-xl  font-bold text-sky-700 my-5">
+										<h1 className="text-xl  font-bold text-sky-700 my-3 border-b">
 											{" "}
 											Publications
 										</h1>

@@ -11,15 +11,15 @@ const AcademicProgress = () => {
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
-							<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
+								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 									<ul className="text-sky-700 ">
 										<li>
-										<a href="/">
-											<FontAwesomeIcon
-												icon={faHouse}
-												className="h-6 w-4 px-1  "
-											></FontAwesomeIcon>
-										</a>
+											<a href="/">
+												<FontAwesomeIcon
+													icon={faHouse}
+													className="h-6 w-4 px-1  "
+												></FontAwesomeIcon>
+											</a>
 										</li>
 										<li>
 											<p>Graduate Research</p>
@@ -39,12 +39,10 @@ const AcademicProgress = () => {
 										<h1 className="lg:px-20 px-3 text-xl text-sky-700 font-bold">
 											Research Candidate Milestones
 										</h1>
-										<h1 className="lg:px-20 mt-3 text-xl text-sky-700 font-bold">
-											Milestone eForm via ISIS
-										</h1>
-										<div className="lg:px-20 px-3 text-justify ">
+
+										<div className="lg:px-20 px-3 text-justify mt-3 ">
 											<p>
-												ANU research candidates are required to meet a number of
+												Sydney IBS research candidates are required to meet a number of
 												progress milestones including an initial Annual Plan,
 												completion of Research Integrity Training, Annual Plan &
 												Reports, the Thesis Proposal Review, and the final Oral
@@ -55,36 +53,38 @@ const AcademicProgress = () => {
 												successful completion of your program.
 											</p>
 											<p>
-												Your College, School or Centre may require additional
-												milestones such as a Mid-Year Review or completion of
-												ethics requirements, or you may be required to do some
+												Your School or Centre may require additional milestones
+												such as a Mid-Year Review or completion of ethics
+												requirements, or you may be required to do some
 												coursework during your program, but before submitting
-												your thesis.
-											</p>
-											<p>
-												All ANU candidates are required to meet satisfactory
-												academic progress. This means that they must meet the
-												minimum academic performance requirements as established
-												by the University and determined by the Delegated
-												Authority (DA). What constitutes satisfactory academic
-												progress depends on the level of the program or, in some
-												circumstances, requirements specific to an individual
-												program.
+												your thesis. All Sydney IBS candidates are required to meet
+												satisfactory academic progress. This means that they
+												must meet the minimum academic performance requirements
+												as established by the University and determined by the
+												Delegated Authority (DA). What constitutes satisfactory
+												academic progress depends on the level of the program
+												or, in some circumstances, requirements specific to an
+												individual program.
 											</p>
 											<p>
 												Candidates will be notified of other requirements to
 												maintain satisfactory progress. All candidates should be
-												aware of the <span className="text-sky-700 cursor-pointer underline">Research Awards Rule</span> which govern all
-												research programs at ANU.
-											</p>
-											<p>
-												Candidates can log in to <span className="text-sky-700 cursor-pointer underline">ISIS</span> to see which milestones
-												have already been completed and upcoming due dates and
-												to commence a milestone report. Milestone reports are
-												created as eForms, and are designed to be intuitive and
-												easy to use. Upon submission, your milestone report will
-												be electronically directed to the Chair of your
-												supervisory pa
+												aware of the{" "}
+												<span className="text-sky-700 cursor-pointer underline">
+													Research Awards Rule
+												</span>{" "}
+												which govern all research programs at Sydney IBS.
+											
+												Candidates can log in to{" "}
+												<span className="text-sky-700 cursor-pointer underline">
+													ISIS
+												</span>{" "}
+												to see which milestones have already been completed and
+												upcoming due dates and to commence a milestone report.
+												Milestone reports are created as eForms, and are
+												designed to be intuitive and easy to use. Upon
+												submission, your milestone report will be electronically
+												directed to the Chair of your supervisory pa
 											</p>
 										</div>
 									</div>
@@ -139,16 +139,19 @@ const AcademicProgress = () => {
 										</h1>
 										<div className=" text-justify">
 											<p className="my-2">
-												All ANU HDR candidates are required to complete the
-												online <span className="text-sky-700 cursor-pointer underline">Research Integrity Training</span> course. This course
-												consists of 10 short modules designed to introduce
-												appropriate research conduct, and raise awareness to
-												issues you are likely to encounter in the course of your
-												research program. You are required to undertake and pass
-												a Research Integrity Test as evidence of your
-												understanding of the material. HDR candidates must
-												complete the RIT milestone before they can submit any
-												subsequent milestone.
+												All Sydney IBS HDR candidates are required to complete the
+												online{" "}
+												<span className="text-sky-700 cursor-pointer underline">
+													Research Integrity Training
+												</span>{" "}
+												course. This course consists of 10 short modules
+												designed to introduce appropriate research conduct, and
+												raise awareness to issues you are likely to encounter in
+												the course of your research program. You are required to
+												undertake and pass a Research Integrity Test as evidence
+												of your understanding of the material. HDR candidates
+												must complete the RIT milestone before they can submit
+												any subsequent milestone.
 											</p>
 										</div>
 									</div>
@@ -156,7 +159,7 @@ const AcademicProgress = () => {
 										<h1 className="text-xl text-sky-700 font-bold my-3">
 											Thesis Proposal Review
 										</h1>
-										<p className="text-justify">
+										<p className="text-justify ">
 											The Thesis Proposal Review (TPR) is a detailed thesis
 											proposal, literature review, report on research activities
 											since commencement, and plan for the next year. The review
@@ -171,7 +174,7 @@ const AcademicProgress = () => {
 											Your College, School or Centre will have more information
 											about the format of your TPR.
 										</p>
-										<p className="text-justify">
+										<p className="text-justify my-2">
 											All members of the supervisory panel participate in a TPR,
 											and the Chair of the Supervisory panel should include
 											comments made during the meeting, and make a
@@ -192,7 +195,7 @@ const AcademicProgress = () => {
 											any personal, academic or technical issues which may
 											impact your research and its timely completion.
 										</p>
-										<p className="text-justify">
+										<p className="text-justify my-2">
 											All members of the supervisory panel participate in an AR,
 											and the Chair of the Supervisory panel should include
 											comments made during the meeting, and make a
@@ -208,13 +211,17 @@ const AcademicProgress = () => {
 										<p className="text-justify">
 											The final Oral Presentation of your research (within 12
 											months of your expected thesis submission date) is an
-											important part of <span className="text-sky-700 cursor-pointer underline">finishing your degree</span>. Again, your
-											College, School or Centre will have more information about
-											the format of your Oral Presentation, including any other
-											oral presentations that are associated with other
-											milestones such as your TPR or Mid-Year reviews.
+											important part of{" "}
+											<span className="text-sky-700 cursor-pointer underline">
+												finishing your degree
+											</span>
+											. Again, your College, School or Centre will have more
+											information about the format of your Oral Presentation,
+											including any other oral presentations that are associated
+											with other milestones such as your TPR or Mid-Year
+											reviews.
 										</p>
-										<p className="text-justify">
+										<p className="text-justify my-2">
 											The presentation is advertised within the University, and
 											all members of the supervisory panel participate and make
 											an evaluation. This is documented in a written report
@@ -226,7 +233,7 @@ const AcademicProgress = () => {
 										<h1 className="text-xl text-sky-700 font-bold my-3">
 											Notification of Intent to Submit
 										</h1>
-										<p className="text-justify">
+										<p className="text-justify my-2">
 											2-3 months prior to your intended submission date, you
 											should complete a Notification of Intent (NoI) to submit
 											your thesis milestone eForm. This eForm also allows you to
@@ -240,13 +247,16 @@ const AcademicProgress = () => {
 										<h1 className="text-xl text-sky-700 font-bold my-3">
 											Thesis Submissionmit
 										</h1>
-										<p className="text-justify">
+										<p className="text-justify my-2">
 											After your Notification of Intent to Submit Milestone has
 											been reviewed by your Primary Supervisor, you may use the
 											Thesis Submission Milestone to submit your thesis for
 											examination. For information on submitting your thesis
-											please refer to the <span className="text-sky-700 cursor-pointer underline">HDR Submission and Examination of
-											Theses Procedure</span> .
+											please refer to the{" "}
+											<span className="text-sky-700 cursor-pointer underline">
+												HDR Submission and Examination of Theses Procedure
+											</span>{" "}
+											.
 										</p>
 									</div>
 									<div className="lg:mx-20 border-t-2 ">
@@ -285,18 +295,19 @@ const AcademicProgress = () => {
 									</div>
 								</div>
 
-
 								{/* table start here */}
 								<div className="lg:mx-20 overflow-x-auto relative ">
 									<table class="  border-collapse border border-black-400 ...">
-										<thead className="bg-sky-700 text-white" >
-											<tr >
+										<thead className=" text-sky-700 font-bold">
+											<tr>
 												<th class="border border-black-2 py-4  ">
 													Progression Indicator
 												</th>
-												<th class="border border-black-2 py-4 px-2">Commentary</th>
+												<th class="border border-black-2 py-4 px-2">
+													Commentary
+												</th>
 												<th class="border border-black-2 py-4 px-1">
-													Timeframe (PhD)^
+													Timeframe (PhD)
 												</th>
 												<th class="border border-black-2 py-4 px-1">
 													Timeframe (MPhil)
@@ -393,9 +404,7 @@ const AcademicProgress = () => {
 														outcome of the milestone.
 													</p>
 												</td>
-												<td class="border border-black-2 px-2">
-													9-12 months
-												</td>
+												<td class="border border-black-2 px-2">9-12 months</td>
 												<td class="border border-black-2 px-2">6-9 months</td>
 											</tr>
 											<tr>

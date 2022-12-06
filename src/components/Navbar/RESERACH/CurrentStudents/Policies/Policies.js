@@ -1,8 +1,4 @@
-import {
-	faAngleRight,
-	faArrowRight,
-	faHouse,
-} from "@fortawesome/free-solid-svg-icons";
+import { faAngleRight, faHouse } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import rights from "../../../../../../src/Policy Files/Student Rights.doc";
@@ -13,6 +9,37 @@ import courseworkUnits from "../../../../../../src/Policy Files/Coursework Units
 import internationalStudent from "../../../../../../src/Policy Files/International Student.doc";
 import enrolment from "../../../../../../src/Policy Files/Student Enrolment .doc";
 import ruleWaiver from "../../../../../../src/Policy Files/Rule Waiver.doc";
+import payment from "../../../../../../src/Policy Files/Fees Payment .docx";
+import tuition from "../../../../../../src/Policy Files/Monitoring Tuition Fees .doc";
+import studentFees from "../../../../../../src/Policy Files/Incidental Student Fees .doc";
+import nonAwardCourse from "../../../../../../src/Policy Files/Non-Award Course Fees .doc";
+import refundFees from "../../../../../../src/Policy Files/Refund of Tuition Fees.doc";
+import articulation from "../../../../../../src/Policy Files/Courses Articulation Policy.doc";
+import experimental from "../../../../../../src/Policy Files/Courses Experiential Learning Policy.doc";
+import undergraduate from "../../../../../../src/Policy Files/Courses Undergraduate Policy.doc";
+import dissertation from "../../../../../../src/Policy Files/Courses Coursework Dissertation Policy.doc";
+import thesis from "../../../../../../src/Policy Files/Courses Research Thesis Policy.doc";
+import transition from "../../../../../../src/Policy Files/Courses Transition.doc";
+import cUnits from "../../../../../../src/Policy Files/Coursework Units .doc";
+import assessment from "../../../../../../src/Policy Files/Assessment Policy.doc";
+import assessmentSpecial from "../../../../../../src/Policy Files/Assessment Special .doc";
+import progress from "../../../../../../src/Policy Files/Academic Progress Policy.doc";
+import academicAssessment from "../../../../../../src/Policy Files/Academic Assessment Policy .doc";
+import apeal from "../../../../../../src/Policy Files/Review and apeal.doc";
+import lecture from "../../../../../../src/Policy Files/Lecture Capture Policy.doc";
+import prize from "../../../../../../src/Policy Files/Prizes Policy.doc";
+import award from "../../../../../../src/Policy Files/Establishment and Award of Scholarships Policy.doc";
+import complaints from "../../../../../../src/Policy Files/Student Complaint Resolution Policy.doc";
+import selt from "../../../../../../src/Policy Files/SELT Policy.doc";
+import summerSchool from "../../../../../../src/Policy Files/Summer School Policy.doc";
+import researchPreparations from "../../../../../../src/Policy Files/Research Preparation Policy.doc";
+import researchTraining from "../../../../../../src/Policy Files/Training Program Scholarships Policy.doc";
+import researchPolicy from "../../../../../../src/Policy Files/Courses Research Thesis Policy-2.doc";
+import candidates from "../../../../../../src/Policy Files/Examination of Higher Degree .doc";
+import graduateResearch from "../../../../../../src/Policy Files/Graduate Research Training Policy.doc";
+import doctorates from "../../../../../../src/Policy Files/Higher Doctorates Policy.doc";
+import intellectual from "../../../../../../src/Policy Files/Intellectual Property Policy.doc";
+import certifications from "../../../../../../src/Policy Files/Courses Award Certification Policy.doc";
 
 const Policies = () => {
 	return (
@@ -215,10 +242,17 @@ const Policies = () => {
 											</div>
 										</div>
 									</div>
+
+									{/* Fees and charges part start here */}
+
 									<div className="lg:mx-20 ">
-										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
-											Fees and charges
-										</h1>
+										<a
+											href={payment}
+											download
+											className="text-xl text-sky-700 font-bold mt-5 border-b-2"
+										>
+											<h2>Fees and charges</h2>
+										</a>
 										<div className="flex mt-3  gap-2">
 											<div>
 												<FontAwesomeIcon
@@ -227,10 +261,16 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
-													Fees: Payment and refund of tuition fees for domestic
-													postgraduate students
-												</p>
+												<a
+													href={tuition}
+													download
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
+													<p>
+														Fees: Payment and refund of tuition fees for
+														domestic postgraduate students
+													</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -241,10 +281,16 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline ">
-													Fees: Setting, amending and monitoring tuition fees
-													for domestic postgraduate students
-												</p>
+												<a
+													href={tuition}
+													download
+													className="text-sky-700 cursor-pointer hover:underline "
+												>
+													<p>
+														Fees: Setting, amending and monitoring tuition fees
+														for domestic postgraduate students
+													</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -255,9 +301,13 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline ">
-													Incidental Student Fees and Charges
-												</p>
+												<a
+													href={studentFees}
+													download
+													className="text-sky-700 cursor-pointer hover:underline "
+												>
+													<p>Incidental Student Fees and Charges</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -268,9 +318,13 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline ">
-													Non-Award Course Fees for Domestic Students
-												</p>
+												<a
+													href={nonAwardCourse}
+													download
+													className="text-sky-700 cursor-pointer hover:underline "
+												>
+													<p>Non-Award Course Fees for Domestic Students</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -281,12 +335,21 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline ">
-													Refund of Tuition Fees for International Students
-												</p>
+												<a
+													href={refundFees}
+													download
+													className="text-sky-700 cursor-pointer hover:underline "
+												>
+													<p>
+														Refund of Tuition Fees for International Students
+													</p>
+												</a>
 											</div>
 										</div>
 									</div>
+
+									{/* Coursework courses part added here */}
+
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
 											Coursework courses
@@ -299,9 +362,13 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
+												<a
+													href={articulation}
+													download
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
 													Courses - Articulation
-												</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -312,9 +379,13 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline ">
-													Courses - Experiential Learning
-												</p>
+												<a
+													href={experimental}
+													download
+													className="text-sky-700 cursor-pointer hover:underline "
+												>
+													<p> Courses - Experiential Learning</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -325,9 +396,13 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline ">
-													Courses - Undergraduate
-												</p>
+												<a
+													href={undergraduate}
+													download
+													className="text-sky-700 cursor-pointer hover:underline "
+												>
+													<p>Courses - Undergraduate</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -338,9 +413,13 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline ">
-													Courses - Coursework Dissertation
-												</p>
+												<a
+													href={dissertation}
+													download
+													className="text-sky-700 cursor-pointer hover:underline "
+												>
+													<p>Courses - Coursework Dissertation</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -351,9 +430,12 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline ">
-													Courses - Postgraduate coursework
-												</p>
+												<a
+													href=""
+													className="text-sky-700 cursor-pointer hover:underline "
+												>
+													<p>Courses - Postgraduate coursework</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -364,9 +446,13 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline ">
-													Courses - Research Thesis
-												</p>
+												<a
+													href={thesis}
+													download
+													className="text-sky-700 cursor-pointer hover:underline "
+												>
+													<p>Courses - Research Thesis</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -377,9 +463,15 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline ">
-													Courses - Transition Arrangements (Undergraduate)
-												</p>
+												<a
+													href={transition}
+													download
+													className="text-sky-700 cursor-pointer hover:underline "
+												>
+													<p>
+														Courses - Transition Arrangements (Undergraduate)
+													</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -390,12 +482,19 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline ">
-													Coursework Units Policy
-												</p>
+												<a
+													href={cUnits}
+													download
+													className="text-sky-700 cursor-pointer hover:underline "
+												>
+													<p>Coursework Units Policy</p>
+												</a>
 											</div>
 										</div>
 									</div>
+
+									{/* assessment part added here */}
+
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
 											Assessment
@@ -408,9 +507,13 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
-													Assessment
-												</p>
+												<a
+													href={assessment}
+													download
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
+													<p>Assessment</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -421,12 +524,19 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline ">
-													Assessment: Special Consideration
-												</p>
+												<a
+													href={assessmentSpecial}
+													download
+													className="text-sky-700 cursor-pointer hover:underline "
+												>
+													<p>Assessment: Special Consideration</p>
+												</a>
 											</div>
 										</div>
 									</div>
+
+									{/* Academic performance added here */}
+
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
 											Academic performance
@@ -439,10 +549,16 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
-													Academic Progress (other than in courses administered
-													by the Graduate Research School)
-												</p>
+												<a
+													href={progress}
+													download
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
+													<p>
+														Academic Progress (other than in courses
+														administered by the Graduate Research School)
+													</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -453,10 +569,16 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline ">
-													Review and Appeal of Academic Decisions Relating to
-													Students
-												</p>
+												<a
+													href={academicAssessment}
+													download
+													className="text-sky-700 cursor-pointer hover:underline "
+												>
+													<p>
+														Review and Appeal of Academic Decisions Relating to
+														Students
+													</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -467,13 +589,22 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline ">
-													Review and Appeal of Academic Decisions for Courses
-													managed by the Graduate Research School
-												</p>
+												<a
+													href={apeal}
+													download
+													className="text-sky-700 cursor-pointer hover:underline "
+												>
+													<p>
+														Review and Appeal of Academic Decisions for Courses
+														managed by the Graduate Research School
+													</p>
+												</a>
 											</div>
 										</div>
 									</div>
+
+									{/* Student learning part added here */}
+
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
 											Student Learning
@@ -486,12 +617,19 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
-													Lecture Capture
-												</p>
+												<a
+													href={lecture}
+													download
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
+													<p>Lecture Capture</p>
+												</a>
 											</div>
 										</div>
 									</div>
+
+									{/* Recognising Student Academic Excellence added here */}
+
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
 											Recognising Student Academic Excellence
@@ -504,9 +642,13 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
-													Prizes
-												</p>
+												<a
+													href={prize}
+													download
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
+													<p>Prizes</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -517,15 +659,22 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline ">
-													Establishment and Award of Scholarships
-												</p>
+												<a
+													href={award}
+													download
+													className="text-sky-700 cursor-pointer hover:underline "
+												>
+													<p>Establishment and Award of Scholarships</p>
+												</a>
 											</div>
 										</div>
 									</div>
+
+									{/* Complaints part added here */}
+
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
-											Complaints
+											Student Complaint
 										</h1>
 										<div className="flex mt-3  gap-2">
 											<div>
@@ -535,12 +684,19 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
+												<a
+													href={complaints}
+													download
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
 													Student Complaint Resolution
-												</p>
+												</a>
 											</div>
 										</div>
 									</div>
+
+									{/* Student Conduct and Discipline added here */}
+
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
 											Student Conduct and Discipline
@@ -553,9 +709,12 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
-													Statute No. 17: Student Discipline
-												</p>
+												<a
+													href=""
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
+													<p>Statute No. 17: Student Discipline</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -566,12 +725,19 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
-													Regulations for student conduct and discipline
-												</p>
+												<a
+													href=""
+													download
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
+													<p>Regulations for student conduct and discipline</p>
+												</a>
 											</div>
 										</div>
 									</div>
+
+									{/* Student Feedback on Teaching added here */}
+
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
 											Student Feedback on Teaching
@@ -584,12 +750,19 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
-													Student Experience of Learning and Teaching
-												</p>
+												<a
+													href={selt}
+													download
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
+													<p>Student Experience of Learning and Teaching</p>
+												</a>
 											</div>
 										</div>
 									</div>
+
+									{/* Teaching Period added here */}
+
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
 											Teaching Period
@@ -602,9 +775,12 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
-													Structure of the Academic Year
-												</p>
+												<a
+													href=""
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
+													<p>Structure of the Academic Year</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -615,12 +791,19 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
+												<a
+													href={summerSchool}
+													download
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
 													Summer School
-												</p>
+												</a>
 											</div>
 										</div>
 									</div>
+
+									{/* Higher degree by research added here */}
+
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
 											Higher degree by research
@@ -633,9 +816,13 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
-													Adequate Research Preparation
-												</p>
+												<a
+													href={researchPreparations}
+													download
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
+													<p>Adequate Research Preparation</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -646,10 +833,16 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
-													Australian Government Research Training Program
-													Scholarships
-												</p>
+												<a
+													href={researchTraining}
+													download
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
+													<p>
+														Australian Government Research Training Program
+														Scholarships
+													</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -660,9 +853,13 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
-													Courses: Research Thesis
-												</p>
+												<a
+													href={researchPolicy}
+													download
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
+													<p>Courses: Research Thesis</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -673,9 +870,15 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
-													Examination of Higher Degree by Research Candidates
-												</p>
+												<a
+													href={candidates}
+													download
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
+													<p>
+														Examination of Higher Degree by Research Candidates
+													</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -686,9 +889,13 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
-													Graduate Research Training
-												</p>
+												<a
+													href={graduateResearch}
+													download
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
+													<p> Graduate Research Training</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -699,9 +906,13 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
-													Higher Doctorates
-												</p>
+												<a
+													href={doctorates}
+													download
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
+													<p>Higher Doctorates</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -712,12 +923,19 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
-													Intellectual Property
-												</p>
+												<a
+													href={intellectual}
+													download
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
+													<p> Intellectual Property</p>
+												</a>
 											</div>
 										</div>
 									</div>
+
+									{/* Graduations part added here */}
+
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
 											Graduations
@@ -730,9 +948,12 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
-													Graduations: Academic Dress
-												</p>
+												<a
+													href=""
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
+													<p>Graduations: Academic Dress</p>
+												</a>
 											</div>
 										</div>
 										<div className="flex mt-3  gap-2">
@@ -743,9 +964,13 @@ const Policies = () => {
 												></FontAwesomeIcon>
 											</div>
 											<div>
-												<p className="text-sky-700 cursor-pointer hover:underline">
-													Certification for Award Courses
-												</p>
+												<a
+													href={certifications}
+													download
+													className="text-sky-700 cursor-pointer hover:underline"
+												>
+													<p> Certification for Award Courses</p>
+												</a>
 											</div>
 										</div>
 									</div>

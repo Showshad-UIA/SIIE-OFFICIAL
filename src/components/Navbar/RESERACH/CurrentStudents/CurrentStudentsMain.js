@@ -65,17 +65,21 @@ const CurrentStudentsMain = () => {
 							</div>
 						</div>
 						<div className=" ">
-							<figure>
-								<img
-									src={image3}
-									alt="image3"
-									className="lg:h-[190px] lg:w-[350px]"
-								/>
-							</figure>
+							<a href="/events">
+								<figure>
+									<img
+										src={image3}
+										alt="image3"
+										className="lg:h-[190px] lg:w-[350px]"
+									/>
+								</figure>
+							</a>
 							<div className="mt-3">
-								<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
-									Research Training
-								</h2>
+								<a href="/events">
+									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
+										Research Training
+									</h2>
+								</a>
 								<p className="text-black text-md">
 									Resources, workshops and communities to help you make the most
 									of your time at SIBS

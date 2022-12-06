@@ -18,7 +18,7 @@ const Events = () => {
 					<div className="flex flex-col px-2">
 						<div className="">
 							<div className=" lg:w-full    ">
-								<div className=" bg-base-100 lg:px-3 py-3  ">
+								<div className=" bg-base-100 lg:px-3 mt-3  ">
 									<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 									<ul className="text-sky-700 ">
 										<li>
@@ -37,12 +37,12 @@ const Events = () => {
 										</li>
 									</ul>
 								</div>
-									<div >
+									{/* <div >
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
 										<h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 mt-5">
 											Events
 										</h1>
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>
@@ -50,7 +50,7 @@ const Events = () => {
 						{/* Events table start here */}
 						<div className="lg:mx-24">
 							<div class="overflow-x-auto relative">
-								<table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+								<table class="w-full text-sm text-left text-gray-500 dark:text-gray-400 border-2 pb-5">
 									{/* Table head start here */}
 									<thead class="text-xs text-white uppercase bg-sky-700 dark:bg-gray-700 dark:text-gray-400">
 										<tr>

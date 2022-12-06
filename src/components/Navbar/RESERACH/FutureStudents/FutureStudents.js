@@ -15,7 +15,7 @@ const FutureStudents = () => {
 							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
 								
 								{/* breadcrumb use here */}
-								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
+								<div className="text-md breadcrumbs md:px-6   lg:mx-[60px] ">
 									<ul className="text-sky-700 ">
 										<li>
 										<a href="/">
@@ -35,11 +35,11 @@ const FutureStudents = () => {
 								</div>
 
 								<div className="  ">
-									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
-									<h1 className="lg:px-20 px-3 text-xl text-sky-700 font-bold ">
+									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-24  mt-2"></h1>
+									<h1 className="lg:mx-20 px-3 text-xl text-sky-700 font-bold  ">
 										Future Students
 									</h1>
-									<p className="lg:px-20 px-3 text-justify ">
+									<p className="lg:mx-20 px-3 text-justify ">
 										Sydney Islamic Business School (Sydney IBS) offers courses
 										programs across all disciplines within Islamic Business. The
 										PhD program consists of two components– coursework and
@@ -52,7 +52,7 @@ const FutureStudents = () => {
 							</div>
 						</div>
 					</div>
-					<div className="lg:mt-20 lg:pb-5 px-3">
+					<div className="lg:mt-20 lg:pb-5 px-3 ">
 						<FutureStudentsMain></FutureStudentsMain>
 					</div>
 				</div>

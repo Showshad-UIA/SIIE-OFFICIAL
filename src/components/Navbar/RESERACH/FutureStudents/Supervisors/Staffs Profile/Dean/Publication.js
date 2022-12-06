@@ -4,10 +4,10 @@ const Publication = () => {
 	return (
 		<div>
 			<div className="">
-				<div className="mx-5">
+				<div className="">
 
 					<h1 className="text-lg  font-bold my-5">Chapters in Books</h1>
-					<div className="mx-3">
+					<div className="">
 						<li className="my-5 text-justify">
 							Bowyer, D., Akpinar, M., Erdogan, A., Malik, K. and Horky, F.
 							(2022), 'Mobilizing Research-Based Learning (RBL) in higher
@@ -130,7 +130,7 @@ const Publication = () => {
 
 					<div>
 						<h1 className="font-bold text-lg my-5">Conference Papers</h1>
-						<div className="mx-3">
+						<div className="">
 							<li className="mb-3 text-justify">
 								Davis, G. and Zakrzewski, D. (2008), 'Aircraft lease-purchase
 								decision making - what influences airline management?', Air
@@ -162,7 +162,7 @@ const Publication = () => {
 					</div>
 
 					<h1 className="font-bold text-lg ">Other publications</h1>
-					<li className="my-5 text-justify mx-3">
+					<li className="my-5 text-justify ">
 						2019, 'Returning to Work After Parental Leave: An Appreciative
 						Inquiry. Vice Chancellor's Gender Equality Fund, Final Report 2019',
 						Report

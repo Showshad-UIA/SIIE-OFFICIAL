@@ -30,7 +30,6 @@ const AcademicStructure = () => {
 										</li>
 									</ul>
 								</div>
-								
 
 								{/* AcademicStructure content start here */}
 
@@ -41,7 +40,7 @@ const AcademicStructure = () => {
 									<img
 										src={academicStructure}
 										alt=""
-										className="lg:px-14 lg:ml-5"
+										className="lg:px-14 lg:ml-5 "
 									/>
 
 									{/* AcademicStructure details start here */}

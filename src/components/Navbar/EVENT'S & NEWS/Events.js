@@ -18,7 +18,7 @@ const Events = () => {
 					<div className="flex flex-col px-2">
 						<div className="">
 							<div className=" lg:w-full    ">
-								<div className=" bg-base-100 lg:px-3 mt-3  ">
+								<div className=" bg-gray-100 lg:px-3 mt-3  ">
 									<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 									<ul className="text-sky-700 ">
 										<li>
@@ -37,22 +37,18 @@ const Events = () => {
 										</li>
 									</ul>
 								</div>
-									{/* <div >
-									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
-										<h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 mt-5">
-											Events
-										</h1>
-									</div> */}
+									
 								</div>
 							</div>
 						</div>
 
 						{/* Events table start here */}
 						<div className="lg:mx-24">
+						<h1 className=" border-t-4 border-sky-700  mt-2"></h1>
 							<div class="overflow-x-auto relative">
-								<table class="w-full text-sm text-left text-gray-500 dark:text-gray-400 border-2 pb-5">
+								<table class="w-full text-sm text-left   border-2 pb-5">
 									{/* Table head start here */}
-									<thead class="text-xs text-white uppercase bg-sky-700 dark:bg-gray-700 dark:text-gray-400">
+									<thead class="text-md text-sky-700 bg-gray-300 uppercase ">
 										<tr>
 											<th scope="col" class="py-3 px-6">
 												DATE
@@ -76,7 +72,7 @@ const Events = () => {
 
 									{/* Table body start here */}
 									<tbody>
-										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+										<tr class="bg-gray-100 border-b dark:bg-gray-800 dark:border-gray-700">
 											<th
 												scope="row"
 												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
@@ -103,7 +99,7 @@ const Events = () => {
 												to attend the Zoom Seminar
 											</td>
 										</tr>
-										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+										<tr class="bg-gray-100 border-b dark:bg-gray-800 dark:border-gray-700">
 											<th
 												scope="row"
 												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
@@ -129,7 +125,7 @@ const Events = () => {
 												to attend the Zoom Seminar{" "}
 											</td>
 										</tr>
-										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+										<tr class="bg-gray-100 border-b dark:bg-gray-800 dark:border-gray-700">
 											<th
 												scope="row"
 												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
@@ -155,7 +151,7 @@ const Events = () => {
 												to attend the Zoom Seminar{" "}
 											</td>
 										</tr>
-										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+										<tr class="bg-gray-100 border-b dark:bg-gray-800 dark:border-gray-700">
 											<th
 												scope="row"
 												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
@@ -183,7 +179,7 @@ const Events = () => {
 												to attend the Zoom seminar
 											</td>
 										</tr>
-										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+										<tr class="bg-gray-100 border-b dark:bg-gray-800 dark:border-gray-700">
 											<th
 												scope="row"
 												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
@@ -209,7 +205,7 @@ const Events = () => {
 												to attend the Zoom Seminar{" "}
 											</td>
 										</tr>
-										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+										<tr class="bg-gray-100 border-b dark:bg-gray-800 dark:border-gray-700">
 											<th
 												scope="row"
 												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
@@ -235,7 +231,7 @@ const Events = () => {
 												to attend the Zoom Seminar{" "}
 											</td>
 										</tr>
-										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+										<tr class="bg-gray-100 border-b dark:bg-gray-800 dark:border-gray-700">
 											<th
 												scope="row"
 												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
@@ -261,7 +257,7 @@ const Events = () => {
 												to attend the Zoom Seminar{" "}
 											</td>
 										</tr>
-										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+										<tr class="bg-gray-100 border-b dark:bg-gray-800 dark:border-gray-700">
 											<th
 												scope="row"
 												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
@@ -284,7 +280,7 @@ const Events = () => {
 												to attend the Zoom Seminar{" "}
 											</td>
 										</tr>
-										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+										<tr class="bg-gray-100 border-b dark:bg-gray-800 dark:border-gray-700">
 											<th
 												scope="row"
 												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
@@ -309,7 +305,7 @@ const Events = () => {
 												to attend the Zoom Seminar{" "}
 											</td>
 										</tr>
-										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+										<tr class="bg-gray-100 border-b dark:bg-gray-800 dark:border-gray-700">
 											<th
 												scope="row"
 												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
@@ -335,7 +331,7 @@ const Events = () => {
 												to attend the Zoom Seminar{" "}
 											</td>
 										</tr>
-										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+										<tr class="bg-gray-100 border-b dark:bg-gray-800 dark:border-gray-700">
 											<th
 												scope="row"
 												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
@@ -358,7 +354,7 @@ const Events = () => {
 												to attend the Zoom Seminar{" "}
 											</td>
 										</tr>
-										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+										<tr class="bg-gray-100 border-b dark:bg-gray-800 dark:border-gray-700">
 											<th
 												scope="row"
 												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
@@ -385,7 +381,7 @@ const Events = () => {
 												to attend the Zoom Seminar{" "}
 											</td>
 										</tr>
-										<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+										<tr class="bg-gray-100 border-b dark:bg-gray-800 dark:border-gray-700">
 											<th
 												scope="row"
 												class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"

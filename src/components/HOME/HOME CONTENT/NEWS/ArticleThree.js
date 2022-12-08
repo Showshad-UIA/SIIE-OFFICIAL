@@ -5,7 +5,7 @@ const ArticleThree = () => {
 		<div div className="container mx-auto mt-10 mb-5">
 			<div className="lg:mx-60">
 				<div className="shadow ">
-					<div className=" bg-base-100 lg:px-16 px-3  pb-10 ">
+					<div className=" bg-gray-100 lg:px-16 px-3  pb-10 ">
 						<div className="  ">
 							<h1 className="  border-t-4 border-sky-700"></h1>
 							<h1 className="text-center text-2xl font-bold mb-8 mt-5">

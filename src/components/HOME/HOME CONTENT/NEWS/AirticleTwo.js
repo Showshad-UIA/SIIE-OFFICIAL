@@ -5,14 +5,14 @@ const AirticleTwo = () => {
 		<div div className="container mx-auto mt-10 mb-5">
 			<div className="lg:mx-52">
 				<div className="shadow ">
-					<div className=" bg-base-100 lg:px-16 px-3  pb-10 ">
+					<div className=" bg-gray-100 lg:px-16 px-3  pb-10 ">
 						<div className="  ">
 							<h1 className="  border-t-4 border-sky-700"></h1>
 
 							<h1 className="text-center text-2xl font-bold mb-8 mt-5">
 								ISLAMIC BANKS — TOO BIG TO FAIL OR TOO SMALL TO SUCCEED?
 							</h1>
-							
+
 							<h1 className=" font-serif text-md font-bold text-justify mt-4">
 								<p>By Prof. Dr. Obiyathulla Ismath Bacha</p>
 							</h1>

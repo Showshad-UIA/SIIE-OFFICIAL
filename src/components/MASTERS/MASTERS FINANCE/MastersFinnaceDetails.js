@@ -7,7 +7,7 @@ const MastersFinnaceDetails = () => {
 				<div className="lg:mx-[100px]">
 					<div className="">
 						<div className="shadow lg:w-full    ">
-							<div className=" bg-base-100 lg:px-8 px-3 py-1 pb-10  ">
+							<div className=" bg-gray-100 lg:px-8 px-3 py-1 pb-10  ">
 								<div className="  " id="Research">
 									<h1 className="lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Research areas
@@ -16,13 +16,12 @@ const MastersFinnaceDetails = () => {
 									<p className=" lg:px-20 px-3 text-justify mt-3 ">
 										<div className="">
 											<p className="mt-2">
-												Master candidates at the Sydney Islamic Business School may
-												undertake supervised research with one of the following
-												disciplines within the school:
+												Master candidates at the Sydney Islamic Business School
+												may undertake supervised research with one of the
+												following disciplines within the school:
 											</p>
 											<ul className="mt-3">
 												<li>Discipline of Islamic Banking and Finance</li>
-												
 											</ul>
 										</div>
 									</p>
@@ -35,17 +34,17 @@ const MastersFinnaceDetails = () => {
 									<p className=" lg:px-20 px-3 text-justify mt-3 ">
 										<div className="">
 											<p className="mt-2">
-												The master program consists of two components– coursework
-												and research. Candidates undertake the research
-												component after successfully completing the required
-												coursework.
+												The master program consists of two components–
+												coursework and research. Candidates undertake the
+												research component after successfully completing the
+												required coursework.
 											</p>
 											<h1 className="text-md  font-bold text-black mt-3 mb-3">
 												Master coursework component
 											</h1>
 											<p>
-												In the coursework component, master candidates undertake a
-												comprehensive set of courses designed to provide
+												In the coursework component, master candidates undertake
+												a comprehensive set of courses designed to provide
 												training in the theory and methods necessary to conduct
 												high-quality business research. These courses are
 												academically rigorous and will be examined. Candidates
@@ -54,8 +53,8 @@ const MastersFinnaceDetails = () => {
 												coursework that you are required to complete has a core
 												component consisting of 24UOC and a disciplinary
 												component of 12UOC from a selection of units. Upon
-												successful completion of the coursework, master candidates
-												will progress to the research component.{" "}
+												successful completion of the coursework, master
+												candidates will progress to the research component.{" "}
 											</p>
 											<p className="mt-3">
 												The standard coursework structure for the master is as
@@ -77,10 +76,14 @@ const MastersFinnaceDetails = () => {
 												</ul>
 											</h1>
 											<h1 className="mt-3">
-											<span className="font-bold text-black">Disciplinary units</span>{" "}
+												<span className="font-bold text-black">
+													Disciplinary units
+												</span>{" "}
 												– each unit is 6UOC.
-												<p className="mt-3">For the Discipline of Islamic Banking and Finance, you
-												will be required to complete two units from this list:</p>
+												<p className="mt-3">
+													For the Discipline of Islamic Banking and Finance, you
+													will be required to complete two units from this list:
+												</p>
 												<ul className="mt-3">
 													<li> FINS1101 Islamic Banking</li>
 													<li> FINS1201 Islamic Capital Markets</li>
@@ -117,20 +120,20 @@ const MastersFinnaceDetails = () => {
 												Master research component
 											</h1>
 											<p>
-												Following the successful completion of coursework, master
-												candidates undertake research training and independent
-												research. Research training begins in the second year
-												with higher degree research seminars and workshops,
-												where participants delve deeply into key current
-												research papers to determine research approaches to
-												take. At the same time, master candidates will commence
-												research in their chosen topic. The year culminates with
-												the defence of the first research proposal, known as the
-												thesis Proposal Defence (PD). The PD is a major
-												milestone towards the end of the second year. The
-												purpose of the PD is to assess the originality,
-												significance, adequacy, and achievability of the
-												candidate’s thesis plan.
+												Following the successful completion of coursework,
+												master candidates undertake research training and
+												independent research. Research training begins in the
+												second year with higher degree research seminars and
+												workshops, where participants delve deeply into key
+												current research papers to determine research approaches
+												to take. At the same time, master candidates will
+												commence research in their chosen topic. The year
+												culminates with the defence of the first research
+												proposal, known as the thesis Proposal Defence (PD). The
+												PD is a major milestone towards the end of the second
+												year. The purpose of the PD is to assess the
+												originality, significance, adequacy, and achievability
+												of the candidate’s thesis plan.
 											</p>
 											<p>
 												Master candidates are required to submit a draft thesis
@@ -177,12 +180,12 @@ const MastersFinnaceDetails = () => {
 												Research integrity training
 											</h1>
 											<p>
-												All master candidates must complete the Research Integrity
-												Training and pass the exam within three to six months of
-												enrolment. Completion of this course and exam is a
-												compulsory milestone for all master candidates. For more
-												information on research integrity training, please visit
-												our page.
+												All master candidates must complete the Research
+												Integrity Training and pass the exam within three to six
+												months of enrolment. Completion of this course and exam
+												is a compulsory milestone for all master candidates. For
+												more information on research integrity training, please
+												visit our page.
 											</p>
 											<h1 className="text-md  font-bold text-black my-3">
 												Annual progress reviews
@@ -190,8 +193,8 @@ const MastersFinnaceDetails = () => {
 											<p>
 												It is Sydney IBS policy that each candidate’s progress
 												be reviewed periodically. In each year of their program,
-												master candidates are required to submit an annual plan and
-												report as a basis for periodic progress review. This
+												master candidates are required to submit an annual plan
+												and report as a basis for periodic progress review. This
 												document provides details on work completed by the
 												candidate since the previous review, current progress,
 												and any problems that may impact their research. It also
@@ -218,11 +221,11 @@ const MastersFinnaceDetails = () => {
 									</h1>
 
 									<p className=" lg:px-20 px-3 text-justify mt-3 ">
-										The admission requirements for the master program reflect the
-										advanced knowledge that candidates will need to undertake
-										the coursework component of the degree, and the research
-										experience and skills needed to successfully undertake and
-										complete the research thesis.
+										The admission requirements for the master program reflect
+										the advanced knowledge that candidates will need to
+										undertake the coursework component of the degree, and the
+										research experience and skills needed to successfully
+										undertake and complete the research thesis.
 									</p>
 									<h1 className="lg:px-20 px-3 text-justify mt-3">
 										The minimum qualification requirement for admission to the
@@ -247,10 +250,10 @@ const MastersFinnaceDetails = () => {
 										equivalent or superior to a degree mentioned in (i).
 									</p>
 									<p className="lg:px-20 px-3 text-justify mt-3">
-										Admission to the master program is competitive and we can only
-										admit a limited number of applicants each year. Meeting the
-										minimum entry requirements does not guarantee you a place in
-										the program.
+										Admission to the master program is competitive and we can
+										only admit a limited number of applicants each year. Meeting
+										the minimum entry requirements does not guarantee you a
+										place in the program.
 									</p>
 									<p className="lg:px-20 px-3 text-justify mt-3">
 										If you don’t have sufficient research experience for entry
@@ -338,8 +341,8 @@ const MastersFinnaceDetails = () => {
 										research proposal as an indicator to assess the quality and
 										originality of your ideas and your skills in critical
 										thinking. Note that the research proposal does not restrict
-										you to this field of study should you be admitted to the master
-										program.
+										you to this field of study should you be admitted to the
+										master program.
 									</p>
 								</div>
 

@@ -2,7 +2,7 @@ import { faChevronRight, faHouse } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import DiplomaMain from "./DiplomaMain";
-import DiplomaSidebar from "./DiplomaSidebar";
+
 import finance from "../../../Carosel/Asset/Islamic finance and banking.jpg";
 import economics from "../../../Carosel/Asset/Islamic economics.jpg";
 import business from "../../../Carosel/Asset/business law.jpg";
@@ -42,7 +42,7 @@ const Diploma = () => {
 				<div className="lg:mx-[100px] shadow ">
 					<div className="">
 						<div className=" lg:w-full    ">
-							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
+							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
 								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 									<ul className="text-sky-700 ">
 										<li>

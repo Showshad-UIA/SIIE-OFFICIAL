@@ -78,10 +78,16 @@ import Safety from "./components/Navbar/RESERACH/CurrentStudents/Safety & wellbe
 import Track from "./components/Navbar/RESERACH/CurrentStudents/Staying Track/Track";
 import Degree from "./components/Navbar/RESERACH/CurrentStudents/Finishing Degree/Degree";
 import Policies from "./components/Navbar/RESERACH/CurrentStudents/Policies/Policies";
+import People from "./components/Navbar/ABOUT SIBS/Our people/People";
+import LeadershipTeam from "./components/Navbar/ABOUT SIBS/Our people/LeadershipTeam";
+import Scholar from "./components/Navbar/ABOUT SIBS/Our people/Scholar";
+import Adminstrative from "./components/Navbar/ABOUT SIBS/Our people/Adminstrative";
+import AcademicTeam from "./components/Navbar/ABOUT SIBS/Our people/AcademicTeam";
+
 
 function App() {
 	return (
-		<div className="bg-white">
+		<div className="bg-gray-100">
 			{/* navbar section added here  */}
 			<Topbar></Topbar>
 			<Navbar></Navbar>
@@ -99,6 +105,27 @@ function App() {
 					path="/AcademicStructure"
 					element={<AcademicStructure></AcademicStructure>}
 				></Route>
+				<Route
+					path="/people"
+					element={<People></People>}
+				></Route>
+				<Route
+					path="/leadershipTeam"
+					element={<LeadershipTeam></LeadershipTeam>}
+				></Route>
+				<Route
+					path="/scholar"
+					element={<Scholar></Scholar>}
+				></Route>
+				<Route
+					path="/administrative"
+					element={<Adminstrative></Adminstrative>}
+				></Route>
+				<Route
+					path="/academic"
+					element={<AcademicTeam></AcademicTeam>}
+				></Route>
+				
 
 				{/* Graduate research pages added here  */}
 				<Route

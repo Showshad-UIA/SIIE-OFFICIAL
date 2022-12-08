@@ -10,7 +10,7 @@ const GettingStarts = () => {
 				<div className="lg:mx-[100px] shadow mb-5">
 					<div className="">
 						<div className=" lg:w-full    ">
-							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
+							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
 								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 									<ul className="text-sky-700 ">
 										<li>
@@ -70,9 +70,9 @@ const GettingStarts = () => {
 												Services and Amenities
 											</span>{" "}
 											fee and pick up your Student Card (which doubles as your
-											library card) from 
+											library card) from
 											<span className="text-sky-700 cursor-pointer hover:underline ml-1">
-												  Student Central 
+												Student Central
 											</span>
 											;
 										</li>
@@ -166,7 +166,7 @@ const GettingStarts = () => {
 											<span className="text-sky-700 cursor-pointer hover:underline">
 												Sydney IBS Researcher Development team
 											</span>{" "}
-											send out useful links continuously on 
+											send out useful links continuously on
 											<span className="text-sky-700 cursor-pointer hover:underline ml-1">
 												Twitter
 											</span>{" "}

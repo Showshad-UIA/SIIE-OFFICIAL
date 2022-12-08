@@ -31,7 +31,7 @@ const GDProgram = () => {
                     <div className="lg:mx-[100px] shadow">
                         <div className="">
                             <div className=" lg:w-full    ">
-                                <div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
+                                <div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
                                     <h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 ">
                                     Graduate Diploma (Islamic Business)
                                     </h1>

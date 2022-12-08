@@ -1,14 +1,14 @@
-import React from 'react';
-import UndergraduateMain from './UndergraduateMain';
-import UndergraduateSidebar from './UndergraduateSidebar';
+import React from "react";
+import UndergraduateMain from "./UndergraduateMain";
+import UndergraduateSidebar from "./UndergraduateSidebar";
 
 const Undergraduate = () => {
-    return (
-        <div className="container mx-auto  lg:mb-16 lg:mt-16 ">
+	return (
+		<div className="container mx-auto  lg:mb-16 lg:mt-16 ">
 			<div className="lg:mx-[100px]">
 				<div className="grid   lg:grid-cols-2 sm:grid-cols-1">
 					<div className="shadow lg:w-full lg:mx-20  ">
-						<div className=" bg-base-100 lg:px-8 px-3  pb-10 ">
+						<div className=" bg-gray-100 lg:px-8 px-3  pb-10 ">
 							<div className="  ">
 								<h1 className=" mt-4 border-t-4 border-sky-700"></h1>
 								<h1 className="text-sky-700 text-xl font-bold text-justify mt-">
@@ -48,14 +48,13 @@ const Undergraduate = () => {
 					<div className="lg:ml-[200px] mt-4">
 						<UndergraduateSidebar></UndergraduateSidebar>
 					</div>
-
 				</div>
 				<div>
-						<UndergraduateMain></UndergraduateMain>
-					</div>
+					<UndergraduateMain></UndergraduateMain>
+				</div>
 			</div>
 		</div>
-    );
+	);
 };
 
 export default Undergraduate;

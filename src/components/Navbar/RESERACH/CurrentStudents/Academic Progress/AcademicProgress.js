@@ -10,7 +10,7 @@ const AcademicProgress = () => {
 				<div className="lg:mx-[100px] shadow mb-5">
 					<div className="">
 						<div className=" lg:w-full    ">
-							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
+							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
 								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 									<ul className="text-sky-700 ">
 										<li>
@@ -42,29 +42,29 @@ const AcademicProgress = () => {
 
 										<div className="lg:px-20 px-3 text-justify mt-3 ">
 											<p>
-												Sydney IBS research candidates are required to meet a number of
-												progress milestones including an initial Annual Plan,
-												completion of Research Integrity Training, Annual Plan &
-												Reports, the Thesis Proposal Review, and the final Oral
-												Presentation of your research. These milestones are
-												valuable project management tools that can help you and
-												your supervisor set research goals, reflect on your
-												research activities, and ensure you are on track for
-												successful completion of your program.
+												Sydney IBS research candidates are required to meet a
+												number of progress milestones including an initial
+												Annual Plan, completion of Research Integrity Training,
+												Annual Plan & Reports, the Thesis Proposal Review, and
+												the final Oral Presentation of your research. These
+												milestones are valuable project management tools that
+												can help you and your supervisor set research goals,
+												reflect on your research activities, and ensure you are
+												on track for successful completion of your program.
 											</p>
 											<p>
 												Your School or Centre may require additional milestones
 												such as a Mid-Year Review or completion of ethics
 												requirements, or you may be required to do some
 												coursework during your program, but before submitting
-												your thesis. All Sydney IBS candidates are required to meet
-												satisfactory academic progress. This means that they
-												must meet the minimum academic performance requirements
-												as established by the University and determined by the
-												Delegated Authority (DA). What constitutes satisfactory
-												academic progress depends on the level of the program
-												or, in some circumstances, requirements specific to an
-												individual program.
+												your thesis. All Sydney IBS candidates are required to
+												meet satisfactory academic progress. This means that
+												they must meet the minimum academic performance
+												requirements as established by the University and
+												determined by the Delegated Authority (DA). What
+												constitutes satisfactory academic progress depends on
+												the level of the program or, in some circumstances,
+												requirements specific to an individual program.
 											</p>
 											<p>
 												Candidates will be notified of other requirements to
@@ -74,7 +74,6 @@ const AcademicProgress = () => {
 													Research Awards Rule
 												</span>{" "}
 												which govern all research programs at Sydney IBS.
-											
 												Candidates can log in to{" "}
 												<span className="text-sky-700 cursor-pointer underline">
 													ISIS
@@ -139,8 +138,8 @@ const AcademicProgress = () => {
 										</h1>
 										<div className=" text-justify">
 											<p className="my-2">
-												All Sydney IBS HDR candidates are required to complete the
-												online{" "}
+												All Sydney IBS HDR candidates are required to complete
+												the online{" "}
 												<span className="text-sky-700 cursor-pointer underline">
 													Research Integrity Training
 												</span>{" "}

@@ -1,27 +1,24 @@
-import React from 'react';
-import MasterIntBusinessDetails from './MasterIntBusinessDetails';
-import MasterIntBusinessMain from './MasterIntBusinessMain';
+import React from "react";
+import MasterIntBusinessDetails from "./MasterIntBusinessDetails";
+import MasterIntBusinessMain from "./MasterIntBusinessMain";
 
 const MasterIntBusiness = () => {
-    return (
-        <div className="">
-	{/* PhD sub pages added here using breadcrumbs */}
+	return (
+		<div className="">
+			{/* PhD sub pages added here using breadcrumbs */}
 			<div className="container mx-auto  lg:mb-5">
 				<div className="lg:mx-[100px] shadow">
 					<div className="text-sm breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
 						<ul>
 							<li>
-								<a >Home</a>
+								<a>Home</a>
 							</li>
 							<li>
 								<a href="/mastersreserach">Master of Philosophy (MPhil)</a>
 							</li>
 							<li>
-								<a >Master of Philosophy (International Business)</a>
+								<a>Master of Philosophy (International Business)</a>
 							</li>
-							
-							
-
 						</ul>
 					</div>
 				</div>
@@ -31,24 +28,24 @@ const MasterIntBusiness = () => {
 				<div className="lg:mx-[100px] shadow">
 					<div className="">
 						<div className=" lg:w-full    ">
-							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
+							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
 								<h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 ">
-								Master of Philosophy (International Business)
+									Master of Philosophy (International Business)
 								</h1>
 								<p className=" lg:px-20 px-3 text-justify">
-								Start date: 4 March 2024
+									Start date: 4 March 2024
 								</p>
 
 								<p className="lg:px-20 px-3">
-								Duration: 3 to 5 years full time (4 to 8 years part time – domestic students only)
+									Duration: 3 to 5 years full time (4 to 8 years part time –
+									domestic students only)
 								</p>
-								
+
+								<p className="lg:px-20 px-3">CRICOS code: ######</p>
+
 								<p className="lg:px-20 px-3">
-								CRICOS code: ######
-
+									Location: Sydney Olympic Park, Australia
 								</p>
-
-								<p className="lg:px-20 px-3">Location: Sydney Olympic Park, Australia</p>
 								<button className="lg:ml-20 ml-3 bg-sky-700 text-lg p-1 rounded-md text-white mb-3 mt-2 px-2">
 									Apply Now
 								</button>
@@ -59,16 +56,39 @@ const MasterIntBusiness = () => {
 									</h1>
 
 									<p className=" lg:px-20 px-3 text-justify mt-3 ">
-									Sydney Islamic Business School (Sydney IBS) offers PhD programs across all disciplines within Islamic Business. The PhD program consists of two components– coursework and research. Before completing their research, Sydney IBS PhD candidates are required to complete 36 units of credit worth of coursework units, usually during their first 18 months of study, to assist them in completing their dissertation. PhD candidates are required to submit a thesis which should not exceed 100,000 words. The thesis must be an original work that not only demonstrates the candidate’s ability to undertake world-class research, but that also makes a substantial contribution to the advancement of knowledge in their chosen area of study. Admission requirements, program structure and program duration vary by discipline. You should carefully review all discipline-specific information before applying for entry to a PhD program. 
+										Sydney Islamic Business School (Sydney IBS) offers PhD
+										programs across all disciplines within Islamic Business. The
+										PhD program consists of two components– coursework and
+										research. Before completing their research, Sydney IBS PhD
+										candidates are required to complete 36 units of credit worth
+										of coursework units, usually during their first 18 months of
+										study, to assist them in completing their dissertation. PhD
+										candidates are required to submit a thesis which should not
+										exceed 100,000 words. The thesis must be an original work
+										that not only demonstrates the candidate’s ability to
+										undertake world-class research, but that also makes a
+										substantial contribution to the advancement of knowledge in
+										their chosen area of study. Admission requirements, program
+										structure and program duration vary by discipline. You
+										should carefully review all discipline-specific information
+										before applying for entry to a PhD program.
 									</p>
 									<p className="text-justify mt-3 lg:px-20 px-3">
-									Our doctoral training will engage you in numerous aspects of academic life. You will be both a student and a junior research colleague. We provide courses in a wide variety of research methods, and you will work closely with your supervisors to define your research question and develop your thesis. In addition, you will have opportunities to gain teaching and research assistant experience and become involved with the academic community within the Sydney Islamic Business School. You will attend academic conferences, make presentations, organise seminars and contribute to management and academic decisions.
+										Our doctoral training will engage you in numerous aspects of
+										academic life. You will be both a student and a junior
+										research colleague. We provide courses in a wide variety of
+										research methods, and you will work closely with your
+										supervisors to define your research question and develop
+										your thesis. In addition, you will have opportunities to
+										gain teaching and research assistant experience and become
+										involved with the academic community within the Sydney
+										Islamic Business School. You will attend academic
+										conferences, make presentations, organise seminars and
+										contribute to management and academic decisions.
 									</p>
-									
 								</div>
 							</div>
 						</div>
-						
 					</div>
 					<div className="">
 						<MasterIntBusinessMain></MasterIntBusinessMain>
@@ -79,7 +99,7 @@ const MasterIntBusiness = () => {
 				</div>
 			</div>
 		</div>
-    );
+	);
 };
 
 export default MasterIntBusiness;

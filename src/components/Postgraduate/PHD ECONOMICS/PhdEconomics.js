@@ -1,7 +1,7 @@
 import React from 'react';
 import PhdEconsDetails from './PhdEconsDetails';
 import PhdEconsMain from './PhdEconsMain';
-import PhdEconsSidebar from './PhdEconsSidebar';
+
 
 const PhdEconomics = () => {
     return (
@@ -31,7 +31,7 @@ const PhdEconomics = () => {
 				<div className="lg:mx-[100px] shadow">
 					<div className="">
 						<div className=" lg:w-full    ">
-							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
+							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
 								<h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 ">
 								Doctor of Philosophy (Islamic Economics)
 								</h1>

@@ -1,32 +1,34 @@
-import React from 'react';
-import MastersCwFinanceDetails from './MastersCwFinanceDetails';
-import MastersCwFinanceMain from './MastersCwFinanceMain';
-import MastersCwFinanceSidebar from './MastersCwFinanceSidebar';
+import React from "react";
+import MastersCwFinanceDetails from "./MastersCwFinanceDetails";
+import MastersCwFinanceMain from "./MastersCwFinanceMain";
+import MastersCwFinanceSidebar from "./MastersCwFinanceSidebar";
 
 const MastersCwFinance = () => {
-    return (
-        <div>
+	return (
+		<div>
 			<div className="container mx-auto  lg:mb-16 lg:mt-16 ">
 				<div className="lg:mx-[100px]">
 					<div className="grid   lg:grid-cols-2 sm:grid-cols-1">
 						<div className="shadow lg:w-full lg:mx-20  ">
-							<div className=" bg-base-100 lg:px-8 px-3  pb-10 ">
+							<div className=" bg-gray-100 lg:px-8 px-3  pb-10 ">
 								<h1 className="text-sky-700 text-xl font-bold text-justify mt-4">
 									Master of Islamic Banking and Finance
 								</h1>
 								<p className="   text-justify">Start date: 2 February 2024</p>
 
 								<p>
-									Full time: 1.5 years full time for domestic and
-									international students
+									Full time: 1.5 years full time for domestic and international
+									students
 								</p>
 								<p>
-									Part time: 3 years part time available for domestic
-									students only
+									Part time: 3 years part time available for domestic students
+									only
 								</p>
 
 								<p>Location: Sydney, Australia</p>
-								<button className=" bg-sky-700 text-lg p-1 rounded-md text-white mb-3 mt-2 px-2">Apply Now</button>
+								<button className=" bg-sky-700 text-lg p-1 rounded-md text-white mb-3 mt-2 px-2">
+									Apply Now
+								</button>
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700"></h1>
 									<h1 className="mt-6 text-xl  font-bold text-blue-500">
@@ -34,19 +36,18 @@ const MastersCwFinance = () => {
 									</h1>
 
 									<p className="  text-justify mt-3">
-										The degree of Master in Islamic
-										Banking and Finance at the Sydney Islamic Business School
-										may be undertaken across various Islamic Banking and Finance
-										research areas. As part of your progression towards the
-										degree, as a Higher Degree by Research (HDR) student, you
-										will have access to an extensive HDR Curriculum from which
-										you will have to complete 24 units of credit (UOC) worth of
-										coursework units and a research thesis of up to 50,000 words
-										on an approved topic, under the supervision of an academic
-										panel. You will need to complete the coursework units by the
-										end of the first year of your studies (for full time
-										students) and by the end of the second year (for part time
-										students).
+										The degree of Master in Islamic Banking and Finance at the
+										Sydney Islamic Business School may be undertaken across
+										various Islamic Banking and Finance research areas. As part
+										of your progression towards the degree, as a Higher Degree
+										by Research (HDR) student, you will have access to an
+										extensive HDR Curriculum from which you will have to
+										complete 24 units of credit (UOC) worth of coursework units
+										and a research thesis of up to 50,000 words on an approved
+										topic, under the supervision of an academic panel. You will
+										need to complete the coursework units by the end of the
+										first year of your studies (for full time students) and by
+										the end of the second year (for part time students).
 									</p>
 									<p className="text-justify mt-3">
 										Our HDR training will immerse you in all aspects of academic
@@ -78,7 +79,7 @@ const MastersCwFinance = () => {
 				</div>
 			</div>
 		</div>
-    );
+	);
 };
 
 export default MastersCwFinance;

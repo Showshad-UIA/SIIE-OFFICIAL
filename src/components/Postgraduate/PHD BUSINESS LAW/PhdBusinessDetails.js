@@ -7,7 +7,7 @@ const PhdBusinessDetails = () => {
 				<div className="lg:mx-[100px]">
 					<div className="">
 						<div className="shadow lg:w-full    ">
-							<div className=" bg-base-100 lg:px-8 px-3 py-1 pb-10  ">
+							<div className=" bg-gray-100 lg:px-8 px-3 py-1 pb-10  ">
 								<div className="  " id="Research">
 									<h1 className="lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Research areas

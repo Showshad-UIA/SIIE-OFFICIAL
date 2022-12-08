@@ -1,17 +1,17 @@
-import { faChevronRight, faHouse } from "@fortawesome/free-solid-svg-icons";
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import female1 from "../../../../../Carosel/Asset/Academic staffs/female-1.jpg";
-import male1 from "../../../../../Carosel/Asset/Academic staffs/male-1.png";
+import female1 from "../../../../Carosel/Asset/Academic staffs/female-1.jpg";
+import male1 from "../../../../Carosel/Asset/Academic staffs/male-1.png";
 
-const Supervisors = () => {
+const AcademicTeam = () => {
 	return (
 		<div className="container mx-auto mb-10 ">
 			<div class=" p-2  w-full  ">
 				{/* News content start here */}
 				<div
 					class="flex flex-col  lg:flex-row  
-                shadow-md lg:mx-[100px]   "
+            shadow-md lg:mx-[100px]   "
 				>
 					<div className="flex flex-col px-2">
 						<div className="">
@@ -28,13 +28,16 @@ const Supervisors = () => {
 												</a>
 											</li>
 											<li>
-												<p>Graduate Research</p>
+												<p>About Us</p>
 											</li>
 											<li>
-												<a href="/future"> Future students</a>
+												<a href="/profile"> profile</a>
 											</li>
 											<li>
-												<p className="text-black"> Finding supervisors</p>
+												<a href="/people"> Our people</a>
+											</li>
+											<li>
+												<p className="text-black"> Academic team</p>
 											</li>
 										</ul>
 									</div>
@@ -43,7 +46,7 @@ const Supervisors = () => {
 									<div className="lg:mx-20 mx-3  ">
 										<h1 className="mb-3 border-t-4 border-sky-700  mt-2"></h1>
 										<h1 className="text-xl font-bold text-sky-700">
-											Academic Team
+											Our Academic Team
 										</h1>
 									</div>
 								</div>
@@ -60,16 +63,15 @@ const Supervisors = () => {
 									<div>
 										<img src={male1} className="max-w-sm w-52 px-2 h-44" />
 									</div>
-									<div className="lg:-mx-28">
-										<a href="/dean">
+									<div className="lg:-mx-12">
+										<a href="">
 											<h1 className=" font-bold hover:underline hover:text-blue-500 text-sky-700 cursor-pointer">
-												Mohd Daud Bakar
+												Shaufique Fahmi Ahmad Sidique, Ph.D
 											</h1>
 										</a>
-										<p> Professor/ Dean</p>
+										<p> Professor</p>
 										<p>
-											<span className="font-bold">Expertise:</span> Shariah
-											Leadership & Advisory
+											<span className="font-bold">Expertise:</span> Economics
 										</p>
 										<p>
 											<span className="font-bold">Phone:</span>+603-9769 4930 /
@@ -94,13 +96,14 @@ const Supervisors = () => {
 							<div className=" mb-3 p-2 border-b-2 border-gray   ">
 								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
 									<img src={male1} className="max-w-sm w-52 px-2 h-44" />
-									<div className="lg:-mx-28">
-										<h1 className=" font-bold text-sky-700">Tang Chor Foon</h1>
-										<p> Professor/ Deputy Dean</p>
+									<div className="lg:-mx-12">
+										<h1 className=" font-bold text-sky-700">
+											Abdul Rahim Abdul Samad, Ph.D{" "}
+										</h1>
+										<p>Assc. Professor</p>
 										<p>
-											<span className="font-bold">Expertise:</span> Applied
-											Macroeconomics, Economic Growth and Development, Energy
-											Economics, Tourism Economics
+											<span className="font-bold">Expertise:</span> Natural
+											Resource and Environmental Economics
 										</p>
 										<p>
 											<span className="font-bold">Phone:</span>+603-9769 4909
@@ -127,15 +130,14 @@ const Supervisors = () => {
 										src={male1}
 										className="max-w-sm w-48 lg:w-52 px-2 h-44"
 									/>
-									<div className="lg:-mx-28">
+									<div className="lg:-mx-12">
 										<h1 className=" font-bold text-sky-700">
 											Suhaimi Ab Rahman, PhD
 										</h1>
 										<p>Professor</p>
 										<p>
-											<span className="font-bold">Expertise:</span> Business
-											Law, Islamic Banking and Financial Law, Shariah and Halal
-											Law
+											<span className="font-bold">Expertise:</span> Islamic
+											Banking and Financial Law, Shariah and Halal Law
 										</p>
 										<p>
 											<span className="font-bold">Phone:</span>+608-3769 4909
@@ -162,14 +164,14 @@ const Supervisors = () => {
 										src={male1}
 										className="max-w-sm w-48 lg:w-52 px-2 h-44 "
 									/>
-									<div className="lg:-mx-28">
+									<div className="lg:-mx-12">
 										<h1 className=" font-bold text-sky-700">
-											Ahmad Fahmi Sheikh Hassan, PhD
+											Saifuzzaman Ibrahim, Ph.D
 										</h1>
 										<p>Associate professor</p>
 										<p>
-											<span className="font-bold">Expertise:</span> Islamic
-											Banking, Corporate Governance, Financial Accounting
+											<span className="font-bold">Expertise:</span> Financial
+											Accounting
 										</p>
 										<p>
 											<span className="font-bold">Phone:</span>+605-3269 4909
@@ -196,12 +198,12 @@ const Supervisors = () => {
 										src={male1}
 										className="max-w-sm w-48 lg:w-52 px-2 h-44 "
 									/>
-									<div className="lg:-mx-28">
-										<h1 className=" font-bold text-sky-700">Ziyaad Mahomed</h1>
-										<p>Associate professor</p>
+									<div className="lg:-mx-12">
+										<h1 className=" font-bold text-sky-700">Habib Mahomed</h1>
+										<p> professor</p>
 										<p>
-											<span className="font-bold">Expertise:</span>{" "}
-											Agrotechnopreneurship
+											<span className="font-bold">Expertise:</span> Financial
+											Business
 										</p>
 										<p>
 											<span className="font-bold">Phone:</span>+603-9769 4911
@@ -223,14 +225,14 @@ const Supervisors = () => {
 										src={female1}
 										className="max-w-sm w-48 lg:w-52 px-2 h-44 "
 									/>
-									<div className="lg:-mx-28">
+									<div className="lg:-mx-12">
 										<h1 className="font-bold text-sky-700">
-											Fauziah Mahat, Ph.D
+											Norashidah Mohamed Nor, Ph.D
 										</h1>
 
 										<p>
 											<span className="font-bold">Expertise:</span> Risk
-											Management & Insurance, Finance and Islamic Finance
+											Management Finance and Islamic Finance
 										</p>
 										<p>
 											<span className="font-bold">Phone:</span>+603-9769 4906
@@ -252,15 +254,12 @@ const Supervisors = () => {
 										src={female1}
 										className="max-w-sm w-48 lg:w-52 px-2 h-44 "
 									/>
-									<div className="lg:-mx-28">
-										<h1 className="font-bold text-sky-700">
-											Khadijah Bt. Mohd. Isa
-										</h1>
-										<p>Professor</p>
+									<div className="lg:-mx-12">
+										<h1 className="font-bold text-sky-700">Lee Chin, Ph.D</h1>
+										<p>Assc. Professor</p>
 										<p>
-											<span className="font-bold">Expertise:</span> Economics,
-											Business And Management , ~ Taxation - Tax Compliance and
-											Tax Audit for Corporate Taxpayers.
+											<span className="font-bold">Expertise:</span>
+											Business And financial Management.
 										</p>
 										<p>
 											<span className="font-bold">Phone:</span>+603-9769 4937
@@ -282,14 +281,14 @@ const Supervisors = () => {
 										src={male1}
 										className="max-w-sm lg:w-52 w-44 px-2 h-44"
 									/>
-									<div className=" lg:-mx-28">
+									<div className=" lg:-mx-12">
 										<h1 className=" font-bold text-sky-700">
-											Ashurov Sharofiddin
+											Mohd Yusof Saari, Ph.D
 										</h1>
-										<p>Assistant Professor</p>
+										<p>Assc. Professor</p>
 										<p>
-											<span className="font-bold">Expertise:</span> Agricultural
-											Marketing
+											<span className="font-bold">Expertise:</span>{" "}
+											International trade finance
 										</p>
 										<p>
 											<span className="font-bold">Phone:</span>+603-9769 4910
@@ -311,7 +310,7 @@ const Supervisors = () => {
 										src={male1}
 										className="max-w-sm lg:w-52 w-44 px-2 h-44"
 									/>
-									<div className="lg:-mx-28">
+									<div className="lg:-mx-12">
 										<h1 className=" font-bold text-sky-700">
 											FAUZI BIN ZAINIR
 										</h1>
@@ -337,15 +336,12 @@ const Supervisors = () => {
 							<div className="mb-3 p-2 border-b-2 border-gray   ">
 								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 									<img src={male1} className="max-w-sm w-52 px-2 h-44" />
-									<div className="lg:-mx-28">
-										<h1 className=" font-bold text-sky-700">
-											Tuan Hj Sahbani Saimin
-										</h1>
+									<div className="lg:-mx-12">
+										<h1 className=" font-bold text-sky-700">Sahbani Saimin</h1>
 										<p>Senior Lecturer</p>
 										<p>
 											<span className="font-bold">Expertise:</span> Financial
-											Management, Managerial Finance, Corporate Finance,
-											Advanced Managerial Finance, Principle of Macroeconomic
+											Management, Managerial Finance
 										</p>
 										<p>
 											<span className="font-bold">Phone:</span>+603-9769 4910
@@ -367,14 +363,13 @@ const Supervisors = () => {
 										src={male1}
 										className="max-w-sm lg:w-52 w-44 px-2 h-44"
 									/>
-									<div className="lg:-mx-28">
+									<div className="lg:-mx-12">
 										<h1 className=" font-bold text-sky-700">
-											Tuan Hj Sahbani Saimin
+											Syamsul Herman Mohammad Afandi, PhD
 										</h1>
-										<p>Professor</p>
+										<p>Assc. Professor</p>
 										<p>
-											<span className="font-bold">Expertise:</span> Agricultural
-											Marketing
+											<span className="font-bold">Expertise:</span> Economics
 										</p>
 										<p>
 											<span className="font-bold">Phone:</span>+603-9769 4910
@@ -396,15 +391,14 @@ const Supervisors = () => {
 										src={female1}
 										className="max-w-sm w-48 lg:w-52 px-2 h-44 "
 									/>
-									<div className="lg:-mx-28">
+									<div className="lg:-mx-12">
 										<h1 className=" font-bold text-sky-700">
-											Salina Bt. Kassim
+											Shivee Ranjanee a/p Kaliappan, Ph.D
 										</h1>
-										<p>Professor</p>
+										<p>Assc. Professor</p>
 										<p>
 											<span className="font-bold">Expertise:</span>{" "}
-											Economics/Applied Economics ~ Financial and Monetary
-											Economics - Islamic banking and finance
+											International Trade
 										</p>
 										<p>
 											<span className="font-bold">Phone:</span>+603-9769 4910
@@ -426,13 +420,14 @@ const Supervisors = () => {
 										src={male1}
 										className="max-w-sm lg:w-52 w-44 px-2 h-44"
 									/>
-									<div className="lg:-mx-28">
-										<h1 className=" font-bold text-sky-700">Aznan Bin Hasan</h1>
-										<p>Professor</p>
+									<div className="lg:-mx-12">
+										<h1 className=" font-bold text-sky-700">
+											Wan Azman Saini Wan Ngah, Ph.D
+										</h1>
+										<p> Assc. Professor</p>
 										<p>
-											<span className="font-bold">Expertise:</span> Economics,
-											Business And Management, Business And Management ~ Islamic
-											Insurance - Islamic Insurance
+											<span className="font-bold">Expertise:</span> Business And
+											Management
 										</p>
 										<p>
 											<span className="font-bold">Phone:</span>+603-9769 4910
@@ -454,7 +449,7 @@ const Supervisors = () => {
 										src={male1}
 										className="max-w-sm lg:w-52 w-44 px-2 h-44"
 									/>
-									<div className="lg:-mx-28">
+									<div className="lg:-mx-12">
 										<h1 className=" font-bold text-sky-700">
 											Ibrahim Nuhu Tahir
 										</h1>
@@ -483,7 +478,7 @@ const Supervisors = () => {
 										src={male1}
 										className="max-w-sm lg:w-52 w-44 px-2 h-52"
 									/>
-									<div className="lg:-mx-28">
+									<div className="lg:-mx-12">
 										<h1 className=" font-bold text-sky-700">
 											Zulkarnain Muhammad Sori
 										</h1>
@@ -491,37 +486,6 @@ const Supervisors = () => {
 										<p>
 											<span className="font-bold">Expertise:</span> Financial
 											advisory and financial education industry
-										</p>
-										<p>
-											<span className="font-bold">Phone:</span>+603-9769 4910
-										</p>
-										<p>
-											<span className="font-bold">Email:</span>{" "}
-											sahbani@sydneyibs.edu.au
-										</p>
-										<p>
-											<span className="font-bold">Website:</span>[Google
-											Scholar]
-										</p>
-									</div>
-								</div>
-							</div>
-							<div className="mb-3 p-2   ">
-								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
-									<img
-										src={male1}
-										className="max-w-sm lg:w-52 w-44 px-2 h-52 "
-									/>
-									<div className="lg:-mx-28">
-										<h1 className=" font-bold text-sky-700">
-											Mansor H.Ibrahim
-										</h1>
-										<p>Professor</p>
-
-										<p>
-											<span className="font-bold">Expertise:</span> Monetary
-											economics, money and banking, analysis of financial
-											markets and applied econometrics
 										</p>
 										<p>
 											<span className="font-bold">Phone:</span>+603-9769 4910
@@ -545,4 +509,4 @@ const Supervisors = () => {
 	);
 };
 
-export default Supervisors;
+export default AcademicTeam;

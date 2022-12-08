@@ -5,14 +5,18 @@ const ArticleOne = () => {
 		<div div className="container  lg:mx-auto mt-10 mb-5">
 			<div className="lg:mx-60">
 				<div className="shadow ">
-					<div className=" bg-base-100 lg:px-16 px-3  pb-10 ">
+					<div className=" bg-gray-100 lg:px-16 px-3  pb-10 ">
 						<div className="  ">
 							<h1 className="  border-t-4 border-sky-700"></h1>
-							
-                            <h1 className="text-center text-2xl font-bold mb-5 mt-5">WHAT’S NEXT FOR ISLAMIC BANKING? </h1>
-                            
-                            <h1 className=" font-serif text-md font-bold text-justify mt-4">
-								<p className="mb-3 mt-5">By Prof. Dr. Obiyathulla Ismath Bacha</p>
+
+							<h1 className="text-center text-2xl font-bold mb-5 mt-5">
+								WHAT’S NEXT FOR ISLAMIC BANKING?{" "}
+							</h1>
+
+							<h1 className=" font-serif text-md font-bold text-justify mt-4">
+								<p className="mb-3 mt-5">
+									By Prof. Dr. Obiyathulla Ismath Bacha
+								</p>
 							</h1>
 							<p className="  text-justify font-serif">
 								Islamic Banking, some 30 years after its emergence, is now at

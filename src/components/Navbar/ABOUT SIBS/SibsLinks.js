@@ -32,6 +32,15 @@ export const links = [
 					],
 				},
 				{
+					Head:"Our People",
+					link: "/people" ,
+					sublink: [
+						// { name: "", link: "/" },
+						// { name: "", link: "/" },
+					
+					],
+				},
+				{
 					Head: "Accreditation", 
 					link: "#",
 					sublink: [

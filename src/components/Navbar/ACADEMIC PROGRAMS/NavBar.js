@@ -12,7 +12,7 @@ const Navbar = () => {
 	return (
 		<>
 			<nav className="bg-sky-700  sticky ">
-				<div className="flex items-center font-medium justify-around lg:mx-[100px]">
+				<div className="flex items-center font-medium justify-around lg:mx-[110px]">
 					<div className="z-50 p-3 md:w-auto w-full flex justify-between ">
 						<Link to="/" onClick={() => setOpen(!open)}>
 							<img

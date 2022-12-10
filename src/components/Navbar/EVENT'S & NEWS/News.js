@@ -1,9 +1,9 @@
 import React from "react";
-import business from "../../../Carosel/Asset/business.jpg";
-import events1 from "../../../Carosel/Asset/news1.jpg";
-import events2 from "../../../Carosel/Asset/news 3.jpg";
-import Management from "../../../Carosel/Asset/management.jpg";
-import IBusiness from "../../../Carosel/Asset/international-business.jpg";
+import news_3 from "../../../Carosel/Asset/News/news_3.jpg";
+import news_4 from "../../../Carosel/Asset/News/news_4.jpg";
+import news_5 from "../../../Carosel/Asset/News/news_5.jpg";
+import news_1 from "../../../Carosel/Asset/News/news_1.jpg";
+import news_2 from "../../../Carosel/Asset/News/news_2.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight, faHouse } from "@fortawesome/free-solid-svg-icons";
 const News = () => {
@@ -63,7 +63,7 @@ const News = () => {
 							{/* First news  start here */}
 							<div className=" mb-3 p-2 border-b-2 border-black   ">
 								<div className="flex gap-5 ">
-									<img src={Management} className="max-w-sm w-1/5 px-2 h-24" />
+									<img src={news_1} className="max-w-sm lg:w-1/5 w-2/5 w-2/5 px-2 h-24" />
 									<div>
 										<h1 className="text-xl font-bold">
 											Lee Sarandopoulos headshot the caravans
@@ -90,7 +90,7 @@ const News = () => {
 
 							<div className=" mb-3 p-2 border-b-2 border-black ">
 								<div className="flex gap-5">
-									<img src={IBusiness} className="max-w-sm w-1/5 px-2 h-24" />
+									<img src={news_2} className="max-w-sm lg:w-1/5 w-2/5 px-2 h-24" />
 									<div>
 										<h1 className="text-xl font-bold">
 											Safety and financial security for women
@@ -117,7 +117,7 @@ const News = () => {
 
 							<div className="mb-3 p-2 border-b-2 border-black  ">
 								<div className="flex gap-5">
-									<img src={business} className="max-w-sm w-1/5 px-2 h-24" />
+									<img src={news_3} className="max-w-sm lg:w-1/5 w-2/5 px-2 h-24" />
 									<div>
 										<h1 className="text-xl font-bold">
 											Journal of Mathematical Economics gains ANU expert
@@ -144,7 +144,7 @@ const News = () => {
 
 							<div className=" mb-3 p-2 border-b-2 border-black ">
 								<div className="flex gap-5 ">
-									<img src={events1} className="max-w-sm w-1/5 px-2 h-24" />
+									<img src={news_4} className="max-w-sm lg:w-1/5 w-2/5 px-2 h-24" />
 									<div>
 										<h1 className="text-xl font-bold">
 											2022 Australasian Actuarial Education and Research
@@ -172,7 +172,7 @@ const News = () => {
 
 							<div className="mb-3 p-2   ">
 								<div className="flex gap-5">
-									<img src={events2} className="max-w-sm w-1/5 px-2 h-24" />
+									<img src={news_5} className="max-w-sm lg:w-1/5 w-2/5 px-2 h-24" />
 									<div>
 										<h1 className="text-xl font-bold">
 											CBE Alumni Networking Event{" "}

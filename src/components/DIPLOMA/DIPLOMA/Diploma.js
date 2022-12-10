@@ -15,27 +15,7 @@ const Diploma = () => {
 		<>
 			<div className="container mx-auto  lg:mb-5">
 				<div className="lg:mx-[100px] shadow">
-					{/* <div className="text-sm breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
-                    <ul>
-                        <li>
-                            <a href="/">Sibs</a>
-                        </li>
-                        
-                        <li>
-                            <a href="/diplomafinance">Diploma in Islamic banking and finance</a>
-                        </li>
-                        <li>
-                            <a href="/diplomaeconomics">Diploma in Islamic economics</a>
-                        </li>
-                        <li>
-                            <a href="/diplomabusinesslaw">Diploma in Islamic business law</a>
-                        </li>
-                        <li>
-                            <a href="/diplomainsurance">Diploma in Islamic insurance</a>
-                        </li>
-
-                    </ul>
-                </div> */}
+					
 				</div>
 			</div>
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">
@@ -101,7 +81,7 @@ const Diploma = () => {
 					</div>
 
 					<div className="lg:mx-[100px] pb-10">
-						<div className="flex bg-sky-500 shadow p-3 mb-5 gap-5">
+						<div className="flex bg-sky-700 shadow p-3 mb-5 gap-5">
 							<div>
 								<a href="/diplomafinance">
 									<img
@@ -134,7 +114,7 @@ const Diploma = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex bg-sky-500 shadow p-3 mb-5 gap-5">
+						<div className="flex bg-sky-700 shadow p-3 mb-5 gap-5">
 							<div>
 								<a href="/diplomaeconomics">
 									<img
@@ -166,7 +146,7 @@ const Diploma = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex bg-sky-500 p-3 mb-5 gap-5">
+						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div>
 								<a href="#">
 									<img
@@ -197,7 +177,7 @@ const Diploma = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex bg-sky-500 p-3 mb-5 gap-5">
+						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div>
 								<a href="#">
 									<img

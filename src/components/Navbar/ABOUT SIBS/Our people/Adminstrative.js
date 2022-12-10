@@ -9,417 +9,416 @@ const Adminstrative = () => {
 		<div className="container mx-auto mb-10 ">
 			<div class=" p-2  w-full  ">
 				<div
-					class="flex flex-col  lg:flex-row  
-            shadow-md lg:mx-[100px]   "
+					className="  
+                shadow-lg lg:mx-[110px]   "
 				>
 					<div className="flex flex-col px-2">
-						<div className="">
-							<div className=" lg:w-full    ">
-								<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
-									<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
-										<ul className="text-sky-700 ">
-											<li>
-												<a href="/">
-													<FontAwesomeIcon
-														icon={faHouse}
-														className="h-6 w-4 px-1  "
-													></FontAwesomeIcon>
-												</a>
-											</li>
-											<li>
-												<p>About Us</p>
-											</li>
-											<li>
-												<a href="/profile"> profile</a>
-											</li>
-											<li>
-												<a href="/people"> Our people</a>
-											</li>
-											<li>
-												<p className="text-black"> Administrative team</p>
-											</li>
-										</ul>
-									</div>
+						<div className=" lg:w-full    ">
+							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
+								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
+									<ul className="text-sky-700 ">
+										<li>
+											<a href="/">
+												<FontAwesomeIcon
+													icon={faHouse}
+													className="h-6 w-4 px-1  "
+												></FontAwesomeIcon>
+											</a>
+										</li>
+										<li>
+											<p>About Us</p>
+										</li>
+										<li>
+											<a href="/profile"> profile</a>
+										</li>
+										<li>
+											<a href="/people"> Our people</a>
+										</li>
+										<li>
+											<p className="text-black"> Administrative team</p>
+										</li>
+									</ul>
+								</div>
 
-									{/* News details start here */}
-									<div className="lg:mx-20 mx-3  ">
-										<h1 className="mb-3 border-t-4 border-sky-700  mt-2"></h1>
-										<h1 className="text-xl font-bold text-sky-700">
-											Our Administrative Team
-										</h1>
-									</div>
+								{/* News details start here */}
+
+								<div className="lg:mx-20 mx-3">
+									<h1 className="mb-3 border-t-4 border-sky-700  mt-2"></h1>
+									<h1 className="text-xl font-bold text-sky-700">
+										Our Administrative Team
+									</h1>
 								</div>
 							</div>
-						</div>
 
-						{/* All new's start from here */}
+							{/* All new's start from here */}
 
-						<div className="lg:mx-24 -mt-5">
-							{/* First news  start here */}
+							<div className="lg:mx-24 -mt-5">
+								{/* First news  start here */}
 
-							<div className=" mb-3 p-2 border-b-2 border-gray   ">
-								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
-									<div>
+								<div className=" mb-3 p-2 border-b-2 border-gray   ">
+									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
+										<div>
+											<img src={female1} className="max-w-sm w-52 px-2 h-44" />
+										</div>
+										<div className="lg:-mx-64">
+											<a href="">
+												<h1 className=" font-bold hover:underline hover:text-blue-500 text-sky-700 cursor-pointer">
+													Nurulhana Mat Junan, Mdm.
+												</h1>
+											</a>
+											<p> Office Secretary</p>
+
+											<p>
+												<span className="font-bold">Phone:</span>+603-9769 4930
+												/ 4907
+											</p>
+											<p>
+												<span className="font-bold">Email:</span>{" "}
+												<span className="text-sky-700 font-bold">
+													doud@sydneyibs.edu.au
+												</span>
+											</p>
+										</div>
+									</div>
+								</div>
+
+								{/* Second news  start here */}
+
+								<div className=" mb-3 p-2 border-b-2 border-gray   ">
+									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
 										<img src={female1} className="max-w-sm w-52 px-2 h-44" />
-									</div>
-									<div className="lg:mx-12">
-										<a href="">
-											<h1 className=" font-bold hover:underline hover:text-blue-500 text-sky-700 cursor-pointer">
-												Nurulhana Mat Junan, Mdm.
+										<div className="lg:-mx-64">
+											<h1 className=" font-bold text-sky-700">
+												Nor Azizah Tamsi, Ms.
 											</h1>
-										</a>
-										<p> Office Secretary</p>
+											<p> Deputy register</p>
 
-										<p>
-											<span className="font-bold">Phone:</span>+603-9769 4930 /
-											4907
-										</p>
-										<p>
-											<span className="font-bold">Email:</span>{" "}
-											<span className="text-sky-700 font-bold">
-												doud@sydneyibs.edu.au
-											</span>
-										</p>
+											<p>
+												<span className="font-bold">Phone:</span>+603-9769 4909
+											</p>
+											<p>
+												<span className="font-bold">Email:</span>{" "}
+												<span className="text-sky-700 font-bold">
+													Hanis@sydneyibs.edu.au
+												</span>
+											</p>
+										</div>
 									</div>
 								</div>
-							</div>
 
-							{/* Second news  start here */}
+								{/* Third news  start here */}
 
-							<div className=" mb-3 p-2 border-b-2 border-gray   ">
-								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
-									<img src={female1} className="max-w-sm w-52 px-2 h-44" />
-									<div className="lg:mx-12">
-										<h1 className=" font-bold text-sky-700">
-											Nor Azizah Tamsi, Ms.
-										</h1>
-										<p> Deputy register</p>
+								<div className="mb-3 p-2 border-b-2 border-gray  ">
+									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
+										<img
+											src={male1}
+											className="max-w-sm w-48 lg:w-52 px-2 h-44"
+										/>
+										<div className="lg:-mx-64">
+											<h1 className=" font-bold text-sky-700">
+												Mohd Firdaus Abd Sakor, Mr.
+											</h1>
+											<p>Assistant engineer</p>
 
-										<p>
-											<span className="font-bold">Phone:</span>+603-9769 4909
-										</p>
-										<p>
-											<span className="font-bold">Email:</span>{" "}
-											<span className="text-sky-700 font-bold">
-												Hanis@sydneyibs.edu.au
-											</span>
-										</p>
+											<p>
+												<span className="font-bold">Phone:</span>+608-3769 4909
+											</p>
+											<p>
+												<span className="font-bold">Email:</span>{" "}
+												<span className="text-sky-700 font-bold">
+													Buda@sydneyibs.edu.au
+												</span>
+											</p>
+										</div>
 									</div>
 								</div>
-							</div>
 
-							{/* Third news  start here */}
+								{/* Fourth news  start here */}
 
-							<div className="mb-3 p-2 border-b-2 border-gray  ">
-								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
-									<img
-										src={male1}
-										className="max-w-sm w-48 lg:w-52 px-2 h-44"
-									/>
-									<div className="lg:mx-12">
-										<h1 className=" font-bold text-sky-700">
-											Mohd Firdaus Abd Sakor, Mr.
-										</h1>
-										<p>Assistant engineer</p>
+								<div className=" mb-3 p-2 border-b-2 border-gray ">
+									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 ">
+										<img
+											src={male1}
+											className="max-w-sm w-48 lg:w-52 px-2 h-44 "
+										/>
+										<div className="lg:-mx-64">
+											<h1 className=" font-bold text-sky-700">
+												Muhammad Almuidzzuddin Zulkaply, Mr.
+											</h1>
+											<p>General Assistant</p>
 
-										<p>
-											<span className="font-bold">Phone:</span>+608-3769 4909
-										</p>
-										<p>
-											<span className="font-bold">Email:</span>{" "}
-											<span className="text-sky-700 font-bold">
-												Buda@sydneyibs.edu.au
-											</span>
-										</p>
+											<p>
+												<span className="font-bold">Phone:</span>+605-3269 4909
+											</p>
+											<p>
+												<span className="font-bold">Email:</span>{" "}
+												<span className="text-sky-700 font-bold">
+													Mahmud@sydneyibs.edu.au
+												</span>
+											</p>
+										</div>
 									</div>
 								</div>
-							</div>
 
-							{/* Fourth news  start here */}
+								{/* Fifth news  start here */}
 
-							<div className=" mb-3 p-2 border-b-2 border-gray ">
-								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 ">
-									<img
-										src={male1}
-										className="max-w-sm w-48 lg:w-52 px-2 h-44 "
-									/>
-									<div className="lg:mx-12">
-										<h1 className=" font-bold text-sky-700">
-											Muhammad Almuidzzuddin Zulkaply, Mr.
-										</h1>
-										<p>General Assistant</p>
+								<div className="mb-3 p-2  border-b-2 border-gray  ">
+									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
+										<img
+											src={female1}
+											className="max-w-sm w-48 lg:w-52 px-2 h-44 "
+										/>
+										<div className="lg:-mx-64">
+											<h1 className=" font-bold text-sky-700">
+												Nur Illiyin Roslan, Mdm.
+											</h1>
+											<p>Administrative assistant</p>
 
-										<p>
-											<span className="font-bold">Phone:</span>+605-3269 4909
-										</p>
-										<p>
-											<span className="font-bold">Email:</span>{" "}
-											<span className="text-sky-700 font-bold">
-												Mahmud@sydneyibs.edu.au
-											</span>
-										</p>
+											<p>
+												<span className="font-bold">Phone:</span>+603-9769 4911
+											</p>
+											<p>
+												<span className="font-bold">Email:</span>{" "}
+												Marzuki@sydneyibs.edu.au
+											</p>
+										</div>
 									</div>
 								</div>
-							</div>
+								<div className=" mb-3 p-2 border-b-2 border-gray  ">
+									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
+										<img
+											src={female1}
+											className="max-w-sm w-48 lg:w-52 px-2 h-44 "
+										/>
+										<div className="lg:-mx-64">
+											<h1 className="font-bold text-sky-700">
+												Syairinnie Abdul Ghapar, Mdm.
+											</h1>
+											<p>Senior administrative assistant</p>
 
-							{/* Fifth news  start here */}
-
-							<div className="mb-3 p-2  border-b-2 border-gray  ">
-								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
-									<img
-										src={female1}
-										className="max-w-sm w-48 lg:w-52 px-2 h-44 "
-									/>
-									<div className="lg:mx-12">
-										<h1 className=" font-bold text-sky-700">
-											Nur Illiyin Roslan, Mdm.
-										</h1>
-										<p>Administrative assistant</p>
-
-										<p>
-											<span className="font-bold">Phone:</span>+603-9769 4911
-										</p>
-										<p>
-											<span className="font-bold">Email:</span>{" "}
-											Marzuki@sydneyibs.edu.au
-										</p>
+											<p>
+												<span className="font-bold">Phone:</span>+603-9769 4906
+											</p>
+											<p>
+												<span className="font-bold">Email:</span>{" "}
+												Fadzil@sydneyibs.edu.au
+											</p>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div className=" mb-3 p-2 border-b-2 border-gray  ">
-								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
-									<img
-										src={female1}
-										className="max-w-sm w-48 lg:w-52 px-2 h-44 "
-									/>
-									<div className="lg:mx-12">
-										<h1 className="font-bold text-sky-700">
-											Syairinnie Abdul Ghapar, Mdm.
-										</h1>
-										<p>Senior administrative assistant</p>
+								<div className=" mb-3 p-2 border-b-2 border-gray    ">
+									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
+										<img
+											src={female1}
+											className="max-w-sm w-48 lg:w-52 px-2 h-44 "
+										/>
+										<div className="lg:-mx-64">
+											<h1 className="font-bold text-sky-700">
+												Munirra Khairudin, Mdm.
+											</h1>
+											<p>Assistant engineer</p>
 
-										<p>
-											<span className="font-bold">Phone:</span>+603-9769 4906
-										</p>
-										<p>
-											<span className="font-bold">Email:</span>{" "}
-											Fadzil@sydneyibs.edu.au
-										</p>
+											<p>
+												<span className="font-bold">Phone:</span>+603-9769 4937
+											</p>
+											<p>
+												<span className="font-bold">Email:</span>{" "}
+												Shamsudin@sydneyibs.edu.au
+											</p>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div className=" mb-3 p-2 border-b-2 border-gray    ">
-								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
-									<img
-										src={female1}
-										className="max-w-sm w-48 lg:w-52 px-2 h-44 "
-									/>
-									<div className="lg:mx-12">
-										<h1 className="font-bold text-sky-700">
-											Munirra Khairudin, Mdm.
-										</h1>
-										<p>Assistant engineer</p>
+								<div className="mb-3 p-2 border-b-2 border-gray   ">
+									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3 ">
+										<img
+											src={male1}
+											className="max-w-sm lg:w-52 w-44 px-2 h-44"
+										/>
+										<div className=" lg:-mx-64">
+											<h1 className=" font-bold text-sky-700">
+												Ashurov Sharofiddin
+											</h1>
+											<p>Assistant engineer</p>
 
-										<p>
-											<span className="font-bold">Phone:</span>+603-9769 4937
-										</p>
-										<p>
-											<span className="font-bold">Email:</span>{" "}
-											Shamsudin@sydneyibs.edu.au
-										</p>
+											<p>
+												<span className="font-bold">Phone:</span>+603-9769 4910
+											</p>
+											<p>
+												<span className="font-bold">Email:</span>{" "}
+												sahbani@sydneyibs.edu.au
+											</p>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div className="mb-3 p-2 border-b-2 border-gray   ">
-								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3 ">
-									<img
-										src={male1}
-										className="max-w-sm lg:w-52 w-44 px-2 h-44"
-									/>
-									<div className=" lg:mx-12">
-										<h1 className=" font-bold text-sky-700">
-											Ashurov Sharofiddin
-										</h1>
-										<p>Assistant engineer</p>
+								<div className="mb-3 p-2 border-b-2 border-gray   ">
+									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
+										<img
+											src={male1}
+											className="max-w-sm lg:w-52 w-44 px-2 h-44"
+										/>
+										<div className="lg:-mx-64">
+											<h1 className=" font-bold text-sky-700">
+												Anuar Abdul, Mr.
+											</h1>
+											<p>Senior admin</p>
 
-										<p>
-											<span className="font-bold">Phone:</span>+603-9769 4910
-										</p>
-										<p>
-											<span className="font-bold">Email:</span>{" "}
-											sahbani@sydneyibs.edu.au
-										</p>
+											<p>
+												<span className="font-bold">Phone:</span>+603-9769 4910
+											</p>
+											<p>
+												<span className="font-bold">Email:</span>{" "}
+												sahbani@sydneyibs.edu.au
+											</p>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div className="mb-3 p-2 border-b-2 border-gray   ">
-								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
-									<img
-										src={male1}
-										className="max-w-sm lg:w-52 w-44 px-2 h-44"
-									/>
-									<div className="lg:mx-12">
-										<h1 className=" font-bold text-sky-700">
-											Anuar Abdul, Mr.
-										</h1>
-										<p>Senior admin</p>
+								<div className="mb-3 p-2 border-b-2 border-gray   ">
+									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
+										<img src={female1} className="max-w-sm w-52 px-2 h-44" />
+										<div className="lg:-mx-64">
+											<h1 className=" font-bold text-sky-700">
+												Siti Noor Fariza Mohd Yusoff, Mdm.
+											</h1>
+											<p>Senior administrative officer</p>
 
-										<p>
-											<span className="font-bold">Phone:</span>+603-9769 4910
-										</p>
-										<p>
-											<span className="font-bold">Email:</span>{" "}
-											sahbani@sydneyibs.edu.au
-										</p>
+											<p>
+												<span className="font-bold">Phone:</span>+603-9769 4910
+											</p>
+											<p>
+												<span className="font-bold">Email:</span>{" "}
+												sahbani@sydneyibs.edu.au
+											</p>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div className="mb-3 p-2 border-b-2 border-gray   ">
-								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
-									<img src={female1} className="max-w-sm w-52 px-2 h-44" />
-									<div className="lg:mx-12">
-										<h1 className=" font-bold text-sky-700">
-											Siti Noor Fariza Mohd Yusoff, Mdm.
-										</h1>
-										<p>Senior administrative officer</p>
+								<div className="mb-3 p-2 border-b-2 border-gray">
+									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
+										<img
+											src={female1}
+											className="max-w-sm lg:w-52 w-44 px-2 h-44"
+										/>
+										<div className="lg:-mx-64">
+											<h1 className=" font-bold text-sky-700">
+												Siti Athirah Anuar, Ms.
+											</h1>
+											<p>Executive officer</p>
 
-										<p>
-											<span className="font-bold">Phone:</span>+603-9769 4910
-										</p>
-										<p>
-											<span className="font-bold">Email:</span>{" "}
-											sahbani@sydneyibs.edu.au
-										</p>
+											<p>
+												<span className="font-bold">Phone:</span>+603-9769 4910
+											</p>
+											<p>
+												<span className="font-bold">Email:</span>{" "}
+												sahbani@sydneyibs.edu.au
+											</p>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div className="mb-3 p-2 border-b-2 border-gray">
-								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
-									<img
-										src={female1}
-										className="max-w-sm lg:w-52 w-44 px-2 h-44"
-									/>
-									<div className="lg:mx-12">
-										<h1 className=" font-bold text-sky-700">
-											Siti Athirah Anuar, Ms.
-										</h1>
-										<p>Executive officer</p>
+								<div className="mb-3 p-2 border-b-2 border-gray   ">
+									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
+										<img
+											src={female1}
+											className="max-w-sm w-48 lg:w-52 px-2 h-44 "
+										/>
+										<div className="lg:-mx-64">
+											<h1 className=" font-bold text-sky-700">
+												Norfarah Hanim binti Othman, Mdm.
+											</h1>
+											<p>Executive officer</p>
 
-										<p>
-											<span className="font-bold">Phone:</span>+603-9769 4910
-										</p>
-										<p>
-											<span className="font-bold">Email:</span>{" "}
-											sahbani@sydneyibs.edu.au
-										</p>
+											<p>
+												<span className="font-bold">Phone:</span>+603-9769 4910
+											</p>
+											<p>
+												<span className="font-bold">Email:</span>{" "}
+												sahbani@sydneyibs.edu.au
+											</p>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div className="mb-3 p-2 border-b-2 border-gray   ">
-								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
-									<img
-										src={female1}
-										className="max-w-sm w-48 lg:w-52 px-2 h-44 "
-									/>
-									<div className="lg:mx-12">
-										<h1 className=" font-bold text-sky-700">
-											Norfarah Hanim binti Othman, Mdm.
-										</h1>
-										<p>Executive officer</p>
+								<div className="mb-3 p-2 border-b-2 border-gray   ">
+									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
+										<img
+											src={male1}
+											className="max-w-sm lg:w-52 w-44 px-2 h-44"
+										/>
+										<div className="lg:-mx-64">
+											<h1 className=" font-bold text-sky-700">Aznan Hasan</h1>
+											<p>Admin</p>
 
-										<p>
-											<span className="font-bold">Phone:</span>+603-9769 4910
-										</p>
-										<p>
-											<span className="font-bold">Email:</span>{" "}
-											sahbani@sydneyibs.edu.au
-										</p>
+											<p>
+												<span className="font-bold">Phone:</span>+603-9769 4910
+											</p>
+											<p>
+												<span className="font-bold">Email:</span>{" "}
+												sahbani@sydneyibs.edu.au
+											</p>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div className="mb-3 p-2 border-b-2 border-gray   ">
-								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
-									<img
-										src={male1}
-										className="max-w-sm lg:w-52 w-44 px-2 h-44"
-									/>
-									<div className="lg:mx-12">
-										<h1 className=" font-bold text-sky-700">Aznan Hasan</h1>
-										<p>Admin</p>
+								<div className="mb-3 p-2 border-b-2 border-gray   ">
+									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
+										<img
+											src={female1}
+											className="max-w-sm lg:w-52 w-44 px-2 h-44"
+										/>
+										<div className="lg:-mx-64">
+											<h1 className=" font-bold text-sky-700">
+												Nor Hanisah Shafie, Ms.
+											</h1>
+											<p>Administrative assistant</p>
 
-										<p>
-											<span className="font-bold">Phone:</span>+603-9769 4910
-										</p>
-										<p>
-											<span className="font-bold">Email:</span>{" "}
-											sahbani@sydneyibs.edu.au
-										</p>
+											<p>
+												<span className="font-bold">Phone:</span>+603-9769 4910
+											</p>
+											<p>
+												<span className="font-bold">Email:</span>{" "}
+												sahbani@sydneyibs.edu.au
+											</p>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div className="mb-3 p-2 border-b-2 border-gray   ">
-								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
-									<img
-										src={female1}
-										className="max-w-sm lg:w-52 w-44 px-2 h-44"
-									/>
-									<div className="lg:mx-12">
-										<h1 className=" font-bold text-sky-700">
-											Nor Hanisah Shafie, Ms.
-										</h1>
-										<p>Administrative assistant</p>
+								<div className="mb-3 p-2 border-b-2 border-gray   ">
+									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
+										<img
+											src={male1}
+											className="max-w-sm lg:w-52 w-44 px-2 h-52"
+										/>
+										<div className="lg:-mx-64">
+											<h1 className=" font-bold text-sky-700">
+												Azrul Azman, Mr.
+											</h1>
+											<p>Operation assistant</p>
 
-										<p>
-											<span className="font-bold">Phone:</span>+603-9769 4910
-										</p>
-										<p>
-											<span className="font-bold">Email:</span>{" "}
-											sahbani@sydneyibs.edu.au
-										</p>
+											<p>
+												<span className="font-bold">Phone:</span>+603-9769 4910
+											</p>
+											<p>
+												<span className="font-bold">Email:</span>{" "}
+												sahbani@sydneyibs.edu.au
+											</p>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div className="mb-3 p-2 border-b-2 border-gray   ">
-								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
-									<img
-										src={male1}
-										className="max-w-sm lg:w-52 w-44 px-2 h-52"
-									/>
-									<div className="lg:mx-12">
-										<h1 className=" font-bold text-sky-700">
-											Azrul Azman, Mr.
-										</h1>
-										<p>Operation assistant</p>
+								<div className="mb-3 p-2   ">
+									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
+										<img
+											src={male1}
+											className="max-w-sm lg:w-52 w-44 px-2 h-52 "
+										/>
+										<div className="lg:-mx-64">
+											<h1 className=" font-bold text-sky-700">
+												Md Lukma Nul Hakim Saad, Mr.
+											</h1>
+											<p>Administrative assistant</p>
 
-										<p>
-											<span className="font-bold">Phone:</span>+603-9769 4910
-										</p>
-										<p>
-											<span className="font-bold">Email:</span>{" "}
-											sahbani@sydneyibs.edu.au
-										</p>
-									</div>
-								</div>
-							</div>
-							<div className="mb-3 p-2   ">
-								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
-									<img
-										src={male1}
-										className="max-w-sm lg:w-52 w-44 px-2 h-52 "
-									/>
-									<div className="lg:mx-12">
-										<h1 className=" font-bold text-sky-700">
-											Md Lukma Nul Hakim Saad, Mr.
-										</h1>
-										<p>Administrative assistant</p>
-
-										<p>
-											<span className="font-bold">Phone:</span>+603-9769 4910
-										</p>
-										<p>
-											<span className="font-bold">Email:</span>{" "}
-											sahbani@sydneyibs.edu.au
-										</p>
+											<p>
+												<span className="font-bold">Phone:</span>+603-9769 4910
+											</p>
+											<p>
+												<span className="font-bold">Email:</span>{" "}
+												sahbani@sydneyibs.edu.au
+											</p>
+										</div>
 									</div>
 								</div>
 							</div>

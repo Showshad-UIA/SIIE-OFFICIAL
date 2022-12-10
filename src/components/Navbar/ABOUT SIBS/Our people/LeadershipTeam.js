@@ -9,7 +9,7 @@ const LeadershipTeam = () => {
 			<div class=" p-2  w-full  ">
 				<div
 					className="  
-                shadow-lg lg:mx-[100px]   "
+                shadow-lg lg:mx-[110px]   "
 				>
 					<div className="flex flex-col px-2">
 						<div className=" lg:w-full    ">
@@ -40,7 +40,7 @@ const LeadershipTeam = () => {
 								</div>
 
 								{/* News details start here */}
-								<div></div>
+
 								<div className="lg:mx-20 mx-3">
 									<h1 className="mb-3 border-t-4 border-sky-700  mt-2"></h1>
 									<h1 className="text-xl font-bold text-sky-700">
@@ -59,7 +59,7 @@ const LeadershipTeam = () => {
 										<div>
 											<img src={male1} className="max-w-sm w-52 px-2 h-44" />
 										</div>
-										<div className="lg:-mx-16">
+										<div className="lg:-mx-64">
 											<a href="">
 												<h1 className=" font-bold hover:underline hover:text-blue-500 text-sky-700 cursor-pointer">
 													Ganesh G.Thanasegaran, Mr.
@@ -90,7 +90,7 @@ const LeadershipTeam = () => {
 								<div className=" mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
 										<img src={male1} className="max-w-sm w-52 px-2 h-44" />
-										<div className="lg:-mx-16">
+										<div className="lg:-mx-64">
 											<h1 className=" font-bold text-sky-700">
 												Sridar Ramachandran, PhD
 											</h1>
@@ -120,7 +120,7 @@ const LeadershipTeam = () => {
 											src={male1}
 											className="max-w-sm w-48 lg:w-52 px-2 h-44"
 										/>
-										<div className="lg:-mx-16">
+										<div className="lg:-mx-64">
 											<h1 className=" font-bold text-sky-700">
 												Saifuzzaman Ibrahim
 											</h1>
@@ -150,14 +150,14 @@ const LeadershipTeam = () => {
 											src={male1}
 											className="max-w-sm w-48 lg:w-52 px-2 h-44 "
 										/>
-										<div className="lg:-mx-16">
+										<div className="lg:-mx-64">
 											<h1 className=" font-bold text-sky-700">
 												Anuar Shah Bali Mahomed, PhD
 											</h1>
 											<p>Graduate Coordinator</p>
 											<p>
 												<span className="font-bold">Expertise:</span> Technology
-												Adoption, Cultural Studies, Technology Management
+												Adoption, Cultural Studies
 											</p>
 											<p>
 												<span className="font-bold">Phone:</span>+605-3269 4909
@@ -180,7 +180,7 @@ const LeadershipTeam = () => {
 											src={male1}
 											className="max-w-sm w-48 lg:w-52 px-2 h-44 "
 										/>
-										<div className="lg:-mx-16">
+										<div className="lg:-mx-64">
 											<h1 className=" font-bold text-sky-700">
 												Ahmad Fahmi Sheikh Hassan
 											</h1>
@@ -205,7 +205,7 @@ const LeadershipTeam = () => {
 											src={female1}
 											className="max-w-sm w-48 lg:w-52 px-2 h-44 "
 										/>
-										<div className="lg:-mx-16">
+										<div className="lg:-mx-64">
 											<h1 className="font-bold text-sky-700">
 												Nor Yasmin Mhd Bani, PhD
 											</h1>
@@ -231,7 +231,7 @@ const LeadershipTeam = () => {
 											src={female1}
 											className="max-w-sm w-48 lg:w-52 px-2 h-44 "
 										/>
-										<div className="lg:-mx-16">
+										<div className="lg:-mx-64">
 											<h1 className="font-bold text-sky-700">
 												Khadijah Bt. Mohd. Isa
 											</h1>
@@ -256,15 +256,14 @@ const LeadershipTeam = () => {
 											src={female1}
 											className="max-w-sm w-48 lg:w-52 px-2 h-44 "
 										/>
-										<div className="lg:-mx-16">
+										<div className="lg:-mx-64">
 											<h1 className="font-bold text-sky-700">
 												Ridzwana Mohd Said
 											</h1>
 											<p> Head Of Programme</p>
 											<p>
 												<span className="font-bold">Expertise:</span> Corporate
-												Social and Environmental Reporting, Sustainability
-												Reporting
+												Social and Environmental Reporting
 											</p>
 											<p>
 												<span className="font-bold">Phone:</span>+603-9769 4937
@@ -278,7 +277,7 @@ const LeadershipTeam = () => {
 											src={female1}
 											className="max-w-sm w-48 lg:w-52 px-2 h-44 "
 										/>
-										<div className="lg:-mx-16">
+										<div className="lg:-mx-64">
 											<h1 className="font-bold text-sky-700">
 												Haslinda Hashim
 											</h1>
@@ -303,7 +302,7 @@ const LeadershipTeam = () => {
 											src={male1}
 											className="max-w-sm lg:w-52 w-44 px-2 h-44"
 										/>
-										<div className=" lg:-mx-16">
+										<div className=" lg:-mx-64">
 											<h1 className=" font-bold text-sky-700">
 												Ashurov Sharofiddin
 											</h1>
@@ -328,7 +327,7 @@ const LeadershipTeam = () => {
 											src={male1}
 											className="max-w-sm lg:w-52 w-44 px-2 h-44"
 										/>
-										<div className="lg:-mx-16">
+										<div className="lg:-mx-64">
 											<h1 className=" font-bold text-sky-700">
 												anisuzzaman Ibrahim
 											</h1>
@@ -350,14 +349,14 @@ const LeadershipTeam = () => {
 								<div className="mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img src={male1} className="max-w-sm w-52 px-2 h-44" />
-										<div className="lg:-mx-16">
+										<div className="lg:-mx-64">
 											<h1 className=" font-bold text-sky-700">
 												sany Amin Noordin
 											</h1>
 											<p>Senior Lecturer</p>
 											<p>
 												<span className="font-bold">Expertise:</span> Managerial
-												Finance, Corporate Finance, Advanced Managerial Finance
+												Finance, Corporate Finance
 											</p>
 											<p>
 												<span className="font-bold">Phone:</span>+603-9769 4910
@@ -375,7 +374,7 @@ const LeadershipTeam = () => {
 											src={male1}
 											className="max-w-sm lg:w-52 w-44 px-2 h-44"
 										/>
-										<div className="lg:-mx-16">
+										<div className="lg:-mx-64">
 											<h1 className=" font-bold text-sky-700">
 												Sahbani Saimin
 											</h1>
@@ -400,7 +399,7 @@ const LeadershipTeam = () => {
 											src={female1}
 											className="max-w-sm w-48 lg:w-52 px-2 h-44 "
 										/>
-										<div className="lg:-mx-16">
+										<div className="lg:-mx-64">
 											<h1 className=" font-bold text-sky-700">
 												Salina Bt. Kassim
 											</h1>
@@ -425,7 +424,7 @@ const LeadershipTeam = () => {
 											src={male1}
 											className="max-w-sm lg:w-52 w-44 px-2 h-44"
 										/>
-										<div className="lg:-mx-16">
+										<div className="lg:-mx-64">
 											<h1 className=" font-bold text-sky-700">
 												Hznan Bin kamal
 											</h1>

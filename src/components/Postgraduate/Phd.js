@@ -14,10 +14,10 @@ const Phd = () => {
 	return (
 		<>
 			<div className="container mx-auto  lg:mb-5">
-				<div className="lg:mx-[100px] shadow"></div>
+		
 			</div>
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">
-				<div className="lg:mx-[100px] shadow ">
+				<div className="lg:mx-[110px] shadow ">
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">

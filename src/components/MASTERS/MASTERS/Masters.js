@@ -110,7 +110,7 @@ const Masters = () => {
 					</div> */}
 
 					<div className="lg:mx-[100px] pb-10">
-						<div className="flex bg-sky-500 shadow p-5 mb-5 gap-5">
+						<div className="flex bg-sky-700 shadow p-5 mb-5 gap-5">
 							<div>
 								<a href="/financeresearch">
 									<img
@@ -143,7 +143,7 @@ const Masters = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex bg-sky-500 shadow p-3 mb-5 gap-5">
+						<div className="flex bg-sky-700 shadow p-3 mb-5 gap-5">
 							<div>
 								<a href="/economicsresearch">
 									<img
@@ -173,7 +173,7 @@ const Masters = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex bg-sky-500 p-3 mb-5 gap-5">
+						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div>
 								<a href="/businesslawresearch">
 									<img
@@ -204,7 +204,7 @@ const Masters = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex bg-sky-500 p-3 mb-5 gap-5">
+						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div>
 								<a href="/insuranceresearch">
 									<img
@@ -233,7 +233,7 @@ const Masters = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex bg-sky-500 p-3 mb-5 gap-5">
+						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div>
 								<a href="/managementresearch">
 									<img
@@ -262,7 +262,7 @@ const Masters = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex bg-sky-500 p-3 mb-5 gap-5">
+						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div>
 								<a href="/Intbusinessresearch">
 									<img

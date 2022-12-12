@@ -11,7 +11,10 @@ const FutureStudentsMain = () => {
 		<>
 			<div className="container mx-auto lg:-mt-[67px]  sm:mb-5 ">
 				<div class="lg:mx-28 lg:w-[85%] md:mx-20 sm:w-full md:w-4/5   ">
+					{/* future students main component start here  */}
+
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-10  lg:grid-cols-3 ">
+						{/* Our Programs */}
 						<div className="">
 							<figure>
 								<a href="/phd">
@@ -44,6 +47,7 @@ const FutureStudentsMain = () => {
 							</div>
 						</div>
 
+						{/* Finding a Supervisor */}
 						<div className=" ">
 							<figure>
 								<a href="/supervisors">
@@ -66,6 +70,9 @@ const FutureStudentsMain = () => {
 								</p>
 							</div>
 						</div>
+
+						{/* Fees & Scholarships */}
+
 						<div className=" ">
 							<figure>
 								<img
@@ -88,6 +95,8 @@ const FutureStudentsMain = () => {
 							</div>
 						</div>
 
+						{/* Application Deadlines */}
+
 						<div className=" ">
 							<figure>
 								<img
@@ -108,6 +117,8 @@ const FutureStudentsMain = () => {
 								</p>
 							</div>
 						</div>
+
+						{/* How to Apply */}
 
 						<div className="">
 							<a href="/apply">
@@ -131,6 +142,9 @@ const FutureStudentsMain = () => {
 								</p>
 							</div>
 						</div>
+
+						{/* Frequently Asked Questions */}
+
 						<div className="">
 							<figure>
 								<img

@@ -1,13 +1,15 @@
-import React from 'react';
+import React from "react";
 
 const GDProgramDetails = () => {
-    return (
-        <div className="lg:-mt-5">
+	return (
+		<div className="lg:-mt-5">
 			<div className="container mx-auto ">
-				<div className="lg:mx-[100px]">
+				<div className="lg:mx-[110px]">
 					<div className="">
+						{/* Program details component start here */}
 						<div className="shadow lg:w-full    ">
 							<div className=" bg-gray-100 lg:px-8 px-3 py-1 pb-10  ">
+								{/* Research areas */}
 								<div className="  " id="Research">
 									<h1 className="lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Research areas
@@ -73,6 +75,9 @@ const GDProgramDetails = () => {
 										</div>
 									</p>
 								</div>
+
+								{/* Program structure */}
+
 								<div className=" mt-5 " id="structure">
 									<h1 className="lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Program structure
@@ -90,18 +95,19 @@ const GDProgramDetails = () => {
 												diploma coursework component
 											</h1>
 											<p>
-												In the coursework component, diploma candidates undertake
-												a comprehensive set of courses designed to provide
-												training in the theory and methods necessary to conduct
-												high-quality business research. These courses are
-												academically rigorous and will be examined. Candidates
-												take up to 18 months to complete the coursework, a total
-												of 36 units of credit (UOC). The 36UOC worth of
-												coursework that you are required to complete has a core
-												component consisting of 24UOC and a disciplinary
-												component of 12UOC from a selection of units. Upon
-												successful completion of the coursework, diploma
-												candidates will progress to the research component.{" "}
+												In the coursework component, diploma candidates
+												undertake a comprehensive set of courses designed to
+												provide training in the theory and methods necessary to
+												conduct high-quality business research. These courses
+												are academically rigorous and will be examined.
+												Candidates take up to 18 months to complete the
+												coursework, a total of 36 units of credit (UOC). The
+												36UOC worth of coursework that you are required to
+												complete has a core component consisting of 24UOC and a
+												disciplinary component of 12UOC from a selection of
+												units. Upon successful completion of the coursework,
+												diploma candidates will progress to the research
+												component.{" "}
 											</p>
 											<p className="mt-3">
 												The standard coursework structure for the PhD is as
@@ -342,9 +348,9 @@ const GDProgramDetails = () => {
 												All diploma candidates must complete the Research
 												Integrity Training and pass the exam within three to six
 												months of enrolment. Completion of this course and exam
-												is a compulsory milestone for all diploma candidates. For
-												more information on research integrity training, please
-												visit our page.
+												is a compulsory milestone for all diploma candidates.
+												For more information on research integrity training,
+												please visit our page.
 											</p>
 											<h1 className="text-md  font-bold text-black my-3">
 												Annual progress reviews
@@ -373,6 +379,8 @@ const GDProgramDetails = () => {
 										</div>
 									</p>
 								</div>
+
+								{/* Admission requirements */}
 
 								<div className="  " id="Admission">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
@@ -457,8 +465,8 @@ const GDProgramDetails = () => {
 											proposal
 										</li>
 										<li>
-											- copies of written research work, e.g., honours or diploma
-											thesis, research project, or published works
+											- copies of written research work, e.g., honours or
+											diploma thesis, research project, or published works
 										</li>
 										<li>
 											- certified copies of academic transcripts for Bachelor
@@ -505,6 +513,8 @@ const GDProgramDetails = () => {
 									</p>
 								</div>
 
+								{/* Course outcome */}
+
 								<div className="  " id="outcome">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Course outcome
@@ -539,6 +549,8 @@ const GDProgramDetails = () => {
 										</li>
 									</ul>
 								</div>
+
+								{/* Fees & Scholarship */}
 
 								<div className="  " id="Fees">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
@@ -579,6 +591,9 @@ const GDProgramDetails = () => {
 										the middle-end of February.
 									</p>
 								</div>
+
+								{/* Contact us */}
+
 								<div className=" ">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Contact us
@@ -595,7 +610,7 @@ const GDProgramDetails = () => {
 				</div>
 			</div>
 		</div>
-    );
+	);
 };
 
 export default GDProgramDetails;

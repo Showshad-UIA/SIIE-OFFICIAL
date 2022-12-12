@@ -8,15 +8,15 @@ const Supervisors = () => {
 	return (
 		<div className="container mx-auto mb-10 ">
 			<div class=" p-2  w-full  ">
-				{/* News content start here */}
 				<div
 					class="flex flex-col  lg:flex-row  
-                shadow-md lg:mx-[100px]   "
+                shadow-md lg:mx-[110px]   "
 				>
 					<div className="flex flex-col px-2">
 						<div className="">
 							<div className=" lg:w-full    ">
 								<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
+									{/* breadcrumb start  here */}
 									<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 										<ul className="text-sky-700 ">
 											<li>
@@ -37,9 +37,11 @@ const Supervisors = () => {
 												<p className="text-black"> Finding supervisors</p>
 											</li>
 										</ul>
+										{/* breadcrumb start  here */}
 									</div>
 
-									{/* News details start here */}
+									{/* Academic team list start here*/}
+
 									<div className="lg:mx-20 mx-3  ">
 										<h1 className="mb-3 border-t-4 border-sky-700  mt-2"></h1>
 										<h1 className="text-xl font-bold text-sky-700">
@@ -50,10 +52,8 @@ const Supervisors = () => {
 							</div>
 						</div>
 
-						{/* All new's start from here */}
-
 						<div className="lg:mx-24 -mt-5">
-							{/* First news  start here */}
+							{/* staff-1  start here */}
 
 							<div className=" mb-3 p-2 border-b-2 border-gray   ">
 								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
@@ -89,7 +89,7 @@ const Supervisors = () => {
 								</div>
 							</div>
 
-							{/* Second news  start here */}
+							{/* staff-2  start here */}
 
 							<div className=" mb-3 p-2 border-b-2 border-gray   ">
 								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
@@ -119,7 +119,7 @@ const Supervisors = () => {
 								</div>
 							</div>
 
-							{/* Third news  start here */}
+							{/* staff-3  start here */}
 
 							<div className="mb-3 p-2 border-b-2 border-gray  ">
 								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
@@ -154,7 +154,7 @@ const Supervisors = () => {
 								</div>
 							</div>
 
-							{/* Fourth news  start here */}
+							{/* staff-4  start here */}
 
 							<div className=" mb-3 p-2 border-b-2 border-gray ">
 								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 ">
@@ -188,7 +188,7 @@ const Supervisors = () => {
 								</div>
 							</div>
 
-							{/* Fifth news  start here */}
+							{/* staff-5  start here */}
 
 							<div className="mb-3 p-2  border-b-2 border-gray  ">
 								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
@@ -217,6 +217,9 @@ const Supervisors = () => {
 									</div>
 								</div>
 							</div>
+
+							{/* staff-6  start here */}
+
 							<div className=" mb-3 p-2 border-b-2 border-gray  ">
 								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
 									<img
@@ -246,6 +249,9 @@ const Supervisors = () => {
 									</div>
 								</div>
 							</div>
+
+							{/* staff-7  start here */}
+
 							<div className=" mb-3 p-2 border-b-2 border-gray    ">
 								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
 									<img
@@ -276,6 +282,8 @@ const Supervisors = () => {
 									</div>
 								</div>
 							</div>
+							{/* staff-8  start here */}
+
 							<div className="mb-3 p-2 border-b-2 border-gray   ">
 								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3 ">
 									<img
@@ -305,6 +313,9 @@ const Supervisors = () => {
 									</div>
 								</div>
 							</div>
+
+							{/* staff-9  start here */}
+
 							<div className="mb-3 p-2 border-b-2 border-gray   ">
 								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 									<img
@@ -334,6 +345,9 @@ const Supervisors = () => {
 									</div>
 								</div>
 							</div>
+
+							{/* staff-10  start here */}
+
 							<div className="mb-3 p-2 border-b-2 border-gray   ">
 								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 									<img src={male1} className="max-w-sm w-52 px-2 h-44" />
@@ -361,6 +375,9 @@ const Supervisors = () => {
 									</div>
 								</div>
 							</div>
+
+							{/* staff-11  start here */}
+
 							<div className="mb-3 p-2 border-b-2 border-gray">
 								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 									<img
@@ -390,6 +407,9 @@ const Supervisors = () => {
 									</div>
 								</div>
 							</div>
+
+							{/* staff-12  start here */}
+
 							<div className="mb-3 p-2 border-b-2 border-gray   ">
 								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 									<img
@@ -420,6 +440,9 @@ const Supervisors = () => {
 									</div>
 								</div>
 							</div>
+
+							{/* staff-13  start here */}
+
 							<div className="mb-3 p-2 border-b-2 border-gray   ">
 								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 									<img
@@ -448,6 +471,9 @@ const Supervisors = () => {
 									</div>
 								</div>
 							</div>
+
+							{/* staff-14  start here */}
+
 							<div className="mb-3 p-2 border-b-2 border-gray   ">
 								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 									<img
@@ -477,6 +503,9 @@ const Supervisors = () => {
 									</div>
 								</div>
 							</div>
+
+							{/* staff-15  start here */}
+
 							<div className="mb-3 p-2 border-b-2 border-gray   ">
 								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 									<img
@@ -506,6 +535,9 @@ const Supervisors = () => {
 									</div>
 								</div>
 							</div>
+
+							{/* staff-16  start here */}
+
 							<div className="mb-3 p-2   ">
 								<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 									<img

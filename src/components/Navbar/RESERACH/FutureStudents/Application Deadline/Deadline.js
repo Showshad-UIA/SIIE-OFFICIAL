@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Deadline.css";
 import Chevron from "../Application Deadline/Chevron.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight, faHouse } from "@fortawesome/free-solid-svg-icons";
 
 const Deadline = () => {
 	const [step1, setStep1] = useState(false);
@@ -13,53 +13,61 @@ const Deadline = () => {
 	return (
 		<div className="accordion container mx-auto  ">
 			<div className="pb-5">
-				<div className="lg:mx-[100px] shadow-md ">
-					<div className=" mx-3 flex text-sky-700 text-md font-bold cursor-pointer  ">
-						<div>
-							Graduate Research{" "}
-							<FontAwesomeIcon
-								icon={faChevronRight}
-								className="h-4 w-2 px-1  "
-							></FontAwesomeIcon>
-						</div>
-						<div className="">
-							<a href="/future" className="hover:underline">Future Students</a>
-							<FontAwesomeIcon
-								icon={faChevronRight}
-								className="h-4 w-2 px-1  "
-							></FontAwesomeIcon>
-						</div>
-						<div className="">Application Deadlines</div>
+				<div className="lg:mx-[110px] shadow-md ">
+					{/* breadcrumb added here */}
+					<div className="text-md breadcrumbs md:px-6  ">
+						<ul className="text-sky-700 ">
+							<li>
+								<a href="/">
+									<FontAwesomeIcon
+										icon={faHouse}
+										className="h-6 w-4 px-1  "
+									></FontAwesomeIcon>
+								</a>
+							</li>
+							<li>
+								<p>Graduate Research</p>
+							</li>
+							<li>
+								<a href="/future"> Future students</a>
+							</li>
+							<li>
+								<p className="text-black">Application Deadline</p>
+							</li>
+						</ul>
+						{/* breadcrumb ended here */}
 					</div>
-					<div className="mx-3" >
-						<h1 className="mb-3 border-t-4 border-sky-700   mt-2"></h1>
-						<h1 className="text-2xl font-bold my-3">Application Deadlines</h1>
-						<p className="mb-3">
-							Applications must be submitted by the application deadline for the
-							intended study period (Term), to ensure the acceptance and
-							enrolment processes are completed by the Term Start Dates. Please
-							use the toggles below to find out more about key dates for
-							admission and scholarships .
-						</p>
-						<p className="mb-3">
-							All mandatory supporting documents listed in the{" "}
-							<span className="text-sky-700 cursor-pointer hover:underline">
-								Document Submission Guidelines
-							</span>{" "}
-							are required by the application deadline, including satisfactory
-							evidence of having met the{" "}
-							<span className="text-sky-700 cursor-pointer hover:underline">
-								Sydney IBS English language requirements
-							</span>
-							.
-						</p>
-						<p className="mb-10 text-md">
-							Looking for information on how to apply? Please visit{" "}
-							<span className="text-sky-700 cursor-pointer hover:underline">
-								this page
-							</span>
-							.
-						</p>
+					<div className="">
+						<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-7   mt-2"></h1>
+						<div className="mx-5">
+							<h1 className="text-2xl font-bold my-3">Application Deadlines</h1>
+							<p className="mb-3">
+								Applications must be submitted by the application deadline for
+								the intended study period (Term), to ensure the acceptance and
+								enrolment processes are completed by the Term Start Dates.
+								Please use the toggles below to find out more about key dates
+								for admission and scholarships .
+							</p>
+							<p className="mb-3">
+								All mandatory supporting documents listed in the{" "}
+								<span className="text-sky-700 cursor-pointer hover:underline">
+									Document Submission Guidelines
+								</span>{" "}
+								are required by the application deadline, including satisfactory
+								evidence of having met the{" "}
+								<span className="text-sky-700 cursor-pointer hover:underline">
+									Sydney IBS English language requirements
+								</span>
+								.
+							</p>
+							<p className="mb-10 text-md">
+								Looking for information on how to apply? Please visit{" "}
+								<span className="text-sky-700 cursor-pointer hover:underline">
+									this page
+								</span>
+								.
+							</p>
+						</div>
 					</div>
 					<button
 						onClick={() => setStep1(!step1)}

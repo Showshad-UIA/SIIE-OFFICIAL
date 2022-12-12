@@ -4,10 +4,14 @@ const DiplomaEconomicsDetails = () => {
 	return (
 		<div className="lg:-mt-5">
 			<div className="container mx-auto ">
-				<div className="lg:mx-[100px]">
+				<div className="lg:mx-[110px]">
 					<div className="">
+						{/* program details added here */}
+
 						<div className="shadow lg:w-full    ">
 							<div className=" bg-gray-100 lg:px-8 px-3 py-1 pb-10  ">
+								{/* Research areas */}
+
 								<div className="  " id="Research">
 									<h1 className="lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Research areas
@@ -26,6 +30,9 @@ const DiplomaEconomicsDetails = () => {
 										</div>
 									</p>
 								</div>
+
+								{/* Program structure */}
+
 								<div className=" mt-5 " id="structure">
 									<h1 className="lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Program structure
@@ -200,6 +207,8 @@ const DiplomaEconomicsDetails = () => {
 									</p>
 								</div>
 
+								{/* Admission requirements */}
+
 								<div className="  " id="Admission">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Admission requirements
@@ -330,6 +339,8 @@ const DiplomaEconomicsDetails = () => {
 									</p>
 								</div>
 
+								{/* Course outcome */}
+
 								<div className="  " id="outcome">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Course outcome
@@ -369,6 +380,8 @@ const DiplomaEconomicsDetails = () => {
 									</ul>
 								</div>
 
+								{/* Fees & Scholarship */}
+
 								<div className="  " id="Fees">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Fees | Scholarship
@@ -378,6 +391,8 @@ const DiplomaEconomicsDetails = () => {
 										For more information, visit our page on Fees | Scholarships.
 									</p>
 								</div>
+
+								{/* Application Process */}
 
 								<div className="  " id="Application">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
@@ -408,6 +423,9 @@ const DiplomaEconomicsDetails = () => {
 										the middle-end of February.
 									</p>
 								</div>
+
+								{/* Contact us */}
+
 								<div className=" ">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Contact us

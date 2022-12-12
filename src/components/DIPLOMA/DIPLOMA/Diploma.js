@@ -1,8 +1,6 @@
 import { faChevronRight, faHouse } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import DiplomaMain from "./DiplomaMain";
-
 import finance from "../../../Carosel/Asset/Islamic finance and banking.jpg";
 import economics from "../../../Carosel/Asset/Islamic economics.jpg";
 import business from "../../../Carosel/Asset/business law.jpg";
@@ -13,16 +11,12 @@ import IBusiness from "../../../Carosel/Asset/International-Business.png";
 const Diploma = () => {
 	return (
 		<>
-			<div className="container mx-auto  lg:mb-5">
-				<div className="lg:mx-[100px] shadow">
-					
-				</div>
-			</div>
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">
 				<div className="lg:mx-[100px] shadow ">
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
+								{/* breadcrumb added here */}
 								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 									<ul className="text-sky-700 ">
 										<li>
@@ -40,7 +34,10 @@ const Diploma = () => {
 											<p className="text-black"> Graduate diploma</p>
 										</li>
 									</ul>
+									{/* breadcrumb ended here */}
 								</div>
+
+								{/* Graduate Diploma program summary */}
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
 									<h1 className="text-sky-700 text-2xl font-bold lg:px-20 px-3 ">
@@ -68,6 +65,9 @@ const Diploma = () => {
 										to a diploma programme, you should carefully evaluate all
 										discipline-specific material.
 									</p>
+
+									{/* Graduate diploma program page added here */}
+
 									<p className="text-justify mt-3 lg:px-20 px-3">
 										Read more about Sydney IBS
 										<a href="/gdiplomaprogram" className="text-sky-700 px-2">
@@ -80,7 +80,10 @@ const Diploma = () => {
 						</div>
 					</div>
 
-					<div className="lg:mx-[100px] pb-10">
+					{/* Graduate Diploma courses added here */}
+
+					<div className="lg:mx-[110px] pb-10">
+						{/* Diploma in Islamic Banking and Finance */}
 						<div className="flex bg-sky-700 shadow p-3 mb-5 gap-5">
 							<div>
 								<a href="/diplomafinance">
@@ -114,6 +117,9 @@ const Diploma = () => {
 								</p>
 							</div>
 						</div>
+
+						{/* Diploma in Islamic Economics */}
+
 						<div className="flex bg-sky-700 shadow p-3 mb-5 gap-5">
 							<div>
 								<a href="/diplomaeconomics">
@@ -146,6 +152,9 @@ const Diploma = () => {
 								</p>
 							</div>
 						</div>
+
+						{/* Diploma in Islamic Business Law */}
+
 						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div>
 								<a href="#">
@@ -177,6 +186,9 @@ const Diploma = () => {
 								</p>
 							</div>
 						</div>
+
+						{/* Diploma in Islamic Insurance */}
+
 						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div>
 								<a href="#">
@@ -208,66 +220,6 @@ const Diploma = () => {
 								</p>
 							</div>
 						</div>
-						{/* <div className="flex bg-blue-600 p-3 mb-5 gap-5">
-                        <div>
-                            <a href="/diplomamanagement">
-                                <img
-                                    src={Management}
-                                    alt=""
-                                    className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
-                                />
-                            </a>
-                        </div>
-                        <div className='w-[75%]'>
-                            <a href="/diplomamanagement">
-                                <p className="text-2xl mb-5 text-white">Management</p>
-                                <p className="mb-3 text-white text-justify">
-                                    Management is the coordination and administration of tasks
-                                    to achieve a goal. Such administration activities include
-                                    setting the organization’s strategy and coordinating the
-                                    efforts of staff to
-                                </p>
-                            </a>
-                            <p className="text-right  cursor-pointer text-white">
-                                Find out more
-                                <FontAwesomeIcon
-                                    icon={faChevronRight}
-                                    className="h-3 w-2"
-                                ></FontAwesomeIcon>
-                            </p>
-                        </div>
-                    </div> */}
-						{/* <div className="flex bg-blue-600 p-3 mb-5 gap-5">
-                        <div>
-                            <a href="/diplomaIntbusiness">
-                                <img
-                                    src={IBusiness}
-                                    alt=""
-                                    className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
-                                />
-                            </a>
-                        </div>
-                        <div className='w-[75%]'>
-                            <a href="/diplomaIntbusiness">
-                                <p className="text-2xl text-white  mb-5">
-                                    International Business
-                                </p>
-                                <p className="mb-3 text-white text-justify">
-                                    International business relates to any situation where the
-                                    production or distribution of goods or services crosses
-                                    country borders. Globalization—the shift toward a more
-                                    International business
-                                </p>
-                            </a>
-                            <p className="text-right  cursor-pointer text-white">
-                                Find out more
-                                <FontAwesomeIcon
-                                    icon={faChevronRight}
-                                    className="h-3 w-2"
-                                ></FontAwesomeIcon>
-                            </p>
-                        </div>
-                    </div> */}
 					</div>
 				</div>
 			</div>

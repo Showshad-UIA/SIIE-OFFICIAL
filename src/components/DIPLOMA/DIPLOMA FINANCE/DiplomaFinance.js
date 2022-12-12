@@ -1,32 +1,45 @@
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import DiplomaFinanceDetails from "./DiplomaFinanceDetails";
 import DiplomaFinanceMain from "./DiplomaFinanceMain";
-import DiplomaFinanceSidebar from "./DiplomaFinanceSidebar";
 
 const DiplomaFinance = () => {
 	return (
 		<div className="">
-			{/* PhD sub pages added here using breadcrumbs */}
 			<div className="container mx-auto  lg:mb-5">
-				<div className="lg:mx-[100px] shadow">
-					<div className="text-sm breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
-						<ul>
+				<div className="lg:mx-[110px] shadow">
+					{/*  breadcrumbs added */}
+					<div className="text-md breadcrumbs md:px-6   lg:mx-[85px] ">
+						<ul className="text-sky-700 ">
 							<li>
-								<a>Academic programs</a>
+								<a href="/">
+									<FontAwesomeIcon
+										icon={faHouse}
+										className="h-6 w-4 px-1  "
+									></FontAwesomeIcon>
+								</a>
+							</li>
+							<li>
+								<p>Academic programs</p>
 							</li>
 							<li>
 								<a href="/diploma">Graduate Diploma</a>
 							</li>
 							<li>
-								<a>Graduate Diploma (Islamic Banking and Finance)</a>
+								<p className="text-black">
+									Graduate Diploma (Islamic Banking and Finance)
+								</p>
 							</li>
 						</ul>
 					</div>
+					{/*  breadcrumbs ended */}
 				</div>
 			</div>
-			{/* Main content start here */}
+			{/* program summary start here */}
+
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">
-				<div className="lg:mx-[100px] shadow">
+				<div className="lg:mx-[110px] shadow">
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
@@ -88,13 +101,18 @@ const DiplomaFinance = () => {
 										contribute to management and academic decisions.
 									</p>
 								</div>
+								{/* program summary ended  */}
 							</div>
 						</div>
 					</div>
+
+					{/* program main component added here */}
 					<div className="">
 						<DiplomaFinanceMain></DiplomaFinanceMain>
 					</div>
 				</div>
+
+				{/* program details added here */}
 				<div className="container lg:mr-52 ">
 					<DiplomaFinanceDetails></DiplomaFinanceDetails>
 				</div>

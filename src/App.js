@@ -38,13 +38,7 @@ import MastersCwEconomics from "./components/MASTERS ( COURSEWORK )/MASTERS CW E
 import MastersCwBusinessLaw from "./components/MASTERS ( COURSEWORK )/MASTERS CW BUSINESS LAW/MastersCwBusinessLaw";
 import MastersCwInsurance from "./components/MASTERS ( COURSEWORK )/MASTERS CW INSURANCE/MastersCwInsurance";
 import MastersCwIslamicStudies from "./components/MASTERS ( COURSEWORK )/MASTERS CW ISLAMIC STUDY/MastersCwIslamicStudies";
-// Undergraduate
-import Undergraduate from "./components/UNDERGRADUATE/UNDERGRADUATE/Undergraduate";
-import UgFinance from "./components/UNDERGRADUATE/UG FINANCE/UgFinance";
-import UgEconomics from "./components/UNDERGRADUATE/UG ECONOMICS/UgEconomics";
-import UgBusinessLaw from "./components/UNDERGRADUATE/UG BUSINESS LAW/UgBusinessLaw";
-import UgIslamicInsurance from "./components/UNDERGRADUATE/UG ISLAMIC INSURANCE/UgIslamicInsurance";
-import UgIslamicStudy from "./components/UNDERGRADUATE/UG ISLAMIC STUDY/UgIslamicStudy";
+
 // Diploma
 import Diploma from "./components/DIPLOMA/DIPLOMA/Diploma";
 import DiplomaFinance from "./components/DIPLOMA/DIPLOMA FINANCE/DiplomaFinance";
@@ -52,9 +46,6 @@ import DiplomaEconomics from "./components/DIPLOMA/DIPLOMA ECONOMICS/DiplomaEcon
 import DiplomaBusinessLaw from "./components/DIPLOMA/DIPLOMA BUSINESS LAW/DiplomaBusinessLaw";
 import DiplomaIslamicInsurance from "./components/DIPLOMA/DIPLOMA ISLAMIC INSURANCE/DiplomaIslamicInsurance";
 import GDProgram from "./components/DIPLOMA/GRADUATE DIPLOMA PROGRAM/GDProgram";
-import DiplomaManagement from "./components/DIPLOMA/DIPLOMA MANAGEMENT/DiplomaManagement";
-import DiplomaIntBusiness from "./components/DIPLOMA/DIPLOMA INTERNATIONAL BUSINESS/DiplomaIntBusiness";
-import DiplomaIslamicStudies from "./components/DIPLOMA/DIPLOMA MANAGEMENT/DiplomaManagement";
 
 // About Us pages
 import AcademicStructure from "./components/Navbar/ABOUT SIBS/AcademicStructure";
@@ -190,40 +181,10 @@ function App() {
 					path="/diplomainsurance"
 					element={<DiplomaIslamicInsurance></DiplomaIslamicInsurance>}
 				></Route>
-				<Route
-					path="/diplomamanagement"
-					element={<DiplomaManagement></DiplomaManagement>}
-				></Route>
-				<Route
-					path="/diplomaIntbusiness"
-					element={<DiplomaIntBusiness></DiplomaIntBusiness>}
-				></Route>
+
 				<Route
 					path="/gdiplomaprogram"
 					element={<GDProgram></GDProgram>}
-				></Route>
-
-				{/* undergraduate programs */}
-				<Route
-					path="/undergraduate"
-					element={<Undergraduate></Undergraduate>}
-				></Route>
-				<Route path="/ugfinance" element={<UgFinance></UgFinance>}></Route>
-				<Route
-					path="/ugeconomics"
-					element={<UgEconomics></UgEconomics>}
-				></Route>
-				<Route
-					path="/ugbusinesslaw"
-					element={<UgBusinessLaw></UgBusinessLaw>}
-				></Route>
-				<Route
-					path="/uginsurance"
-					element={<UgIslamicInsurance></UgIslamicInsurance>}
-				></Route>
-				<Route
-					path="/ugislamicstudy"
-					element={<UgIslamicStudy></UgIslamicStudy>}
 				></Route>
 
 				{/* Masters (MPhil) programs */}

@@ -4,7 +4,7 @@ const PhdBusinessDetails = () => {
 	return (
 		<div className="lg:-mt-5">
 			<div className="container mx-auto ">
-				<div className="lg:mx-[100px]">
+				<div className="lg:mx-[110px]">
 					<div className="">
 						<div className="shadow lg:w-full    ">
 							<div className=" bg-gray-100 lg:px-8 px-3 py-1 pb-10  ">

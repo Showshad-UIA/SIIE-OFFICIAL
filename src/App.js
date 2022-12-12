@@ -3,14 +3,22 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Topbar from "./components/Navbar/Topbar";
 import Header from "./components/Header";
-import Home from "./components/HOME/Home";
 import Navbar from "./components/Navbar/ACADEMIC PROGRAMS/NavBar";
+
+// HOME
+import Home from "./components/HOME/Home";
+import ArticleOne from "./components/HOME/HOME CONTENT/NEWS/ArticleOne";
+import AirticleTwo from "./components/HOME/HOME CONTENT/NEWS/AirticleTwo";
+import ArticleThree from "./components/HOME/HOME CONTENT/NEWS/ArticleThree";
 // PHD
 import Phd from "./components/Postgraduate/Phd";
 import PhdFinance from "./components/Postgraduate/PHD FINANCE/PhdFinance";
 import PhdEconomics from "./components/Postgraduate/PHD ECONOMICS/PhdEconomics";
 import PhDBusiness from "./components/Postgraduate/PHD BUSINESS LAW/PhDBusiness";
 import PhDIslamicInsurance from "./components/Postgraduate/PHD BUSINESS INSURANCE/PhDIslamicInsurance";
+import PhDManagement from "./components/Postgraduate/PHD MANAGEMENT/PhDManagement";
+import PhdIBusiness from "./components/Postgraduate/PHD INTERNATIONAL BUSINESS/PhdIBusiness";
+import Phdprogram from "./components/Postgraduate/PHD PROGRAM/Phdprogram";
 
 // Masters Research
 import Masters from "./components/MASTERS/MASTERS/Masters";
@@ -19,6 +27,10 @@ import MasterEconomics from "./components/MASTERS/MASTERS ECONOMICS/MasterEconom
 import MasterIslamicInsurance from "./components/MASTERS/MASTER ISLAMIC INSURANCE/MasterIslamicInsurance";
 import MasterBLaw from "./components/MASTERS/MASTER BUSINESS LAW/MasterBLaw";
 import MasterIslamicStudy from "./components/MASTERS/MASTER MANAGEMENT/MasterManagement";
+import Masterprogram from "./components/MASTERS PROGRAM/Masterprogram";
+import MasterIntBusiness from "./components/MASTERS/MASTER INT BUSINESS/MasterIntBusiness";
+import MasterCwProgram from "./components/MASTERS ( COURSEWORK )/MASTER CW PROGRAM/MasterCwProgram";
+
 // Masters Coursework
 import MastersCw from "./components/MASTERS ( COURSEWORK )/MASTERS (CW)/MastersCw";
 import MastersCwFinance from "./components/MASTERS ( COURSEWORK )/MASTER CW FINANCE/MastersCwFinance";
@@ -39,32 +51,34 @@ import DiplomaFinance from "./components/DIPLOMA/DIPLOMA FINANCE/DiplomaFinance"
 import DiplomaEconomics from "./components/DIPLOMA/DIPLOMA ECONOMICS/DiplomaEconomics";
 import DiplomaBusinessLaw from "./components/DIPLOMA/DIPLOMA BUSINESS LAW/DiplomaBusinessLaw";
 import DiplomaIslamicInsurance from "./components/DIPLOMA/DIPLOMA ISLAMIC INSURANCE/DiplomaIslamicInsurance";
+import GDProgram from "./components/DIPLOMA/GRADUATE DIPLOMA PROGRAM/GDProgram";
+import DiplomaManagement from "./components/DIPLOMA/DIPLOMA MANAGEMENT/DiplomaManagement";
+import DiplomaIntBusiness from "./components/DIPLOMA/DIPLOMA INTERNATIONAL BUSINESS/DiplomaIntBusiness";
+import DiplomaIslamicStudies from "./components/DIPLOMA/DIPLOMA MANAGEMENT/DiplomaManagement";
+
+// About Us pages
+import AcademicStructure from "./components/Navbar/ABOUT SIBS/AcademicStructure";
+import LeadershipGovernence from "./components/Navbar/ABOUT SIBS/LeadershipGovernence";
+import Profile from "./components/Navbar/ABOUT SIBS/Profile";
+
 // Other pages
 import Events from "./components/Navbar/EVENT'S & NEWS/Events";
 import EventsTraining from "./components/Navbar/EVENT'S & NEWS/Events";
 
 import Footer from "./components/FOOTER/Footer";
-import ArticleOne from "./components/HOME/HOME CONTENT/NEWS/ArticleOne";
-import AirticleTwo from "./components/HOME/HOME CONTENT/NEWS/AirticleTwo";
-import ArticleThree from "./components/HOME/HOME CONTENT/NEWS/ArticleThree";
-import AcademicStructure from "./components/Navbar/ABOUT SIBS/AcademicStructure";
-import LeadershipGovernence from "./components/Navbar/ABOUT SIBS/LeadershipGovernence";
-import Profile from "./components/Navbar/ABOUT SIBS/Profile";
-import DiplomaIslamicStudies from "./components/DIPLOMA/DIPLOMA MANAGEMENT/DiplomaManagement";
-import PhDManagement from "./components/Postgraduate/PHD MANAGEMENT/PhDManagement";
-import PhdIBusiness from "./components/Postgraduate/PHD INTERNATIONAL BUSINESS/PhdIBusiness";
-import Phdprogram from "./components/Postgraduate/PHD PROGRAM/Phdprogram";
-import Masterprogram from "./components/MASTERS PROGRAM/Masterprogram";
-import MasterIntBusiness from "./components/MASTERS/MASTER INT BUSINESS/MasterIntBusiness";
-import MasterCwProgram from "./components/MASTERS ( COURSEWORK )/MASTER CW PROGRAM/MasterCwProgram";
-import GDProgram from "./components/DIPLOMA/GRADUATE DIPLOMA PROGRAM/GDProgram";
-import DiplomaManagement from "./components/DIPLOMA/DIPLOMA MANAGEMENT/DiplomaManagement";
-import DiplomaIntBusiness from "./components/DIPLOMA/DIPLOMA INTERNATIONAL BUSINESS/DiplomaIntBusiness";
-import News from "./components/Navbar/EVENT'S & NEWS/News";
-import CurrentStudents from "./components/Navbar/RESERACH/CurrentStudents/CurrentStudents";
-import FutureStudents from "./components/Navbar/RESERACH/FutureStudents/FutureStudents";
-// import Deadline from "./components/Navbar/RESERACH/FutureStudents/Deadline/Deadline";
 
+import News from "./components/Navbar/EVENT'S & NEWS/News";
+// Current students
+import CurrentStudents from "./components/Navbar/RESERACH/CurrentStudents/CurrentStudents";
+import GettingStarts from "./components/Navbar/RESERACH/CurrentStudents/Getting Started/GettingStarts";
+import AcademicProgress from "./components/Navbar/RESERACH/CurrentStudents/Academic Progress/AcademicProgress";
+import Safety from "./components/Navbar/RESERACH/CurrentStudents/Safety & wellbeing/Safety";
+import Track from "./components/Navbar/RESERACH/CurrentStudents/Staying Track/Track";
+import Degree from "./components/Navbar/RESERACH/CurrentStudents/Finishing Degree/Degree";
+import Policies from "./components/Navbar/RESERACH/CurrentStudents/Policies/Policies";
+
+// Future Students pages
+import FutureStudents from "./components/Navbar/RESERACH/FutureStudents/FutureStudents";
 import Apply from "./components/Navbar/RESERACH/FutureStudents/Apply/Apply";
 import Faq from "./components/Navbar/RESERACH/FutureStudents/FAQ/Faq";
 import Deadline from "./components/Navbar/RESERACH/FutureStudents/Application Deadline/Deadline";
@@ -72,18 +86,13 @@ import Supervisors from "./components/Navbar/RESERACH/FutureStudents/Supervisors
 import Dean from "./components/Navbar/RESERACH/FutureStudents/Supervisors/Staffs Profile/Dean/Dean";
 import Contact from "./components/Navbar/RESERACH/FutureStudents/Supervisors/Staffs Profile/Dean/Contact";
 import Publication from "./components/Navbar/RESERACH/FutureStudents/Supervisors/Staffs Profile/Dean/Publication";
-import GettingStarts from "./components/Navbar/RESERACH/CurrentStudents/Getting Started/GettingStarts";
-import AcademicProgress from "./components/Navbar/RESERACH/CurrentStudents/Academic Progress/AcademicProgress";
-import Safety from "./components/Navbar/RESERACH/CurrentStudents/Safety & wellbeing/Safety";
-import Track from "./components/Navbar/RESERACH/CurrentStudents/Staying Track/Track";
-import Degree from "./components/Navbar/RESERACH/CurrentStudents/Finishing Degree/Degree";
-import Policies from "./components/Navbar/RESERACH/CurrentStudents/Policies/Policies";
+
+// AboutUS- Our people pages
 import People from "./components/Navbar/ABOUT SIBS/Our people/People";
 import LeadershipTeam from "./components/Navbar/ABOUT SIBS/Our people/LeadershipTeam";
 import Scholar from "./components/Navbar/ABOUT SIBS/Our people/Scholar";
 import Adminstrative from "./components/Navbar/ABOUT SIBS/Our people/Adminstrative";
 import AcademicTeam from "./components/Navbar/ABOUT SIBS/Our people/AcademicTeam";
-
 
 function App() {
 	return (
@@ -95,7 +104,7 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Home></Home>}></Route>
 
-				{/* Under about Us pages added here */}
+				{/* AboutUs pages content added here */}
 				<Route path="/profile" element={<Profile></Profile>}></Route>
 				<Route
 					path="/LeadershipGovernence"
@@ -105,34 +114,27 @@ function App() {
 					path="/AcademicStructure"
 					element={<AcademicStructure></AcademicStructure>}
 				></Route>
-				<Route
-					path="/people"
-					element={<People></People>}
-				></Route>
+
+				{/* our people pages  */}
+				<Route path="/people" element={<People></People>}></Route>
 				<Route
 					path="/leadershipTeam"
 					element={<LeadershipTeam></LeadershipTeam>}
 				></Route>
-				<Route
-					path="/scholar"
-					element={<Scholar></Scholar>}
-				></Route>
+				<Route path="/scholar" element={<Scholar></Scholar>}></Route>
 				<Route
 					path="/administrative"
 					element={<Adminstrative></Adminstrative>}
 				></Route>
-				<Route
-					path="/academic"
-					element={<AcademicTeam></AcademicTeam>}
-				></Route>
-				
+				<Route path="/academic" element={<AcademicTeam></AcademicTeam>}></Route>
 
 				{/* Graduate research pages added here  */}
 				<Route
 					path="/future"
 					element={<FutureStudents></FutureStudents>}
 				></Route>
-				{/* Future students content start here */}
+
+				{/* Future students sub-pages added here */}
 
 				<Route path="/supervisors" element={<Supervisors></Supervisors>}>
 					{" "}
@@ -143,19 +145,18 @@ function App() {
 				<Route path="/apply" element={<Apply></Apply>}></Route>
 				<Route path="/faq" element={<Faq></Faq>}></Route>
 
-				{/* Current students content start here */}
+				{/* Current students page added here */}
 				<Route
 					path="/current"
 					element={<CurrentStudents></CurrentStudents>}
 				></Route>
+
+				{/* Current students sub-pages added here */}
 				<Route
 					path="/gettingStarted"
 					element={<GettingStarts></GettingStarts>}
 				></Route>
-				<Route
-					path="/policies"
-					element={<Policies></Policies>}
-				></Route>
+				<Route path="/policies" element={<Policies></Policies>}></Route>
 
 				<Route
 					path="/progress"
@@ -169,9 +170,9 @@ function App() {
 				<Route path="/events" element={<Events></Events>}></Route>
 				<Route path="/news" element={<News></News>}></Route>
 
-				{/* Academic programs pages added here */}
+				{/* Academic programs sub-pages added here */}
 
-				{/* diploma programs */}
+				{/* graduate diploma programs */}
 				<Route path="/diploma" element={<Diploma></Diploma>}></Route>
 				<Route
 					path="/diplomafinance"
@@ -225,7 +226,7 @@ function App() {
 					element={<UgIslamicStudy></UgIslamicStudy>}
 				></Route>
 
-				{/* Masters (research) programs */}
+				{/* Masters (MPhil) programs */}
 				<Route path="/mastersreserach" element={<Masters></Masters>}></Route>
 				<Route
 					path="/financeresearch"
@@ -314,7 +315,7 @@ function App() {
 				></Route>
 				<Route path="/phdprogram" element={<Phdprogram></Phdprogram>}></Route>
 
-				{/* home content added here  */}
+				{/* Home page components added here  */}
 				{/* News & all News  */}
 				<Route path="/articleone" element={<ArticleOne></ArticleOne>}></Route>
 				<Route path="/articletwo" element={<AirticleTwo></AirticleTwo>}></Route>

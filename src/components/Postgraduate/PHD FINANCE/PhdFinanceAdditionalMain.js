@@ -1,6 +1,5 @@
 import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { HashLink as Link } from "react-router-hash-link";
 import React from "react";
 
 const PhdFinanceAdditionalMain = () => {
@@ -11,8 +10,11 @@ const PhdFinanceAdditionalMain = () => {
 					<p className=" text-white  "> Program overview</p>
 				</button>
 			</div>
-			<div className="grid lg:grid-cols-2 gap-1  sm:grid-cols-1 m-5 lg:mx-24 mb-11">
-				<div class=" hover:bg-sky-300  bg-sky-700 p-5" >
+
+			{/* Overview main content start */}
+			<div className="grid lg:grid-cols-2 gap-1  sm:grid-cols-1 m-5 lg:mx-28 mb-11">
+				<div class=" hover:bg-sky-300  bg-sky-700 p-5">
+					{/* Research areas */}
 					<div className="">
 						<div className="items-center w-full text-center ">
 							<FontAwesomeIcon
@@ -23,13 +25,14 @@ const PhdFinanceAdditionalMain = () => {
 						<div className="">
 							<a href="#Research">
 								<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-								Research areas
-
+									Research areas
 								</h2>
 							</a>
 						</div>
 					</div>
 				</div>
+
+				{/* Program structure */}
 				<div class=" hover:bg-sky-300 bg-sky-700 p-5">
 					<div className="">
 						<div className="items-center w-full text-center ">
@@ -42,14 +45,14 @@ const PhdFinanceAdditionalMain = () => {
 							<a href="#structure">
 								{" "}
 								<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-								Program structure
-
-
+									Program structure
 								</h2>
 							</a>
 						</div>
 					</div>
 				</div>
+
+				{/* Admission requirements */}
 				<div class=" hover:bg-sky-300 bg-sky-700 p-5">
 					<div className="">
 						<div className="items-center w-full text-center ">
@@ -63,12 +66,14 @@ const PhdFinanceAdditionalMain = () => {
 							<a href="#Admission">
 								{" "}
 								<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-								Admission requirements
+									Admission requirements
 								</h2>
 							</a>
 						</div>
 					</div>
 				</div>
+
+				{/* Course outcomes */}
 				<div class=" hover:bg-sky-300 bg-sky-700 p-5">
 					<div className="">
 						<div className="items-center w-full text-center">
@@ -80,17 +85,14 @@ const PhdFinanceAdditionalMain = () => {
 						<div className="">
 							<a href="#outcome">
 								<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-								Course outcomes
-
+									Course outcomes
 								</h2>
 							</a>
 						</div>
 					</div>
 				</div>
-				
 
-				
-
+				{/* Fees | Scholarship */}
 				<div class=" hover:bg-sky-300 bg-sky-700 p-5">
 					<div className="">
 						<div className="items-center w-full text-center ">
@@ -108,6 +110,8 @@ const PhdFinanceAdditionalMain = () => {
 						</div>
 					</div>
 				</div>
+
+				{/* Application Process */}
 				<div class=" hover:bg-sky-300 bg-sky-700 p-5">
 					<div className="">
 						<div className="items-center w-full text-center ">
@@ -119,13 +123,13 @@ const PhdFinanceAdditionalMain = () => {
 						<div className="">
 							<a href="#Application">
 								<h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
-								Application Process
-
+									Application Process
 								</h2>
 							</a>
 						</div>
 					</div>
 				</div>
+				{/* Application Process end*/}
 			</div>
 		</div>
 	);

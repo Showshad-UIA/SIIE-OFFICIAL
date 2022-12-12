@@ -1,6 +1,4 @@
 import React from "react";
-import MastersMain from "./MastersMain";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight, faHouse } from "@fortawesome/free-solid-svg-icons";
 import finance from "../../../Carosel/Asset/Islamic finance and banking.jpg";
@@ -12,42 +10,13 @@ import IBusiness from "../../../Carosel/Asset/International-Business.png";
 const Masters = () => {
 	return (
 		<>
-			<div className="container mx-auto  lg:mb-5">
-				<div className="lg:mx-[100px] shadow">
-					{/* <div className="text-sm breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
-						<ul>
-							<li>
-								<a href="/">Sibs</a>
-							</li>
-							
-							<li>
-								<a href="/financeresearch">MPhil in Islamic banking and finance</a>
-							</li>
-							<li>
-								<a href="/economicsresearch">MPhil in Islamic economics</a>
-							</li>
-							<li>
-								<a href="/businesslawresearch">MPhil in Islamic business law</a>
-							</li>
-							<li>
-								<a href="/insuranceresearch">MPhil in Islamic insurance</a>
-							</li>
-							<li>
-								<a href="/managementresearch">MPhil in management</a>
-							</li>
-							<li>
-								<a href="/intbusinessresearch">MPhil in International business</a>
-							</li>
-						</ul>
-					</div> */}
-				</div>
-			</div>
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">
-				<div className="lg:mx-[100px] shadow ">
+				<div className="lg:mx-[110px] shadow ">
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
-							<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
+								{/* breadcrumb added here */}
+								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 									<ul className="text-sky-700 ">
 										<li>
 											<a href="/">
@@ -61,15 +30,19 @@ const Masters = () => {
 											<p>Academic programs</p>
 										</li>
 										<li>
-											<p className="text-black"> Masters of philosophy (MPhil)</p>
+											<p className="text-black">
+												{" "}
+												Masters of philosophy (MPhil)
+											</p>
 										</li>
 									</ul>
+									{/* breadcrumb end here */}
 								</div>
 
-
+								{/* MPhil intro start here*/}
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
-									<h1 className="text-sky-700 text-2xl font-bold lg:px-20 px-3 ">
+									<h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 ">
 										Master of Philosophy (MPhil)
 									</h1>
 									<p className=" lg:px-20 px-3 text-justify mt-3 ">
@@ -105,12 +78,11 @@ const Masters = () => {
 							</div>
 						</div>
 					</div>
-					{/* <div className="">
-						<PhdFinanceAdditionalMain></PhdFinanceAdditionalMain>
-					</div> */}
 
+					{/* MPhil main content start here */}
 					<div className="lg:mx-[100px] pb-10">
 						<div className="flex bg-sky-700 shadow p-5 mb-5 gap-5">
+							{/* MPhil finance */}
 							<div>
 								<a href="/financeresearch">
 									<img
@@ -143,6 +115,8 @@ const Masters = () => {
 								</p>
 							</div>
 						</div>
+
+						{/* MPhil economics */}
 						<div className="flex bg-sky-700 shadow p-3 mb-5 gap-5">
 							<div>
 								<a href="/economicsresearch">
@@ -173,6 +147,9 @@ const Masters = () => {
 								</p>
 							</div>
 						</div>
+
+						{/* MPhil Islamic business */}
+
 						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div>
 								<a href="/businesslawresearch">
@@ -204,6 +181,9 @@ const Masters = () => {
 								</p>
 							</div>
 						</div>
+
+						{/* MPhil islamic insurance  */}
+
 						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div>
 								<a href="/insuranceresearch">
@@ -233,6 +213,8 @@ const Masters = () => {
 								</p>
 							</div>
 						</div>
+
+						{/* MPhil management */}
 						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div>
 								<a href="/managementresearch">
@@ -262,6 +244,8 @@ const Masters = () => {
 								</p>
 							</div>
 						</div>
+
+						{/* MPhil international business */}
 						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div>
 								<a href="/Intbusinessresearch">

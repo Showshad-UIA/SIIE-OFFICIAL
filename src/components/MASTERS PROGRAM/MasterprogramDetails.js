@@ -4,10 +4,12 @@ const MasterprogramDetails = () => {
 	return (
 		<div className="lg:-mt-5">
 			<div className="container mx-auto ">
-				<div className="lg:mx-[100px]">
+				<div className="lg:mx-[110px]">
 					<div className="">
 						<div className="shadow lg:w-full    ">
+							{/* course details added here */}
 							<div className=" bg-gray-100 lg:px-8 px-3 py-1 pb-10  ">
+								{/* Research areas */}
 								<div className="  " id="Research">
 									<h1 className="lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Research areas
@@ -73,6 +75,8 @@ const MasterprogramDetails = () => {
 										</div>
 									</p>
 								</div>
+
+								{/* Program structure */}
 								<div className=" mt-5 " id="structure">
 									<h1 className="lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Program structure
@@ -374,6 +378,7 @@ const MasterprogramDetails = () => {
 									</p>
 								</div>
 
+								{/* Admission requirements */}
 								<div className="  " id="Admission">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Admission requirements
@@ -505,6 +510,7 @@ const MasterprogramDetails = () => {
 									</p>
 								</div>
 
+								{/* Course outcome */}
 								<div className="  " id="outcome">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Course outcome
@@ -540,6 +546,7 @@ const MasterprogramDetails = () => {
 									</ul>
 								</div>
 
+								{/* Fees & Scholarship */}
 								<div className="  " id="Fees">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Fees | Scholarship
@@ -579,6 +586,8 @@ const MasterprogramDetails = () => {
 										the middle-end of February.
 									</p>
 								</div>
+
+								{/* Contact us */}
 								<div className=" ">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Contact us

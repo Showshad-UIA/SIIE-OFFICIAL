@@ -10,7 +10,10 @@ const PhDManagementMain = () => {
 					<p className=" text-white  "> Program overview</p>
 				</button>
 			</div>
-			<div className="grid lg:grid-cols-2 gap-1  sm:grid-cols-1 m-5 lg:mx-24 mb-11">
+
+			{/* Program overview content start here */}
+			<div className="grid lg:grid-cols-2 gap-1  sm:grid-cols-1 m-5 lg:mx-28 mb-11">
+				{/* Research areas */}
 				<div class=" hover:bg-sky-300  bg-sky-700 p-5" >
 					<div className="">
 						<div className="items-center w-full text-center ">
@@ -29,6 +32,8 @@ const PhDManagementMain = () => {
 						</div>
 					</div>
 				</div>
+
+				{/* Program structure */}
 				<div class=" hover:bg-sky-300 bg-sky-700 p-5">
 					<div className="">
 						<div className="items-center w-full text-center ">
@@ -49,6 +54,8 @@ const PhDManagementMain = () => {
 						</div>
 					</div>
 				</div>
+
+				{/* Admission requirements */}
 				<div class=" hover:bg-sky-300 bg-sky-700 p-5">
 					<div className="">
 						<div className="items-center w-full text-center ">
@@ -68,6 +75,8 @@ const PhDManagementMain = () => {
 						</div>
 					</div>
 				</div>
+
+				{/* Course outcomes */}
 				<div class=" hover:bg-sky-300 bg-sky-700 p-5">
 					<div className="">
 						<div className="items-center w-full text-center">
@@ -86,10 +95,8 @@ const PhDManagementMain = () => {
 						</div>
 					</div>
 				</div>
-				
 
-				
-
+				{/* Fees & Scholarships */}
 				<div class=" hover:bg-sky-300 bg-sky-700 p-5">
 					<div className="">
 						<div className="items-center w-full text-center ">
@@ -107,6 +114,8 @@ const PhDManagementMain = () => {
 						</div>
 					</div>
 				</div>
+
+				{/* Application Process */}
 				<div class=" hover:bg-sky-300 bg-sky-700 p-5">
 					<div className="">
 						<div className="items-center w-full text-center ">

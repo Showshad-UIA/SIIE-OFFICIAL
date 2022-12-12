@@ -4,10 +4,12 @@ const FinanceDetails = () => {
 	return (
 		<div className="lg:-mt-5">
 			<div className="container mx-auto ">
-				<div className="lg:mx-[100px]">
+				<div className="lg:mx-[110px]">
 					<div className="">
 						<div className="shadow lg:w-full    ">
+							{/* course details added here */}
 							<div className=" bg-gray-100 lg:px-8 px-3 py-1 pb-10  ">
+								{/* Research areas */}
 								<div className="  " id="Research">
 									<h1 className="lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Research areas
@@ -22,11 +24,12 @@ const FinanceDetails = () => {
 											</p>
 											<ul className="mt-3">
 												<li>Discipline of Islamic Banking and Finance</li>
-												
 											</ul>
 										</div>
 									</p>
 								</div>
+
+								{/* Program structure */}
 								<div className=" mt-5 " id="structure">
 									<h1 className="lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Program structure
@@ -77,10 +80,14 @@ const FinanceDetails = () => {
 												</ul>
 											</h1>
 											<h1 className="mt-3">
-											<span className="font-bold text-black">Disciplinary units</span>{" "}
+												<span className="font-bold text-black">
+													Disciplinary units
+												</span>{" "}
 												– each unit is 6UOC.
-												<p className="mt-3">For the Discipline of Islamic Banking and Finance, you
-												will be required to complete two units from this list:</p>
+												<p className="mt-3">
+													For the Discipline of Islamic Banking and Finance, you
+													will be required to complete two units from this list:
+												</p>
 												<ul className="mt-3">
 													<li> FINS1101 Islamic Banking</li>
 													<li> FINS1201 Islamic Capital Markets</li>
@@ -212,6 +219,7 @@ const FinanceDetails = () => {
 									</p>
 								</div>
 
+								{/* Admission requirements */}
 								<div className="  " id="Admission">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Admission requirements
@@ -343,6 +351,7 @@ const FinanceDetails = () => {
 									</p>
 								</div>
 
+								{/* Course outcome */}
 								<div className="  " id="outcome">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Course outcome
@@ -378,6 +387,7 @@ const FinanceDetails = () => {
 									</ul>
 								</div>
 
+								{/* Fees | Scholarships */}
 								<div className="  " id="Fees">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Fees | Scholarships
@@ -417,6 +427,8 @@ const FinanceDetails = () => {
 										the middle-end of February.
 									</p>
 								</div>
+
+								{/* Contact us */}
 								<div className=" ">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Contact us

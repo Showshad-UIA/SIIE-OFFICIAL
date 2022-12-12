@@ -1,6 +1,4 @@
 import React from "react";
-import PhdMaincontent from "./PhdMaincontent";
-import PhdRightSideBar from "./PhdRightSideBar";
 import finance from "../../Carosel/Asset/Islamic finance.jpg";
 import economics from "../../Carosel/Asset/economics.jpg";
 import business from "../../Carosel/Asset/business.jpg";
@@ -13,9 +11,6 @@ import { faChevronRight, faHouse } from "@fortawesome/free-solid-svg-icons";
 const Phd = () => {
 	return (
 		<>
-			<div className="container mx-auto  lg:mb-5">
-		
-			</div>
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">
 				<div className="lg:mx-[110px] shadow ">
 					<div className="">
@@ -23,27 +18,26 @@ const Phd = () => {
 							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
 								{/* breadcrumb added here */}
 								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
-					<ul className="text-sky-700 ">
-						<li>
-							<a href="/">
-								<FontAwesomeIcon
-									icon={faHouse}
-									className="h-6 w-4 px-1  "
-								></FontAwesomeIcon>
-							</a>
-						</li>
-						<li>
-							<p>Academic programs</p>
-						</li>
-						<li>
-							<p className="text-black"> PhD</p>
-						</li>
+									<ul className="text-sky-700 ">
+										<li>
+											<a href="/">
+												<FontAwesomeIcon
+													icon={faHouse}
+													className="h-6 w-4 px-1  "
+												></FontAwesomeIcon>
+											</a>
+										</li>
+										<li>
+											<p>Academic programs</p>
+										</li>
+										<li>
+											<p className="text-black"> PhD</p>
+										</li>
+									</ul>
+								</div>
+								{/* breadcrumb end */}
 
-					</ul>
-				</div>
-								<div className=" flex text-sky-700 text-md font-bold  lg:px-20 px-3 "></div>
-
-								{/* Doctor of Philosophy (PhD) first paragraph added here */}
+								{/* PHD intro start here*/}
 
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
@@ -72,8 +66,9 @@ const Phd = () => {
 										to a PhD programme, you should carefully evaluate all
 										discipline-specific material.
 									</p>
+									{/* PHD intro end */}
 
-									{/* PhD programs page added here  */}
+									{/* PhD programs content linked  */}
 
 									<p className="text-justify mt-3 lg:px-20 px-3">
 										Read more about Sydney IBS
@@ -87,10 +82,10 @@ const Phd = () => {
 						</div>
 					</div>
 
-					{/* PhD courses added here */}
+					{/* PhD Courses  */}
 
 					<div className="lg:mx-[100px] pb-10">
-						{/* PhD Banking and Finance start here */}
+						{/* PhD Banking and Finance  */}
 						<div className="flex bg-sky-700 shadow p-3 mb-5 gap-5 ">
 							<div className="">
 								<a href="/phdfinance">
@@ -124,7 +119,8 @@ const Phd = () => {
 								</p>
 							</div>
 						</div>
-						{/* PhD islamic economics start here */}
+
+						{/* PhD islamic economics  */}
 						<div className="flex bg-sky-700 shadow p-3 mb-5 gap-5">
 							<div className="">
 								<a href="/phdeconomics">
@@ -155,6 +151,7 @@ const Phd = () => {
 								</p>
 							</div>
 						</div>
+
 						{/* PhD islamic business start here */}
 						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div className="">
@@ -188,7 +185,7 @@ const Phd = () => {
 							</div>
 						</div>
 
-						{/* PhD islamic Insurance start here */}
+						{/* PhD islamic Insurance */}
 						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div className="">
 								<a href="/phdinsurance">
@@ -219,7 +216,7 @@ const Phd = () => {
 							</div>
 						</div>
 
-						{/* PhD islamic Management start here */}
+						{/* PhD islamic Management  */}
 						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div className="">
 								<a href="/phdmanagement">
@@ -250,7 +247,7 @@ const Phd = () => {
 							</div>
 						</div>
 
-						{/* PhD islamic IBusiness start here */}
+						{/* PhD islamic IBusiness  */}
 						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div>
 								<a href="/phdIntbusiness">

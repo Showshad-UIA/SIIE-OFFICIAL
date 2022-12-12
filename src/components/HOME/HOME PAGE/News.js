@@ -8,7 +8,7 @@ const News = () => {
 		<>
 			<div className="container mx-auto sm:mb-5 ">
 				<div class="lg:mx-28 lg:w-[85%] md:mx-20 sm:w-full md:w-4/5 px-3 ">
-					{/* News, all News  start here  */}
+					{/* News & all News components start here  */}
 					<div className="flex  mt-10 mb-3">
 						<div className="text-2xl font-bold ">NEWS </div>
 						<p className="px-1 text-gray-500">|</p>
@@ -22,7 +22,7 @@ const News = () => {
 						</div>
 					</div>
 
-					{/* News component start here */}
+					{/* Main content start here */}
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-10  lg:grid-cols-4 ">
 						<div className="">
 							<a href="/articleone">
@@ -146,7 +146,6 @@ const News = () => {
 								</div>
 							</div>
 						</div>
-						{/* Events component end here */}
 					</div>
 				</div>
 			</div>

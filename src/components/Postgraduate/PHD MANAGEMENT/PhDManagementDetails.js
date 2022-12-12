@@ -4,10 +4,12 @@ const PhDManagementDetails = () => {
 	return (
 		<div className="lg:-mt-5">
 			<div className="container mx-auto ">
-				<div className="lg:mx-[100px]">
+				<div className="lg:mx-[110px]">
 					<div className="">
 						<div className="shadow lg:w-full    ">
+							{/* course details added */}
 							<div className=" bg-gray-100 lg:px-8 px-3 py-1 pb-10  ">
+								{/* Research areas */}
 								<div className="  " id="Research">
 									<h1 className="lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Research areas
@@ -21,13 +23,13 @@ const PhDManagementDetails = () => {
 												disciplines within the school:
 											</p>
 											<ul className="mt-3">
-												
 												<li>Discipline of Management</li>
-												
 											</ul>
 										</div>
 									</p>
 								</div>
+
+								{/* Program structure */}
 								<div className=" mt-5 " id="structure">
 									<h1 className="lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Program structure
@@ -81,23 +83,17 @@ const PhDManagementDetails = () => {
 												<span className="font-bold text-black">
 													Disciplinary units
 												</span>{" "}
-												– each unit is 6UOC. 
-												<p className="mt-3">For the Discipline of International Business, you will be required to complete two units from this list:</p>
+												– each unit is 6UOC.
+												<p className="mt-3">
+													For the Discipline of International Business, you will
+													be required to complete two units from this list:
+												</p>
 												<ul className="mt-3">
 													<li> MGMT1151 Organisational Behaviour </li>
 													<li> MGMT2154 Strategic Management </li>
-													<li>
-													MGMT1141 Managing Across Cultures 
-													</li>
-													<li>
-														MGMT1161 Leadership and Entrepreneurship
-													</li>
-													<li>
-													MGMT1162 Research Methods in Management
-													</li>
-													
-													
-													
+													<li>MGMT1141 Managing Across Cultures</li>
+													<li>MGMT1161 Leadership and Entrepreneurship</li>
+													<li>MGMT1162 Research Methods in Management</li>
 												</ul>
 											</h1>
 											<h1 className="text-md  font-bold text-black my-3">
@@ -199,6 +195,7 @@ const PhDManagementDetails = () => {
 									</p>
 								</div>
 
+								{/* Admission requirements */}
 								<div className="  " id="Admission">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Admission requirements
@@ -330,6 +327,7 @@ const PhDManagementDetails = () => {
 									</p>
 								</div>
 
+								{/* Course outcome */}
 								<div className="  " id="outcome">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Course outcome
@@ -365,6 +363,7 @@ const PhDManagementDetails = () => {
 									</ul>
 								</div>
 
+								{/* Fees & Scholarship */}
 								<div className="  " id="Fees">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Fees | Scholarship
@@ -404,6 +403,8 @@ const PhDManagementDetails = () => {
 										the middle-end of February.
 									</p>
 								</div>
+
+								{/* Contact us */}
 								<div className=" ">
 									<h1 className="mt-6 lg:px-20 px-3 text-xl  font-bold text-sky-700">
 										Contact us

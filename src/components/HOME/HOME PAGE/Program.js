@@ -10,13 +10,12 @@ const Program = () => {
 	return (
 		<>
 			<div className="container mx-auto   sm:mb-5 pb-10 ">
-				{/* Studying at Sydney IBS component start here  */}
 				<div class="lg:mx-28 lg:w-[85%] md:mx-20 sm:w-full md:w-4/5  ">
 					<div className="text-2xl font-bold px-3 mt-10 mb-3">
 						STUDYING AT SYDNEY IBS
 					</div>
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-10  lg:grid-cols-4 px-3">
-						{/* PhD component start here  */}
+						{/* PhD content  */}
 						<div className="">
 							<a href="/phd">
 								{" "}
@@ -41,7 +40,8 @@ const Program = () => {
 							</div>
 						</div>
 
-						{/*Masters research component start here  */}
+						{/*Masters (MPhil) content  */}
+
 						<div className=" ">
 							<a href="/mastersreserach">
 								{" "}
@@ -66,7 +66,7 @@ const Program = () => {
 							</div>
 						</div>
 
-						{/*Masters coursework component start here  */}
+						{/*Masters (coursework) content  */}
 						<div className=" ">
 							<a href="/masterscoursework">
 								<figure>
@@ -89,8 +89,9 @@ const Program = () => {
 								</a>
 							</div>
 						</div>
-						
-						{/*Graduate diploma component start here  */}
+
+						{/*Graduate diploma content  */}
+
 						<div className=" ">
 							<a href="/diploma">
 								{" "}

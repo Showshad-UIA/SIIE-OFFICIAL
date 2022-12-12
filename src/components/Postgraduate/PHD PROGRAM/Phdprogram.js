@@ -1,3 +1,5 @@
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import PhdprogramDetails from "./PhdprogramDetails";
 import PhdprogramMain from "./PhdprogramMain";
@@ -5,30 +7,40 @@ import PhdprogramMain from "./PhdprogramMain";
 const Phdprogram = () => {
 	return (
 		<div className="">
-			{/* breadcrumbs added here */}
 			<div className="container mx-auto  lg:mb-5">
-				<div className="lg:mx-[100px] shadow">
-					<div className="text-md breadcrumbs  lg:px-3 md:px-6 px-6  lg:mx-[100px] ">
-						<ul>
+				<div className="lg:mx-[110px] shadow">
+					{/* breadcrumb added here */}
+					<div className="text-md breadcrumbs md:px-6   lg:mx-[65px] px-3 ">
+						<ul className="text-sky-700 ">
 							<li>
-								<a>Academic Programs</a>
+								<a href="/">
+									<FontAwesomeIcon
+										icon={faHouse}
+										className="h-6 w-4 px-1  "
+									></FontAwesomeIcon>
+								</a>
 							</li>
 							<li>
-								<a href="/phd"> Doctor of Philosophy (Islamic Business)</a>
+								<p>Academic programs</p>
 							</li>
 							<li>
-								<a>PhD programs</a>
+								<a href="/phd"> Phd programs</a>
+							</li>
+							<li>
+								<p className="text-black"> PhD</p>
 							</li>
 						</ul>
 					</div>
+					{/* breadcrumb ended */}
 				</div>
 			</div>
-			{/* Main content start here */}
+
+			{/* About program summary start  */}
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">
-				<div className="lg:mx-[100px] shadow">
+				<div className="lg:mx-[110px] shadow">
 					<div className="">
 						<div className=" lg:w-full    ">
-							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
+							<div className=" bg-gray-100  px-3 py-3 pb-10  ">
 								<h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 ">
 									Doctor of Philosophy (Islamic Business)
 								</h1>
@@ -88,14 +100,15 @@ const Phdprogram = () => {
 									</p>
 								</div>
 							</div>
+							{/* About programs summary ended  */}
 						</div>
 					</div>
-					{/* program overview component added here */}
+					{/* program overview component added */}
 					<div className="">
 						<PhdprogramMain></PhdprogramMain>
 					</div>
 				</div>
-				{/* phd program details component added here */}
+				{/* phd program details added  */}
 				<div className="container lg:mr-52 ">
 					<PhdprogramDetails></PhdprogramDetails>
 				</div>

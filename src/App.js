@@ -84,6 +84,7 @@ import LeadershipTeam from "./components/Navbar/ABOUT SIBS/Our people/Leadership
 import Scholar from "./components/Navbar/ABOUT SIBS/Our people/Scholar";
 import Adminstrative from "./components/Navbar/ABOUT SIBS/Our people/Adminstrative";
 import AcademicTeam from "./components/Navbar/ABOUT SIBS/Our people/AcademicTeam";
+import LivingSydney from "./components/HOME/HOME PAGE/Living Sydney/LivingSydney";
 
 function App() {
 	return (
@@ -283,6 +284,10 @@ function App() {
 				<Route
 					path="/articlethree"
 					element={<ArticleThree></ArticleThree>}
+				></Route>
+				<Route
+					path="/living"
+					element={<LivingSydney></LivingSydney>}
 				></Route>
 			</Routes>
 

@@ -1,10 +1,10 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import image1 from "../../../Carosel/Asset/explore 04.jpg";
-import image2 from "../../../Carosel/Asset/explore 01.jpg";
-import image3 from "../../../Carosel/Asset/insurance.jpg";
-import image4 from "../../../Carosel/Asset/explore 03.jpg";
+import image1 from "../../../Carosel/Asset/home/education australia.jpg";
+import image2 from "../../../Carosel/Asset/home/costing.jpg";
+import image3 from "../../../Carosel/Asset/home/jobs.jpg";
+import image4 from "../../../Carosel/Asset/home/visa.jpg";
 
 const Discover = () => {
 	return (
@@ -26,7 +26,7 @@ const Discover = () => {
 							<div className=" mt-3">
 								<a href="#">
 									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
-										Islamic Finance & Banking
+									Education system in Australia
 									</h2>
 								</a>
 								<p className="text-black text-md ">
@@ -48,7 +48,7 @@ const Discover = () => {
 							<div className="mt-3">
 								<a href="#">
 									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
-										Islamic Economics
+									Cost of studying in Australia
 									</h2>
 								</a>
 								<p className="text-black text-md">
@@ -69,7 +69,7 @@ const Discover = () => {
 							<div className="mt-3">
 								<a href="#">
 									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
-										Islamic Insurance
+									Job prospects in Australia
 									</h2>
 								</a>
 								<p className="text-black text-md">
@@ -91,7 +91,7 @@ const Discover = () => {
 							<div className="mt-3">
 								<a href="#">
 									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
-										Islamic Business Law
+									Post-study work visa in Australia
 									</h2>
 								</a>
 								<p className="text-black text-md">
@@ -99,6 +99,9 @@ const Discover = () => {
 								</p>
 							</div>
 						</div>
+						
+						
+						
 					</div>
 				</div>
 			</div>

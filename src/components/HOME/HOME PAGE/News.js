@@ -1,7 +1,8 @@
 import React from "react";
-import explore1 from "../../../Carosel/Asset/finance.jpg";
-import explore2 from "../../../Carosel/Asset/finance.png";
-import explore3 from "../../../Carosel/Asset/news 3.jpg";
+
+import image1 from "../../../Carosel/Asset/explore 04.jpg";
+import image2 from "../../../Carosel/Asset/explore 01.jpg";
+import image3 from "../../../Carosel/Asset/insurance.jpg";
 
 const News = () => {
 	return (
@@ -28,7 +29,7 @@ const News = () => {
 							<a href="/articleone">
 								<figure>
 									<img
-										src={explore1}
+										src={image1}
 										alt="image1"
 										className="lg:h-[190px] lg:w-[350px] "
 									/>
@@ -53,8 +54,8 @@ const News = () => {
 							<a href="/articletwo">
 								<figure>
 									<img
-										src={explore2}
-										alt="image3"
+										src={image2}
+										alt="image2"
 										className="lg:h-[190px] lg:w-[350px]"
 									/>
 								</figure>
@@ -76,8 +77,8 @@ const News = () => {
 							<a href="/articlethree">
 								<figure>
 									<img
-										src={explore3}
-										alt="image2"
+										src={image3}
+										alt="image3"
 										className="lg:h-[190px] lg:w-[350px]"
 									/>
 								</figure>

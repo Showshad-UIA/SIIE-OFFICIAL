@@ -4,6 +4,7 @@ import AboutSibs from "../HOME/HOME PAGE/AboutSibs";
 import Discover from "../HOME/HOME PAGE/Discover";
 import Banner from "../HOME/HOME PAGE/Banner";
 import News from "./HOME PAGE/News";
+import Study from "./HOME PAGE/Living Sydney/Study";
 
 const Home = () => {
 	return (
@@ -14,6 +15,7 @@ const Home = () => {
 			<News></News>
 			<Discover></Discover>
 			<Program></Program>
+			<Study></Study>
 		</div>
 	);
 };

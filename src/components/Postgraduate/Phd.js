@@ -1,12 +1,14 @@
 import React from "react";
 import finance from "../../Carosel/Asset/Islamic finance.jpg";
 import economics from "../../Carosel/Asset/economics.jpg";
-import business from "../../Carosel/Asset/business.jpg";
+import business from "../../Carosel/Asset/explore 03.jpg";
 import Insurance from "../../Carosel/Asset/Islamic insurance.jpg";
 import Management from "../../Carosel/Asset/management.jpg";
 import IBusiness from "../../Carosel/Asset/international-business.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight, faHouse } from "@fortawesome/free-solid-svg-icons";
+
+
 
 const Phd = () => {
 	return (

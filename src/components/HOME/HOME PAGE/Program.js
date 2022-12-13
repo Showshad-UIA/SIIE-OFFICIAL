@@ -4,12 +4,13 @@ import image1 from "../../../Carosel/Asset/PhD.jpg";
 import image2 from "../../../Carosel/Asset/Masters.jpg";
 import image3 from "../../../Carosel/Asset/Coursework.jpg";
 import image4 from "../../../Carosel/Asset/diploma.png";
+
 import React from "react";
 
 const Program = () => {
 	return (
 		<>
-			<div className="container mx-auto   sm:mb-5 pb-10 ">
+			<div className="container mx-auto   sm:mb-5 pb-5 ">
 				<div class="lg:mx-28 lg:w-[85%] md:mx-20 sm:w-full md:w-4/5  ">
 					<div className="text-2xl font-bold px-3 mt-10 mb-3">
 						STUDYING AT SYDNEY IBS

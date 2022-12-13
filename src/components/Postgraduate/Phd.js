@@ -77,7 +77,7 @@ const Phd = () => {
 										<a href="/phdprogram" className="text-sky-700 px-2">
 											PhD programs
 										</a>
-										.
+										
 									</p>
 								</div>
 							</div>

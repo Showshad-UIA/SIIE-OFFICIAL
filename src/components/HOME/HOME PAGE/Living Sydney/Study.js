@@ -2,7 +2,9 @@ import React from "react";
 
 const Study = () => {
 	return (
-		<div className="mb-16 lg:mx-[110px] md:mx-28 px-3">
+		<div className="container mx-auto">
+			<div>
+			<div className="mb-16 lg:mx-28 lg:w-[85%]  md:mx-28 px-3">
 			<h1 className="text-2xl font-bold  mb-3 ">LIVING IN SYDNEY</h1>
 			<div
 			className="hero lg:h-[500px]   "
@@ -19,6 +21,8 @@ const Study = () => {
 				</div>
 			</div>
 		</div>
+		</div>
+			</div>
 		</div>
 	);
 };

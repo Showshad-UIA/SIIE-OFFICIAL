@@ -1,10 +1,10 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import image1 from "../../../Carosel/Asset/home/education australia.jpg";
-import image2 from "../../../Carosel/Asset/home/costing.jpg";
-import image3 from "../../../Carosel/Asset/home/jobs.jpg";
-import image4 from "../../../Carosel/Asset/home/visa.jpg";
+import image1 from "../../../../Carosel/Asset/home/generic_education.png";
+import image2 from "../../../../Carosel/Asset/home/costing.jpg";
+import image3 from "../../../../Carosel/Asset/home/jobs.jpg";
+import image4 from "../../../../Carosel/Asset/home/visa.jpg";
 
 const Discover = () => {
 	return (
@@ -14,7 +14,7 @@ const Discover = () => {
 					<div className="text-2xl font-bold px-3 mb-3">DISCOVER</div>
 
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-10  lg:grid-cols-4 px-3 ">
-						{/* Islamic finance content  */}
+						{/* Education system  */}
 						<div className="">
 							<figure>
 								<img
@@ -24,19 +24,18 @@ const Discover = () => {
 								/>
 							</figure>
 							<div className=" mt-3">
-								<a href="#">
+								<a href="/education">
 									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
 									Education system in Australia
 									</h2>
 								</a>
 								<p className="text-black text-md ">
-									Islamic finance addresses the issue of financial inclusion
-									risk-sharing
+								Education in Australia encompasses the sectors of early childhood education 
 								</p>
 							</div>
 						</div>
 
-						{/* Islamic Economics content */}
+						{/* Cost of studying */}
 						<div className=" ">
 							<figure>
 								<img
@@ -46,18 +45,18 @@ const Discover = () => {
 								/>
 							</figure>
 							<div className="mt-3">
-								<a href="#">
+								<a href="/cost">
 									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
 									Cost of studying in Australia
 									</h2>
 								</a>
 								<p className="text-black text-md">
-									The Islamic body of knowledge, has emerged as a new social
+								Australia is one of the best study destinations for affordable tuition fees
 								</p>
 							</div>
 						</div>
 
-						{/* Islamic insurance content  */}
+						{/* Job prospects */}
 						<div className=" ">
 							<figure>
 								<img
@@ -73,13 +72,12 @@ const Discover = () => {
 									</h2>
 								</a>
 								<p className="text-black text-md">
-									Islam forbids transactions in which there is gharar. The
-									argument..
+								Are your skills in high demand in Australia? Check below to see jobs 
 								</p>
 							</div>
 						</div>
 
-						{/* Business Law content  */}
+						{/* Post-study work visa  */}
 						<div className=" ">
 							<figure>
 								<img
@@ -95,7 +93,7 @@ const Discover = () => {
 									</h2>
 								</a>
 								<p className="text-black text-md">
-									Islamic commercial law, as fiqh mua'malāt constitutes
+								This visa is for international students who have recently graduated 
 								</p>
 							</div>
 						</div>

@@ -200,45 +200,263 @@ const LivingSydney = () => {
 											</h1>
 											<h1 className="font-bold  mt-2">Mosque</h1>
 											<div>
-												<li> Art Gallery of NSW</li>
-												<li>Museum of Contemporary Art Australia</li>
-												<li>Kate Owen Gallery</li>
-												<li>Carriageworks</li>
-												<li>White Rabbit Art Gallery</li>
+												<li>
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Art Gallery of NSW{" "}
+													</a>
+												</li>
+												<li>
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Museum of Contemporary Art Australia{" "}
+													</a>
+												</li>
+												<li>
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Kate Owen Gallery{" "}
+													</a>
+												</li>
+												<li>
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Carriageworks{" "}
+													</a>
+												</li>
+												<li>
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														White Rabbit Art Gallery{" "}
+													</a>
+												</li>
 											</div>
 											<h1 className="font-bold  mt-2">Halal Foods</h1>
 											<div>
-												<li> Bourke Street Bakery</li>
-												<li>Sonoma Bakery</li>
-												<li>Iggy’s Bread of the World</li>
-												<li>Infinity Bakery</li>
-												<li>Berkelo</li>
+												<li>
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Bourke Street Bakery{" "}
+													</a>
+												</li>
+												<li>
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Sonoma Bakery{" "}
+													</a>
+												</li>
+												<li>
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Iggy’s Bread of the World{" "}
+													</a>
+												</li>
+												<li>
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Infinity Bakery{" "}
+													</a>
+												</li>
+												<li>
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Berkelo{" "}
+													</a>
+												</li>
 											</div>
 											<h1 className="font-bold  mt-2">Markets</h1>
 											<div>
-												<li> Chinatown Markets</li>
-												<li>Paddys Markets</li>
-												<li>Carriageworks Farmers Markets</li>
-												<li>Sydney Vegan Market</li>
-												<li>Paddington Markets</li>
+												<li>
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Chinatown Markets{" "}
+													</a>
+												</li>
+												<li>
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Paddys Markets{" "}
+													</a>
+												</li>
+												<li>
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Carriageworks Farmers Markets{" "}
+													</a>
+												</li>
+												<li>
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Sydney Vegan Market{" "}
+													</a>
+												</li>
+												<li>
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Paddington Markets{" "}
+													</a>
+												</li>
 											</div>
 											<h1 className="font-bold  mt-2">Cultural Center</h1>
 											<div>
-												<li> Metro Theatre</li>
-												<li>The Enmore Theatre</li>
-												<li>Oxford Art Factory</li>
-												<li>Hordern Pavilion</li>
-												<li>The Factory Theatre</li>
+												<li>
+													{" "}
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Metro Theatre
+													</a>
+												</li>
+												<li>
+													{" "}
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														The Enmore Theatre{" "}
+													</a>
+												</li>
+												<li>
+													{" "}
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Oxford Art Factory{" "}
+													</a>
+												</li>
+												<li>
+													{" "}
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Hordern Pavilion{" "}
+													</a>
+												</li>
+												<li>
+													{" "}
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														The Factory Theatre{" "}
+													</a>
+												</li>
 											</div>
 											<h1 className="font-bold  mt-2">Museums</h1>
 
 											<div>
-												<li> Australian Museum</li>
-												<li>Museum of Applied Arts & Sciences</li>
-												<li>Australian National Maritime Museum</li>
-												<li>Hyde Park Barracks Museum</li>
-												<li>Sydney Justice and Police Museum</li>
-												<li>The Factory Theatre</li>
+												<li>
+													{" "}
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														Australian Museum
+													</a>
+												</li>
+												<li>
+													{" "}
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Museum of Applied Arts & Sciences
+													</a>
+												</li>
+												<li>
+													{" "}
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Australian National Maritime Museum{" "}
+													</a>
+												</li>
+												<li>
+													{" "}
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Hyde Park Barracks Museum{" "}
+													</a>
+												</li>
+												<li>
+													{" "}
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														Sydney Justice and Police Museum{" "}
+													</a>
+												</li>
+												<li>
+													{" "}
+													<a
+														href=""
+														className="cursor-hover hover:text-sky-700"
+													>
+														{" "}
+														The Factory Theatre{" "}
+													</a>
+												</li>
 											</div>
 										</div>
 									</article>

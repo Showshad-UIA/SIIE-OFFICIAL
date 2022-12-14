@@ -1,7 +1,7 @@
 import React from "react";
 import Program from "../HOME/HOME PAGE/Program";
 import AboutSibs from "../HOME/HOME PAGE/AboutSibs";
-import Discover from "../HOME/HOME PAGE/Discover";
+import Discover from "./HOME CONTENT/DISCOVER/Discover";
 import Banner from "../HOME/HOME PAGE/Banner";
 import News from "./HOME PAGE/News";
 import Study from "./HOME PAGE/Living Sydney/Study";

@@ -85,6 +85,8 @@ import Scholar from "./components/Navbar/ABOUT SIBS/Our people/Scholar";
 import Adminstrative from "./components/Navbar/ABOUT SIBS/Our people/Adminstrative";
 import AcademicTeam from "./components/Navbar/ABOUT SIBS/Our people/AcademicTeam";
 import LivingSydney from "./components/HOME/HOME PAGE/Living Sydney/LivingSydney";
+import EducationSystem from "./components/HOME/HOME CONTENT/DISCOVER/EducationSystem";
+import Cost from "./components/HOME/HOME CONTENT/DISCOVER/Cost";
 
 function App() {
 	return (
@@ -285,6 +287,18 @@ function App() {
 					path="/articlethree"
 					element={<ArticleThree></ArticleThree>}
 				></Route>
+
+				{/* Discover */}
+				<Route
+					path="/education"
+					element={<EducationSystem></EducationSystem>}
+				></Route>
+				<Route
+					path="/cost"
+					element={<Cost></Cost>}
+				></Route>
+
+
 				<Route
 					path="/living"
 					element={<LivingSydney></LivingSydney>}

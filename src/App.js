@@ -2,7 +2,6 @@ import { Route, Routes } from "react-router-dom";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Topbar from "./components/Navbar/Topbar";
-import Header from "./components/Header";
 import Navbar from "./components/Navbar/ACADEMIC PROGRAMS/NavBar";
 
 // HOME
@@ -87,6 +86,8 @@ import AcademicTeam from "./components/Navbar/ABOUT SIBS/Our people/AcademicTeam
 import LivingSydney from "./components/HOME/HOME PAGE/Living Sydney/LivingSydney";
 import EducationSystem from "./components/HOME/HOME CONTENT/DISCOVER/EducationSystem";
 import Cost from "./components/HOME/HOME CONTENT/DISCOVER/Cost";
+import JobProspect from "./components/HOME/HOME CONTENT/DISCOVER/JobProspect";
+import PostStudyWork from "./components/HOME/HOME CONTENT/DISCOVER/PostStudyWork";
 
 function App() {
 	return (
@@ -293,16 +294,11 @@ function App() {
 					path="/education"
 					element={<EducationSystem></EducationSystem>}
 				></Route>
-				<Route
-					path="/cost"
-					element={<Cost></Cost>}
-				></Route>
+				<Route path="/cost" element={<Cost></Cost>}></Route>
+				<Route path="/jobs" element={<JobProspect></JobProspect>}></Route>
+				<Route path="/postStudy" element={<PostStudyWork></PostStudyWork>}></Route>
 
-
-				<Route
-					path="/living"
-					element={<LivingSydney></LivingSydney>}
-				></Route>
+				<Route path="/living" element={<LivingSydney></LivingSydney>}></Route>
 			</Routes>
 
 			<Footer></Footer>

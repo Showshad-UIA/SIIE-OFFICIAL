@@ -121,99 +121,117 @@ const EducationSystem = () => {
 
 												{/* table-1 */}
 
-												<table className=" border-2 w-full text-sm text-left text-black dark:text-gray-400">
+												<table className=" border-2 w-full  text-left text-black dark:text-gray-400 border-collapse border border-black ">
 													<tbody>
-														<tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+														<tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700 border-collapse border border-black ">
 															<th
 																scope="row"
-																className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+																className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white border-collapse border border-black "
 															>
 																Level 1
 															</th>
-															<td className="py-4 px-1">Certificate I</td>
+															<td className="border-collapse border border-black  py-4 px-1">
+																Certificate I
+															</td>
 														</tr>
-														<tr className="bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700">
+														<tr className="border-collapse border border-black  bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700">
 															<th
 																scope="row"
-																className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+																className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white border-collapse border border-black "
 															>
 																Level 2
 															</th>
-															<td className="py-4 px-1">Certificate II</td>
+															<td className=" border-collapse border border-black py-4 px-1">
+																Certificate II
+															</td>
 														</tr>
-														<tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+														<tr className="bg-white border-collapse border border-black  border-b dark:bg-gray-900 dark:border-gray-700">
 															<th
 																scope="row"
-																className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+																className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white border-collapse border border-black "
 															>
 																Level 3
 															</th>
-															<td className="py-4 px-1">Certificate III</td>
+															<td className="py-4 border-collapse border border-black  px-1">
+																Certificate III
+															</td>
 														</tr>
-														<tr className="bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700">
+														<tr className="border-collapse border border-black  bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700">
 															<th
 																scope="row"
-																className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+																className="border-collapse border border-black  py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
 															>
 																Level 4
 															</th>
-															<td className="py-4 px-1">Certificate IV</td>
+															<td className="py-4 border-collapse border border-black px-1">
+																Certificate IV
+															</td>
 														</tr>
-														<tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+														<tr className="border-collapse border border-black  bg-white border-b dark:bg-gray-900 dark:border-gray-700">
 															<th
 																scope="row"
-																className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+																className="border-collapse border border-black  py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
 															>
 																Level 5
 															</th>
-															<td className="py-4 px-1">Diploma</td>
+															<td className="border-collapse border border-black  py-4 px-1">
+																Diploma
+															</td>
 														</tr>
 														<tr className="bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700">
 															<th
 																scope="row"
-																className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+																className="py-4 border-collapse border border-black  px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
 															>
 																Level 6
 															</th>
-															<td className="py-4 px-1">
+															<td className="py-4 border-collapse border border-black  px-1">
 																Advanced Diploma, Associate Degree
 															</td>
 														</tr>
-														<tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+														<tr className="bg-white border-collapse border border-black  border-b dark:bg-gray-900 dark:border-gray-700">
 															<th
 																scope="row"
-																className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+																className="py-4 px-1 border-collapse border border-black font-medium text-gray-900 whitespace-nowrap dark:text-white"
 															>
 																Level 7
 															</th>
-															<td className="py-4 px-1">Bachelor Degree</td>
+															<td className="py-4 border-collapse border border-black  px-1">
+																Bachelor Degree
+															</td>
 														</tr>
 														<tr>
 															<th
 																scope="row"
-																className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+																className="border-collapse border border-black  py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
 															>
 																Level 8
 															</th>
-															<td className="py-4 px-1">Graduate Diploma</td>
+															<td className="py-4 border-collapse border border-black  px-1">
+																Graduate Diploma
+															</td>
 														</tr>
-														<tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+														<tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700 border-collapse border border-black ">
 															<th
 																scope="row"
-																className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+																className="border-collapse border border-black  py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
 															>
 																Level 9
 															</th>
-															<td className="py-4 px-1">Master's Degree</td>
+															<td className="py-4 border-collapse border border-black px-1">
+																Master's Degree
+															</td>
 														</tr>
 														<tr className="">
 															<th
 																scope="row"
-																className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+																className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white border-collapse border border-black "
 															>
 																Level 10
 															</th>
-															<td className="py-4 px-1">Doctoral Degree</td>
+															<td className="py-4 border-collapse border border-black  px-1">
+																Doctoral Degree
+															</td>
 														</tr>
 													</tbody>
 												</table>
@@ -416,12 +434,12 @@ const EducationSystem = () => {
 
 													{/* table-2 */}
 
-													<table className=" border-2 w-full text-sm text-left text-gray-500 dark:text-gray-400">
+													<table className=" border-2 w-full  text-left text-gray-500 dark:text-gray-400 border-collapse border border-black">
 														<tbody>
-															<tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+															<tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700 border-collapse border border-black">
 																<th
 																	scope="row"
-																	className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+																	className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white border-collapse border border-black"
 																>
 																	<a
 																		href=""
@@ -430,7 +448,7 @@ const EducationSystem = () => {
 																		Health and Science
 																	</a>
 																</th>
-																<td className="py-4 px-1">
+																<td className="py-4 px-1 border-collapse border border-black">
 																	<a
 																		href=""
 																		className="text-sky-700 hover:underline "
@@ -439,10 +457,10 @@ const EducationSystem = () => {
 																	</a>
 																</td>
 															</tr>
-															<tr className="bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700">
+															<tr className="bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700 border-collapse border border-black">
 																<th
 																	scope="row"
-																	className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+																	className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white border-collapse border border-black"
 																>
 																	<a
 																		href=""
@@ -451,7 +469,7 @@ const EducationSystem = () => {
 																		<p>Law</p>
 																	</a>
 																</th>
-																<td className="py-4 px-1">
+																<td className="py-4 px-1 border-collapse border border-black">
 																	<a
 																		href=""
 																		className="text-sky-700 hover:underline"
@@ -460,10 +478,10 @@ const EducationSystem = () => {
 																	</a>
 																</td>
 															</tr>
-															<tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+															<tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700 border-collapse border border-black">
 																<th
 																	scope="row"
-																	className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+																	className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white border-collapse border border-black"
 																>
 																	<a
 																		href=""
@@ -472,7 +490,7 @@ const EducationSystem = () => {
 																		Arts and Design
 																	</a>
 																</th>
-																<td className="py-4 px-1">
+																<td className="py-4 px-1 border-collapse border border-black">
 																	<a
 																		href=""
 																		className="text-sky-700 hover:underline "
@@ -481,10 +499,10 @@ const EducationSystem = () => {
 																	</a>
 																</td>
 															</tr>
-															<tr className="bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700">
+															<tr className="bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700 border-collapse border border-black">
 																<th
 																	scope="row"
-																	className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+																	className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white border-collapse border border-black"
 																>
 																	<a
 																		href=""
@@ -493,7 +511,7 @@ const EducationSystem = () => {
 																		<p>Accounting</p>
 																	</a>
 																</th>
-																<td className="py-4 px-1">
+																<td className="py-4 px-1 border-collapse border border-black">
 																	<a
 																		href=""
 																		className="text-sky-700 hover:underline"
@@ -502,10 +520,10 @@ const EducationSystem = () => {
 																	</a>
 																</td>
 															</tr>
-															<tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+															<tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700 border-collapse border border-black">
 																<th
 																	scope="row"
-																	className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+																	className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white border-collapse border border-black"
 																>
 																	<a
 																		href=""
@@ -552,16 +570,16 @@ const EducationSystem = () => {
 
 													{/* table -3 */}
 
-													<table className=" border-2 w-full text-sm text-left text-black dark:text-gray-400">
+													<table className=" border-2 w-full  text-left text-black dark:text-gray-400 border-collapse border border-black">
 														<tbody>
-															<tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+															<tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700 border-collapse border border-black">
 																<th
 																	scope="row"
-																	className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+																	className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white border-collapse border border-black"
 																>
-																	1.
+																	<p className="px-5">1.</p>
 																</th>
-																<td className="py-4 px-1">
+																<td className="py-4 px-1 border-collapse border border-black px-3">
 																	<p className="text-justify">
 																		The Education Index, published by the United
 																		Nations listed Australia as 0.993 in 2006,
@@ -569,14 +587,14 @@ const EducationSystem = () => {
 																	</p>
 																</td>
 															</tr>
-															<tr className="bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700">
+															<tr className="bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700 border-collapse border border-black">
 																<th
 																	scope="row"
-																	className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+																	className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white border-collapse border border-black"
 																>
-																	<p className=" ">2.</p>
+																	<p className="px-5 ">2.</p>
 																</th>
-																<td className="py-4 px-1">
+																<td className="py-4 px-1 border-collapse border border-black px-3">
 																	{" "}
 																	<p className="text-justify">
 																		In 2017, Australia had 526,932 international
@@ -584,15 +602,15 @@ const EducationSystem = () => {
 																	</p>
 																</td>
 															</tr>
-															<tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+															<tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700 border-collapse border border-black">
 																<th
 																	scope="row"
-																	className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+																	className="py-4 px-1 font-medium text-gray-900 whitespace-nowrap dark:text-white border-collapse border border-black "
 																>
-																	3.
+																	<p className="px-5">3.</p>
 																</th>
-																<td className="py-4 px-1">
-																	<p href="" className="text-justify ">
+																<td className="py-4 px-1 border-collapse border border-black px-3">
+																	<p href="" className=" text-justify ">
 																		An international student is more likely to
 																		enrol in a course registered under CRICOS
 																		(the registration that indicates that the

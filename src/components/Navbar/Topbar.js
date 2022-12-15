@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Topbar = () => {
 	return (
 		<div className="container mx-auto items-center">
-
 			<div className="lg:mx-[100px]">
 				<nav class="">
 					<div class="max-w-screen-xl px-4 py-3  md:px-6">
@@ -60,7 +59,6 @@ const Topbar = () => {
 				</nav>
 			</div>
 		</div>
-		
 	);
 };
 

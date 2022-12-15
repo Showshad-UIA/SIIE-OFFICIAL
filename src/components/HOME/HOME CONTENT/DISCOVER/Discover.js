@@ -1,5 +1,4 @@
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import React from "react";
 import image1 from "../../../../Carosel/Asset/home/generic_education.png";
 import image2 from "../../../../Carosel/Asset/home/costing.jpg";
@@ -66,7 +65,7 @@ const Discover = () => {
 								/>
 							</figure>
 							<div className="mt-3">
-								<a href="#">
+								<a href="/jobs">
 									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
 									Job prospects in Australia
 									</h2>
@@ -87,7 +86,7 @@ const Discover = () => {
 								/>
 							</figure>
 							<div className="mt-3">
-								<a href="#">
+								<a href="/postStudy">
 									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
 									Post-study work visa in Australia
 									</h2>

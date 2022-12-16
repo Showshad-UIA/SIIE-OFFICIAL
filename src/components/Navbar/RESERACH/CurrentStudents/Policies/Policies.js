@@ -50,6 +50,8 @@ const Policies = () => {
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
+								{/* Breadcrumb added */}
+
 								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 									<ul className="text-sky-700 ">
 										<li>
@@ -70,10 +72,16 @@ const Policies = () => {
 											<p className="text-black">Policies and Procedures</p>
 										</li>
 									</ul>
+
+									{/* breadcrumb ended */}
 								</div>
+
+								{/* All policies doc file added here */}
 
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-1"></h1>
+
+									{/* Student Rights */}
 
 									<p className="lg:mx-20  text-justify text-xl text-sky-700 font-bold mt-5 border-b-2">
 										Student Rights and Responsibilities
@@ -95,6 +103,9 @@ const Policies = () => {
 											</a>
 										</div>
 									</div>
+
+									{/* Ethical Scholarship */}
+
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
 											Ethical Scholarship
@@ -134,6 +145,9 @@ const Policies = () => {
 											</div>
 										</div>
 									</div>
+
+									{/* Admission and enrolment */}
+
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
 											Admission and enrolment
@@ -243,7 +257,7 @@ const Policies = () => {
 										</div>
 									</div>
 
-									{/* Fees and charges part start here */}
+									{/* Fees and charges  */}
 
 									<div className="lg:mx-20 ">
 										<a
@@ -348,7 +362,7 @@ const Policies = () => {
 										</div>
 									</div>
 
-									{/* Coursework courses part added here */}
+									{/* Coursework courses  */}
 
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
@@ -493,7 +507,7 @@ const Policies = () => {
 										</div>
 									</div>
 
-									{/* assessment part added here */}
+									{/* assessment  */}
 
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
@@ -535,7 +549,7 @@ const Policies = () => {
 										</div>
 									</div>
 
-									{/* Academic performance added here */}
+									{/* Academic performance */}
 
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
@@ -603,7 +617,7 @@ const Policies = () => {
 										</div>
 									</div>
 
-									{/* Student learning part added here */}
+									{/* Student learning  */}
 
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
@@ -628,7 +642,7 @@ const Policies = () => {
 										</div>
 									</div>
 
-									{/* Recognising Student Academic Excellence added here */}
+									{/*  Academic Excellence  */}
 
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
@@ -670,7 +684,7 @@ const Policies = () => {
 										</div>
 									</div>
 
-									{/* Complaints part added here */}
+									{/* Complaints  */}
 
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
@@ -695,7 +709,7 @@ const Policies = () => {
 										</div>
 									</div>
 
-									{/* Student Conduct and Discipline added here */}
+									{/* Student Conduct and Discipline  */}
 
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
@@ -736,7 +750,7 @@ const Policies = () => {
 										</div>
 									</div>
 
-									{/* Student Feedback on Teaching added here */}
+									{/* Student Feedback  */}
 
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
@@ -761,7 +775,7 @@ const Policies = () => {
 										</div>
 									</div>
 
-									{/* Teaching Period added here */}
+									{/* Teaching Period  */}
 
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
@@ -802,7 +816,7 @@ const Policies = () => {
 										</div>
 									</div>
 
-									{/* Higher degree by research added here */}
+									{/* Higher degree by research */}
 
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">
@@ -934,7 +948,7 @@ const Policies = () => {
 										</div>
 									</div>
 
-									{/* Graduations part added here */}
+									{/* Graduations  */}
 
 									<div className="lg:mx-20 ">
 										<h1 className="text-xl text-sky-700 font-bold mt-5 border-b-2">

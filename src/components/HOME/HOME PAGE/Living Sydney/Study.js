@@ -4,7 +4,7 @@ const Study = () => {
 	return (
 		<div className="container mx-auto">
 			<div>
-				<div className="mb-16 lg:mx-28 lg:w-[85%]  md:mx-28 px-3">
+				<div className="mb-16 lg:mx-28 lg:w-[85%]  md:mx-20 px-3">
 					<h1 className="text-2xl font-bold  mb-3 ">LIVING IN SYDNEY</h1>
 					{/* background image added */}
 					<div

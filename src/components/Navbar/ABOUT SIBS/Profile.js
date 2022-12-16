@@ -1,13 +1,4 @@
-import {
-	faBookOpen,
-	faBuildingColumns,
-	faChevronRight,
-	faGlobe,
-	faHandshake,
-	faHouse,
-	faLightbulb,
-	faMosque,
-} from "@fortawesome/free-solid-svg-icons";
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import governanceBody from "../../../Carosel/Asset/governance.jpg";
@@ -21,15 +12,13 @@ import staff from "../../../Carosel/Asset/staff (1).jpg";
 const Profile = () => {
 	return (
 		<>
-			<div className="container mx-auto  lg:mb-5">
-				<div className="lg:mx-[100px] shadow"></div>
-			</div>
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">
-				<div className="lg:mx-[100px] shadow ">
+				<div className="lg:mx-[110px] shadow ">
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
 								{/* breadcrumb added here */}
+
 								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 									<ul className="text-sky-700 ">
 										<li>
@@ -47,9 +36,11 @@ const Profile = () => {
 											<p className="text-black"> Profile | Vision & Mission</p>
 										</li>
 									</ul>
+
+									{/* breadcrumb ended  */}
 								</div>
 
-								{/* Doctor of Philosophy (PhD) first paragraph added here */}
+								{/* About Us summary */}
 
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
@@ -85,10 +76,10 @@ const Profile = () => {
 						</div>
 					</div>
 
-					{/* PhD courses added here */}
+					{/* MAin content Added */}
 
-					<div className="lg:mx-[100px] pb-10">
-						{/* PhD Banking and Finance start here */}
+					<div className="lg:mx-[110px] pb-10">
+						{/* Academic Structure */}
 						<div className="flex bg-sky-700 shadow p-3 mb-5 gap-5 ">
 							<div className="">
 								<a href="/AcademicStructure">
@@ -112,7 +103,8 @@ const Profile = () => {
 								</p>
 							</div>
 						</div>
-						{/* PhD islamic economics start here */}
+
+						{/* Governance Structure */}
 						<div className="flex bg-sky-700 shadow p-3 mb-5 gap-5">
 							<div className="">
 								<a href="/LeadershipGovernence">
@@ -138,6 +130,9 @@ const Profile = () => {
 								</a>
 							</div>
 						</div>
+
+						{/* Our Facilities */}
+
 						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div className="">
 								<a href="#">
@@ -161,6 +156,8 @@ const Profile = () => {
 							</div>
 						</div>
 
+						{/* Our People */}
+
 						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div>
 								<a href="#">
@@ -182,6 +179,9 @@ const Profile = () => {
 								</a>
 							</div>
 						</div>
+
+						{/* Academic Collaborations */}
+
 						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div className="">
 								<a href="#">
@@ -206,6 +206,9 @@ const Profile = () => {
 								</a>
 							</div>
 						</div>
+
+						{/* Industry Engagement */}
+
 						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div className="">
 								<a href="#">
@@ -230,6 +233,8 @@ const Profile = () => {
 								</a>
 							</div>
 						</div>
+
+						{/* Accreditation */}
 
 						<div className="flex bg-sky-700 p-3 mb-5 gap-5">
 							<div>

@@ -33,6 +33,7 @@ const People = () => {
 							</div>
 							{/* breadcrumb end here */}
 
+							{/* Our people summary start  */}
 							<div className="  ">
 								<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
 								<h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 ">
@@ -51,11 +52,13 @@ const People = () => {
 									International Business.
 								</p>
 							</div>
+
+							{/* Our people summary ended  */}
 						</div>
 					</div>
 
 					{/* Main content start here */}
-					<div className="lg:mx-[100px] pb-10">
+					<div className="lg:mx-[110px] pb-10">
 						{/* Leadership team start here */}
 
 						<div className="flex bg-sky-700 shadow p-3 mb-5 gap-5 ">

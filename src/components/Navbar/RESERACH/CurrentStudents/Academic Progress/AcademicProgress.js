@@ -7,10 +7,12 @@ const AcademicProgress = () => {
 		<div className="">
 			{/* Main content start here */}
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">
-				<div className="lg:mx-[100px] shadow mb-5">
+				<div className="lg:mx-[110px] shadow mb-5">
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
+								{/* Breadcrumb added */}
+
 								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 									<ul className="text-sky-700 ">
 										<li>
@@ -31,11 +33,17 @@ const AcademicProgress = () => {
 											<p className="text-black"> Academic progress</p>
 										</li>
 									</ul>
+
+									{/* Breadcrumb ended */}
 								</div>
+
 								{/* main content start here */}
 								<div>
 									<div className="  ">
 										<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
+
+										{/* Research Candidate Milestones */}
+
 										<h1 className="lg:px-20 px-3 text-xl text-sky-700 font-bold">
 											Research Candidate Milestones
 										</h1>
@@ -87,6 +95,9 @@ const AcademicProgress = () => {
 											</p>
 										</div>
 									</div>
+
+									{/* Candidate Supervisor Agreement */}
+
 									<div className="lg:mx-20 my-5 ">
 										<h1 className="text-xl text-sky-700 font-bold  ">
 											Candidate Supervisor Agreement
@@ -116,6 +127,9 @@ const AcademicProgress = () => {
 											</p>
 										</div>
 									</div>
+
+									{/* Annual Plan */}
+
 									<div className="lg:mx-20 border-t-2">
 										<h1 className="text-xl text-sky-700 font-bold my-3">
 											Annual Plan
@@ -132,6 +146,9 @@ const AcademicProgress = () => {
 											</p>
 										</div>
 									</div>
+
+									{/* Research Integrity Training */}
+
 									<div className="lg:mx-20 border-t-2">
 										<h1 className="text-xl text-sky-700 font-bold my-3">
 											Research Integrity Training
@@ -154,6 +171,9 @@ const AcademicProgress = () => {
 											</p>
 										</div>
 									</div>
+
+									{/* Thesis Proposal Review */}
+
 									<div className="lg:mx-20 border-t-2 ">
 										<h1 className="text-xl text-sky-700 font-bold my-3">
 											Thesis Proposal Review
@@ -182,6 +202,9 @@ const AcademicProgress = () => {
 											milestone.
 										</p>
 									</div>
+
+									{/* Annual Plans and Reports */}
+
 									<div className="lg:mx-20 border-t-2 ">
 										<h1 className="text-xl text-sky-700 font-bold my-3">
 											Annual Plans and Reports
@@ -203,6 +226,9 @@ const AcademicProgress = () => {
 											and determines the outcome of the milestone.
 										</p>
 									</div>
+
+									{/* Oral Presentations */}
+
 									<div className="lg:mx-20 border-t-2 ">
 										<h1 className="text-xl text-sky-700 font-bold my-3">
 											Oral Presentations
@@ -228,6 +254,9 @@ const AcademicProgress = () => {
 											the candidate.
 										</p>
 									</div>
+
+									{/* Notification of Intent to Submit */}
+
 									<div className="lg:mx-20 border-t-2 ">
 										<h1 className="text-xl text-sky-700 font-bold my-3">
 											Notification of Intent to Submit
@@ -258,6 +287,9 @@ const AcademicProgress = () => {
 											.
 										</p>
 									</div>
+
+									{/* Thesis Corrections */}
+
 									<div className="lg:mx-20 border-t-2 ">
 										<h1 className="text-xl text-sky-700 font-bold my-3">
 											Thesis Corrections
@@ -294,7 +326,8 @@ const AcademicProgress = () => {
 									</div>
 								</div>
 
-								{/* table start here */}
+								{/* table added */}
+
 								<div className="lg:mx-20 overflow-x-auto relative ">
 									<table class="  border-collapse border border-black-400 ...">
 										<thead className=" text-sky-700 font-bold">

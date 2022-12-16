@@ -16,7 +16,7 @@ const SafetyContent = () => {
 	return (
 		<div>
 			<div class=" mt-5 pb-5 grid grid-cols-1 md:grid-cols-2 gap-5  lg:grid-cols-3  ">
-				{/* finance component start here  */}
+				{/* Sexual Harassment & Sexual Assault content  */}
 				<div className="px-2">
 					<figure>
 						<img
@@ -37,7 +37,9 @@ const SafetyContent = () => {
 						</p>
 					</div>
 				</div>
-				{/* finance component start here  */}
+
+				{/*Living well  */}
+
 				<div className="px-2">
 					<figure>
 						<img
@@ -58,7 +60,9 @@ const SafetyContent = () => {
 						</p>
 					</div>
 				</div>
-				{/* finance component start here  */}
+
+				{/* Feeling well  */}
+
 				<div className="px-2">
 					<figure>
 						<img
@@ -79,7 +83,9 @@ const SafetyContent = () => {
 						</p>
 					</div>
 				</div>
-				{/* finance component start here  */}
+
+				{/* Respectful relationships  */}
+
 				<div className="px-2">
 					<figure>
 						<img
@@ -100,7 +106,9 @@ const SafetyContent = () => {
 						</p>
 					</div>
 				</div>
-				{/* finance component start here  */}
+
+				{/* Spending well  */}
+
 				<div className="px-2">
 					<figure>
 						<img
@@ -121,7 +129,9 @@ const SafetyContent = () => {
 						</p>
 					</div>
 				</div>
-				{/* finance component start here  */}
+
+				{/* Living legally & safe */}
+
 				<div className="px-2">
 					<figure>
 						<img
@@ -142,7 +152,9 @@ const SafetyContent = () => {
 						</p>
 					</div>
 				</div>
-				{/* finance component start here  */}
+
+				{/* Access & inclusion */}
+
 				<div className="px-2">
 					<figure>
 						<img
@@ -163,7 +175,9 @@ const SafetyContent = () => {
 						</p>
 					</div>
 				</div>
-				{/* finance component start here  */}
+
+				{/*Living spiritually  */}
+
 				<div className="px-2">
 					<figure>
 						<img
@@ -184,7 +198,9 @@ const SafetyContent = () => {
 						</p>
 					</div>
 				</div>
-				{/* finance component start here  */}
+
+				{/* Getting help */}
+
 				<div className="px-2">
 					<figure>
 						<img

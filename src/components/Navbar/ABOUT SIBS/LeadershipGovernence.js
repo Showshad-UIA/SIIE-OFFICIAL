@@ -5,13 +5,12 @@ import Governance from "../../../Carosel/Asset/Presentation8.jpg";
 const LeadershipGovernence = () => {
 	return (
 		<div className="">
-			{/* Main content start here */}
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">
-				<div className="lg:mx-[100px] shadow mb-5">
+				<div className="lg:mx-[110px] shadow mb-5">
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
-								{/* Breadcrumb start here */}
+								{/* Breadcrumb added here */}
 								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 									<ul className="text-sky-700 ">
 										<li>
@@ -29,16 +28,18 @@ const LeadershipGovernence = () => {
 											<p className="text-black">Governance Structure</p>
 										</li>
 									</ul>
+
+									{/* Breadcrumb ended */}
 								</div>
 
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
 
-									{/* Governance body image added here */}
+									{/* Governance body image  */}
 
 									<img src={Governance} alt="" className="lg:px-14 lg:ml-5" />
 
-									{/* Governance body details added here */}
+									{/* Governance body details  */}
 
 									<div className="-mt-10">
 										<h1 className="text-2xl px-3 font-bold border-b-2 lg:mx-24  border-gray-400">
@@ -50,7 +51,7 @@ const LeadershipGovernence = () => {
 											and is informed by a number of standing committees.
 										</p>
 
-										{/* CEO and President start here */}
+										{/* CEO and President  */}
 										<h1 className="text-2xl px-4  font-bold border-b-2 lg:mx-24  mt-5 border-gray-400">
 											<a href="#"> CEO and President</a>
 										</h1>
@@ -61,7 +62,7 @@ const LeadershipGovernence = () => {
 											of the Administrative and Academic Boards.
 										</p>
 
-										{/* Board Committees start here */}
+										{/* Board Committees  */}
 										<div>
 											<h1 className="text-2xl px-4 font-bold border-b-2 lg:mx-24 mt-5 border-gray-400">
 												<a href="#">Board Committees</a>
@@ -73,7 +74,7 @@ const LeadershipGovernence = () => {
 											</p>
 										</div>
 
-										{/* Academic Senate start here */}
+										{/* Academic Senate  */}
 										<div>
 											<h1 className="text-2xl px-4 font-bold border-b-2 lg:mx-24 mt-5  border-gray-400">
 												<a href="#">Academic Senate</a>

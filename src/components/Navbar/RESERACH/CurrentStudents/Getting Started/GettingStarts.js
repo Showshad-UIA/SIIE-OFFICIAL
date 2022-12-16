@@ -5,12 +5,13 @@ import React from "react";
 const GettingStarts = () => {
 	return (
 		<div className="">
-			{/* Main content start here */}
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">
-				<div className="lg:mx-[100px] shadow mb-5">
+				<div className="lg:mx-[110px] shadow mb-5">
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
+								{/* breadcrumb added */}
+
 								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 									<ul className="text-sky-700 ">
 										<li>
@@ -31,7 +32,10 @@ const GettingStarts = () => {
 											<p className="text-black"> Getting started</p>
 										</li>
 									</ul>
+									{/* breadcrumb ended */}
 								</div>
+
+								{/*HDR students Checklist */}
 
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
@@ -46,6 +50,9 @@ const GettingStarts = () => {
 										you navigate the first six months of your research degree.
 									</p>
 								</div>
+
+								{/* checklist-1 */}
+
 								<div className="lg:mx-20 my-5 ">
 									<h1 className="text-xl text-sky-700 font-bold  ">
 										Your first two weeks
@@ -120,6 +127,9 @@ const GettingStarts = () => {
 										</li>
 									</div>
 								</div>
+
+								{/* checklist-2 */}
+
 								<div className="lg:mx-20 border-t-2">
 									<h1 className="text-xl text-sky-700 font-bold my-3">
 										Your first three months
@@ -202,6 +212,9 @@ const GettingStarts = () => {
 										</li>
 									</div>
 								</div>
+
+								{/* checklist-3  */}
+
 								<div className="lg:mx-20 border-t-2">
 									<h1 className="text-xl text-sky-700 font-bold my-3">
 										Your first six months
@@ -243,6 +256,9 @@ const GettingStarts = () => {
 										</li>
 									</div>
 								</div>
+
+								{/* checklist-4  */}
+
 								<div className="lg:mx-20 border-t-2 ">
 									<h1 className="text-xl text-sky-700 font-bold my-3">
 										What to do if things go wrong
@@ -288,6 +304,8 @@ const GettingStarts = () => {
 										</li>
 									</div>
 								</div>
+
+								{/* Quick guide */}
 
 								<div className="lg:mx-20 border-t-2">
 									<h1 className="text-sky-700 font-bold text-xl my-3">

@@ -88,6 +88,7 @@ import EducationSystem from "./components/HOME/HOME CONTENT/DISCOVER/EducationSy
 import Cost from "./components/HOME/HOME CONTENT/DISCOVER/Cost";
 import JobProspect from "./components/HOME/HOME CONTENT/DISCOVER/JobProspect";
 import PostStudyWork from "./components/HOME/HOME CONTENT/DISCOVER/PostStudyWork";
+import Header from "./components/Header";
 
 function App() {
 	return (
@@ -95,6 +96,7 @@ function App() {
 			{/* navbar section added here  */}
 			<Topbar></Topbar>
 			<Navbar></Navbar>
+			
 
 			<Routes>
 				<Route path="/" element={<Home></Home>}></Route>

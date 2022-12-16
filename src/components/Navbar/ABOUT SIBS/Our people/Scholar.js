@@ -15,6 +15,8 @@ const Scholar = () => {
 					<div className="flex flex-col px-2">
 						<div className=" lg:w-full    ">
 							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
+								{/* breadcrumb added here */}
+
 								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 									<ul className="text-sky-700 ">
 										<li>
@@ -38,9 +40,10 @@ const Scholar = () => {
 											<p className="text-black"> Visiting scholars</p>
 										</li>
 									</ul>
+									{/* breadcrumb ended here */}
 								</div>
 
-								{/* News details start here */}
+								{/* Scholar list start here */}
 
 								<div className="lg:mx-20 mx-3">
 									<h1 className="mb-3 border-t-4 border-sky-700  mt-2"></h1>
@@ -50,10 +53,8 @@ const Scholar = () => {
 								</div>
 							</div>
 
-							{/* All new's start from here */}
-
 							<div className="lg:mx-24 -mt-5">
-								{/* First news  start here */}
+								{/* profile-1 */}
 
 								<div className=" mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
@@ -89,7 +90,7 @@ const Scholar = () => {
 									</div>
 								</div>
 
-								{/* Second news  start here */}
+								{/* profile-2 */}
 
 								<div className=" mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
@@ -119,7 +120,7 @@ const Scholar = () => {
 									</div>
 								</div>
 
-								{/* Third news  start here */}
+								{/* profile-3 */}
 
 								<div className="mb-3 p-2 border-b-2 border-gray  ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
@@ -153,7 +154,7 @@ const Scholar = () => {
 									</div>
 								</div>
 
-								{/* Fourth news  start here */}
+								{/* profile-4 */}
 
 								<div className=" mb-3 p-2 border-b-2 border-gray ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 ">
@@ -187,7 +188,7 @@ const Scholar = () => {
 									</div>
 								</div>
 
-								{/* Fifth news  start here */}
+								{/* profile-5 */}
 
 								<div className="mb-3 p-2  border-b-2 border-gray  ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
@@ -218,6 +219,9 @@ const Scholar = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* profile-6 */}
+
 								<div className=" mb-3 p-2 border-b-2 border-gray  ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
 										<img
@@ -247,6 +251,9 @@ const Scholar = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* profile-7 */}
+
 								<div className=" mb-3 p-2 border-b-2 border-gray    ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
 										<img
@@ -276,6 +283,9 @@ const Scholar = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* profile-8 */}
+
 								<div className="mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3 ">
 										<img
@@ -305,7 +315,7 @@ const Scholar = () => {
 										</div>
 									</div>
 								</div>
-
+								{/* profile-9 */}
 								<div className="mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img
@@ -336,6 +346,9 @@ const Scholar = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* profile-10 */}
+
 								<div className="mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img
@@ -366,6 +379,9 @@ const Scholar = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* profile-11 */}
+
 								<div className="mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img
@@ -395,6 +411,9 @@ const Scholar = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* profile-12 */}
+
 								<div className="mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img
@@ -424,6 +443,9 @@ const Scholar = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* profile-14 */}
+
 								<div className="mb-3 p-2   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img

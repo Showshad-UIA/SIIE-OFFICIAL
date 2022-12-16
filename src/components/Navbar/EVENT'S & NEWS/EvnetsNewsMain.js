@@ -8,7 +8,7 @@ const EvnetsNewsMain = () => {
 	const { open, setOpen } = useState("false");
 	const [heading, setHeading] = useState("");
 	const [subHeading, setSubHeading] = useState("");
-	
+
 	return (
 		<>
 			{EventsNewsLinks.map((link) => (
@@ -69,6 +69,7 @@ const EvnetsNewsMain = () => {
           `}
 					>
 						{/* sublinks */}
+
 						{link.sublinks.map((slinks) => (
 							<div>
 								<div>

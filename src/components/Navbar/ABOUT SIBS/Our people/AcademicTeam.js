@@ -15,6 +15,8 @@ const AcademicTeam = () => {
 					<div className="flex flex-col px-2">
 						<div className=" lg:w-full    ">
 							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
+								{/* Breadcrumb added here */}
+
 								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 									<ul className="text-sky-700 ">
 										<li>
@@ -29,7 +31,7 @@ const AcademicTeam = () => {
 											<p>About Us</p>
 										</li>
 										<li>
-											<a href="/profile"> profile</a>
+											<a href="/profile"> Profile</a>
 										</li>
 										<li>
 											<a href="/people"> Our people</a>
@@ -38,6 +40,8 @@ const AcademicTeam = () => {
 											<p className="text-black"> Academic team</p>
 										</li>
 									</ul>
+
+									{/* Breadcrumb ended */}
 								</div>
 
 								{/* News details start here */}
@@ -50,10 +54,11 @@ const AcademicTeam = () => {
 								</div>
 							</div>
 
-							{/* All new's start from here */}
+							{/* Academic Team List added here */}
 
 							<div className="lg:mx-24 -mt-5">
-								{/* First news  start here */}
+								{/* Profile-1*/}
+
 								<div className=" mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
 										<div>
@@ -87,7 +92,7 @@ const AcademicTeam = () => {
 									</div>
 								</div>
 
-								{/* Second news  start here */}
+								{/* Profile-2*/}
 
 								<div className=" mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
@@ -118,7 +123,7 @@ const AcademicTeam = () => {
 									</div>
 								</div>
 
-								{/* Third news  start here */}
+								{/* Profile-3*/}
 
 								<div className="mb-3 p-2 border-b-2 border-gray  ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
@@ -152,7 +157,7 @@ const AcademicTeam = () => {
 									</div>
 								</div>
 
-								{/* Fourth news  start here */}
+								{/* Profile-4*/}
 
 								<div className=" mb-3 p-2 border-b-2 border-gray ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 ">
@@ -186,7 +191,7 @@ const AcademicTeam = () => {
 									</div>
 								</div>
 
-								{/* Fifth news  start here */}
+								{/* Profile-5*/}
 
 								<div className="mb-3 p-2  border-b-2 border-gray  ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
@@ -215,6 +220,9 @@ const AcademicTeam = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* Profile-6*/}
+
 								<div className=" mb-3 p-2 border-b-2 border-gray  ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
 										<img
@@ -244,6 +252,9 @@ const AcademicTeam = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* Profile-7*/}
+
 								<div className=" mb-3 p-2 border-b-2 border-gray    ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
 										<img
@@ -271,6 +282,9 @@ const AcademicTeam = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* Profile-8*/}
+
 								<div className="mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3 ">
 										<img
@@ -300,6 +314,9 @@ const AcademicTeam = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* Profile-1*/}
+
 								<div className="mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img
@@ -329,6 +346,9 @@ const AcademicTeam = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* Profile-10*/}
+
 								<div className="mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img src={male1} className="max-w-sm w-52 px-2 h-44" />
@@ -355,6 +375,9 @@ const AcademicTeam = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* Profile-11*/}
+
 								<div className="mb-3 p-2 border-b-2 border-gray">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img
@@ -383,6 +406,9 @@ const AcademicTeam = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* Profile-12*/}
+
 								<div className="mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img
@@ -412,6 +438,8 @@ const AcademicTeam = () => {
 										</div>
 									</div>
 								</div>
+								{/* Profile-13*/}
+
 								<div className="mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img
@@ -441,6 +469,9 @@ const AcademicTeam = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* Profile-14*/}
+
 								<div className="mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img
@@ -470,6 +501,8 @@ const AcademicTeam = () => {
 										</div>
 									</div>
 								</div>
+								{/* Profile-15*/}
+
 								<div className="mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img

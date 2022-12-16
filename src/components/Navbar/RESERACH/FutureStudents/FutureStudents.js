@@ -33,7 +33,7 @@ const FutureStudents = () => {
 									{/* breadcrumb ended here */}
 								</div>
 
-								{/* Future Students summary start here */}
+								{/* Future Students summary  */}
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-24  mt-2"></h1>
 									<h1 className="lg:mx-20 px-3 text-xl text-sky-700 font-bold  ">

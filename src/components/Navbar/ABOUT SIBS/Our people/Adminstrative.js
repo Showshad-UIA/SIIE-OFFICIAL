@@ -15,6 +15,8 @@ const Adminstrative = () => {
 					<div className="flex flex-col px-2">
 						<div className=" lg:w-full    ">
 							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
+								{/* Breadcrumb added here */}
+
 								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 									<ul className="text-sky-700 ">
 										<li>
@@ -29,7 +31,7 @@ const Adminstrative = () => {
 											<p>About Us</p>
 										</li>
 										<li>
-											<a href="/profile"> profile</a>
+											<a href="/profile"> Profile</a>
 										</li>
 										<li>
 											<a href="/people"> Our people</a>
@@ -38,9 +40,10 @@ const Adminstrative = () => {
 											<p className="text-black"> Administrative team</p>
 										</li>
 									</ul>
+									{/* Breadcrumb ended */}
 								</div>
 
-								{/* News details start here */}
+								{/* Administrative team list start here */}
 
 								<div className="lg:mx-20 mx-3">
 									<h1 className="mb-3 border-t-4 border-sky-700  mt-2"></h1>
@@ -50,10 +53,8 @@ const Adminstrative = () => {
 								</div>
 							</div>
 
-							{/* All new's start from here */}
-
 							<div className="lg:mx-24 -mt-5">
-								{/* First news  start here */}
+								{/* Profile-1 */}
 
 								<div className=" mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
@@ -82,7 +83,7 @@ const Adminstrative = () => {
 									</div>
 								</div>
 
-								{/* Second news  start here */}
+								{/* Profile-2 */}
 
 								<div className=" mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
@@ -106,7 +107,7 @@ const Adminstrative = () => {
 									</div>
 								</div>
 
-								{/* Third news  start here */}
+								{/* Profile-3 */}
 
 								<div className="mb-3 p-2 border-b-2 border-gray  ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
@@ -133,7 +134,7 @@ const Adminstrative = () => {
 									</div>
 								</div>
 
-								{/* Fourth news  start here */}
+								{/* Profile-4 */}
 
 								<div className=" mb-3 p-2 border-b-2 border-gray ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 ">
@@ -160,7 +161,7 @@ const Adminstrative = () => {
 									</div>
 								</div>
 
-								{/* Fifth news  start here */}
+								{/* Profile-5 */}
 
 								<div className="mb-3 p-2  border-b-2 border-gray  ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
@@ -184,6 +185,9 @@ const Adminstrative = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* Profile-6 */}
+
 								<div className=" mb-3 p-2 border-b-2 border-gray  ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
 										<img
@@ -206,6 +210,9 @@ const Adminstrative = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* Profile-7 */}
+
 								<div className=" mb-3 p-2 border-b-2 border-gray    ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2">
 										<img
@@ -228,6 +235,9 @@ const Adminstrative = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* Profile-8 */}
+
 								<div className="mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3 ">
 										<img
@@ -250,6 +260,9 @@ const Adminstrative = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* Profile-9 */}
+
 								<div className="mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img
@@ -272,6 +285,9 @@ const Adminstrative = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* Profile-10 */}
+
 								<div className="mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img src={female1} className="max-w-sm w-52 px-2 h-44" />
@@ -291,6 +307,9 @@ const Adminstrative = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* Profile-11 */}
+
 								<div className="mb-3 p-2 border-b-2 border-gray">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img
@@ -313,6 +332,8 @@ const Adminstrative = () => {
 										</div>
 									</div>
 								</div>
+								{/* Profile-12 */}
+
 								<div className="mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img
@@ -335,6 +356,9 @@ const Adminstrative = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* Profile-13 */}
+
 								<div className="mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img
@@ -355,6 +379,8 @@ const Adminstrative = () => {
 										</div>
 									</div>
 								</div>
+								{/* Profile-14 */}
+
 								<div className="mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img
@@ -377,6 +403,8 @@ const Adminstrative = () => {
 										</div>
 									</div>
 								</div>
+								{/* Profile-15 */}
+
 								<div className="mb-3 p-2 border-b-2 border-gray   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img
@@ -399,6 +427,9 @@ const Adminstrative = () => {
 										</div>
 									</div>
 								</div>
+
+								{/* Profile-16 */}
+
 								<div className="mb-3 p-2   ">
 									<div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2 my-3">
 										<img

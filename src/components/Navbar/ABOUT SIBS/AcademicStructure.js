@@ -7,11 +7,11 @@ const AcademicStructure = () => {
 	return (
 		<div className="">
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">
-				<div className="lg:mx-[100px] shadow mb-5">
+				<div className="lg:mx-[110px] shadow mb-5">
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-base-100 lg:px-8 px-3 py-3 pb-10  ">
-								{/* Breadcrumb start here */}
+								{/* Breadcrumb added here */}
 								<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 									<ul className="text-sky-700 ">
 										<li>
@@ -36,14 +36,14 @@ const AcademicStructure = () => {
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
 
-									{/* AcademicStructure Image added here */}
+									{/* AcademicStructure Image */}
 									<img
 										src={academicStructure}
 										alt=""
 										className="lg:px-14 lg:ml-5 "
 									/>
 
-									{/* AcademicStructure details start here */}
+									{/* AcademicStructure details  */}
 									<h1 className="text-2xl px-4  font-bold border-b-2 lg:mx-20  mt-5 border-gray-400">
 										<a href="#"> Dean</a>
 									</h1>

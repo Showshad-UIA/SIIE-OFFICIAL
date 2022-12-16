@@ -7,7 +7,7 @@ const Track = () => {
 		<div className="">
 			{/* Main content start here */}
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">
-				<div className="lg:mx-[100px] shadow mb-5">
+				<div className="lg:mx-[110px] shadow mb-5">
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
@@ -32,10 +32,15 @@ const Track = () => {
 											<p className="text-black"> Staying on track</p>
 										</li>
 									</ul>
+
+									{/* breadcrumb ended */}
 								</div>
 
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
+
+									{/* Staying on track summary  */}
+
 									<h1 className="lg:px-20 px-3 text-xl text-sky-700 font-bold my-3">
 										Staying on track with your HDR program
 									</h1>
@@ -54,7 +59,10 @@ const Track = () => {
 											get in touch with the relevant area if you are struggling.
 										</p>
 									</div>
+
 									<article className="lg:px-20 px-3 text-justify">
+										{/* Parsa */}
+
 										<h1 className="text-sky-700 text-xl text-sky-700 font-bold mt-2">
 											Parsa
 										</h1>
@@ -89,6 +97,9 @@ const Track = () => {
 												<li>Personal matters</li>
 											</div>
 										</div>
+
+										{/* Sydney IBS Counselling Centre */}
+
 										<div className="text-justify">
 											<h1 className="text-sky-700 font-bold text-xl my-2">
 												Sydney IBS Counselling Centre
@@ -111,6 +122,9 @@ const Track = () => {
 												issues, as well as common HDR concerns such as:
 											</p>
 										</div>
+
+										{/* Guidance on the supervision */}
+
 										<div className="text-justify">
 											<h1 className="text-sky-700 font-bold text-xl my-3">
 												Guidance on the supervision relationship
@@ -190,6 +204,8 @@ const Track = () => {
 											</p>
 										</div>
 
+										{/* Access and inclusion */}
+
 										<div className="text-justify">
 											<h1 className="text-sky-700 text-xl font-bold  my-3">
 												Access and inclusion
@@ -219,6 +235,9 @@ const Track = () => {
 												universities
 											</p>
 										</div>
+
+										{/* Sydney IBS Ally Network & Queer* Department */}
+
 										<div className="text-justify">
 											<h1 className="text-sky-700 text-xl font-bold  my-3">
 												Sydney IBS Ally Network & Queer* Department
@@ -246,6 +265,9 @@ const Track = () => {
 												for all queer* students.{" "}
 											</p>
 										</div>
+
+										{/* Childcare on campus */}
+
 										<div className="text-justify">
 											<h1 className="text-sky-700 text-xl font-bold  my-3">
 												Childcare on campus
@@ -264,6 +286,9 @@ const Track = () => {
 												Acton Early Childhood Centre
 											</li>
 										</div>
+
+										{/* facilities */}
+
 										<div className="text-justify">
 											<h1 className="text-sky-700 text-xl font-bold  my-3">
 												Sydney IBS Campus facilities

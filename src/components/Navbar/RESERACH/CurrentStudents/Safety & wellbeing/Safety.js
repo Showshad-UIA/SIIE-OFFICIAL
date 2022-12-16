@@ -6,7 +6,9 @@ import image9 from "../../../../../Carosel/Asset/Safety/safety 9.jpg";
 const Safety = () => {
 	return (
 		<div className="container mx-auto lg:mb-16 lg:mt-7 ">
-			<div className="lg:mx-[100px] shadow">
+			<div className="lg:mx-[110px] shadow">
+				{/* breadcrumb added */}
+
 				<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
 					<ul className="text-sky-700 ">
 						<li>
@@ -27,8 +29,11 @@ const Safety = () => {
 							<p className="text-black"> Safety & wellbeing</p>
 						</li>
 					</ul>
+					{/* breadcrumb ended */}
 				</div>
-				{/* main content start here */}
+
+
+				{/* safety & wellbeing summary*/}
 				<div>
 					<div className="  ">
 						<h1 className=" mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
@@ -51,6 +56,8 @@ const Safety = () => {
 						</div>
 					</div>
 
+					{/* safety & wellbeing content added */}
+					
 					<div className="lg:mx-20">
 						<SafetyContent></SafetyContent>
 					</div>

@@ -1,53 +1,54 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faArrowRight,
-	faChevronRight,
-	faHouse,
-} from "@fortawesome/free-solid-svg-icons";
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
 
 const Events = () => {
 	return (
 		<div className="container mx-auto mb-10 ">
 			<div class=" p-2  w-full  ">
-				{/* Events main content start from here */}
 				<div
 					class="flex flex-col  lg:flex-row  
-                    shadow-md lg:mx-[100px]   "
+                    shadow-md lg:mx-[110px]   "
 				>
 					<div className="flex flex-col px-2">
 						<div className="">
 							<div className=" lg:w-full    ">
 								<div className=" bg-gray-100 lg:px-3 mt-3  ">
+									{/* Breadcrumb added */}
+
 									<div className="text-md breadcrumbs md:px-6   lg:mx-[55px] ">
-									<ul className="text-sky-700 ">
-										<li>
-											<a href="/">
-												<FontAwesomeIcon
-													icon={faHouse}
-													className="h-6 w-4 px-1  "
-												></FontAwesomeIcon>
-											</a>
-										</li>
-										<li>
-											<p>Events & News</p>
-										</li>
-										<li>
-											<p className="text-black"> Events</p>
-										</li>
-									</ul>
-								</div>
-									
+										<ul className="text-sky-700 ">
+											<li>
+												<a href="/">
+													<FontAwesomeIcon
+														icon={faHouse}
+														className="h-6 w-4 px-1  "
+													></FontAwesomeIcon>
+												</a>
+											</li>
+											<li>
+												<p>Events & News</p>
+											</li>
+											<li>
+												<a href="/events">Research Training</a>
+											</li>
+											<li>
+												<p className="text-black"> Events</p>
+											</li>
+										</ul>
+										{/* Breadcrumb ended */}
+									</div>
 								</div>
 							</div>
 						</div>
 
-						{/* Events table start here */}
+						{/* Events table  */}
+
 						<div className="lg:mx-24">
-						<h1 className=" border-t-4 border-sky-700  mt-2"></h1>
+							<h1 className=" border-t-4 border-sky-700  mt-2"></h1>
 							<div class="overflow-x-auto relative">
 								<table class="w-full text-sm text-left   border-2 pb-5">
-									{/* Table head start here */}
+									{/* Table head  */}
 									<thead class="text-md text-sky-700 bg-gray-300 uppercase ">
 										<tr>
 											<th scope="col" class="py-3 px-6">
@@ -68,9 +69,7 @@ const Events = () => {
 										</tr>
 									</thead>
 
-									{/* Table head end here */}
-
-									{/* Table body start here */}
+									{/* Table body  */}
 									<tbody>
 										<tr class="bg-gray-100 border-b dark:bg-gray-800 dark:border-gray-700">
 											<th

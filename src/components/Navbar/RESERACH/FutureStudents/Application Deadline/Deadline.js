@@ -38,6 +38,8 @@ const Deadline = () => {
 						{/* breadcrumb ended here */}
 					</div>
 					<div className="">
+						{/* Application Deadlines summary */}
+
 						<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-7   mt-2"></h1>
 						<div className="mx-5">
 							<h1 className="text-2xl font-bold my-3">Application Deadlines</h1>
@@ -69,6 +71,8 @@ const Deadline = () => {
 							</p>
 						</div>
 					</div>
+
+					{/* International Applicants content added here */}
 					<button
 						onClick={() => setStep1(!step1)}
 						className="accordion-visible  text-sky-700 font-bold mb-3 border-t border-gray-500"
@@ -99,6 +103,7 @@ const Deadline = () => {
 									IBS should submit their application (and all required
 									documentation) by the following deadlines:
 								</p>
+								{/* Table added  */}
 								<div>
 									<table class=" border-2 border-gray-500 lg:w-[70%] my-5">
 										<tr>
@@ -240,10 +245,12 @@ const Deadline = () => {
 										to ensure you have the correct documents before submission.{" "}
 									</p>
 								</div>
+								{/* Table ended  */}
 							</div>
 						</div>
 					)}
 
+					{/* Domestic Applicants content start here */}
 					<button
 						onClick={() => setStep2(!step2)}
 						className="accordion-visible text-sky-700 font-bold mb-3 border-t border-gray-500"
@@ -269,6 +276,8 @@ const Deadline = () => {
 										through Sydney IBS must submit their application (and all
 										required documentation) by the following deadlines:
 									</p>
+
+									{/* Table added  */}
 									<div>
 										<table class=" border-2 border-gray-500 lg:w-[70%] my-5">
 											<tr>
@@ -348,6 +357,8 @@ const Deadline = () => {
 												</td>
 											</tr>
 										</table>
+										{/* Table ended  */}
+
 										<p className="my-3">
 											Offers will be released no later than the Term Census
 											Date. Unaccepted offers expire 1 month after release, or
@@ -381,6 +392,8 @@ const Deadline = () => {
 						</div>
 					)}
 
+					{/* Enrolment Dates content added */}
+
 					<button
 						onClick={() => setStep3(!step3)}
 						className="accordion-visible text-sky-700 font-bold mb-3 border-t border-gray-500"
@@ -411,6 +424,8 @@ const Deadline = () => {
 							</div>
 						</div>
 					)}
+
+					{/* Contact Us content added */}
 
 					<button
 						onClick={() => setStep12(!step12)}

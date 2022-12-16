@@ -4,7 +4,7 @@ import linekdln from "../../Carosel/Asset/LinkedIn_icon_circle.svg.png";
 const Footer = () => {
 	return (
 		<>
-			<footer class=" text-white bg-sky-700 lg:mt-auto mt-16">
+			<footer class=" text-white bg-sky-700 lg:mx-auto mt-16">
 				<div class="grid grid-cols-2  lg:mx-24 py-8 px-6 md:grid-cols-4 lg:grid-cols-4 justify-between ">
 					<div>
 						<h2 class="mb-6 text-md underline font-bold text-white  dark:text-gray-400">

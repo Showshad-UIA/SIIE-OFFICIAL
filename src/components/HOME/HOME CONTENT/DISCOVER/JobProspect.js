@@ -11,7 +11,7 @@ const JobProspect = () => {
 						<div className=" lg:w-full    ">
 							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
 								{/* breadcrumb added here */}
-								<div className="text-md breadcrumbs md:px-1   lg:mx-[55px] ">
+								<div className="text-md breadcrumbs md:px-1   lg:mx-[70px] ">
 									<ul className="text-sky-700 ">
 										<li>
 											<a href="/">
@@ -32,11 +32,12 @@ const JobProspect = () => {
 								</div>
 								{/* breadcrumb end */}
 
-								{/* About the cost of study*/}
+								{/* summary of employment prospects*/}
 
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
 
+									{/* content-1  */}
 									<div className="lg:px-20 px-3">
 										<h1 className="text-sky-700 text-xl font-bold   ">
 											Employment prospects in Australia
@@ -99,6 +100,8 @@ const JobProspect = () => {
 											</p>
 										</div>
 									</div>
+
+									{/* content-2  */}
 									<div className="lg:px-20 px-3">
 										<h1 className="text-sky-700 text-xl font-bold  my-3 ">
 											Your rights at work
@@ -135,6 +138,7 @@ const JobProspect = () => {
 										</div>
 									</div>
 
+									{/* content-3  */}
 									<div className="lg:px-20 px-3">
 										<h1 className="text-sky-700 text-xl font-bold  my-3 ">
 											Working while you study
@@ -156,6 +160,8 @@ const JobProspect = () => {
 											</ul>
 										</div>
 									</div>
+
+									{/* content-4  */}
 									<div className="lg:px-20 px-3">
 										<h1 className="text-sky-700 text-xl font-bold  my-3 ">
 											Working after you graduate

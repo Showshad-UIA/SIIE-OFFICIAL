@@ -23,7 +23,7 @@ const LivingSydney = () => {
 										</li>
 
 										<li>
-											<p className="text-black"> Living Sydney</p>
+											<p className="text-black"> Living in Sydney</p>
 										</li>
 									</ul>
 								</div>
@@ -108,6 +108,9 @@ const LivingSydney = () => {
 										<li>Internet/phone: $20-55</li>
 										<li>Other: $50+</li>
 										<li>Total: $370-885</li>
+
+										{/* Transport */}
+
 										<div>
 											<h1 className="font-bold text-xl my-2 text-sky-700">
 												Transport
@@ -194,6 +197,9 @@ const LivingSydney = () => {
 												favourite piece of street art.
 											</p>
 										</div>
+
+										{/* Sydney’s Top 5s added here  */}
+
 										<div>
 											<h1 className="font-bold text-xl my-2 text-sky-700">
 												Sydney’s Top 5s
@@ -246,6 +252,9 @@ const LivingSydney = () => {
 													</a>
 												</li>
 											</div>
+
+											{/* Halal Foods */}
+
 											<h1 className="font-bold  mt-2">Halal Foods</h1>
 											<div>
 												<li>
@@ -294,6 +303,9 @@ const LivingSydney = () => {
 													</a>
 												</li>
 											</div>
+
+											{/* Markets */}
+
 											<h1 className="font-bold  mt-2">Markets</h1>
 											<div>
 												<li>
@@ -342,6 +354,9 @@ const LivingSydney = () => {
 													</a>
 												</li>
 											</div>
+
+											{/* Cultural Center */}
+
 											<h1 className="font-bold  mt-2">Cultural Center</h1>
 											<div>
 												<li>
@@ -395,6 +410,9 @@ const LivingSydney = () => {
 													</a>
 												</li>
 											</div>
+
+											{/* Museum */}
+
 											<h1 className="font-bold  mt-2">Museums</h1>
 
 											<div>

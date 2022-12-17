@@ -2,7 +2,7 @@ import React from "react";
 
 import image1 from "../../../Carosel/Asset/explore 04.jpg";
 import image2 from "../../../Carosel/Asset/explore 01.jpg";
-import image3 from "../../../Carosel/Asset/insurance.jpg";
+import image3 from "../../../Carosel/Asset/funding.jpg";
 
 const News = () => {
 	return (

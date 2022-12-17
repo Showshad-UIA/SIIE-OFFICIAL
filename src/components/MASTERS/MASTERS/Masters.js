@@ -1,10 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight, faHouse } from "@fortawesome/free-solid-svg-icons";
-import finance from "../../../Carosel/Asset/Islamic finance and banking.jpg";
-import economics from "../../../Carosel/Asset/Islamic economics.jpg";
+import finance from "../../../Carosel/Asset/finance.jpg";
+import economics from "../../../Carosel/Asset/economics.jpg";
 import business from "../../../Carosel/Asset/business law.jpg";
-import Insurance from "../../../Carosel/Asset/Insurance_.jpg";
+import Insurance from "../../../Carosel/Asset/insurance.jpg";
 import Management from "../../../Carosel/Asset/management .jpg";
 import IBusiness from "../../../Carosel/Asset/International-Business.png";
 const Masters = () => {
@@ -80,7 +80,7 @@ const Masters = () => {
 					</div>
 
 					{/* MPhil main content start here */}
-					<div className="lg:mx-[100px] pb-10">
+					<div className="lg:mx-[110px] pb-10">
 						<div className="flex bg-sky-700 shadow p-5 mb-5 gap-5">
 							{/* MPhil finance */}
 							<div>

@@ -1,12 +1,10 @@
 import { faChevronRight, faHouse } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import finance from "../../../Carosel/Asset/Islamic finance and banking.jpg";
-import economics from "../../../Carosel/Asset/Islamic economics.jpg";
-import business from "../../../Carosel/Asset/business law.jpg";
-import Insurance from "../../../Carosel/Asset/Insurance_.jpg";
-import Management from "../../../Carosel/Asset/management .jpg";
-import IBusiness from "../../../Carosel/Asset/International-Business.png";
+import finance from "../../../Carosel/Asset/Diploma/finance.jpg";
+import economics from "../../../Carosel/Asset/Diploma/economics.jpg";
+import business from "../../../Carosel/Asset/Diploma/business.jpg";
+import Insurance from "../../../Carosel/Asset/Diploma/insurance.jpg";
 
 const Diploma = () => {
 	return (

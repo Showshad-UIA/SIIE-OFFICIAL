@@ -1,14 +1,12 @@
 import React from "react";
-import finance from "../../Carosel/Asset/Islamic finance.jpg";
-import economics from "../../Carosel/Asset/economics.jpg";
-import business from "../../Carosel/Asset/explore 03.jpg";
-import Insurance from "../../Carosel/Asset/Islamic insurance.jpg";
+import finance from "../../Carosel/Asset/Phd/Islamic finance.jpg";
+import economics from "../../Carosel/Asset/Phd/economics.jpg";
+import business from "../../Carosel/Asset/Phd/explore 03.jpg";
+import Insurance from "../../Carosel/Asset/Phd/Islamic insurance.jpg";
 import Management from "../../Carosel/Asset/management.jpg";
-import IBusiness from "../../Carosel/Asset/international-business.jpg";
+import IBusiness from "../../Carosel/Asset/Phd/International-Business.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight, faHouse } from "@fortawesome/free-solid-svg-icons";
-
-
 
 const Phd = () => {
 	return (
@@ -77,7 +75,6 @@ const Phd = () => {
 										<a href="/phdprogram" className="text-sky-700 px-2">
 											PhD programs
 										</a>
-										
 									</p>
 								</div>
 							</div>

@@ -436,7 +436,10 @@ const Deadline = () => {
 					</button>
 					{step12 && (
 						<div>
-							<div aria-hidden={step12 ? "true" : "false"} className="mx-4">
+							<div
+								aria-hidden={step12 ? "true" : "false"}
+								className="mx-4 pb-3"
+							>
 								<p className="my-3">
 									Have questions? Contact the HDR Admissions and Scholarships
 									team

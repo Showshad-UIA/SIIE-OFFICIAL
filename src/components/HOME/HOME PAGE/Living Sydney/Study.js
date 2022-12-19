@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Study = () => {
+	const navigate = useNavigate();
 	return (
 		<div className="container mx-auto">
 			<div>
@@ -24,12 +26,12 @@ const Study = () => {
 									Sydney is popular with international students for many
 									reasons.
 								</p>
-								<a
-									href="/living"
+								<button
+									onClick={() => navigate("/living")}
 									className="bg-sky-700 text-white p-3 rounded-lg "
 								>
 									Know more
-								</a>
+								</button>
 							</div>
 						</div>
 					</div>

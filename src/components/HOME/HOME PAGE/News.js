@@ -3,8 +3,10 @@ import React from "react";
 import image1 from "../../../Carosel/Asset/explore 04.jpg";
 import image2 from "../../../Carosel/Asset/explore 01.jpg";
 import image3 from "../../../Carosel/Asset/funding.jpg";
+import { useNavigate } from "react-router-dom";
 
 const News = () => {
+	const navigate = useNavigate();
 	return (
 		<>
 			<div className="container mx-auto sm:mb-5 ">
@@ -26,7 +28,7 @@ const News = () => {
 					{/* Main content start here */}
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-10  lg:grid-cols-4 ">
 						<div className="">
-							<a href="/articleone">
+							<p onClick={() => navigate("/articleone")}>
 								<figure>
 									<img
 										src={image1}
@@ -34,9 +36,9 @@ const News = () => {
 										className="lg:h-[190px] lg:w-[350px] "
 									/>
 								</figure>
-							</a>
+							</p>
 							<div className=" mt-3">
-								<a href="/articleone">
+								<p onClick={() => navigate("/articleone")}>
 									{" "}
 									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
 										What’s next for Islamic banking?
@@ -45,7 +47,7 @@ const News = () => {
 										The ethical principles on which Islamic finance is based may
 										bring banks{" "}
 									</p>
-								</a>
+								</p>
 								<p className="text-black text-sm ">13 OCT 2022</p>
 							</div>
 						</div>
@@ -61,7 +63,7 @@ const News = () => {
 								</figure>
 							</a>
 							<div className="mt-3">
-								<a href="/articletwo">
+								<p onClick={() => navigate("/articletwo")}>
 									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
 										Islamic banks — too big to fail ?
 									</h2>
@@ -69,12 +71,12 @@ const News = () => {
 										Economics aside, size is also important because banking
 										revolves around faith .
 									</p>
-								</a>
+								</p>
 								<p className="text-black text-sm">15 OCT 2022</p>
 							</div>
 						</div>
 						<div className=" ">
-							<a href="/articlethree">
+							<p onClick={() => navigate("/articletwo")}>
 								<figure>
 									<img
 										src={image3}
@@ -82,9 +84,9 @@ const News = () => {
 										className="lg:h-[190px] lg:w-[350px]"
 									/>
 								</figure>
-							</a>
+							</p>
 							<div className="mt-3">
-								<a href="/articlethree">
+								<p onClick={() => navigate("/articlethree")}>
 									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
 										Funding social expenditure
 									</h2>
@@ -92,7 +94,7 @@ const News = () => {
 										While the use of risk-sharing instruments for the funding of
 										revenue
 									</p>
-								</a>
+								</p>
 								<p className="text-black text-sm">17 OCT 2022</p>
 							</div>
 							{/* News component end here */}
@@ -115,19 +117,18 @@ const News = () => {
 								</div>
 								<div className="flex -mt-[65px] lg:w-full gap-3 lg:mb-6 ">
 									<div className="font-bold p-1  text-white w-10 h-[50px] text-sm bg-black ">
-										16 OCT
+										1-2 MAR
 									</div>
 									<div className=" text-justify ">
-										<a href="#">
-											<p className="text-blue-500  text-[16px]  hover:text-red-500">
-												The knowledge of economics or economic activities and
-												processes in terms of Islamic principles and teachings
+										<p onClick={() => navigate("#")}>
+											<p className="text-blue-500 cursor-pointer hover:underline text-[16px]  ">
+												Islamic Finance Symposium 2023
 											</p>
-											<h1 className="text-md text-black lg:mt-1 ">
-												The concept of Islamic economics
-											</h1>
-											<p className="text-[12px] text-gray-500">16 OCT 2022</p>
-										</a>
+
+											<p className="text-[12px] text-gray-500">
+												Tuesday 1 March - Wednesday 2 March 2023
+											</p>
+										</p>
 									</div>
 								</div>
 								<div className="flex lg:mt-5 w-full gap-4 mb-8">
@@ -135,13 +136,17 @@ const News = () => {
 										13 OCT
 									</div>
 									<div className=" text-justify">
-										<a href="#">
-											<p className="hover:text-red-500 text-blue-500  text-[16px]  ">
-												Hudud punishments range from public lashing to publicly
-												stoning to death, amputation of hands and crucifixion.
+										<a
+											href="https://humaifc.com/
+"
+										>
+											<p className="hover:underline cursor-pointer text-blue-500  text-[16px]  ">
+												Sydney Islamic Business School- Islamic Finance
+												Conference 2024
 											</p>
+											<a></a>
 
-											<p className="text-[12px] text-gray-500">13 OCT 2022</p>
+											<p className="text-[12px] text-gray-500">Monday  13 October, 2024</p>
 										</a>
 									</div>
 								</div>

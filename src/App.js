@@ -89,6 +89,8 @@ import Cost from "./components/HOME/HOME CONTENT/DISCOVER/Cost";
 import JobProspect from "./components/HOME/HOME CONTENT/DISCOVER/JobProspect";
 import PostStudyWork from "./components/HOME/HOME CONTENT/DISCOVER/PostStudyWork";
 import Header from "./components/Header";
+import HDR_Policy from "./components/Navbar/RESERACH/CurrentStudents/HDR/HDR_Policy";
+import InterestPolicy from "./components/Navbar/RESERACH/CurrentStudents/HDR/InterestPolicy";
 
 function App() {
 	return (
@@ -96,7 +98,6 @@ function App() {
 			{/* navbar section added here  */}
 			<Topbar></Topbar>
 			<Navbar></Navbar>
-			
 
 			<Routes>
 				<Route path="/" element={<Home></Home>}></Route>
@@ -154,6 +155,12 @@ function App() {
 					element={<GettingStarts></GettingStarts>}
 				></Route>
 				<Route path="/policies" element={<Policies></Policies>}></Route>
+				<Route path="/hdr" element={<HDR_Policy></HDR_Policy>}></Route>
+
+				{/* HDR subpages added here  */}
+				<Route path="/interest" element={<InterestPolicy></InterestPolicy>}>
+					{" "}
+				</Route>
 
 				<Route
 					path="/progress"
@@ -298,7 +305,10 @@ function App() {
 				></Route>
 				<Route path="/cost" element={<Cost></Cost>}></Route>
 				<Route path="/jobs" element={<JobProspect></JobProspect>}></Route>
-				<Route path="/postStudy" element={<PostStudyWork></PostStudyWork>}></Route>
+				<Route
+					path="/postStudy"
+					element={<PostStudyWork></PostStudyWork>}
+				></Route>
 
 				<Route path="/living" element={<LivingSydney></LivingSydney>}></Route>
 			</Routes>

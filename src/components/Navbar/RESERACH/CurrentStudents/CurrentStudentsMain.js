@@ -4,11 +4,11 @@ import React from "react";
 import image1 from "../../../../Carosel/Asset/current students/getting started.jpg";
 import image2 from "../../../../Carosel/Asset/policy.jpg";
 import image4 from "../../../../Carosel/Asset/current students/integrity.jpg";
-import image3 from "../../../../Carosel/Asset/training.jpg";
+import image3 from "../../../../Carosel/Asset/current students/Associations.jpg";
 import image5 from "../../../../Carosel/Asset/safety.jpg";
 import image6 from "../../../../Carosel/Asset/current students/progress.jpg";
 import image7 from "../../../../Carosel/Asset/current students/track.jpg";
-import image8 from "../../../../Carosel/Asset/current students/Associations.jpg";
+import image8 from "../../../../Carosel/Asset/training.jpg";
 import image9 from "../../../../Carosel/Asset/current students/degree.jpg";
 
 const CurrentStudentsMain = () => {
@@ -65,7 +65,7 @@ const CurrentStudentsMain = () => {
 							</div>
 						</div>
 						<div className=" ">
-							<a href="/events">
+							<a href="/hdr">
 								<figure>
 									<img
 										src={image3}
@@ -75,9 +75,9 @@ const CurrentStudentsMain = () => {
 								</figure>
 							</a>
 							<div className="mt-3">
-								<a href="/events">
+								<a href="/hdr">
 									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
-										Research Training
+										Higher Degree Research Policies
 									</h2>
 								</a>
 								<p className="text-black text-md">
@@ -194,17 +194,21 @@ const CurrentStudentsMain = () => {
 							</div>
 						</div>
 						<div className="  ">
-							<figure>
-								<img
-									src={image8}
-									alt="image4"
-									className="lg:h-[190px] lg:w-[350px]"
-								/>
-							</figure>
+							<a href="/events">
+								<figure>
+									<img
+										src={image8}
+										alt="image4"
+										className="lg:h-[190px] lg:w-[350px]"
+									/>
+								</figure>
+							</a>
 							<div className="mt-3">
-								<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
-									HDR Students' Association
-								</h2>
+								<a href="/events">
+									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
+										Research Training
+									</h2>
+								</a>
 								<p className="text-justify text-black text-md">
 									Information to help you submit your thesis, scholarships for
 									higher degree complete all the

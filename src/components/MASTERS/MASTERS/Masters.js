@@ -7,7 +7,9 @@ import business from "../../../Carosel/Asset/business law.jpg";
 import Insurance from "../../../Carosel/Asset/insurance.jpg";
 import Management from "../../../Carosel/Asset/management .jpg";
 import IBusiness from "../../../Carosel/Asset/International-Business.png";
+
 const Masters = () => {
+	
 	return (
 		<>
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">

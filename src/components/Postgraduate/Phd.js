@@ -7,8 +7,10 @@ import Management from "../../Carosel/Asset/management.jpg";
 import IBusiness from "../../Carosel/Asset/Phd/International-Business.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight, faHouse } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from "react-router-dom";
 
 const Phd = () => {
+	const navigate = useNavigate();
 	return (
 		<>
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">
@@ -70,11 +72,14 @@ const Phd = () => {
 
 									{/* PhD programs content linked  */}
 
-									<p className="text-justify mt-3 lg:px-20 px-3">
+									<p className="text-justify mt-3 lg:px-20 px-3 flex">
 										Read more about Sydney IBS
-										<a href="/phdprogram" className="text-sky-700 px-2">
+										<p
+											onClick={() => navigate("/phdprogram")}
+											className="text-sky-700 px-2 cursor-pointer hover:underline"
+										>
 											PhD programs
-										</a>
+										</p>
 									</p>
 								</div>
 							</div>

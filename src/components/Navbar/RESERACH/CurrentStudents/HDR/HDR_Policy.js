@@ -35,7 +35,10 @@ const HDR_Policy = () => {
 											<a href="/current"> Current students</a>
 										</li>
 										<li>
-											<p className="text-black"> Higher Degree Research Policies</p>
+											<p className="text-black">
+												{" "}
+												Higher Degree Research Policies
+											</p>
 										</li>
 									</ul>
 									{/* breadcrumb ended */}
@@ -58,28 +61,34 @@ const HDR_Policy = () => {
 								</div>
 
 								<div className="lg:mx-20 ">
-									<div className="flex gap-2 px-2 ">
+									<div className="flex gap-1 px-2 ">
 										<FontAwesomeIcon
 											icon={faChevronRight}
 											className="h-9 w-2  text-sky-700  "
 										></FontAwesomeIcon>
 
-										<p className="text-justify mb-2">
+										<p className="text-justify  flex ">
 											<a href="/interest">
-												<span className="text-sky-700 border-b-2 border-sky-700 border-dotted ">
-													Conflict of Interest Policy{" "}
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold ">
+													Conflict of Interest Policy
 												</span>
+											</a>
+											<a href="/duplicate">
+												<p className="px-2 text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
+													{" "}
+													/ Duplicate
+												</p>
 											</a>
 											<FontAwesomeIcon
 												icon={faArrowUpRightFromSquare}
-												className="h-6 w-2.5 px-1 text-sky-700  "
+												className="h-6 w-2.5 text-sky-700  "
 											></FontAwesomeIcon>
-											(opens in new window)Opens in a new window - Policy on
-											identifying, declaring and managing conflicts of interest.
+											- Policy on identifying, declaring and managing conflicts
+											of interest.
 										</p>
 									</div>
 
-									<div className="flex gap-2  px-2">
+									<div className="flex gap-1  px-2">
 										<FontAwesomeIcon
 											icon={faChevronRight}
 											className="h-9 w-2  text-sky-700  "
@@ -87,20 +96,20 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-sky-700 border-dotted">
-													Doctorate Policy
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
+													Doctor of philosophy policy
 												</span>
 											</a>
 											<FontAwesomeIcon
 												icon={faArrowUpRightFromSquare}
 												className="h-6 w-2.5 px-1 text-sky-700  "
 											></FontAwesomeIcon>
-											(opens in new window)Opens in a new window - Policy on
-											admission, English language requirements, progress
-											reports, requirements of the degree and examinations.
+											- Policy on admission, English language requirements,
+											progress reports, requirements of the degree and
+											examinations.
 										</p>
 									</div>
-									<div className="flex gap-2  px-2">
+									<div className="flex gap-1  px-2">
 										<FontAwesomeIcon
 											icon={faChevronRight}
 											className="h-9 w-2  text-sky-700  "
@@ -108,7 +117,26 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-sky-700 border-dotted">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
+													Master of philosophy policy
+												</span>
+											</a>
+											<FontAwesomeIcon
+												icon={faArrowUpRightFromSquare}
+												className="h-6 w-2.5 px-1 text-sky-700  "
+											></FontAwesomeIcon>
+											- Policy on degrees awarded by two universities.
+										</p>
+									</div>
+									<div className="flex gap-1  px-2">
+										<FontAwesomeIcon
+											icon={faChevronRight}
+											className="h-9 w-2  text-sky-700  "
+										></FontAwesomeIcon>
+
+										<p className="text-justify mb-2">
+											<a href="">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
 													Dual Award and Joint Higher Degrees Policy
 												</span>
 											</a>
@@ -116,11 +144,10 @@ const HDR_Policy = () => {
 												icon={faArrowUpRightFromSquare}
 												className="h-6 w-2.5 px-1 text-sky-700  "
 											></FontAwesomeIcon>
-											(opens in new window)Opens in a new window - Policy on
-											degrees awarded by two universities.
+											- Policy on degrees awarded by two universities.
 										</p>
 									</div>
-									<div className="flex gap-2  px-2">
+									<div className="flex gap-1  px-2">
 										<FontAwesomeIcon
 											icon={faChevronRight}
 											className="h-9 w-2  text-sky-700  "
@@ -128,7 +155,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-sky-700 border-dotted">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
 													Intellectual Property Policy
 												</span>
 											</a>
@@ -136,12 +163,11 @@ const HDR_Policy = () => {
 												icon={faArrowUpRightFromSquare}
 												className="h-6 w-2.5 px-1 text-sky-700  "
 											></FontAwesomeIcon>
-											(opens in new window)Opens in a new window - the
-											commitment to an environment in which mutual respect,
-											dignity and inclusion prevail.
+											- The commitment to an environment in which mutual
+											respect, dignity and inclusion prevail.
 										</p>
 									</div>
-									<div className="flex gap-2  px-2">
+									<div className="flex gap-1  px-2">
 										<FontAwesomeIcon
 											icon={faChevronRight}
 											className="h-9 w-2  text-sky-700  "
@@ -149,7 +175,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-sky-700 border-dotted">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
 													Master of Research Policy.
 												</span>
 											</a>
@@ -157,12 +183,11 @@ const HDR_Policy = () => {
 												icon={faArrowUpRightFromSquare}
 												className="h-6 w-2.5 px-1 text-sky-700  "
 											></FontAwesomeIcon>
-											(opens in new window)Opens in a new window - establishes
-											the requirements and procedures for undertaking the Master
-											of Research (MRes) degree
+											- Establishes the requirements and procedures for
+											undertaking the Master of Research (MRes) degree
 										</p>
 									</div>
-									<div className="flex gap-2  px-2">
+									<div className="flex gap-1  px-2">
 										<FontAwesomeIcon
 											icon={faChevronRight}
 											className="h-9 w-2  text-sky-700  "
@@ -170,7 +195,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-sky-700 border-dotted">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
 													Research Code of Practice
 												</span>
 											</a>
@@ -178,12 +203,12 @@ const HDR_Policy = () => {
 												icon={faArrowUpRightFromSquare}
 												className="h-6 w-2.5 px-1 text-sky-700  "
 											></FontAwesomeIcon>
-											(opens in new window)Opens in a new window - specifically
-											authorship, plagiarism, inculcation of good research
-											practice, responsibilities to research candidates.
+											- Specifically authorship, plagiarism, inculcation of good
+											research practice, responsibilities to research
+											candidates.
 										</p>
 									</div>
-									<div className="flex gap-2  px-2">
+									<div className="flex gap-1  px-2">
 										<FontAwesomeIcon
 											icon={faChevronRight}
 											className="h-9 w-2  text-sky-700  "
@@ -191,7 +216,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-sky-700 border-dotted">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
 													Research Higher Degree Appeals Procedures
 												</span>
 											</a>
@@ -199,12 +224,11 @@ const HDR_Policy = () => {
 												icon={faArrowUpRightFromSquare}
 												className="h-6 w-2.5 px-1 text-sky-700  "
 											></FontAwesomeIcon>
-											(opens in new window)Opens in a new window - Appeal
-											procedures; against allocation of a scholarship or
-											examination result, on procedural grounds.
+											- Appeal procedures; against allocation of a scholarship
+											or examination result, on procedural grounds.
 										</p>
 									</div>
-									<div className="flex gap-2  px-2">
+									<div className="flex gap-1  px-2">
 										<FontAwesomeIcon
 											icon={faChevronRight}
 											className="h-9 w-2  text-sky-700  "
@@ -212,7 +236,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-sky-700 border-dotted">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
 													Research Higher Degree Candidature Essential Resources
 													Policy
 												</span>
@@ -221,12 +245,11 @@ const HDR_Policy = () => {
 												icon={faArrowUpRightFromSquare}
 												className="h-6 w-2.5 px-1 text-sky-700  "
 											></FontAwesomeIcon>
-											(opens in new window)Opens in a new window - Outlines
-											candidate entitlements and School or Research Institute
-											responsibilities in delivering resources.
+											- Outlines candidate entitlements and School or Research
+											Institute responsibilities in delivering resources.
 										</p>
 									</div>
-									<div className="flex gap-2  px-2">
+									<div className="flex gap-1  px-2">
 										<FontAwesomeIcon
 											icon={faChevronRight}
 											className="h-9 w-2  text-sky-700  "
@@ -234,7 +257,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-sky-700 border-dotted">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
 													Research Higher Degree and Research Training Program
 													Scholarship Policy
 												</span>
@@ -243,13 +266,12 @@ const HDR_Policy = () => {
 												icon={faArrowUpRightFromSquare}
 												className="h-6 w-2.5 px-1 text-sky-700  "
 											></FontAwesomeIcon>
-											(opens in new window)Opens in a new window - Outlines
-											conditions of award applying to scholarship with stipend
-											holders.
+											- Outlines conditions of award applying to scholarship
+											with stipend holders.
 										</p>
 									</div>
 
-									<div className="flex gap-2  px-2">
+									<div className="flex gap-1  px-2">
 										<FontAwesomeIcon
 											icon={faChevronRight}
 											className="h-9 w-2  text-sky-700  "
@@ -257,7 +279,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-sky-700 border-dotted">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
 													Respect and Inclusion in Learning and Working Policy
 												</span>
 											</a>
@@ -265,12 +287,11 @@ const HDR_Policy = () => {
 												icon={faArrowUpRightFromSquare}
 												className="h-6 w-2.5 px-1 text-sky-700  "
 											></FontAwesomeIcon>
-											(opens in new window)Opens in a new window - Commitment to
-											a working and learning environment in which mutual
-											respect, dignity and inclusion prevail.
+											- Commitment to a working and learning environment in
+											which mutual respect, dignity and inclusion prevail.
 										</p>
 									</div>
-									<div className="flex gap-2  px-2">
+									<div className="flex gap-1  px-2">
 										<FontAwesomeIcon
 											icon={faChevronRight}
 											className="h-9 w-2  text-sky-700  "
@@ -278,7 +299,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-sky-700 border-dotted">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
 													Student Misconduct Rule
 												</span>
 											</a>
@@ -286,12 +307,11 @@ const HDR_Policy = () => {
 												icon={faArrowUpRightFromSquare}
 												className="h-6 w-2.5 px-1 text-sky-700  "
 											></FontAwesomeIcon>
-											(opens in new window)Opens in a new window - Definition,
-											identification, reporting and consequences of student
-											misconduct
+											- Definition, identification, reporting and consequences
+											of student misconduct
 										</p>
 									</div>
-									<div className="flex gap-2  px-2">
+									<div className="flex gap-1  px-2">
 										<FontAwesomeIcon
 											icon={faChevronRight}
 											className="h-9 w-2  text-sky-700  "
@@ -299,7 +319,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-sky-700 border-dotted">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
 													Supervision of Research Candidates Policy
 												</span>
 											</a>
@@ -307,12 +327,11 @@ const HDR_Policy = () => {
 												icon={faArrowUpRightFromSquare}
 												className="h-6 w-2.5 px-1 text-sky-700  "
 											></FontAwesomeIcon>
-											(opens in new window)Opens in a new window - Roles,
-											responsibilities and eligibility of research higher degree
-											supervisors.
+											- Roles, responsibilities and eligibility of research
+											higher degree supervisors.
 										</p>
 									</div>
-									<div className="flex gap-2  px-2">
+									<div className="flex gap-1  px-2">
 										<FontAwesomeIcon
 											icon={faChevronRight}
 											className="h-9 w-2  text-sky-700  "
@@ -320,7 +339,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-sky-700 border-dotted ">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
 													Work Health and Safety Policy
 												</span>
 											</a>

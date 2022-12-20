@@ -2,7 +2,7 @@ import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-const InterestPolicy = () => {
+const HdrDupicate = () => {
 	return (
 		<div className="">
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">
@@ -29,7 +29,10 @@ const InterestPolicy = () => {
 											<a href="/current"> Current students</a>
 										</li>
 										<li>
-											<a href="/hdr">Higher Degree Research Policies</a>
+											<a href="/hdr">
+												{" "}
+												Higher Degree Research Policies
+											</a>
 										</li>
 									</ul>
 									{/* breadcrumb ended */}
@@ -43,118 +46,11 @@ const InterestPolicy = () => {
 										Conflict of Interest Policy
 									</h1>
 								</div>
-								<div className="flex lg:px-20 ">
-									<div className="relative flex flex-col   lg:w-[320px] overflow-auto">
-										<div className="border-2 px-1">
-											<div className="flex-1">
-												<ul className="pt-2 pb-4  ">
-													<li className="">
-														<a href="#section-1">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2   rounded-md">
-																Section 1 - Purpose and Context
-															</p>
-														</a>
-													</li>
-													<li className="px-3">
-														<a href="#part A">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2 border-l-4  rounded-md">
-																Part A - Introduction
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm px-3">
-														<a href="#part B">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2 border-l-4  rounded-md">
-																Part B - Application
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm">
-														<a href="#section-2">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2   rounded-md">
-																Section 2 - Definitions
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm">
-														<a href="#section-3">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2   rounded-md">
-																Section 3 - Policy Statement
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm px-3">
-														<a href="#part C">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2 border-l-4  rounded-md">
-																Part C - The Conflicts of Interest Rule
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm px-3">
-														<a href="#part D">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2 border-l-4  rounded-md">
-																Part D - University’s Requirementstion
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm px-3">
-														<a href="#part E">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2 border-l-4  rounded-md">
-																Part E - The University’s Expectations of
-																Conduct
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm px-3">
-														<a href="#part F">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2 border-l-4  rounded-md">
-																Part F - Raising Awareness and Training
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm px-3">
-														<a href="#part G">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2 border-l-4  rounded-md">
-																Part G - Consequences of Non-Compliance
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm px-3">
-														<a href="#part H">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2 border-l-4  rounded-md">
-																Part H - Privacy
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm px-3">
-														<a href="#part I">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2 border-l-4  rounded-md">
-																Part I - Agents and Contractors
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm">
-														<a href="#section-4">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2  rounded-md">
-																Section 4 - Procedures
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm">
-														<a href="#section-5">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2  rounded-md">
-																Section 5 - Guidelines
-															</p>
-														</a>
-													</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div className="container mx-auto border-2 ">
+								<div className=" lg:px-20 ">
+									<div className="container mx-auto  ">
 										<div className="grid grid-cols-1 mb-6 lg:grid-cols-1">
 											<div
-												className="w-full px-4 py-2 text-justify"
+												className="w-full  py-2 text-justify"
 												id="section-1"
 											>
 												<div className="text-black ">
@@ -225,7 +121,7 @@ const InterestPolicy = () => {
 											{/* Section 2 added here */}
 
 											<div
-												className="w-full px-4 py-2 text-justify"
+												className="w-full  py-2 text-justify"
 												id="section-2"
 											>
 												<div className="text-black ">
@@ -303,7 +199,7 @@ const InterestPolicy = () => {
 
 											{/* section-3 added here  */}
 											<div
-												className="w-full px-4 py-2 text-justify"
+												className="w-full  py-2 text-justify"
 												id="section-3"
 											>
 												<div className="text-black ">
@@ -597,7 +493,7 @@ const InterestPolicy = () => {
 												</div>
 											</div>
 											<div
-												className="w-full px-4 py-2 text-justify"
+												className="w-full  py-2 text-justify"
 												id="section-4"
 											>
 												<div className="text-black ">
@@ -611,7 +507,7 @@ const InterestPolicy = () => {
 
 											{/* section - 5 added here */}
 											<div
-												className="w-full px-4 py-2 text-justify"
+												className="w-full  py-2 text-justify"
 												id="section-5"
 											>
 												<div className="text-black ">
@@ -634,4 +530,4 @@ const InterestPolicy = () => {
 	);
 };
 
-export default InterestPolicy;
+export default HdrDupicate;

@@ -137,7 +137,9 @@ const Phd = () => {
 							</div>
 							<div className="w-[75%]">
 								<a href="/phdeconomics">
-									<p className="text-2xl mb-5 text-white">Islamic Economics</p>
+									<p className="text-2xl mb-5 text-white">
+										Islamic Economics
+									</p>
 
 									<p className="mb-3 text-white text-justify">
 										It tries to promote human brotherhood, socio-economic
@@ -202,7 +204,9 @@ const Phd = () => {
 							</div>
 							<div className="w-[75%]">
 								<a href="/phdinsurance">
-									<p className="text-2xl text-white mb-5">Islamic Insurance</p>
+									<p className="text-2xl text-white mb-5">
+										Islamic Insurance
+									</p>
 									<p className="mb-3 text-white text-justify">
 										A Shariah-compliant insurance that can be renewed online.
 										DISCOVER. A Shariah-compliant motor insurance plan that can
@@ -233,7 +237,9 @@ const Phd = () => {
 							</div>
 							<div className="w-[75%]">
 								<a href="/phdmanagement">
-									<p className="text-2xl mb-5 text-white">Management</p>
+									<p className="text-2xl mb-5 text-white">
+										Management
+									</p>
 									<p className="mb-3 text-white text-justify">
 										Management is the coordination and administration of tasks
 										to achieve a goal. Such administration activities include

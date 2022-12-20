@@ -77,9 +77,10 @@ const CurrentStudentsMain = () => {
 							<div className="mt-3">
 								<a href="/hdr">
 									<h2 className="text-xl text-sky-700 cursor-pointer hover:underline">
-										Higher Degree Research Policies
+										Higher Degree Research Policies /
 									</h2>
 								</a>
+								
 								<p className="text-black text-md">
 									Resources, workshops and communities to help you make the most
 									of your time at SIBS

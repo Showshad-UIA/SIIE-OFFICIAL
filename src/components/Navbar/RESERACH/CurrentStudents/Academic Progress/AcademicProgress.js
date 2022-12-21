@@ -329,30 +329,30 @@ const AcademicProgress = () => {
 								{/* table added */}
 
 								<div className="lg:mx-20 overflow-x-auto relative ">
-									<table class="  border-collapse border border-black-400 ...">
+									<table className="  border-collapse border border-black-400 ...">
 										<thead className=" text-sky-700 font-bold">
 											<tr>
-												<th class="border border-black-2 py-4  ">
+												<th className="border border-black-2 py-4  ">
 													Progression Indicator
 												</th>
-												<th class="border border-black-2 py-4 px-2">
+												<th className="border border-black-2 py-4 px-2">
 													Commentary
 												</th>
-												<th class="border border-black-2 py-4 px-1">
+												<th className="border border-black-2 py-4 px-1">
 													Timeframe (PhD)
 												</th>
-												<th class="border border-black-2 py-4 px-1">
+												<th className="border border-black-2 py-4 px-1">
 													Timeframe (MPhil)
 												</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
-												<td class="border border-black-2 px-2">
+												<td className="border border-black-2 px-2">
 													Completion of Research Integrity Training (RIT) and
 													Test
 												</td>
-												<td class="border border-black-2 px-2 text-justify">
+												<td className="border border-black-2 px-2 text-justify">
 													<p className="my-2">
 														All HDR candidates must successfully complete the
 														online RIT course before they can submit any
@@ -362,15 +362,15 @@ const AcademicProgress = () => {
 														successfully completed.
 													</p>
 												</td>
-												<td class="border border-black-2 px-2">3 months</td>
-												<td class="border border-black-2 px-2">3 months</td>
+												<td className="border border-black-2 px-2">3 months</td>
+												<td className="border border-black-2 px-2">3 months</td>
 											</tr>
 
 											<tr>
-												<td class="border border-black-2 px-2">
+												<td className="border border-black-2 px-2">
 													First Annual Plan (AP)
 												</td>
-												<td class="border border-black-2 px-2 text-justify">
+												<td className="border border-black-2 px-2 text-justify">
 													<p className="my-2">
 														Research plan for at least the coming year. The
 														Annual Plan (AP) outlines what the candidate intends
@@ -382,15 +382,15 @@ const AcademicProgress = () => {
 														Report
 													</p>
 												</td>
-												<td class="border border-black-2 px-2">3 months</td>
-												<td class="border border-black-2 px-2">3 months</td>
+												<td className="border border-black-2 px-2">3 months</td>
+												<td className="border border-black-2 px-2">3 months</td>
 											</tr>
 											<tr>
-												<td class="border border-black-2 px-2">
+												<td className="border border-black-2 px-2">
 													If required by the DA, completion of Mid-Year Review
 													(MTR)
 												</td>
-												<td class="border border-black-2 px-2 text-justify">
+												<td className="border border-black-2 px-2 text-justify">
 													<p className="my-2">
 														All HDR candidates must successfully complete the
 														online RIT course before they can submit any
@@ -400,14 +400,14 @@ const AcademicProgress = () => {
 														successfully completed.
 													</p>
 												</td>
-												<td class="border border-black-2 px-2">18 months</td>
-												<td class="border border-black-2 px-2">18 months</td>
+												<td className="border border-black-2 px-2">18 months</td>
+												<td className="border border-black-2 px-2">18 months</td>
 											</tr>
 											<tr>
-												<td class="border border-black-2 px-2">
+												<td className="border border-black-2 px-2">
 													Thesis Proposal Review (TPR)
 												</td>
-												<td class="border border-black-2 px-2 text-justify">
+												<td className="border border-black-2 px-2 text-justify">
 													<p className="my-2">
 														A detailed thesis proposal, literature review,
 														report on research activities during the past 12
@@ -436,14 +436,14 @@ const AcademicProgress = () => {
 														outcome of the milestone.
 													</p>
 												</td>
-												<td class="border border-black-2 px-2">9-12 months</td>
-												<td class="border border-black-2 px-2">6-9 months</td>
+												<td className="border border-black-2 px-2">9-12 months</td>
+												<td className="border border-black-2 px-2">6-9 months</td>
 											</tr>
 											<tr>
-												<td class="border border-black-2 px-2">
+												<td className="border border-black-2 px-2">
 													Annual Report and Plan
 												</td>
-												<td class="border border-black-2 px-2 text-justify">
+												<td className="border border-black-2 px-2 text-justify">
 													<p className="my-2">
 														{" "}
 														Report of research activities during the past year.
@@ -466,19 +466,19 @@ const AcademicProgress = () => {
 														Annual Plan.
 													</p>
 												</td>
-												<td class="border border-black-2 px-2">
+												<td className="border border-black-2 px-2">
 													<p>12 months</p>
 													<p>24 months</p>
 													<p>36 months</p>
 												</td>
-												<td class="border border-black-2 px-2">-</td>
+												<td className="border border-black-2 px-2">-</td>
 											</tr>
 											<tr>
-												<td class="border border-black-2 px-2">
+												<td className="border border-black-2 px-2">
 													Completion of Research Integrity Training (RIT) and
 													Test
 												</td>
-												<td class="border border-black-2 px-2 text-justify">
+												<td className="border border-black-2 px-2 text-justify">
 													<p className="my-2">
 														All HDR candidates must successfully complete the
 														online RIT course before they can submit any
@@ -488,14 +488,14 @@ const AcademicProgress = () => {
 														successfully completed.
 													</p>
 												</td>
-												<td class="border border-black-2 px-2">3 months</td>
-												<td class="border border-black-2 px-2">3 months</td>
+												<td className="border border-black-2 px-2">3 months</td>
+												<td className="border border-black-2 px-2">3 months</td>
 											</tr>
 											<tr>
-												<td class="border border-black-2 px-2">
+												<td className="border border-black-2 px-2">
 													Oral Presentation
 												</td>
-												<td class="border border-black-2 px-2 text-justify">
+												<td className="border border-black-2 px-2 text-justify">
 													<p className="my-2">
 														The Oral Presentation occurs up to 12 months before
 														the intended thesis submission date.
@@ -535,18 +535,18 @@ const AcademicProgress = () => {
 														their candidature.
 													</p>
 												</td>
-												<td class="border border-black-2 px-2">
+												<td className="border border-black-2 px-2">
 													12 Months before your expected submission date
 												</td>
-												<td class="border border-black-2 px-2">
+												<td className="border border-black-2 px-2">
 													6 Months before your expected submission date
 												</td>
 											</tr>
 											<tr>
-												<td class="border border-black-2 px-2">
+												<td className="border border-black-2 px-2">
 													Notification of Intent (NoI) to Submit your Thesis
 												</td>
-												<td class="border border-black-2 px-2 text-justify">
+												<td className="border border-black-2 px-2 text-justify">
 													<p className="my-3">
 														This eForm should be used to lodge your Notification
 														of Intent to Submit your thesis. In this form, you
@@ -574,18 +574,18 @@ const AcademicProgress = () => {
 														Access Restriction.
 													</p>
 												</td>
-												<td class="border border-black-2 px-2">
+												<td className="border border-black-2 px-2">
 													2-3 Months before your expected submission date
 												</td>
-												<td class="border border-black-2 px-2">
+												<td className="border border-black-2 px-2">
 													2-3 Months before your expected submission date
 												</td>
 											</tr>
 											<tr>
-												<td class="border border-black-2 px-2">
+												<td className="border border-black-2 px-2">
 													Thesis Submission
 												</td>
-												<td class="border border-black-2 px-2 text-justify">
+												<td className="border border-black-2 px-2 text-justify">
 													<p className="my-3">
 														This eForm should be used to submit your thesis for
 														examination. In this form, you can:
@@ -608,18 +608,18 @@ const AcademicProgress = () => {
 														complete before submitting
 													</p>
 												</td>
-												<td class="border border-black-2 px-2">
+												<td className="border border-black-2 px-2">
 													When you are ready to submit
 												</td>
-												<td class="border border-black-2 px-2">
+												<td className="border border-black-2 px-2">
 													When you are ready to submit
 												</td>
 											</tr>
 											<tr>
-												<td class="border border-black-2 px-2">
+												<td className="border border-black-2 px-2">
 													Thesis Corrections
 												</td>
-												<td class="border border-black-2 px-2 text-justify">
+												<td className="border border-black-2 px-2 text-justify">
 													<p className="my-3">
 														This eForm should be used to re-submit your thesis
 														with corrections and revisions as requested by the
@@ -639,10 +639,10 @@ const AcademicProgress = () => {
 														submitting
 													</p>
 												</td>
-												<td class="border border-black-2 px-2">
+												<td className="border border-black-2 px-2">
 													Up to 12 Months after notification of your result
 												</td>
-												<td class="border border-black-2 px-2">
+												<td className="border border-black-2 px-2">
 													Up to 12 Months after notification of your result
 												</td>
 											</tr>

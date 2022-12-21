@@ -29,7 +29,10 @@ const InterestPolicy = () => {
 											<a href="/current"> Current students</a>
 										</li>
 										<li>
-											<a href="/hdr">Higher Degree Research Policies</a>
+											<a href="/hdr"> Higher Degree Research Policies</a>
+										</li>
+										<li>
+											<p className="text-black">Conflict of Interest Policy</p>
 										</li>
 									</ul>
 									{/* breadcrumb ended */}
@@ -39,130 +42,20 @@ const InterestPolicy = () => {
 
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
-									<h1 className="lg:px-20 px-3 text-xl text-sky-700 font-bold ">
-										Conflict of Interest Policy
+									<h1 className="lg:px-20 px-3 text-xl text-sky-700 font-bold text-center ">
+										CONFLICT OF INTEREST POLICY
 									</h1>
 								</div>
-								<div className="flex lg:px-20 ">
-									<div className="relative flex flex-col   lg:w-[320px] overflow-auto">
-										<div className="border-2 px-1">
-											<div className="flex-1">
-												<ul className="pt-2 pb-4  ">
-													<li className="">
-														<a href="#section-1">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2   rounded-md">
-																Section 1 - Purpose and Context
-															</p>
-														</a>
-													</li>
-													<li className="px-3">
-														<a href="#part A">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2 border-l-4  rounded-md">
-																Part A - Introduction
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm px-3">
-														<a href="#part B">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2 border-l-4  rounded-md">
-																Part B - Application
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm">
-														<a href="#section-2">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2   rounded-md">
-																Section 2 - Definitions
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm">
-														<a href="#section-3">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2   rounded-md">
-																Section 3 - Policy Statement
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm px-3">
-														<a href="#part C">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2 border-l-4  rounded-md">
-																Part C - The Conflicts of Interest Rule
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm px-3">
-														<a href="#part D">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2 border-l-4  rounded-md">
-																Part D - University’s Requirementstion
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm px-3">
-														<a href="#part E">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2 border-l-4  rounded-md">
-																Part E - The University’s Expectations of
-																Conduct
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm px-3">
-														<a href="#part F">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2 border-l-4  rounded-md">
-																Part F - Raising Awareness and Training
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm px-3">
-														<a href="#part G">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2 border-l-4  rounded-md">
-																Part G - Consequences of Non-Compliance
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm px-3">
-														<a href="#part H">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2 border-l-4  rounded-md">
-																Part H - Privacy
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm px-3">
-														<a href="#part I">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2 border-l-4  rounded-md">
-																Part I - Agents and Contractors
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm">
-														<a href="#section-4">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2  rounded-md">
-																Section 4 - Procedures
-															</p>
-														</a>
-													</li>
-													<li className="rounded-sm">
-														<a href="#section-5">
-															<p className="cursor-pointer hover:bg-sky-700 hover:text-white border-b-2  rounded-md">
-																Section 5 - Guidelines
-															</p>
-														</a>
-													</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div className="container mx-auto border-2 ">
+								<div className=" lg:px-20 ">
+									<div className="container mx-auto  ">
 										<div className="grid grid-cols-1 mb-6 lg:grid-cols-1">
-											<div
-												className="w-full px-4 py-2 text-justify"
-												id="section-1"
-											>
-												<div className="text-black ">
-													<h1 className="font-bold text-xl text-sky-700">
-														Section 1 - Purpose and Context
+											<div className="w-full  py-2 text-justify" id="section-1">
+												<div className="text-black border-b-2">
+													<h1 className="font-bold text-xl text-sky-700 mt-3">
+														SECTION 1 - PURPOSE AND CONTEXT
 													</h1>
 													<div id="part A" className="text-justify">
-														<h2 className="py-3 font-bold text-xl text-sky-700">
+														<h2 className="py-3 font-bold text-xl text-black">
 															Part A - Introduction
 														</h2>
 														<ol className="">
@@ -195,7 +88,7 @@ const InterestPolicy = () => {
 													{/* Part B added here  */}
 
 													<div id="part B text-justify">
-														<p className="py-3 font-bold text-xl text-sky-700">
+														<p className="py-3 font-bold text-xl text-black">
 															{" "}
 															Part B - Application
 														</p>
@@ -206,12 +99,15 @@ const InterestPolicy = () => {
 															</p>
 															<p className="mb-1">
 																(5) This policy should be read in conjunction
-																with the University’s Code of Conduct, and is
-																supported by procedures and guidelines which are
-																mandatory to demonstrate compliance with this
-																policy.
+																with the University’s{" "}
+																<span className="text-sky-700 cursor-pointer hover:underline">
+																	Code of Conduct
+																</span>{" "}
+																, and is supported by procedures and guidelines
+																which are mandatory to demonstrate compliance
+																with this policy.
 															</p>
-															<p className="mb-1">
+															<p className="mb-1 pb-2">
 																(6) University controlled entities are expected
 																to establish and implement their own conflict of
 																interest policies, but may resolve to adopt this
@@ -225,12 +121,12 @@ const InterestPolicy = () => {
 											{/* Section 2 added here */}
 
 											<div
-												className="w-full px-4 py-2 text-justify"
-												id="section-2"
+												className="w-full  py-2 text-justify"
+												id="section-2  "
 											>
-												<div className="text-black ">
+												<div className="border-b-2 text-black ">
 													<h1 className="font-bold text-xl text-sky-700">
-														Section 2 - Definitions
+														SECTION 2 - DEFINITIONS
 													</h1>
 
 													<h2 className="py-3 ">
@@ -244,7 +140,7 @@ const InterestPolicy = () => {
 															capacity (whether paid or voluntary), including:
 														</p>
 														<p className="mb-1">
-															(i) a member of the Board of Trustees or its
+															(i) A member of the Board of Trustees or its
 															committees;
 														</p>
 														<p className="mb-1">
@@ -254,12 +150,12 @@ const InterestPolicy = () => {
 															University has an interest;
 														</p>
 														<p className="mb-1">
-															(iii) a person who holds a clinical, adjunct,
+															(iii) A person who holds a clinical, adjunct,
 															conjoint or honorary title or appointment; and
 														</p>
 														<p className="mb-1">
 															{" "}
-															(iv) a person engaged as an agent or contractor of
+															(iv) A person engaged as an agent or contractor of
 															the University (whether in Australia or overseas).
 														</p>
 														<p className="my-2">
@@ -272,16 +168,16 @@ const InterestPolicy = () => {
 															might occur include:
 														</p>
 														<p className="mb-1">
-															(i) personal relationships (inside and outside the
+															(i) Personal relationships (inside and outside the
 															University);
 														</p>
 														<p className="mb-1">
-															(ii) perceptions of bias in favour of, or against,
+															(ii) Perceptions of bias in favour of, or against,
 															another person or something, such as a political
 															or religious conviction or belief; or
 														</p>
 														<p className="mb-1">
-															(iii) acceptance of bribes or other financial
+															(iii) Acceptance of bribes or other financial
 															incentives.
 														</p>
 														<p className="mt-2">
@@ -289,7 +185,7 @@ const InterestPolicy = () => {
 															register that records all declared conflicts of
 															interests in accordance with the Procedures.
 														</p>
-														<p>
+														<p className="pb-2">
 															(d) Material interest – is where a reasonable
 															person would assume that a University employee or
 															other person engaged in University business stands
@@ -302,19 +198,16 @@ const InterestPolicy = () => {
 											</div>
 
 											{/* section-3 added here  */}
-											<div
-												className="w-full px-4 py-2 text-justify"
-												id="section-3"
-											>
-												<div className="text-black ">
+											<div className="w-full  py-2 text-justify" id="section-3">
+												<div className="text-black border-b-2 ">
 													<h1 className="font-bold text-xl text-sky-700">
-														Section 3 -Policy Statement
+														SECTION 3 - POLICY STATEMENT
 													</h1>
 
 													{/* part - C added here  */}
 
 													<div id="part C">
-														<h2 className="font-bold text-xl text-sky-700 my-2">
+														<h2 className="font-bold text-xl text-black my-2">
 															{" "}
 															Part C - The Conflicts of Interest Rule
 														</h2>
@@ -360,11 +253,11 @@ const InterestPolicy = () => {
 													{/* part- D added here  */}
 
 													<div id="part D">
-														<h2 className="text-sky-700 text-xl font-bold my-2">
+														<h2 className="text-black text-xl font-bold my-2">
 															Part D - University’s Requirements
 														</h2>
 														<p className="mb-2">
-															(10)The University requires all University
+															(10) The University requires all University
 															representatives act ethically at all times, with
 															openness and fairness, and to proactively
 															safeguard the performance of their official duties
@@ -373,7 +266,7 @@ const InterestPolicy = () => {
 														</p>
 
 														<p className="mb-2">
-															(11)This requirement recognises the University's
+															(11) This requirement recognises the University's
 															legal obligations in dealing with the disclosure,
 															management, and reporting of conflicts of interest
 															that apply to University representatives. These
@@ -381,33 +274,43 @@ const InterestPolicy = () => {
 														</p>
 														<div className="">
 															<p className="mb-2">
-																(a) Western Sydney University Act 1997 – which
-																applies to University Board of Trustees members
-																and requires them to disclose all material
-																interests in any matter before the Board, and to
-																not be present or participate in any decision on
-																that matter (refer Schedule 2A, clause 5 of the
+																(a){" "}
+																<span className="cursor-pointer hover:underline text-sky-700">
+																	Sydney IBS Act 1997
+																</span>{" "}
+																– which applies to University Board of Trustees
+																members and requires them to disclose all
+																material interests in any matter before the
+																Board, and to not be present or participate in
+																any decision on that matter (refer Schedule 2A,
+																clause 5 of the Act).
+															</p>
+															<p className="mb-2">
+																(b){" "}
+																<span className="cursor-pointer hover:underline text-sky-700">
+																	Corporations Act 2001
+																</span>{" "}
+																– which applies to companies and requires
+																directors to notify material personal interests
+																when a conflict arises (refer Section 191 of the
 																Act).
 															</p>
 															<p className="mb-2">
-																(b) Corporations Act 2001 – which applies to
-																companies and requires directors to notify
-																material personal interests when a conflict
-																arises (refer Section 191 of the Act).
-															</p>
-															<p className="mb-2">
-																(c) Independent Commission Against Corruption
-																Act 1988 – which applies to University
-																representatives as “public officials” and
-																includes conflicts of interests such as
-																improperly using knowledge or resources of the
-																person’s position for personal gain or the
-																advantage of others. The Vice-Chancellor and
-																President, as principal officer of the
-																University, has a duty to notify the Commission
-																of any matter where there is reasonable
-																suspicion of corrupt conduct (refer Part 3 of
-																the Act).
+																(c){" "}
+																<span className="cursor-pointer hover:underline text-sky-700">
+																	Independent Commission Against Corruption Act
+																	1988
+																</span>{" "}
+																– which applies to University representatives as
+																“public officials” and includes conflicts of
+																interests such as improperly using knowledge or
+																resources of the person’s position for personal
+																gain or the advantage of others. The
+																Vice-Chancellor and President, as principal
+																officer of the University, has a duty to notify
+																the Commission of any matter where there is
+																reasonable suspicion of corrupt conduct (refer
+																Part 3 of the Act).
 															</p>
 														</div>
 														<p className="mb-2">
@@ -418,7 +321,7 @@ const InterestPolicy = () => {
 														</p>
 
 														<p className="mb-2">
-															(13)The University will also require specified
+															(13) The University will also require specified
 															University representatives to complete annual
 															declarations of interests in order to comply with
 															relevant legislative or governance standards.
@@ -428,7 +331,7 @@ const InterestPolicy = () => {
 													{/* part E added here  */}
 
 													<div id="part E">
-														<h2 className="text-sky-700 text-xl my-2 font-bold ">
+														<h2 className="text-black text-xl my-2 font-bold ">
 															Part E - The University’s Expectations of Conduct
 														</h2>
 														<p className="my-2">
@@ -464,8 +367,11 @@ const InterestPolicy = () => {
 																recusing themselves from decision-making,
 																removing themselves from supervision or
 																assessment, or arranging for another authorized
-																Delegate under the University's Delegations of
-																Authority Policy.
+																Delegate under the University's{" "}
+																<span className="cursor-pointer hover:underline text-sky-700">
+																	Delegations of Authority Policy
+																</span>{" "}
+																.
 															</p>
 															<p className="pb-2">
 																(e) Record details of the conflict and
@@ -483,17 +389,20 @@ const InterestPolicy = () => {
 															of this policy to their supervisor, a senior
 															manager of the University, the Office of Audit and
 															Risk Assessment, or a Public Interest Disclosures
-															Officer under the University's Whistleblowing
-															(Reporting Corruption and Other Wrongdoing)
-															Policy.
+															Officer under the University's{" "}
+															<span className="cursor-pointer hover:underline text-sky-700">
+																Whistleblowing (Reporting Corruption and Other
+																Wrongdoing) Policy
+															</span>
+															.
 														</p>
 
 														<p className="mb-2">
-															(16)The University Executive, senior staff and all
-															managers and supervisors play a leading role in
-															ensuring a culture that exemplifies best practice
-															and sets the benchmark for ethical behaviour. In
-															particular, they are expected to:
+															(16) The University Executive, senior staff and
+															all managers and supervisors play a leading role
+															in ensuring a culture that exemplifies best
+															practice and sets the benchmark for ethical
+															behaviour. In particular, they are expected to:
 														</p>
 
 														<p className="mb-1">
@@ -529,11 +438,11 @@ const InterestPolicy = () => {
 													{/* part F added here  */}
 
 													<div id="part F">
-														<h2 className="text-sky-700 text-xl font-bold my-2">
+														<h2 className="text-black text-xl font-bold my-2">
 															Part F - Raising Awareness and Training
 														</h2>
 														<p>
-															(17)The University will ensure that University
+															(17) The University will ensure that University
 															representatives have access to programs designed
 															to raise awareness and to assist them in carrying
 															out their responsibilities and duties, including
@@ -544,11 +453,11 @@ const InterestPolicy = () => {
 													{/* part G added here  */}
 
 													<div id="part G">
-														<h2 className="text-sky-700 font-bold text-xl my-2">
+														<h2 className="text-black font-bold text-xl my-2">
 															Part G - Consequences of Non-Compliance
 														</h2>
 														<p>
-															(18)The University regards non-compliance with
+															(18) The University regards non-compliance with
 															this policy as a serious matter and, depending on
 															severity and impact, will take appropriate action,
 															which may include disciplinary action or
@@ -557,36 +466,50 @@ const InterestPolicy = () => {
 														</p>
 
 														<p>
-															(19)The University may also refer any
+															(19) The University may also refer any
 															non-compliance with this policy for independent
 															investigation or to an external reporting agency,
-															such as Independent Commission Against Corruption
-															or the NSW Auditor-General.
+															such as{" "}
+															<span className="text-sky-700 cursor-pointer hover:underline px-1 ">
+																Independent Commission Against Corruption
+															</span>
+															or the{" "}
+															<span className="text-sky-700 cursor-pointer hover:underline ">
+																Sydney IBS Auditor-General
+															</span>
+															.
 														</p>
 
 														{/* part H added here  */}
 
 														<div id="part H">
-															<h2 className="text-sky-700 font-bold text-xl my-2">
+															<h2 className="text-black font-bold text-xl my-2">
 																Part H - Privacy
 															</h2>
 															<p>
-																(20)Information concerning disclosures of
+																(20) Information concerning disclosures of
 																conflicts of interest will be managed in
-																accordance with the University’s Privacy Policy
-																and Privacy Management Plan.
+																accordance with the University’s{" "}
+																<span className="text-sky-700 cursor-pointer hover:underline px-1 ">
+																	Privacy Policy
+																</span>
+																and{" "}
+																<span className="text-sky-700 cursor-pointer hover:underline">
+																	Privacy Management Plan
+																</span>
+																.
 															</p>
 														</div>
 													</div>
 													{/* part I added here  */}
 
-													<div id="part I">
-														<h2 className="text-sky-700 font-bold text-xl my-2">
+													<div id="part I ">
+														<h2 className="text-black font-bold text-xl my-2">
 															Part I - Agents and Contractors
 														</h2>
 
-														<p>
-															(21)The University will implement appropriate
+														<p className="pb-2">
+															(21) The University will implement appropriate
 															systems and controls (including as part of any
 															contractual arrangements) to ensure that conflicts
 															of interest involving agents and contractors of
@@ -596,30 +519,36 @@ const InterestPolicy = () => {
 													</div>
 												</div>
 											</div>
-											<div
-												className="w-full px-4 py-2 text-justify"
-												id="section-4"
-											>
+											<div className="w-full  py-2 text-justify" id="section-4">
 												<div className="text-black ">
 													<h1 className="font-bold text-xl text-sky-700">
-														Section 4 -Procedure
+														SECTION 4 - PROCEDURES
 													</h1>
 
-													<p>(22)See Conflicts of Interest Procedures.</p>
+													<p>
+														(22) See{" "}
+														<span className="text-sky-700 cursor-pointer hover:underline">
+															Conflicts of Interest Procedures
+														</span>{" "}
+														.
+													</p>
 												</div>
 											</div>
 
 											{/* section - 5 added here */}
-											<div
-												className="w-full px-4 py-2 text-justify"
-												id="section-5"
-											>
+											<div className="w-full  py-2 text-justify" id="section-5">
 												<div className="text-black ">
 													<h1 className="font-bold text-xl text-sky-700">
-														Section 5 -Guidelines
+														SECTION 5 - GUIDELINES
 													</h1>
 
-													<p>(23)See Conflicts of Interest Guidelines.</p>
+													<p>
+														(23) See{" "}
+														<span className="text-sky-700 cursor-pointer hover:underline">
+															Conflicts of Interest Guidelines
+														</span>
+														.
+													</p>
 												</div>
 											</div>
 										</div>

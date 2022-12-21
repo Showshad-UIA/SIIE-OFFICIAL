@@ -91,7 +91,7 @@ import PostStudyWork from "./components/HOME/HOME CONTENT/DISCOVER/PostStudyWork
 import Header from "./components/Header";
 import HDR_Policy from "./components/Navbar/RESERACH/CurrentStudents/HDR/HDR_Policy";
 import InterestPolicy from "./components/Navbar/RESERACH/CurrentStudents/HDR/InterestPolicy";
-import HdrDupicate from "./components/Navbar/RESERACH/CurrentStudents/HDR/HdrDupicate";
+import DoctoratePolicy from "./components/Navbar/RESERACH/CurrentStudents/HDR/DoctoratetPolicy";
 
 function App() {
 	return (
@@ -159,12 +159,15 @@ function App() {
 				<Route path="/hdr" element={<HDR_Policy></HDR_Policy>}></Route>
 
 				{/* HDR subpages added here  */}
-				<Route path="/interest" element={<InterestPolicy></InterestPolicy>}>
-					{" "}
-				</Route>
-				<Route path="/duplicate" element={<HdrDupicate></HdrDupicate>}>
-					{" "}
-				</Route>
+
+				<Route
+					path="/interest"
+					element={<InterestPolicy></InterestPolicy>}
+				></Route>
+				<Route
+					path="/doctorate"
+					element={<DoctoratePolicy></DoctoratePolicy>}
+				></Route>
 
 				<Route
 					path="/progress"

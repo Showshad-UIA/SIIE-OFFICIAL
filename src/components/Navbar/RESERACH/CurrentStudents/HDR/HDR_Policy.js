@@ -64,21 +64,16 @@ const HDR_Policy = () => {
 									<div className="flex gap-1 px-2 ">
 										<FontAwesomeIcon
 											icon={faChevronRight}
-											className="h-9 w-2  text-sky-700  "
+											className="h-6 w-2  text-sky-700  "
 										></FontAwesomeIcon>
 
 										<p className="text-justify  flex ">
 											<a href="/interest">
-												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold ">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold  hover:text-blue-500   ">
 													Conflict of Interest Policy
 												</span>
 											</a>
-											<a href="/duplicate">
-												<p className="px-2 text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
-													{" "}
-													/ Duplicate
-												</p>
-											</a>
+										
 											<FontAwesomeIcon
 												icon={faArrowUpRightFromSquare}
 												className="h-6 w-2.5 text-sky-700  "
@@ -95,8 +90,8 @@ const HDR_Policy = () => {
 										></FontAwesomeIcon>
 
 										<p className="text-justify mb-2">
-											<a href="">
-												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
+											<a href="/doctorate">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold  hover:text-blue-500  ">
 													Doctor of philosophy policy
 												</span>
 											</a>
@@ -117,7 +112,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold  hover:text-blue-500  ">
 													Master of philosophy policy
 												</span>
 											</a>
@@ -136,7 +131,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold  hover:text-blue-500  ">
 													Dual Award and Joint Higher Degrees Policy
 												</span>
 											</a>
@@ -155,7 +150,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold  hover:text-blue-500  ">
 													Intellectual Property Policy
 												</span>
 											</a>
@@ -175,7 +170,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold  hover:text-blue-500  ">
 													Master of Research Policy.
 												</span>
 											</a>
@@ -195,7 +190,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold  hover:text-blue-500  ">
 													Research Code of Practice
 												</span>
 											</a>
@@ -216,7 +211,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold  hover:text-blue-500  ">
 													Research Higher Degree Appeals Procedures
 												</span>
 											</a>
@@ -236,7 +231,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold  hover:text-blue-500  ">
 													Research Higher Degree Candidature Essential Resources
 													Policy
 												</span>
@@ -257,7 +252,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold  hover:text-blue-500  ">
 													Research Higher Degree and Research Training Program
 													Scholarship Policy
 												</span>
@@ -279,7 +274,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold  hover:text-blue-500  ">
 													Respect and Inclusion in Learning and Working Policy
 												</span>
 											</a>
@@ -299,7 +294,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold  hover:text-blue-500  ">
 													Student Misconduct Rule
 												</span>
 											</a>
@@ -319,7 +314,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold  hover:text-blue-500  ">
 													Supervision of Research Candidates Policy
 												</span>
 											</a>
@@ -339,7 +334,7 @@ const HDR_Policy = () => {
 
 										<p className="text-justify mb-2">
 											<a href="">
-												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold">
+												<span className="text-sky-700 border-b-2 border-gray-400 border-dotted font-semibold  hover:text-blue-500  ">
 													Work Health and Safety Policy
 												</span>
 											</a>

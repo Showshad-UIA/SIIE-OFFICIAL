@@ -40,7 +40,7 @@ const CurrentStudents = () => {
 								{/* Current Students info */}
 
 								<div className="  ">
-									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
+								<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
 									<h1 className="lg:px-20 px-3 text-xl text-sky-700 font-bold ">
 										Current Students
 									</h1>

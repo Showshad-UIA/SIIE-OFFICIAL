@@ -8,7 +8,7 @@ import image4 from "../../../../Carosel/Asset/home/visa.jpg";
 const Discover = () => {
 	return (
 		<>
-			<div className="container mx-auto sm:mb-5 -mt-5">
+			<div className="container mx-auto sm:mb-5 mt-10">
 				<div class="lg:mx-28 lg:w-[85%] md:mx-20 sm:w-full md:w-4/5  ">
 					<div className="text-2xl font-bold px-3 mb-3">DISCOVER</div>
 

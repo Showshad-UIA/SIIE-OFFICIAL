@@ -1,13 +1,31 @@
 import { faAngleRight, faHouse } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import Group_A from "./Groups/Group_A";
+import Group_B from "./Groups/Group_B";
+import Group_C from "./Groups/Group_C";
+import Group_D from "./Groups/Group_D";
+import Group_E from "./Groups/Group_E";
+import Group_F from "./Groups/Group_F";
+import Group_G from "./Groups/Group_G";
+import Group_H from "./Groups/Group_H";
+import Group_I from "./Groups/Group_I";
+import Group_L from "./Groups/Group_L";
+import Group_M from "./Groups/Group_M";
+import Group_N from "./Groups/Group_N";
+import Group_O from "./Groups/Group_O";
+import Group_P from "./Groups/Group_P";
+import Group_R from "./Groups/Group_R";
+import Group_S from "./Groups/Group_S";
+import Group_T from "./Groups/Group_T";
+import Group_W from "./Groups/Group_W";
 
 const Policies = () => {
 	return (
 		<div className="">
 			{/* Main content start here */}
 			<div className="container mx-auto  lg:mb-16 lg:mt-7 ">
-				<div className="lg:mx-[100px] shadow mb-5">
+				<div className="lg:mx-[110px] shadow mb-5">
 					<div className="">
 						<div className=" lg:w-full    ">
 							<div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
@@ -37,18 +55,16 @@ const Policies = () => {
 									{/* breadcrumb ended */}
 								</div>
 
-								{/* All policies doc file added here */}
-
 								<div className="  ">
 									<h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-1"></h1>
 
 									{/* Student Rights */}
 
-									<h1 className="lg:mx-20  text-justify text-xl text-sky-700  mt-2">
+									<h1 className="lg:mx-20  font-bold text-xl text-sky-700 text-center mt-2">
 										Policies and Procedures
 									</h1>
-									<div className="lg:mx-20 ">
-										<h2 className="font-bold my-2">
+									<div className="lg:mx-20 mt-3">
+										<h2 className="font-bold my-2 text-lg">
 											Know the name of the document you are looking for?
 										</h2>
 										<p>
@@ -67,151 +83,108 @@ const Policies = () => {
 
 									{/* pagination added  */}
 
-									<div className="btn-group gap-4 lg:mx-20 text-sky-700 my-2">
-										<p>Index:</p>
+									<div className="btn-group gap-4 lg:mx-20 text-white lg:my-5 border-2 bg-sky-700 px-1 rounded-lg">
+										<p>INDEX:</p>
 										<button className="cursor-pointer hover:underline ">
 											<a href="#group-a">A</a>
 										</button>
 										<button className="cursor-pointer hover:underline ">
-											B
+											<a href="#group-b">B</a>
 										</button>
 										<button className="cursor-pointer hover:underline ">
-											C
+											<a href="#group-c">C</a>
 										</button>
 										<button className="cursor-pointer hover:underline ">
-											D
+											<a href="#group-d">D</a>
 										</button>
 										<button className="cursor-pointer hover:underline ">
-											E
+											<a href="#group-e">E</a>
 										</button>
 										<button className="cursor-pointer hover:underline ">
-											F
+											<a href="#group-f">F</a>
 										</button>
 										<button className="cursor-pointer hover:underline ">
-											G
+											<a href="#group-g">G</a>
 										</button>
 										<button className="cursor-pointer hover:underline ">
-											H
+											<a href="#group-h">H</a>
 										</button>
 										<button className="cursor-pointer hover:underline ">
-											I
+											<a href="#group-i">I</a>
+										</button>
+										<button className="text-gray-400  cursor-not-allowed">
+											<p>J</p>
+										</button>
+										<button className="text-gray-400 cursor-not-allowed ">
+											<p>K</p>
 										</button>
 										<button className="cursor-pointer hover:underline ">
-											J
+											<a href="#group-l">L</a>
 										</button>
 										<button className="cursor-pointer hover:underline ">
-											K
+											<a href="#group-m">M</a>
 										</button>
 										<button className="cursor-pointer hover:underline ">
-											L
+											<a href="#group-n">N</a>
 										</button>
 										<button className="cursor-pointer hover:underline ">
-											M
+											<a href="#group-o">O</a>
 										</button>
 										<button className="cursor-pointer hover:underline ">
-											N
+											<a href="#group-p">P</a>
+										</button>
+										<button className="text-gray-400 cursor-not-allowed ">
+											<p>Q</p>
 										</button>
 										<button className="cursor-pointer hover:underline ">
-											O
+											<a href="#group-r">R</a>
 										</button>
 										<button className="cursor-pointer hover:underline ">
-											P
+											<a href="#group-s">S</a>
 										</button>
 										<button className="cursor-pointer hover:underline ">
-											Q
+											<a href="#group-t">T</a>
+										</button>
+										<button className="text-base-300 cursor-not-allowed">
+											<p>U</p>
+										</button>
+										<button className="text-base-300 cursor-not-allowed ">
+											<p>V</p>
 										</button>
 										<button className="cursor-pointer hover:underline ">
-											R
+											<a href="#group-w">W</a>
 										</button>
-										<button className="cursor-pointer hover:underline ">
-											S
+										<button className="text-base-300 cursor-not-allowed ">
+											<p>X</p>
 										</button>
-										<button className="cursor-pointer hover:underline ">
-											T
+										<button className="text-gray-400 cursor-not-allowed">
+											<p>Y</p>
 										</button>
-										<button className="cursor-pointer hover:underline ">
-											W
-										</button>
-										<button className="cursor-pointer hover:underline ">
-											X
-										</button>
-										<button className="cursor-pointer hover:underline ">
-											Y
-										</button>
-										<button className="cursor-pointer hover:underline ">
-											Z
+										<button className="text-gray-400 cursor-not-allowed ">
+											<p>Z</p>
 										</button>
 									</div>
 
-									{/* Ethical Scholarship */}
-
-									<div className="lg:mx-20 ">
-										<div id="group-a">
-											<p className="my-2">A (View Summary Descriptions)</p>
-											{/* Policy from index - A  */}
-											<p className=" text-sky-700  border-y-2 border-gray-300 bg-white">
-												Academic Appeals Procedures
-											</p>
-											<p className=" text-sky-700  mt-2 border-y-2 border-gray-300 ">
-												Academic Development Program (ADP) Policy
-											</p>
-											<p className=" text-sky-700  mt-2  bg-white">
-												Academic Development Program (ADP) Procedures
-											</p>
-											<p className=" text-sky-700  mt-2 border-y-2 border-gray-300 ">
-												Academic Governance Policy
-											</p>
-											<p className=" text-sky-700  mt-2  bg-white">
-												Academic Programs Advisers Policy
-											</p>
-											<p className=" text-sky-700  mt-2 border-y-2 border-gray-300 ">
-												Academic Promotions Policy
-											</p>
-											<p className=" text-sky-700  mt-2  bg-white">
-												Academic Records Issuance Policy
-											</p>
-											<p className=" text-sky-700  mt-2 border-y-2 border-gray-300 ">
-												Academic Staff Agreement 2023
-											</p>
-											<p className=" text-sky-700  mt-2  bg-white">
-												Acceptable Use of Digital Services Policy
-											</p>
-											<p className=" text-sky-700  mt-2 border-y-2 border-gray-300 ">
-												Accident, Injury, Incident, Hazard Reporting and
-												Investigation Policy
-											</p>
-											<p className=" text-sky-700  mt-2  bg-white">
-												Additional Work Policy
-											</p>
-											<p className=" text-sky-700  mt-2 border-y-2 border-gray-300 ">
-												Admissions and Welfare (International Students Under 18
-												Years) Procedures
-											</p>
-											<p className=" text-sky-700  mt-2  bg-white">
-												Admissions Policy
-											</p>
-											<p className=" text-sky-700  mt-2 border-y-2 border-gray-300 ">
-												After Hours Access and Safety Policy
-											</p>
-											<p className=" text-sky-700  mt-2 border-y-2 border-gray-300 bg-white">
-												Alcohol and Drug Control Policy
-											</p>
-											<p className=" text-sky-700  mt-2 border-y-2 border-gray-300 ">
-												Appointment By Invitation Policy
-											</p>
-											<p className=" text-sky-700  mt-2 border-y-2 border-gray-300 bg-white">
-												Articulation Pathways Policy
-											</p>
-											<p className=" text-sky-700  mt-2 border-y-2 border-gray-300 ">
-												Assessment Policy
-											</p>
-											<p className=" text-sky-700  mt-2 border-y-2 border-gray-300 bg-white">
-												Asset Management Policy
-											</p>
-											<p className=" text-sky-700  mt-2 border-y-2 border-gray-300 ">
-												Associate Degree Course Advisory Committee Policy
-											</p>
-										</div>
+									{/* All group policies added here  */}
+									<div className="lg:mx-20 px-1 ">
+										<Group_A></Group_A>
+										<Group_B></Group_B>
+										<Group_C></Group_C>
+										<Group_D></Group_D>
+										<Group_E></Group_E>
+										<Group_F></Group_F>
+										<Group_G></Group_G>
+										<Group_H></Group_H>
+										<Group_I></Group_I>
+										<Group_L></Group_L>
+										<Group_M></Group_M>
+										<Group_N></Group_N>
+										<Group_O></Group_O>
+										<Group_P></Group_P>
+										<Group_R></Group_R>
+										<Group_S></Group_S>
+										<Group_T></Group_T>
+										<Group_W></Group_W>
 									</div>
 								</div>
 							</div>
